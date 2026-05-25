@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { StoryCard } from "@/components/story/StoryCard";
 import { formatBDT, formatBDTCompact } from "@/lib/utils/format";
@@ -102,6 +103,12 @@ const STATS = [
   { label: "Cities covered", value: "42" },
   { label: "Avg per guest", value: formatBDTCompact(3_800) },
 ];
+
+// ─── Metadata ─────────────────────────────────────────────────────────────────
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 // ─── Page ─────────────────────────────────────────────────────────────────────
 

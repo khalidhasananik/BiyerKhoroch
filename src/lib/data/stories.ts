@@ -128,3 +128,11 @@ export async function getApprovedStorySlugs(): Promise<string[]> {
     .lean<Pick<ISubmission, "slug">[]>();
   return docs.map((d) => d.slug);
 }
+
+export async function getApprovedStoriesForSitemap(): Promise<{ slug: string; updatedAt: string }[]> {
+  await connectToDatabase();
+  const docs = await SubmissionModel
+    .find({ status: "approved" }, { slug: 1, updatedAt: 1 })
+    .lean<Pick<ISubmission, "slug" | "updatedAt">[]>();
+  return docs.map((d) => ({ slug: d.slug, updatedAt: new Date(d.updatedAt).toISOString() }));
+}

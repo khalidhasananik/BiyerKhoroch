@@ -32,6 +32,7 @@ export async function generateMetadata({
 
   const title = `${story.city} Wedding · ${story.guestCount} Guests · ${formatBDTCompact(story.totalCost)}`;
   const description = story.story.length > 160 ? story.story.slice(0, 157) + "…" : story.story;
+  const ogImageUrl = `/story/${slug}/opengraph-image`;
 
   return {
     title,
@@ -41,11 +42,14 @@ export async function generateMetadata({
       description,
       type: "article",
       url: `/story/${slug}`,
+      publishedTime: story.createdAt,
+      images: [{ url: ogImageUrl, width: 1200, height: 630, alt: title }],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
+      images: [ogImageUrl],
     },
     alternates: {
       canonical: `/story/${slug}`,
@@ -68,6 +72,38 @@ export default async function StoryPage({
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://biyerkhoroch.com";
   const shareUrl = `${baseUrl}/story/${slug}`;
 
+  const title = `${story.city} Wedding · ${story.guestCount} Guests · ${formatBDTCompact(story.totalCost)}`;
+  const description = story.story.length > 160 ? story.story.slice(0, 157) + "…" : story.story;
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": `${shareUrl}#article`,
+        headline: title,
+        description,
+        url: shareUrl,
+        datePublished: story.createdAt,
+        dateModified: story.updatedAt ?? story.createdAt,
+        publisher: {
+          "@type": "Organization",
+          name: "BiyerKhoroch",
+          url: baseUrl,
+        },
+        mainEntityOfPage: shareUrl,
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: baseUrl },
+          { "@type": "ListItem", position: 2, name: "Stories", item: `${baseUrl}/search` },
+          { "@type": "ListItem", position: 3, name: `${story.city} Wedding`, item: shareUrl },
+        ],
+      },
+    ],
+  };
+
   // Prefer same-city stories; fall back to latest if none
   let related = await getRelatedStories(story.city, slug, 3);
   if (related.length === 0) {
@@ -76,6 +112,10 @@ export default async function StoryPage({
 
   return (
     <main className="flex-1">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="max-w-4xl mx-auto px-4 py-8 md:py-12">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
           {/* Main content */}

@@ -5,6 +5,8 @@ export const metadata: Metadata = {
   title: "Share Your Wedding Story — BiyerKhoroch",
   description:
     "Anonymously share your wedding costs to help other Bangladeshi couples plan their special day.",
+  alternates: { canonical: "/submit" },
+  robots: { index: false, follow: false },
 };
 
 export default function SubmitPage() {

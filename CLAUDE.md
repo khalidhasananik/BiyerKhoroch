@@ -274,7 +274,7 @@ Rules:
 ---
 
 ## Phase 9 — SEO Optimization
-**Status:** `Pending`
+**Status:** `Completed`
 
 ### Objectives
 - Full SEO implementation across all pages
@@ -284,14 +284,14 @@ Rules:
 - Canonical URLs
 
 ### Tasks
-- [ ] `src/app/sitemap.ts` — dynamic sitemap including all story slugs
-- [ ] `src/app/robots.ts`
-- [ ] `generateMetadata` on all pages
-- [ ] JSON-LD structured data on story pages
-- [ ] OG image generation (`opengraph-image.tsx`)
-- [ ] Canonical URLs in layout
-- [ ] `next/og` image for dynamic sharing previews
-- [ ] Semantic HTML audit across all components
+- [x] `src/app/sitemap.ts` — dynamic sitemap including all story slugs
+- [x] `src/app/robots.ts`
+- [x] `generateMetadata` on all pages
+- [x] JSON-LD structured data on story pages
+- [x] OG image generation (`opengraph-image.tsx`)
+- [x] Canonical URLs in layout
+- [x] `next/og` image for dynamic sharing previews
+- [x] Semantic HTML audit across all components
 
 ### Deliverables
 - All pages have correct metadata
@@ -301,9 +301,9 @@ Rules:
 
 ### Checklist
 - [ ] Lighthouse SEO score ≥ 95
-- [ ] sitemap.xml accessible at /sitemap.xml
-- [ ] robots.txt present
-- [ ] Story pages have correct OG title/description/image
+- [x] sitemap.xml accessible at /sitemap.xml
+- [x] robots.txt present
+- [x] Story pages have correct OG title/description/image
 
 ---
 
