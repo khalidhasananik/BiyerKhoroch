@@ -4,57 +4,12 @@
   "graph": {},
   "nodes": [
     {
-      "label": "settings.json",
-      "file_type": "code",
-      "source_file": ".claude/settings.json",
-      "source_location": "L1",
-      "id": "claude_settings_json",
-      "community": 16,
-      "norm_label": "settings.json"
-    },
-    {
-      "label": "permissions",
-      "file_type": "code",
-      "source_file": ".claude/settings.json",
-      "source_location": "L2",
-      "id": "claude_settings_permissions",
-      "community": 16,
-      "norm_label": "permissions"
-    },
-    {
-      "label": "allow",
-      "file_type": "code",
-      "source_file": ".claude/settings.json",
-      "source_location": "L3",
-      "id": "claude_settings_permissions_allow",
-      "community": 16,
-      "norm_label": "allow"
-    },
-    {
-      "label": "hooks",
-      "file_type": "code",
-      "source_file": ".claude/settings.json",
-      "source_location": "L8",
-      "id": "claude_settings_hooks",
-      "community": 16,
-      "norm_label": "hooks"
-    },
-    {
-      "label": "PreToolUse",
-      "file_type": "code",
-      "source_file": ".claude/settings.json",
-      "source_location": "L9",
-      "id": "claude_settings_hooks_pretooluse",
-      "community": 16,
-      "norm_label": "pretooluse"
-    },
-    {
       "label": "CLAUDE.md",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "id": "claude_md",
-      "community": 3,
+      "community": 7,
       "norm_label": "claude.md"
     },
     {
@@ -63,7 +18,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L3",
       "id": "biyerkhoroch_claude_graphify",
-      "community": 3,
+      "community": 7,
       "norm_label": "graphify"
     },
     {
@@ -72,7 +27,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L15",
       "id": "biyerkhoroch_claude_biyerkhoroch_development_phases",
-      "community": 3,
+      "community": 7,
       "norm_label": "biyerkhoroch \u2014 development phases"
     },
     {
@@ -306,7 +261,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L185",
       "id": "biyerkhoroch_claude_phase_6_story_detail_pages",
-      "community": 10,
+      "community": 7,
       "norm_label": "phase 6 \u2014 story detail pages"
     },
     {
@@ -315,7 +270,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L188",
       "id": "biyerkhoroch_claude_objectives_188",
-      "community": 10,
+      "community": 7,
       "norm_label": "objectives"
     },
     {
@@ -324,7 +279,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L194",
       "id": "biyerkhoroch_claude_tasks_194",
-      "community": 10,
+      "community": 7,
       "norm_label": "tasks"
     },
     {
@@ -333,7 +288,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L203",
       "id": "biyerkhoroch_claude_deliverables_203",
-      "community": 10,
+      "community": 7,
       "norm_label": "deliverables"
     },
     {
@@ -342,7 +297,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L208",
       "id": "biyerkhoroch_claude_checklist_208",
-      "community": 10,
+      "community": 7,
       "norm_label": "checklist"
     },
     {
@@ -351,7 +306,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L216",
       "id": "biyerkhoroch_claude_phase_7_search_filter_system",
-      "community": 3,
+      "community": 10,
       "norm_label": "phase 7 \u2014 search & filter system"
     },
     {
@@ -360,7 +315,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L219",
       "id": "biyerkhoroch_claude_objectives_219",
-      "community": 3,
+      "community": 10,
       "norm_label": "objectives"
     },
     {
@@ -369,7 +324,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L224",
       "id": "biyerkhoroch_claude_tasks_224",
-      "community": 3,
+      "community": 10,
       "norm_label": "tasks"
     },
     {
@@ -378,7 +333,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L233",
       "id": "biyerkhoroch_claude_deliverables_233",
-      "community": 3,
+      "community": 10,
       "norm_label": "deliverables"
     },
     {
@@ -387,7 +342,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L239",
       "id": "biyerkhoroch_claude_checklist_239",
-      "community": 3,
+      "community": 10,
       "norm_label": "checklist"
     },
     {
@@ -531,413 +486,8 @@
       "source_file": "CLAUDE.md",
       "source_location": "L344",
       "id": "biyerkhoroch_claude_workflow_rules",
-      "community": 3,
+      "community": 7,
       "norm_label": "workflow rules"
-    },
-    {
-      "label": "package.json",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L1",
-      "id": "package_json",
-      "community": 4,
-      "norm_label": "package.json"
-    },
-    {
-      "label": "name",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L2",
-      "id": "biyerkhoroch_package_name",
-      "community": 4,
-      "norm_label": "name"
-    },
-    {
-      "label": "version",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L3",
-      "id": "biyerkhoroch_package_version",
-      "community": 4,
-      "norm_label": "version"
-    },
-    {
-      "label": "private",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L4",
-      "id": "biyerkhoroch_package_private",
-      "community": 4,
-      "norm_label": "private"
-    },
-    {
-      "label": "scripts",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L5",
-      "id": "biyerkhoroch_package_scripts",
-      "community": 4,
-      "norm_label": "scripts"
-    },
-    {
-      "label": "dev",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L6",
-      "id": "biyerkhoroch_package_scripts_dev",
-      "community": 4,
-      "norm_label": "dev"
-    },
-    {
-      "label": "build",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L7",
-      "id": "biyerkhoroch_package_scripts_build",
-      "community": 4,
-      "norm_label": "build"
-    },
-    {
-      "label": "start",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L8",
-      "id": "biyerkhoroch_package_scripts_start",
-      "community": 4,
-      "norm_label": "start"
-    },
-    {
-      "label": "lint",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L9",
-      "id": "biyerkhoroch_package_scripts_lint",
-      "community": 4,
-      "norm_label": "lint"
-    },
-    {
-      "label": "dependencies",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L11",
-      "id": "biyerkhoroch_package_dependencies",
-      "community": 4,
-      "norm_label": "dependencies"
-    },
-    {
-      "label": "mongoose",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L12",
-      "id": "biyerkhoroch_package_dependencies_mongoose",
-      "community": 4,
-      "norm_label": "mongoose"
-    },
-    {
-      "label": "next",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L13",
-      "id": "biyerkhoroch_package_dependencies_next",
-      "community": 4,
-      "norm_label": "next"
-    },
-    {
-      "label": "react",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L14",
-      "id": "biyerkhoroch_package_dependencies_react",
-      "community": 4,
-      "norm_label": "react"
-    },
-    {
-      "label": "react-dom",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L15",
-      "id": "biyerkhoroch_package_dependencies_react_dom",
-      "community": 4,
-      "norm_label": "react-dom"
-    },
-    {
-      "label": "devDependencies",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L17",
-      "id": "biyerkhoroch_package_devdependencies",
-      "community": 5,
-      "norm_label": "devdependencies"
-    },
-    {
-      "label": "@tailwindcss/postcss",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L18",
-      "id": "biyerkhoroch_package_devdependencies_tailwindcss_postcss",
-      "community": 5,
-      "norm_label": "@tailwindcss/postcss"
-    },
-    {
-      "label": "@types/node",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L19",
-      "id": "biyerkhoroch_package_devdependencies_types_node",
-      "community": 5,
-      "norm_label": "@types/node"
-    },
-    {
-      "label": "@types/react",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L20",
-      "id": "biyerkhoroch_package_devdependencies_types_react",
-      "community": 5,
-      "norm_label": "@types/react"
-    },
-    {
-      "label": "@types/react-dom",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L21",
-      "id": "biyerkhoroch_package_devdependencies_types_react_dom",
-      "community": 5,
-      "norm_label": "@types/react-dom"
-    },
-    {
-      "label": "eslint",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L22",
-      "id": "biyerkhoroch_package_devdependencies_eslint",
-      "community": 5,
-      "norm_label": "eslint"
-    },
-    {
-      "label": "eslint-config-next",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L23",
-      "id": "biyerkhoroch_package_devdependencies_eslint_config_next",
-      "community": 5,
-      "norm_label": "eslint-config-next"
-    },
-    {
-      "label": "tailwindcss",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L24",
-      "id": "biyerkhoroch_package_devdependencies_tailwindcss",
-      "community": 5,
-      "norm_label": "tailwindcss"
-    },
-    {
-      "label": "typescript",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L25",
-      "id": "biyerkhoroch_package_devdependencies_typescript",
-      "community": 5,
-      "norm_label": "typescript"
-    },
-    {
-      "label": "prompt.md",
-      "file_type": "document",
-      "source_file": "prompt.md",
-      "source_location": "L1",
-      "id": "prompt_md",
-      "community": 2,
-      "norm_label": "prompt.md"
-    },
-    {
-      "label": "prompt.md",
-      "file_type": "document",
-      "source_file": "prompt.md",
-      "source_location": "L1",
-      "id": "biyerkhoroch_prompt_prompt_md",
-      "community": 2,
-      "norm_label": "prompt.md"
-    },
-    {
-      "label": "Core Tech Stack",
-      "file_type": "document",
-      "source_file": "prompt.md",
-      "source_location": "L22",
-      "id": "biyerkhoroch_prompt_core_tech_stack",
-      "community": 2,
-      "norm_label": "core tech stack"
-    },
-    {
-      "label": "Color System (60-30-10 Rule)",
-      "file_type": "document",
-      "source_file": "prompt.md",
-      "source_location": "L62",
-      "id": "biyerkhoroch_prompt_color_system_60_30_10_rule",
-      "community": 2,
-      "norm_label": "color system (60-30-10 rule)"
-    },
-    {
-      "label": "Platform Features",
-      "file_type": "document",
-      "source_file": "prompt.md",
-      "source_location": "L93",
-      "id": "biyerkhoroch_prompt_platform_features",
-      "community": 2,
-      "norm_label": "platform features"
-    },
-    {
-      "label": "Submission Fields",
-      "file_type": "document",
-      "source_file": "prompt.md",
-      "source_location": "L107",
-      "id": "biyerkhoroch_prompt_submission_fields",
-      "community": 2,
-      "norm_label": "submission fields"
-    },
-    {
-      "label": "Main Pages",
-      "file_type": "document",
-      "source_file": "prompt.md",
-      "source_location": "L142",
-      "id": "biyerkhoroch_prompt_main_pages",
-      "community": 15,
-      "norm_label": "main pages"
-    },
-    {
-      "label": "Homepage",
-      "file_type": "document",
-      "source_file": "prompt.md",
-      "source_location": "L144",
-      "id": "biyerkhoroch_prompt_homepage",
-      "community": 15,
-      "norm_label": "homepage"
-    },
-    {
-      "label": "Submission Page",
-      "file_type": "document",
-      "source_file": "prompt.md",
-      "source_location": "L164",
-      "id": "biyerkhoroch_prompt_submission_page",
-      "community": 15,
-      "norm_label": "submission page"
-    },
-    {
-      "label": "Story Detail Page",
-      "file_type": "document",
-      "source_file": "prompt.md",
-      "source_location": "L186",
-      "id": "biyerkhoroch_prompt_story_detail_page",
-      "community": 15,
-      "norm_label": "story detail page"
-    },
-    {
-      "label": "Search & Filter System",
-      "file_type": "document",
-      "source_file": "prompt.md",
-      "source_location": "L201",
-      "id": "biyerkhoroch_prompt_search_filter_system",
-      "community": 15,
-      "norm_label": "search & filter system"
-    },
-    {
-      "label": "Analytics & Statistics",
-      "file_type": "document",
-      "source_file": "prompt.md",
-      "source_location": "L229",
-      "id": "biyerkhoroch_prompt_analytics_statistics",
-      "community": 2,
-      "norm_label": "analytics & statistics"
-    },
-    {
-      "label": "Admin System",
-      "file_type": "document",
-      "source_file": "prompt.md",
-      "source_location": "L250",
-      "id": "biyerkhoroch_prompt_admin_system",
-      "community": 2,
-      "norm_label": "admin system"
-    },
-    {
-      "label": "SEO Requirements",
-      "file_type": "document",
-      "source_file": "prompt.md",
-      "source_location": "L269",
-      "id": "biyerkhoroch_prompt_seo_requirements",
-      "community": 2,
-      "norm_label": "seo requirements"
-    },
-    {
-      "label": "Database Design",
-      "file_type": "document",
-      "source_file": "prompt.md",
-      "source_location": "L290",
-      "id": "biyerkhoroch_prompt_database_design",
-      "community": 2,
-      "norm_label": "database design"
-    },
-    {
-      "label": "Responsive Requirements",
-      "file_type": "document",
-      "source_file": "prompt.md",
-      "source_location": "L312",
-      "id": "biyerkhoroch_prompt_responsive_requirements",
-      "community": 2,
-      "norm_label": "responsive requirements"
-    },
-    {
-      "label": "Accessibility",
-      "file_type": "document",
-      "source_file": "prompt.md",
-      "source_location": "L325",
-      "id": "biyerkhoroch_prompt_accessibility",
-      "community": 2,
-      "norm_label": "accessibility"
-    },
-    {
-      "label": "Code Quality Requirements",
-      "file_type": "document",
-      "source_file": "prompt.md",
-      "source_location": "L337",
-      "id": "biyerkhoroch_prompt_code_quality_requirements",
-      "community": 2,
-      "norm_label": "code quality requirements"
-    },
-    {
-      "label": "Important Development Workflow",
-      "file_type": "document",
-      "source_file": "prompt.md",
-      "source_location": "L357",
-      "id": "biyerkhoroch_prompt_important_development_workflow",
-      "community": 2,
-      "norm_label": "important development workflow"
-    },
-    {
-      "label": "Example Phase Structure",
-      "file_type": "document",
-      "source_file": "prompt.md",
-      "source_location": "L396",
-      "id": "biyerkhoroch_prompt_example_phase_structure",
-      "community": 2,
-      "norm_label": "example phase structure"
-    },
-    {
-      "label": "Development Style",
-      "file_type": "document",
-      "source_file": "prompt.md",
-      "source_location": "L454",
-      "id": "biyerkhoroch_prompt_development_style",
-      "community": 2,
-      "norm_label": "development style"
-    },
-    {
-      "label": "Final Goal",
-      "file_type": "document",
-      "source_file": "prompt.md",
-      "source_location": "L473",
-      "id": "biyerkhoroch_prompt_final_goal",
-      "community": 2,
-      "norm_label": "final goal"
     },
     {
       "label": "layout.tsx",
@@ -952,7 +502,7 @@
       "label": "MainLayout()",
       "file_type": "code",
       "source_file": "src/app/(main)/layout.tsx",
-      "source_location": "L1",
+      "source_location": "L4",
       "id": "main_layout_mainlayout",
       "community": 18,
       "norm_label": "mainlayout()"
@@ -963,16 +513,43 @@
       "source_file": "src/app/(main)/page.tsx",
       "source_location": "L1",
       "id": "src_app_main_page_tsx",
-      "community": 19,
+      "community": 6,
       "norm_label": "page.tsx"
+    },
+    {
+      "label": "PLACEHOLDER_STORIES",
+      "file_type": "code",
+      "source_file": "src/app/(main)/page.tsx",
+      "source_location": "L8",
+      "id": "main_page_placeholder_stories",
+      "community": 6,
+      "norm_label": "placeholder_stories"
+    },
+    {
+      "label": "TRENDING",
+      "file_type": "code",
+      "source_file": "src/app/(main)/page.tsx",
+      "source_location": "L94",
+      "id": "main_page_trending",
+      "community": 6,
+      "norm_label": "trending"
+    },
+    {
+      "label": "STATS",
+      "file_type": "code",
+      "source_file": "src/app/(main)/page.tsx",
+      "source_location": "L99",
+      "id": "main_page_stats",
+      "community": 6,
+      "norm_label": "stats"
     },
     {
       "label": "HomePage()",
       "file_type": "code",
       "source_file": "src/app/(main)/page.tsx",
-      "source_location": "L1",
+      "source_location": "L108",
       "id": "main_page_homepage",
-      "community": 19,
+      "community": 6,
       "norm_label": "homepage()"
     },
     {
@@ -988,7 +565,7 @@
       "label": "inter",
       "file_type": "code",
       "source_file": "src/app/layout.tsx",
-      "source_location": "L5",
+      "source_location": "L6",
       "id": "app_layout_inter",
       "community": 0,
       "norm_label": "inter"
@@ -997,7 +574,7 @@
       "label": "metadata",
       "file_type": "code",
       "source_file": "src/app/layout.tsx",
-      "source_location": "L11",
+      "source_location": "L12",
       "id": "app_layout_metadata",
       "community": 0,
       "norm_label": "metadata"
@@ -1006,7 +583,7 @@
       "label": "viewport",
       "file_type": "code",
       "source_file": "src/app/layout.tsx",
-      "source_location": "L42",
+      "source_location": "L43",
       "id": "app_layout_viewport",
       "community": 0,
       "norm_label": "viewport"
@@ -1015,109 +592,703 @@
       "label": "RootLayout()",
       "file_type": "code",
       "source_file": "src/app/layout.tsx",
-      "source_location": "L51",
+      "source_location": "L52",
       "id": "app_layout_rootlayout",
       "community": 0,
       "norm_label": "rootlayout()"
+    },
+    {
+      "label": "Footer.tsx",
+      "file_type": "code",
+      "source_file": "src/components/layout/Footer.tsx",
+      "source_location": "L1",
+      "id": "src_components_layout_footer_tsx",
+      "community": 18,
+      "norm_label": "footer.tsx"
+    },
+    {
+      "label": "Footer()",
+      "file_type": "code",
+      "source_file": "src/components/layout/Footer.tsx",
+      "source_location": "L3",
+      "id": "layout_footer_footer",
+      "community": 18,
+      "norm_label": "footer()"
+    },
+    {
+      "label": "Navbar.tsx",
+      "file_type": "code",
+      "source_file": "src/components/layout/Navbar.tsx",
+      "source_location": "L1",
+      "id": "src_components_layout_navbar_tsx",
+      "community": 18,
+      "norm_label": "navbar.tsx"
+    },
+    {
+      "label": "navLinks",
+      "file_type": "code",
+      "source_file": "src/components/layout/Navbar.tsx",
+      "source_location": "L8",
+      "id": "layout_navbar_navlinks",
+      "community": 18,
+      "norm_label": "navlinks"
+    },
+    {
+      "label": "Navbar()",
+      "file_type": "code",
+      "source_file": "src/components/layout/Navbar.tsx",
+      "source_location": "L15",
+      "id": "layout_navbar_navbar",
+      "community": 18,
+      "norm_label": "navbar()"
+    },
+    {
+      "label": "ThemeScript.tsx",
+      "file_type": "code",
+      "source_file": "src/components/layout/ThemeScript.tsx",
+      "source_location": "L1",
+      "id": "src_components_layout_themescript_tsx",
+      "community": 0,
+      "norm_label": "themescript.tsx"
+    },
+    {
+      "label": "ThemeScript()",
+      "file_type": "code",
+      "source_file": "src/components/layout/ThemeScript.tsx",
+      "source_location": "L3",
+      "id": "layout_themescript_themescript",
+      "community": 0,
+      "norm_label": "themescript()"
+    },
+    {
+      "label": "ThemeToggle.tsx",
+      "file_type": "code",
+      "source_file": "src/components/layout/ThemeToggle.tsx",
+      "source_location": "L1",
+      "id": "src_components_layout_themetoggle_tsx",
+      "community": 18,
+      "norm_label": "themetoggle.tsx"
+    },
+    {
+      "label": "ThemeToggle()",
+      "file_type": "code",
+      "source_file": "src/components/layout/ThemeToggle.tsx",
+      "source_location": "L5",
+      "id": "layout_themetoggle_themetoggle",
+      "community": 18,
+      "norm_label": "themetoggle()"
+    },
+    {
+      "label": "StoryCard.tsx",
+      "file_type": "code",
+      "source_file": "src/components/story/StoryCard.tsx",
+      "source_location": "L1",
+      "id": "src_components_story_storycard_tsx",
+      "community": 6,
+      "norm_label": "storycard.tsx"
+    },
+    {
+      "label": "StoryCardProps",
+      "file_type": "code",
+      "source_file": "src/components/story/StoryCard.tsx",
+      "source_location": "L5",
+      "id": "story_storycard_storycardprops",
+      "community": 6,
+      "norm_label": "storycardprops"
+    },
+    {
+      "label": "StoryCard()",
+      "file_type": "code",
+      "source_file": "src/components/story/StoryCard.tsx",
+      "source_location": "L21",
+      "id": "story_storycard_storycard",
+      "community": 6,
+      "norm_label": "storycard()"
+    },
+    {
+      "label": "format.ts",
+      "file_type": "code",
+      "source_file": "src/lib/utils/format.ts",
+      "source_location": "L1",
+      "id": "src_lib_utils_format_ts",
+      "community": 6,
+      "norm_label": "format.ts"
+    },
+    {
+      "label": "formatBDT()",
+      "file_type": "code",
+      "source_file": "src/lib/utils/format.ts",
+      "source_location": "L5",
+      "id": "utils_format_formatbdt",
+      "community": 6,
+      "norm_label": "formatbdt()"
+    },
+    {
+      "label": "formatBDTCompact()",
+      "file_type": "code",
+      "source_file": "src/lib/utils/format.ts",
+      "source_location": "L16",
+      "id": "utils_format_formatbdtcompact",
+      "community": 6,
+      "norm_label": "formatbdtcompact()"
+    },
+    {
+      "label": "timeAgo()",
+      "file_type": "code",
+      "source_file": "src/lib/utils/format.ts",
+      "source_location": "L30",
+      "id": "utils_format_timeago",
+      "community": 6,
+      "norm_label": "timeago()"
+    },
+    {
+      "label": "settings.json",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L1",
+      "community": 16,
+      "norm_label": "settings.json",
+      "id": "claude_settings_json"
+    },
+    {
+      "label": "permissions",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L2",
+      "community": 16,
+      "norm_label": "permissions",
+      "id": "claude_settings_permissions"
+    },
+    {
+      "label": "allow",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L3",
+      "community": 16,
+      "norm_label": "allow",
+      "id": "claude_settings_permissions_allow"
+    },
+    {
+      "label": "hooks",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L8",
+      "community": 16,
+      "norm_label": "hooks",
+      "id": "claude_settings_hooks"
+    },
+    {
+      "label": "PreToolUse",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L9",
+      "community": 16,
+      "norm_label": "pretooluse",
+      "id": "claude_settings_hooks_pretooluse"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "community": 4,
+      "norm_label": "package.json",
+      "id": "package_json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "community": 4,
+      "norm_label": "name",
+      "id": "biyerkhoroch_package_name"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "community": 4,
+      "norm_label": "version",
+      "id": "biyerkhoroch_package_version"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "community": 4,
+      "norm_label": "private",
+      "id": "biyerkhoroch_package_private"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "community": 4,
+      "norm_label": "scripts",
+      "id": "biyerkhoroch_package_scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "community": 4,
+      "norm_label": "dev",
+      "id": "biyerkhoroch_package_scripts_dev"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "community": 4,
+      "norm_label": "build",
+      "id": "biyerkhoroch_package_scripts_build"
+    },
+    {
+      "label": "start",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "community": 4,
+      "norm_label": "start",
+      "id": "biyerkhoroch_package_scripts_start"
+    },
+    {
+      "label": "lint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "community": 4,
+      "norm_label": "lint",
+      "id": "biyerkhoroch_package_scripts_lint"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "community": 4,
+      "norm_label": "dependencies",
+      "id": "biyerkhoroch_package_dependencies"
+    },
+    {
+      "label": "mongoose",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "community": 4,
+      "norm_label": "mongoose",
+      "id": "biyerkhoroch_package_dependencies_mongoose"
+    },
+    {
+      "label": "next",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "community": 4,
+      "norm_label": "next",
+      "id": "biyerkhoroch_package_dependencies_next"
+    },
+    {
+      "label": "react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "community": 4,
+      "norm_label": "react",
+      "id": "biyerkhoroch_package_dependencies_react"
+    },
+    {
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "community": 4,
+      "norm_label": "react-dom",
+      "id": "biyerkhoroch_package_dependencies_react_dom"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "community": 5,
+      "norm_label": "devdependencies",
+      "id": "biyerkhoroch_package_devdependencies"
+    },
+    {
+      "label": "@tailwindcss/postcss",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "community": 5,
+      "norm_label": "@tailwindcss/postcss",
+      "id": "biyerkhoroch_package_devdependencies_tailwindcss_postcss"
+    },
+    {
+      "label": "@types/node",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "community": 5,
+      "norm_label": "@types/node",
+      "id": "biyerkhoroch_package_devdependencies_types_node"
+    },
+    {
+      "label": "@types/react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "community": 5,
+      "norm_label": "@types/react",
+      "id": "biyerkhoroch_package_devdependencies_types_react"
+    },
+    {
+      "label": "@types/react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "community": 5,
+      "norm_label": "@types/react-dom",
+      "id": "biyerkhoroch_package_devdependencies_types_react_dom"
+    },
+    {
+      "label": "eslint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "community": 5,
+      "norm_label": "eslint",
+      "id": "biyerkhoroch_package_devdependencies_eslint"
+    },
+    {
+      "label": "eslint-config-next",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "community": 5,
+      "norm_label": "eslint-config-next",
+      "id": "biyerkhoroch_package_devdependencies_eslint_config_next"
+    },
+    {
+      "label": "tailwindcss",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "community": 5,
+      "norm_label": "tailwindcss",
+      "id": "biyerkhoroch_package_devdependencies_tailwindcss"
+    },
+    {
+      "label": "typescript",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "community": 5,
+      "norm_label": "typescript",
+      "id": "biyerkhoroch_package_devdependencies_typescript"
+    },
+    {
+      "label": "prompt.md",
+      "file_type": "document",
+      "source_file": "prompt.md",
+      "source_location": "L1",
+      "community": 2,
+      "norm_label": "prompt.md",
+      "id": "prompt_md"
+    },
+    {
+      "label": "prompt.md",
+      "file_type": "document",
+      "source_file": "prompt.md",
+      "source_location": "L1",
+      "community": 2,
+      "norm_label": "prompt.md",
+      "id": "biyerkhoroch_prompt_prompt_md"
+    },
+    {
+      "label": "Core Tech Stack",
+      "file_type": "document",
+      "source_file": "prompt.md",
+      "source_location": "L22",
+      "community": 2,
+      "norm_label": "core tech stack",
+      "id": "biyerkhoroch_prompt_core_tech_stack"
+    },
+    {
+      "label": "Color System (60-30-10 Rule)",
+      "file_type": "document",
+      "source_file": "prompt.md",
+      "source_location": "L62",
+      "community": 2,
+      "norm_label": "color system (60-30-10 rule)",
+      "id": "biyerkhoroch_prompt_color_system_60_30_10_rule"
+    },
+    {
+      "label": "Platform Features",
+      "file_type": "document",
+      "source_file": "prompt.md",
+      "source_location": "L93",
+      "community": 2,
+      "norm_label": "platform features",
+      "id": "biyerkhoroch_prompt_platform_features"
+    },
+    {
+      "label": "Submission Fields",
+      "file_type": "document",
+      "source_file": "prompt.md",
+      "source_location": "L107",
+      "community": 2,
+      "norm_label": "submission fields",
+      "id": "biyerkhoroch_prompt_submission_fields"
+    },
+    {
+      "label": "Main Pages",
+      "file_type": "document",
+      "source_file": "prompt.md",
+      "source_location": "L142",
+      "community": 2,
+      "norm_label": "main pages",
+      "id": "biyerkhoroch_prompt_main_pages"
+    },
+    {
+      "label": "Homepage",
+      "file_type": "document",
+      "source_file": "prompt.md",
+      "source_location": "L144",
+      "community": 2,
+      "norm_label": "homepage",
+      "id": "biyerkhoroch_prompt_homepage"
+    },
+    {
+      "label": "Submission Page",
+      "file_type": "document",
+      "source_file": "prompt.md",
+      "source_location": "L164",
+      "community": 2,
+      "norm_label": "submission page",
+      "id": "biyerkhoroch_prompt_submission_page"
+    },
+    {
+      "label": "Story Detail Page",
+      "file_type": "document",
+      "source_file": "prompt.md",
+      "source_location": "L186",
+      "community": 2,
+      "norm_label": "story detail page",
+      "id": "biyerkhoroch_prompt_story_detail_page"
+    },
+    {
+      "label": "Search & Filter System",
+      "file_type": "document",
+      "source_file": "prompt.md",
+      "source_location": "L201",
+      "community": 2,
+      "norm_label": "search & filter system",
+      "id": "biyerkhoroch_prompt_search_filter_system"
+    },
+    {
+      "label": "Analytics & Statistics",
+      "file_type": "document",
+      "source_file": "prompt.md",
+      "source_location": "L229",
+      "community": 2,
+      "norm_label": "analytics & statistics",
+      "id": "biyerkhoroch_prompt_analytics_statistics"
+    },
+    {
+      "label": "Admin System",
+      "file_type": "document",
+      "source_file": "prompt.md",
+      "source_location": "L250",
+      "community": 2,
+      "norm_label": "admin system",
+      "id": "biyerkhoroch_prompt_admin_system"
+    },
+    {
+      "label": "SEO Requirements",
+      "file_type": "document",
+      "source_file": "prompt.md",
+      "source_location": "L269",
+      "community": 2,
+      "norm_label": "seo requirements",
+      "id": "biyerkhoroch_prompt_seo_requirements"
+    },
+    {
+      "label": "Database Design",
+      "file_type": "document",
+      "source_file": "prompt.md",
+      "source_location": "L290",
+      "community": 2,
+      "norm_label": "database design",
+      "id": "biyerkhoroch_prompt_database_design"
+    },
+    {
+      "label": "Responsive Requirements",
+      "file_type": "document",
+      "source_file": "prompt.md",
+      "source_location": "L312",
+      "community": 2,
+      "norm_label": "responsive requirements",
+      "id": "biyerkhoroch_prompt_responsive_requirements"
+    },
+    {
+      "label": "Accessibility",
+      "file_type": "document",
+      "source_file": "prompt.md",
+      "source_location": "L325",
+      "community": 2,
+      "norm_label": "accessibility",
+      "id": "biyerkhoroch_prompt_accessibility"
+    },
+    {
+      "label": "Code Quality Requirements",
+      "file_type": "document",
+      "source_file": "prompt.md",
+      "source_location": "L337",
+      "community": 2,
+      "norm_label": "code quality requirements",
+      "id": "biyerkhoroch_prompt_code_quality_requirements"
+    },
+    {
+      "label": "Important Development Workflow",
+      "file_type": "document",
+      "source_file": "prompt.md",
+      "source_location": "L357",
+      "community": 2,
+      "norm_label": "important development workflow",
+      "id": "biyerkhoroch_prompt_important_development_workflow"
+    },
+    {
+      "label": "Example Phase Structure",
+      "file_type": "document",
+      "source_file": "prompt.md",
+      "source_location": "L396",
+      "community": 2,
+      "norm_label": "example phase structure",
+      "id": "biyerkhoroch_prompt_example_phase_structure"
+    },
+    {
+      "label": "Development Style",
+      "file_type": "document",
+      "source_file": "prompt.md",
+      "source_location": "L454",
+      "community": 2,
+      "norm_label": "development style",
+      "id": "biyerkhoroch_prompt_development_style"
+    },
+    {
+      "label": "Final Goal",
+      "file_type": "document",
+      "source_file": "prompt.md",
+      "source_location": "L473",
+      "community": 2,
+      "norm_label": "final goal",
+      "id": "biyerkhoroch_prompt_final_goal"
     },
     {
       "label": "connection.ts",
       "file_type": "code",
       "source_file": "src/lib/db/connection.ts",
       "source_location": "L1",
-      "id": "src_lib_db_connection_ts",
       "community": 17,
-      "norm_label": "connection.ts"
+      "norm_label": "connection.ts",
+      "id": "src_lib_db_connection_ts"
     },
     {
       "label": "MONGODB_URI",
       "file_type": "code",
       "source_file": "src/lib/db/connection.ts",
       "source_location": "L3",
-      "id": "db_connection_mongodb_uri",
       "community": 17,
-      "norm_label": "mongodb_uri"
+      "norm_label": "mongodb_uri",
+      "id": "db_connection_mongodb_uri"
     },
     {
       "label": "MongooseCache",
       "file_type": "code",
       "source_file": "src/lib/db/connection.ts",
       "source_location": "L9",
-      "id": "db_connection_mongoosecache",
       "community": 17,
-      "norm_label": "mongoosecache"
+      "norm_label": "mongoosecache",
+      "id": "db_connection_mongoosecache"
     },
     {
       "label": "connectToDatabase()",
       "file_type": "code",
       "source_file": "src/lib/db/connection.ts",
       "source_location": "L23",
-      "id": "db_connection_connecttodatabase",
       "community": 17,
-      "norm_label": "connecttodatabase()"
+      "norm_label": "connecttodatabase()",
+      "id": "db_connection_connecttodatabase"
     },
     {
       "label": "index.ts",
       "file_type": "code",
       "source_file": "src/types/index.ts",
       "source_location": "L1",
-      "id": "src_types_index_ts",
       "community": 6,
-      "norm_label": "index.ts"
+      "norm_label": "index.ts",
+      "id": "src_types_index_ts"
     },
     {
       "label": "SubmissionStatus",
       "file_type": "code",
       "source_file": "src/types/index.ts",
       "source_location": "L1",
-      "id": "types_index_submissionstatus",
       "community": 6,
-      "norm_label": "submissionstatus"
+      "norm_label": "submissionstatus",
+      "id": "types_index_submissionstatus"
     },
     {
       "label": "CostBreakdown",
       "file_type": "code",
       "source_file": "src/types/index.ts",
       "source_location": "L3",
-      "id": "types_index_costbreakdown",
       "community": 6,
-      "norm_label": "costbreakdown"
+      "norm_label": "costbreakdown",
+      "id": "types_index_costbreakdown"
     },
     {
       "label": "Submission",
       "file_type": "code",
       "source_file": "src/types/index.ts",
       "source_location": "L15",
-      "id": "types_index_submission",
       "community": 6,
-      "norm_label": "submission"
+      "norm_label": "submission",
+      "id": "types_index_submission"
     },
     {
       "label": "SubmissionFormData",
       "file_type": "code",
       "source_file": "src/types/index.ts",
       "source_location": "L32",
-      "id": "types_index_submissionformdata",
       "community": 6,
-      "norm_label": "submissionformdata"
+      "norm_label": "submissionformdata",
+      "id": "types_index_submissionformdata"
     },
     {
       "label": "PaginatedResult",
       "file_type": "code",
       "source_file": "src/types/index.ts",
       "source_location": "L43",
-      "id": "types_index_paginatedresult",
       "community": 6,
-      "norm_label": "paginatedresult"
+      "norm_label": "paginatedresult",
+      "id": "types_index_paginatedresult"
     },
     {
       "label": "SearchParams",
       "file_type": "code",
       "source_file": "src/types/index.ts",
       "source_location": "L51",
-      "id": "types_index_searchparams",
       "community": 6,
-      "norm_label": "searchparams"
+      "norm_label": "searchparams",
+      "id": "types_index_searchparams"
     },
     {
       "label": "layout.tsx",
@@ -1169,52 +1340,12 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": ".claude/settings.json",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "claude_settings_json",
-      "target": "claude_settings_permissions",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/settings.json",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "claude_settings_json",
-      "target": "claude_settings_hooks",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/settings.json",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "claude_settings_permissions",
-      "target": "claude_settings_permissions_allow",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/settings.json",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "claude_settings_hooks",
-      "target": "claude_settings_hooks_pretooluse",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_md",
-      "target": "biyerkhoroch_claude_graphify",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_graphify"
     },
     {
       "relation": "contains",
@@ -1222,9 +1353,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_md",
-      "target": "biyerkhoroch_claude_biyerkhoroch_development_phases",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_biyerkhoroch_development_phases"
     },
     {
       "relation": "contains",
@@ -1232,9 +1363,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_biyerkhoroch_development_phases",
-      "target": "biyerkhoroch_claude_phase_1_project_setup_folder_structure_theme_mongodb_connection",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_phase_1_project_setup_folder_structure_theme_mongodb_connection"
     },
     {
       "relation": "contains",
@@ -1242,9 +1373,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_biyerkhoroch_development_phases",
-      "target": "biyerkhoroch_claude_phase_2_homepage_ui_hero_feed_cards_navbar_footer",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_phase_2_homepage_ui_hero_feed_cards_navbar_footer"
     },
     {
       "relation": "contains",
@@ -1252,9 +1383,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L91",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_biyerkhoroch_development_phases",
-      "target": "biyerkhoroch_claude_phase_3_submission_form_frontend",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_phase_3_submission_form_frontend"
     },
     {
       "relation": "contains",
@@ -1262,9 +1393,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L123",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_biyerkhoroch_development_phases",
-      "target": "biyerkhoroch_claude_phase_4_backend_submission_api_database_schema",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_phase_4_backend_submission_api_database_schema"
     },
     {
       "relation": "contains",
@@ -1272,9 +1403,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L155",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_biyerkhoroch_development_phases",
-      "target": "biyerkhoroch_claude_phase_5_admin_panel",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_phase_5_admin_panel"
     },
     {
       "relation": "contains",
@@ -1282,9 +1413,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L185",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_biyerkhoroch_development_phases",
-      "target": "biyerkhoroch_claude_phase_6_story_detail_pages",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_phase_6_story_detail_pages"
     },
     {
       "relation": "contains",
@@ -1292,9 +1423,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L216",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_biyerkhoroch_development_phases",
-      "target": "biyerkhoroch_claude_phase_7_search_filter_system",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_phase_7_search_filter_system"
     },
     {
       "relation": "contains",
@@ -1302,9 +1433,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L247",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_biyerkhoroch_development_phases",
-      "target": "biyerkhoroch_claude_phase_8_analytics_statistics",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_phase_8_analytics_statistics"
     },
     {
       "relation": "contains",
@@ -1312,9 +1443,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L276",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_biyerkhoroch_development_phases",
-      "target": "biyerkhoroch_claude_phase_9_seo_optimization",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_phase_9_seo_optimization"
     },
     {
       "relation": "contains",
@@ -1322,9 +1453,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L310",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_biyerkhoroch_development_phases",
-      "target": "biyerkhoroch_claude_phase_10_performance_optimization_deployment_prep",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_phase_10_performance_optimization_deployment_prep"
     },
     {
       "relation": "contains",
@@ -1332,9 +1463,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L344",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_biyerkhoroch_development_phases",
-      "target": "biyerkhoroch_claude_workflow_rules",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_workflow_rules"
     },
     {
       "relation": "contains",
@@ -1342,9 +1473,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_1_project_setup_folder_structure_theme_mongodb_connection",
-      "target": "biyerkhoroch_claude_objectives",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_objectives"
     },
     {
       "relation": "contains",
@@ -1352,9 +1483,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_1_project_setup_folder_structure_theme_mongodb_connection",
-      "target": "biyerkhoroch_claude_tasks",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_tasks"
     },
     {
       "relation": "contains",
@@ -1362,9 +1493,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_1_project_setup_folder_structure_theme_mongodb_connection",
-      "target": "biyerkhoroch_claude_deliverables",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_deliverables"
     },
     {
       "relation": "contains",
@@ -1372,9 +1503,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_1_project_setup_folder_structure_theme_mongodb_connection",
-      "target": "biyerkhoroch_claude_checklist",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_checklist"
     },
     {
       "relation": "contains",
@@ -1382,9 +1513,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L59",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_2_homepage_ui_hero_feed_cards_navbar_footer",
-      "target": "biyerkhoroch_claude_objectives_59",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_objectives_59"
     },
     {
       "relation": "contains",
@@ -1392,9 +1523,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L65",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_2_homepage_ui_hero_feed_cards_navbar_footer",
-      "target": "biyerkhoroch_claude_tasks_65",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_tasks_65"
     },
     {
       "relation": "contains",
@@ -1402,9 +1533,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L78",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_2_homepage_ui_hero_feed_cards_navbar_footer",
-      "target": "biyerkhoroch_claude_deliverables_78",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_deliverables_78"
     },
     {
       "relation": "contains",
@@ -1412,9 +1543,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L83",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_2_homepage_ui_hero_feed_cards_navbar_footer",
-      "target": "biyerkhoroch_claude_checklist_83",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_checklist_83"
     },
     {
       "relation": "contains",
@@ -1422,9 +1553,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L94",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_3_submission_form_frontend",
-      "target": "biyerkhoroch_claude_objectives_94",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_objectives_94"
     },
     {
       "relation": "contains",
@@ -1432,9 +1563,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L100",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_3_submission_form_frontend",
-      "target": "biyerkhoroch_claude_tasks_100",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_tasks_100"
     },
     {
       "relation": "contains",
@@ -1442,9 +1573,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L109",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_3_submission_form_frontend",
-      "target": "biyerkhoroch_claude_deliverables_109",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_deliverables_109"
     },
     {
       "relation": "contains",
@@ -1452,9 +1583,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L114",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_3_submission_form_frontend",
-      "target": "biyerkhoroch_claude_checklist_114",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_checklist_114"
     },
     {
       "relation": "contains",
@@ -1462,9 +1593,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L126",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_4_backend_submission_api_database_schema",
-      "target": "biyerkhoroch_claude_objectives_126",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_objectives_126"
     },
     {
       "relation": "contains",
@@ -1472,9 +1603,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L132",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_4_backend_submission_api_database_schema",
-      "target": "biyerkhoroch_claude_tasks_132",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_tasks_132"
     },
     {
       "relation": "contains",
@@ -1482,9 +1613,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L142",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_4_backend_submission_api_database_schema",
-      "target": "biyerkhoroch_claude_deliverables_142",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_deliverables_142"
     },
     {
       "relation": "contains",
@@ -1492,9 +1623,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L147",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_4_backend_submission_api_database_schema",
-      "target": "biyerkhoroch_claude_checklist_147",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_checklist_147"
     },
     {
       "relation": "contains",
@@ -1502,9 +1633,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L158",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_5_admin_panel",
-      "target": "biyerkhoroch_claude_objectives_158",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_objectives_158"
     },
     {
       "relation": "contains",
@@ -1512,9 +1643,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L163",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_5_admin_panel",
-      "target": "biyerkhoroch_claude_tasks_163",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_tasks_163"
     },
     {
       "relation": "contains",
@@ -1522,9 +1653,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L172",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_5_admin_panel",
-      "target": "biyerkhoroch_claude_deliverables_172",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_deliverables_172"
     },
     {
       "relation": "contains",
@@ -1532,9 +1663,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L177",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_5_admin_panel",
-      "target": "biyerkhoroch_claude_checklist_177",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_checklist_177"
     },
     {
       "relation": "contains",
@@ -1542,9 +1673,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L188",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_6_story_detail_pages",
-      "target": "biyerkhoroch_claude_objectives_188",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_objectives_188"
     },
     {
       "relation": "contains",
@@ -1552,9 +1683,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L194",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_6_story_detail_pages",
-      "target": "biyerkhoroch_claude_tasks_194",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_tasks_194"
     },
     {
       "relation": "contains",
@@ -1562,9 +1693,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L203",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_6_story_detail_pages",
-      "target": "biyerkhoroch_claude_deliverables_203",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_deliverables_203"
     },
     {
       "relation": "contains",
@@ -1572,9 +1703,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L208",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_6_story_detail_pages",
-      "target": "biyerkhoroch_claude_checklist_208",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_checklist_208"
     },
     {
       "relation": "contains",
@@ -1582,9 +1713,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L219",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_7_search_filter_system",
-      "target": "biyerkhoroch_claude_objectives_219",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_objectives_219"
     },
     {
       "relation": "contains",
@@ -1592,9 +1723,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L224",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_7_search_filter_system",
-      "target": "biyerkhoroch_claude_tasks_224",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_tasks_224"
     },
     {
       "relation": "contains",
@@ -1602,9 +1733,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L233",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_7_search_filter_system",
-      "target": "biyerkhoroch_claude_deliverables_233",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_deliverables_233"
     },
     {
       "relation": "contains",
@@ -1612,9 +1743,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L239",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_7_search_filter_system",
-      "target": "biyerkhoroch_claude_checklist_239",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_checklist_239"
     },
     {
       "relation": "contains",
@@ -1622,9 +1753,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L250",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_8_analytics_statistics",
-      "target": "biyerkhoroch_claude_objectives_250",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_objectives_250"
     },
     {
       "relation": "contains",
@@ -1632,9 +1763,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L255",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_8_analytics_statistics",
-      "target": "biyerkhoroch_claude_tasks_255",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_tasks_255"
     },
     {
       "relation": "contains",
@@ -1642,9 +1773,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L263",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_8_analytics_statistics",
-      "target": "biyerkhoroch_claude_deliverables_263",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_deliverables_263"
     },
     {
       "relation": "contains",
@@ -1652,9 +1783,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L268",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_8_analytics_statistics",
-      "target": "biyerkhoroch_claude_checklist_268",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_checklist_268"
     },
     {
       "relation": "contains",
@@ -1662,9 +1793,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L279",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_9_seo_optimization",
-      "target": "biyerkhoroch_claude_objectives_279",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_objectives_279"
     },
     {
       "relation": "contains",
@@ -1672,9 +1803,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L286",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_9_seo_optimization",
-      "target": "biyerkhoroch_claude_tasks_286",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_tasks_286"
     },
     {
       "relation": "contains",
@@ -1682,9 +1813,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L296",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_9_seo_optimization",
-      "target": "biyerkhoroch_claude_deliverables_296",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_deliverables_296"
     },
     {
       "relation": "contains",
@@ -1692,9 +1823,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L302",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_9_seo_optimization",
-      "target": "biyerkhoroch_claude_checklist_302",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_checklist_302"
     },
     {
       "relation": "contains",
@@ -1702,9 +1833,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L313",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_10_performance_optimization_deployment_prep",
-      "target": "biyerkhoroch_claude_objectives_313",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_objectives_313"
     },
     {
       "relation": "contains",
@@ -1712,9 +1843,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L320",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_10_performance_optimization_deployment_prep",
-      "target": "biyerkhoroch_claude_tasks_320",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_tasks_320"
     },
     {
       "relation": "contains",
@@ -1722,9 +1853,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L330",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_10_performance_optimization_deployment_prep",
-      "target": "biyerkhoroch_claude_deliverables_330",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_deliverables_330"
     },
     {
       "relation": "contains",
@@ -1732,438 +1863,52 @@
       "source_file": "CLAUDE.md",
       "source_location": "L336",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_phase_10_performance_optimization_deployment_prep",
-      "target": "biyerkhoroch_claude_checklist_336",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_checklist_336"
     },
     {
-      "relation": "contains",
+      "relation": "imports_from",
+      "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "package_json",
-      "target": "biyerkhoroch_package_name",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "package_json",
-      "target": "biyerkhoroch_package_version",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "package_json",
-      "target": "biyerkhoroch_package_private",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "package_json",
-      "target": "biyerkhoroch_package_scripts",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "package_json",
-      "target": "biyerkhoroch_package_dependencies",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L17",
-      "weight": 1.0,
-      "source": "package_json",
-      "target": "biyerkhoroch_package_devdependencies",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "biyerkhoroch_package_scripts",
-      "target": "biyerkhoroch_package_scripts_dev",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "biyerkhoroch_package_scripts",
-      "target": "biyerkhoroch_package_scripts_build",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "biyerkhoroch_package_scripts",
-      "target": "biyerkhoroch_package_scripts_start",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "biyerkhoroch_package_scripts",
-      "target": "biyerkhoroch_package_scripts_lint",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "biyerkhoroch_package_dependencies",
-      "target": "biyerkhoroch_package_dependencies_mongoose",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "biyerkhoroch_package_dependencies",
-      "target": "biyerkhoroch_package_dependencies_next",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "biyerkhoroch_package_dependencies",
-      "target": "biyerkhoroch_package_dependencies_react",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L15",
-      "weight": 1.0,
-      "source": "biyerkhoroch_package_dependencies",
-      "target": "biyerkhoroch_package_dependencies_react_dom",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L18",
-      "weight": 1.0,
-      "source": "biyerkhoroch_package_devdependencies",
-      "target": "biyerkhoroch_package_devdependencies_tailwindcss_postcss",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "biyerkhoroch_package_devdependencies",
-      "target": "biyerkhoroch_package_devdependencies_types_node",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L20",
-      "weight": 1.0,
-      "source": "biyerkhoroch_package_devdependencies",
-      "target": "biyerkhoroch_package_devdependencies_types_react",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L21",
-      "weight": 1.0,
-      "source": "biyerkhoroch_package_devdependencies",
-      "target": "biyerkhoroch_package_devdependencies_types_react_dom",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L22",
-      "weight": 1.0,
-      "source": "biyerkhoroch_package_devdependencies",
-      "target": "biyerkhoroch_package_devdependencies_eslint",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L23",
-      "weight": 1.0,
-      "source": "biyerkhoroch_package_devdependencies",
-      "target": "biyerkhoroch_package_devdependencies_eslint_config_next",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L24",
-      "weight": 1.0,
-      "source": "biyerkhoroch_package_devdependencies",
-      "target": "biyerkhoroch_package_devdependencies_tailwindcss",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L25",
-      "weight": 1.0,
-      "source": "biyerkhoroch_package_devdependencies",
-      "target": "biyerkhoroch_package_devdependencies_typescript",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "prompt.md",
+      "source_file": "src/app/(main)/layout.tsx",
       "source_location": "L1",
       "weight": 1.0,
-      "source": "prompt_md",
-      "target": "biyerkhoroch_prompt_prompt_md",
+      "source": "src_app_main_layout_tsx",
+      "target": "src_components_layout_navbar_tsx",
       "confidence_score": 1.0
     },
     {
-      "relation": "contains",
+      "relation": "imports",
+      "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "prompt.md",
-      "source_location": "L22",
+      "source_file": "src/app/(main)/layout.tsx",
+      "source_location": "L1",
       "weight": 1.0,
-      "source": "prompt_md",
-      "target": "biyerkhoroch_prompt_core_tech_stack",
+      "source": "src_app_main_layout_tsx",
+      "target": "layout_navbar_navbar",
       "confidence_score": 1.0
     },
     {
-      "relation": "contains",
+      "relation": "imports_from",
+      "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "prompt.md",
-      "source_location": "L62",
+      "source_file": "src/app/(main)/layout.tsx",
+      "source_location": "L2",
       "weight": 1.0,
-      "source": "prompt_md",
-      "target": "biyerkhoroch_prompt_color_system_60_30_10_rule",
+      "source": "src_app_main_layout_tsx",
+      "target": "src_components_layout_footer_tsx",
       "confidence_score": 1.0
     },
     {
-      "relation": "contains",
+      "relation": "imports",
+      "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "prompt.md",
-      "source_location": "L93",
+      "source_file": "src/app/(main)/layout.tsx",
+      "source_location": "L2",
       "weight": 1.0,
-      "source": "prompt_md",
-      "target": "biyerkhoroch_prompt_platform_features",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "prompt.md",
-      "source_location": "L107",
-      "weight": 1.0,
-      "source": "prompt_md",
-      "target": "biyerkhoroch_prompt_submission_fields",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "prompt.md",
-      "source_location": "L142",
-      "weight": 1.0,
-      "source": "prompt_md",
-      "target": "biyerkhoroch_prompt_main_pages",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "prompt.md",
-      "source_location": "L229",
-      "weight": 1.0,
-      "source": "prompt_md",
-      "target": "biyerkhoroch_prompt_analytics_statistics",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "prompt.md",
-      "source_location": "L250",
-      "weight": 1.0,
-      "source": "prompt_md",
-      "target": "biyerkhoroch_prompt_admin_system",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "prompt.md",
-      "source_location": "L269",
-      "weight": 1.0,
-      "source": "prompt_md",
-      "target": "biyerkhoroch_prompt_seo_requirements",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "prompt.md",
-      "source_location": "L290",
-      "weight": 1.0,
-      "source": "prompt_md",
-      "target": "biyerkhoroch_prompt_database_design",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "prompt.md",
-      "source_location": "L312",
-      "weight": 1.0,
-      "source": "prompt_md",
-      "target": "biyerkhoroch_prompt_responsive_requirements",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "prompt.md",
-      "source_location": "L325",
-      "weight": 1.0,
-      "source": "prompt_md",
-      "target": "biyerkhoroch_prompt_accessibility",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "prompt.md",
-      "source_location": "L337",
-      "weight": 1.0,
-      "source": "prompt_md",
-      "target": "biyerkhoroch_prompt_code_quality_requirements",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "prompt.md",
-      "source_location": "L357",
-      "weight": 1.0,
-      "source": "prompt_md",
-      "target": "biyerkhoroch_prompt_important_development_workflow",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "prompt.md",
-      "source_location": "L396",
-      "weight": 1.0,
-      "source": "prompt_md",
-      "target": "biyerkhoroch_prompt_example_phase_structure",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "prompt.md",
-      "source_location": "L454",
-      "weight": 1.0,
-      "source": "prompt_md",
-      "target": "biyerkhoroch_prompt_development_style",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "prompt.md",
-      "source_location": "L473",
-      "weight": 1.0,
-      "source": "prompt_md",
-      "target": "biyerkhoroch_prompt_final_goal",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "prompt.md",
-      "source_location": "L144",
-      "weight": 1.0,
-      "source": "biyerkhoroch_prompt_main_pages",
-      "target": "biyerkhoroch_prompt_homepage",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "prompt.md",
-      "source_location": "L164",
-      "weight": 1.0,
-      "source": "biyerkhoroch_prompt_main_pages",
-      "target": "biyerkhoroch_prompt_submission_page",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "prompt.md",
-      "source_location": "L186",
-      "weight": 1.0,
-      "source": "biyerkhoroch_prompt_main_pages",
-      "target": "biyerkhoroch_prompt_story_detail_page",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "prompt.md",
-      "source_location": "L201",
-      "weight": 1.0,
-      "source": "biyerkhoroch_prompt_main_pages",
-      "target": "biyerkhoroch_prompt_search_filter_system",
+      "source": "src_app_main_layout_tsx",
+      "target": "layout_footer_footer",
       "confidence_score": 1.0
     },
     {
@@ -2172,8 +1917,104 @@
       "source_file": "src/app/(main)/layout.tsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_main_layout_tsx",
-      "target": "main_layout_mainlayout",
+      "target": "main_layout_mainlayout"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_app_main_page_tsx",
+      "target": "src_components_story_storycard_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_app_main_page_tsx",
+      "target": "story_storycard_storycard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app_main_page_tsx",
+      "target": "src_lib_utils_format_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app_main_page_tsx",
+      "target": "utils_format_formatbdt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app_main_page_tsx",
+      "target": "utils_format_formatbdtcompact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_app_main_page_tsx",
+      "target": "types_index_submission",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/page.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_app_main_page_tsx",
+      "target": "main_page_placeholder_stories",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/page.tsx",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "src_app_main_page_tsx",
+      "target": "main_page_trending",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/page.tsx",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "src_app_main_page_tsx",
+      "target": "main_page_stats",
       "confidence_score": 1.0
     },
     {
@@ -2182,8 +2023,30 @@
       "source_file": "src/app/(main)/page.tsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_main_page_tsx",
-      "target": "main_page_homepage",
+      "target": "main_page_homepage"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app_layout_tsx",
+      "target": "src_components_layout_themescript_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/layout.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app_layout_tsx",
+      "target": "layout_themescript_themescript",
       "confidence_score": 1.0
     },
     {
@@ -2192,9 +2055,9 @@
       "source_file": "src/app/layout.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_layout_tsx",
-      "target": "app_layout_inter",
-      "confidence_score": 1.0
+      "target": "app_layout_inter"
     },
     {
       "relation": "contains",
@@ -2202,9 +2065,9 @@
       "source_file": "src/app/layout.tsx",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_layout_tsx",
-      "target": "app_layout_metadata",
-      "confidence_score": 1.0
+      "target": "app_layout_metadata"
     },
     {
       "relation": "contains",
@@ -2212,9 +2075,9 @@
       "source_file": "src/app/layout.tsx",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_layout_tsx",
-      "target": "app_layout_viewport",
-      "confidence_score": 1.0
+      "target": "app_layout_viewport"
     },
     {
       "relation": "contains",
@@ -2222,9 +2085,9 @@
       "source_file": "src/app/layout.tsx",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_layout_tsx",
-      "target": "app_layout_rootlayout",
-      "confidence_score": 1.0
+      "target": "app_layout_rootlayout"
     },
     {
       "relation": "contains",
@@ -2249,12 +2112,670 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/Footer.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_components_layout_footer_tsx",
+      "target": "layout_footer_footer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/Navbar.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_components_layout_navbar_tsx",
+      "target": "src_components_layout_themetoggle_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/Navbar.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_components_layout_navbar_tsx",
+      "target": "layout_themetoggle_themetoggle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/Navbar.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_components_layout_navbar_tsx",
+      "target": "layout_navbar_navlinks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/Navbar.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_components_layout_navbar_tsx",
+      "target": "layout_navbar_navbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/ThemeScript.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_components_layout_themescript_tsx",
+      "target": "layout_themescript_themescript",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/layout/ThemeToggle.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_components_layout_themetoggle_tsx",
+      "target": "layout_themetoggle_themetoggle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/story/StoryCard.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_components_story_storycard_tsx",
+      "target": "src_lib_utils_format_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/story/StoryCard.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_components_story_storycard_tsx",
+      "target": "utils_format_formatbdtcompact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/story/StoryCard.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_components_story_storycard_tsx",
+      "target": "utils_format_timeago",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/story/StoryCard.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_components_story_storycard_tsx",
+      "target": "types_index_submission",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/story/StoryCard.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_components_story_storycard_tsx",
+      "target": "story_storycard_storycardprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/story/StoryCard.tsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "src_components_story_storycard_tsx",
+      "target": "story_storycard_storycard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/story/StoryCard.tsx",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "story_storycard_storycard",
+      "target": "utils_format_formatbdtcompact"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/story/StoryCard.tsx",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "story_storycard_storycard",
+      "target": "utils_format_timeago"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/utils/format.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_lib_utils_format_ts",
+      "target": "utils_format_formatbdt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/utils/format.ts",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "src_lib_utils_format_ts",
+      "target": "utils_format_formatbdtcompact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/utils/format.ts",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "src_lib_utils_format_ts",
+      "target": "utils_format_timeago",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_settings_json",
+      "target": "claude_settings_permissions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_settings_json",
+      "target": "claude_settings_hooks"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_settings_permissions",
+      "target": "claude_settings_permissions_allow"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_settings_hooks",
+      "target": "claude_settings_hooks_pretooluse"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "biyerkhoroch_package_name"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "biyerkhoroch_package_version"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "biyerkhoroch_package_private"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "biyerkhoroch_package_scripts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "biyerkhoroch_package_dependencies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "biyerkhoroch_package_devdependencies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_scripts",
+      "target": "biyerkhoroch_package_scripts_dev"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_scripts",
+      "target": "biyerkhoroch_package_scripts_build"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_scripts",
+      "target": "biyerkhoroch_package_scripts_start"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_scripts",
+      "target": "biyerkhoroch_package_scripts_lint"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_dependencies",
+      "target": "biyerkhoroch_package_dependencies_mongoose"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_dependencies",
+      "target": "biyerkhoroch_package_dependencies_next"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_dependencies",
+      "target": "biyerkhoroch_package_dependencies_react"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_dependencies",
+      "target": "biyerkhoroch_package_dependencies_react_dom"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_devdependencies",
+      "target": "biyerkhoroch_package_devdependencies_tailwindcss_postcss"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_devdependencies",
+      "target": "biyerkhoroch_package_devdependencies_types_node"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_devdependencies",
+      "target": "biyerkhoroch_package_devdependencies_types_react"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_devdependencies",
+      "target": "biyerkhoroch_package_devdependencies_types_react_dom"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_devdependencies",
+      "target": "biyerkhoroch_package_devdependencies_eslint"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_devdependencies",
+      "target": "biyerkhoroch_package_devdependencies_eslint_config_next"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_devdependencies",
+      "target": "biyerkhoroch_package_devdependencies_tailwindcss"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_devdependencies",
+      "target": "biyerkhoroch_package_devdependencies_typescript"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prompt.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prompt_md",
+      "target": "biyerkhoroch_prompt_prompt_md"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prompt.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prompt_md",
+      "target": "biyerkhoroch_prompt_core_tech_stack"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prompt.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prompt_md",
+      "target": "biyerkhoroch_prompt_color_system_60_30_10_rule"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prompt.md",
+      "source_location": "L93",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prompt_md",
+      "target": "biyerkhoroch_prompt_platform_features"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prompt.md",
+      "source_location": "L107",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prompt_md",
+      "target": "biyerkhoroch_prompt_submission_fields"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prompt.md",
+      "source_location": "L142",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prompt_md",
+      "target": "biyerkhoroch_prompt_main_pages"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prompt.md",
+      "source_location": "L229",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prompt_md",
+      "target": "biyerkhoroch_prompt_analytics_statistics"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prompt.md",
+      "source_location": "L250",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prompt_md",
+      "target": "biyerkhoroch_prompt_admin_system"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prompt.md",
+      "source_location": "L269",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prompt_md",
+      "target": "biyerkhoroch_prompt_seo_requirements"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prompt.md",
+      "source_location": "L290",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prompt_md",
+      "target": "biyerkhoroch_prompt_database_design"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prompt.md",
+      "source_location": "L312",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prompt_md",
+      "target": "biyerkhoroch_prompt_responsive_requirements"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prompt.md",
+      "source_location": "L325",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prompt_md",
+      "target": "biyerkhoroch_prompt_accessibility"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prompt.md",
+      "source_location": "L337",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prompt_md",
+      "target": "biyerkhoroch_prompt_code_quality_requirements"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prompt.md",
+      "source_location": "L357",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prompt_md",
+      "target": "biyerkhoroch_prompt_important_development_workflow"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prompt.md",
+      "source_location": "L396",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prompt_md",
+      "target": "biyerkhoroch_prompt_example_phase_structure"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prompt.md",
+      "source_location": "L454",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prompt_md",
+      "target": "biyerkhoroch_prompt_development_style"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prompt.md",
+      "source_location": "L473",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "prompt_md",
+      "target": "biyerkhoroch_prompt_final_goal"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prompt.md",
+      "source_location": "L144",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_prompt_main_pages",
+      "target": "biyerkhoroch_prompt_homepage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prompt.md",
+      "source_location": "L164",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_prompt_main_pages",
+      "target": "biyerkhoroch_prompt_submission_page"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prompt.md",
+      "source_location": "L186",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_prompt_main_pages",
+      "target": "biyerkhoroch_prompt_story_detail_page"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prompt.md",
+      "source_location": "L201",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_prompt_main_pages",
+      "target": "biyerkhoroch_prompt_search_filter_system"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "src/lib/db/connection.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_db_connection_ts",
-      "target": "db_connection_mongodb_uri",
-      "confidence_score": 1.0
+      "target": "db_connection_mongodb_uri"
     },
     {
       "relation": "contains",
@@ -2262,9 +2783,9 @@
       "source_file": "src/lib/db/connection.ts",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_db_connection_ts",
-      "target": "db_connection_mongoosecache",
-      "confidence_score": 1.0
+      "target": "db_connection_mongoosecache"
     },
     {
       "relation": "contains",
@@ -2272,9 +2793,9 @@
       "source_file": "src/lib/db/connection.ts",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_db_connection_ts",
-      "target": "db_connection_connecttodatabase",
-      "confidence_score": 1.0
+      "target": "db_connection_connecttodatabase"
     },
     {
       "relation": "contains",
@@ -2282,9 +2803,9 @@
       "source_file": "src/types/index.ts",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_types_index_ts",
-      "target": "types_index_submissionstatus",
-      "confidence_score": 1.0
+      "target": "types_index_submissionstatus"
     },
     {
       "relation": "contains",
@@ -2292,9 +2813,9 @@
       "source_file": "src/types/index.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_types_index_ts",
-      "target": "types_index_costbreakdown",
-      "confidence_score": 1.0
+      "target": "types_index_costbreakdown"
     },
     {
       "relation": "contains",
@@ -2302,9 +2823,9 @@
       "source_file": "src/types/index.ts",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_types_index_ts",
-      "target": "types_index_submission",
-      "confidence_score": 1.0
+      "target": "types_index_submission"
     },
     {
       "relation": "contains",
@@ -2312,9 +2833,9 @@
       "source_file": "src/types/index.ts",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_types_index_ts",
-      "target": "types_index_submissionformdata",
-      "confidence_score": 1.0
+      "target": "types_index_submissionformdata"
     },
     {
       "relation": "contains",
@@ -2322,9 +2843,9 @@
       "source_file": "src/types/index.ts",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_types_index_ts",
-      "target": "types_index_paginatedresult",
-      "confidence_score": 1.0
+      "target": "types_index_paginatedresult"
     },
     {
       "relation": "contains",
@@ -2332,9 +2853,9 @@
       "source_file": "src/types/index.ts",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_types_index_ts",
-      "target": "types_index_searchparams",
-      "confidence_score": 1.0
+      "target": "types_index_searchparams"
     },
     {
       "relation": "contains",
@@ -2368,5 +2889,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "78559942ccf90166b2c463903df2cec0e589c4ac"
+  "built_at_commit": "defef92d3eb4928948bd6c796a2820c06b59985d"
 }

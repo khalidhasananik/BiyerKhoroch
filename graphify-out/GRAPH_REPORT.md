@@ -1,16 +1,16 @@
 # Graph Report - biyerkhoroch  (2026-05-26)
 
 ## Corpus Check
-- 15 files · ~4,229 words
+- 21 files · ~6,580 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 129 nodes · 120 edges · 20 communities (19 shown, 1 thin omitted)
+- 148 nodes · 153 edges · 18 communities (17 shown, 1 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `78559942`
+- Built from commit: `defef92d`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -29,9 +29,9 @@
 - [[_COMMUNITY_Community 12|Community 12]]
 - [[_COMMUNITY_Community 13|Community 13]]
 - [[_COMMUNITY_Community 14|Community 14]]
-- [[_COMMUNITY_Community 15|Community 15]]
 - [[_COMMUNITY_Community 16|Community 16]]
 - [[_COMMUNITY_Community 17|Community 17]]
+- [[_COMMUNITY_Community 18|Community 18]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `BiyerKhoroch — Development Phases` - 12 edges
@@ -46,21 +46,24 @@
 10. `Phase 9 — SEO Optimization` - 5 edges
 
 ## Surprising Connections (you probably didn't know these)
-- None detected - all connections are within the same source files.
+- `StoryCard()` --calls--> `formatBDTCompact()`  [EXTRACTED]
+  src/components/story/StoryCard.tsx → src/lib/utils/format.ts
+- `StoryCard()` --calls--> `timeAgo()`  [EXTRACTED]
+  src/components/story/StoryCard.tsx → src/lib/utils/format.ts
 
-## Communities (20 total, 1 thin omitted)
+## Communities (18 total, 1 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.29
-Nodes (6): geistMono, geistSans, inter, metadata, RootLayout(), viewport
+Cohesion: 0.24
+Nodes (7): geistMono, geistSans, inter, metadata, RootLayout(), viewport, ThemeScript()
 
 ### Community 2 - "Community 2"
-Cohesion: 0.12
-Nodes (15): Accessibility, Admin System, Analytics & Statistics, Code Quality Requirements, Color System (60-30-10 Rule), Core Tech Stack, Database Design, Development Style (+7 more)
+Cohesion: 0.09
+Nodes (20): Accessibility, Admin System, Analytics & Statistics, Code Quality Requirements, Color System (60-30-10 Rule), Core Tech Stack, Database Design, Development Style (+12 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.14
-Nodes (13): BiyerKhoroch — Development Phases, Checklist, Checklist, Deliverables, Deliverables, graphify, Objectives, Objectives (+5 more)
+Cohesion: 0.40
+Nodes (5): Checklist, Deliverables, Objectives, Phase 3 — Submission Form (Frontend), Tasks
 
 ### Community 4 - "Community 4"
 Cohesion: 0.14
@@ -71,12 +74,12 @@ Cohesion: 0.22
 Nodes (9): devDependencies, eslint, eslint-config-next, tailwindcss, @tailwindcss/postcss, @types/node, @types/react, @types/react-dom (+1 more)
 
 ### Community 6 - "Community 6"
-Cohesion: 0.29
-Nodes (6): CostBreakdown, PaginatedResult, SearchParams, Submission, SubmissionFormData, SubmissionStatus
+Cohesion: 0.16
+Nodes (14): PLACEHOLDER_STORIES, STATS, TRENDING, StoryCard(), StoryCardProps, CostBreakdown, PaginatedResult, SearchParams (+6 more)
 
 ### Community 7 - "Community 7"
-Cohesion: 0.40
-Nodes (5): Checklist, Deliverables, Objectives, Phase 1 — Project Setup, Folder Structure, Theme, MongoDB Connection, Tasks
+Cohesion: 0.14
+Nodes (13): BiyerKhoroch — Development Phases, Checklist, Checklist, Deliverables, Deliverables, graphify, Objectives, Objectives (+5 more)
 
 ### Community 8 - "Community 8"
 Cohesion: 0.40
@@ -88,7 +91,7 @@ Nodes (5): Checklist, Deliverables, Objectives, Phase 5 — Admin Panel, Tasks
 
 ### Community 10 - "Community 10"
 Cohesion: 0.40
-Nodes (5): Checklist, Deliverables, Objectives, Phase 6 — Story Detail Pages, Tasks
+Nodes (5): Checklist, Deliverables, Objectives, Phase 7 — Search & Filter System, Tasks
 
 ### Community 11 - "Community 11"
 Cohesion: 0.40
@@ -106,33 +109,31 @@ Nodes (5): Checklist, Deliverables, Objectives, Phase 10 — Performance Optimiz
 Cohesion: 0.40
 Nodes (5): Checklist, Deliverables, Objectives, Phase 2 — Homepage UI (Hero, Feed Cards, Navbar, Footer), Tasks
 
-### Community 15 - "Community 15"
-Cohesion: 0.40
-Nodes (5): Homepage, Main Pages, Search & Filter System, Story Detail Page, Submission Page
-
 ### Community 16 - "Community 16"
 Cohesion: 0.40
 Nodes (4): hooks, PreToolUse, permissions, allow
 
+### Community 18 - "Community 18"
+Cohesion: 0.31
+Nodes (4): Footer(), Navbar(), navLinks, ThemeToggle()
+
 ## Knowledge Gaps
-- **94 isolated node(s):** `allow`, `PreToolUse`, `graphify`, `Objectives`, `Tasks` (+89 more)
+- **98 isolated node(s):** `graphify`, `Objectives`, `Tasks`, `Deliverables`, `Checklist` (+93 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `BiyerKhoroch — Development Phases` connect `Community 3` to `Community 7`, `Community 8`, `Community 9`, `Community 10`, `Community 11`, `Community 12`, `Community 13`, `Community 14`?**
-  _High betweenness centrality (0.157) - this node is a cross-community bridge._
-- **Why does `Phase 1 — Project Setup, Folder Structure, Theme, MongoDB Connection` connect `Community 7` to `Community 3`?**
-  _High betweenness centrality (0.025) - this node is a cross-community bridge._
-- **Why does `Phase 2 — Homepage UI (Hero, Feed Cards, Navbar, Footer)` connect `Community 14` to `Community 3`?**
-  _High betweenness centrality (0.025) - this node is a cross-community bridge._
-- **What connects `allow`, `PreToolUse`, `graphify` to the rest of the system?**
-  _94 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `BiyerKhoroch — Development Phases` connect `Community 7` to `Community 3`, `Community 8`, `Community 9`, `Community 10`, `Community 11`, `Community 12`, `Community 13`, `Community 14`?**
+  _High betweenness centrality (0.119) - this node is a cross-community bridge._
+- **Why does `Phase 2 — Homepage UI (Hero, Feed Cards, Navbar, Footer)` connect `Community 14` to `Community 7`?**
+  _High betweenness centrality (0.019) - this node is a cross-community bridge._
+- **What connects `graphify`, `Objectives`, `Tasks` to the rest of the system?**
+  _98 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 2` be split into smaller, more focused modules?**
-  _Cohesion score 0.11764705882352941 - nodes in this community are weakly interconnected._
-- **Should `Community 3` be split into smaller, more focused modules?**
-  _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.09090909090909091 - nodes in this community are weakly interconnected._
 - **Should `Community 4` be split into smaller, more focused modules?**
+  _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
+- **Should `Community 7` be split into smaller, more focused modules?**
   _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._

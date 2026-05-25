@@ -1,7 +1,7 @@
 {
   "E:\\biyerkhoroch\\src\\app\\layout.tsx": {
-    "mtime": 1779735268.2500768,
-    "ast_hash": "2b317a06122b91ac0d329a11b5c79bac",
+    "mtime": 1779735896.442531,
+    "ast_hash": "e3643a27e18e4acd618e230fb109206a",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\eslint.config.mjs": {
@@ -35,13 +35,13 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\app\\(main)\\layout.tsx": {
-    "mtime": 1779735283.879562,
-    "ast_hash": "d624c9912dee51e182840c13ded4d34f",
+    "mtime": 1779735878.4553676,
+    "ast_hash": "b4aed3cc85e2f5eb24f2ac621c04d610",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\app\\(main)\\page.tsx": {
-    "mtime": 1779735289.8791897,
-    "ast_hash": "1513c939580dfbf908a039367789ab36",
+    "mtime": 1779735864.0044386,
+    "ast_hash": "6e1d1a964aa8e51dc6f639c49681344b",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\lib\\db\\connection.ts": {
@@ -60,8 +60,8 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\CLAUDE.md": {
-    "mtime": 1779735159.7519913,
-    "ast_hash": "fae69f0fe94fc3d4fb576b5a5ab750f2",
+    "mtime": 1779735937.0178273,
+    "ast_hash": "be21b5053b260c93b5d8b4d83253f914",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\prompt.md": {
@@ -97,6 +97,36 @@
   "E:\\biyerkhoroch\\public\\window.svg": {
     "mtime": 1779733919.9604232,
     "ast_hash": "a2760511c65806022ad20adf74370ff3",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\src\\components\\layout\\Footer.tsx": {
+    "mtime": 1779735760.9667566,
+    "ast_hash": "f4830d91eb3a5baaf5c283719a2ab793",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\src\\components\\layout\\Navbar.tsx": {
+    "mtime": 1779735743.2375662,
+    "ast_hash": "6377bce9e56adafea88c80abd02c72e1",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\src\\components\\layout\\ThemeScript.tsx": {
+    "mtime": 1779735709.4079626,
+    "ast_hash": "9a87655129ca255408ea9c74b102dbdb",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\src\\components\\layout\\ThemeToggle.tsx": {
+    "mtime": 1779735720.5235126,
+    "ast_hash": "fd5ac13b6bdc885023c36c4e4d12cee6",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\src\\components\\story\\StoryCard.tsx": {
+    "mtime": 1779735810.4098113,
+    "ast_hash": "cfe4868f3f06404ed39158f275857336",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\src\\lib\\utils\\format.ts": {
+    "mtime": 1779735789.5810614,
+    "ast_hash": "f09e0effd047a73c5e76c052f695e3b1",
     "semantic_hash": ""
   }
 }

@@ -2,7 +2,15 @@
   "permissions": {
     "allow": [
       "Bash(git branch *)",
-      "PowerShell(Get-ChildItem \"e:\\\\biyerkhoroch\\\\src\" -Recurse -File | Select-Object FullName | ForEach-Object { $_.FullName.Replace\\(\"e:\\\\biyerkhoroch\\\\src\\\\\", \"\"\\) })"
+      "PowerShell(Get-ChildItem \"e:\\\\biyerkhoroch\\\\src\" -Recurse -File | Select-Object FullName | ForEach-Object { $_.FullName.Replace\\(\"e:\\\\biyerkhoroch\\\\src\\\\\", \"\"\\) })",
+      "Bash(Get-ChildItem -Path . -Name)",
+      "Bash(xargs wc -l)",
+      "Bash(npm list *)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(timeout 12)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/submit)",
+      "Bash(curl -s http://localhost:3000/submit)"
     ]
   },
   "hooks": {

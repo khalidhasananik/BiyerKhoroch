@@ -112,3 +112,36 @@ body {
   outline-offset: 2px;
   border-radius: 2px;
 }
+
+/* ─── Form inputs ───────────────────────────────────────── */
+.input-field {
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border);
+  padding: 0.625rem 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  background-color: var(--bg);
+  color: var(--text);
+  transition: border-color 0.15s ease;
+  font-family: inherit;
+}
+
+.input-field::placeholder {
+  color: var(--text-muted);
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.input-field[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.input-field[type="number"]::-webkit-inner-spin-button,
+.input-field[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

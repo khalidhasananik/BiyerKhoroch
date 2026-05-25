@@ -54,7 +54,7 @@ Rules:
 ---
 
 ## Phase 2 — Homepage UI (Hero, Feed Cards, Navbar, Footer)
-**Status:** `Pending Review`
+**Status:** `Completed`
 
 ### Objectives
 - Build the main public homepage
@@ -89,7 +89,7 @@ Rules:
 ---
 
 ## Phase 3 — Submission Form (Frontend)
-**Status:** `Pending`
+**Status:** `Pending Review`
 
 ### Objectives
 - Anonymous multi-step submission form
@@ -98,13 +98,13 @@ Rules:
 - Loading states and success/error handling
 
 ### Tasks
-- [ ] `src/app/(main)/submit/page.tsx`
-- [ ] `src/components/submission/SubmissionForm.tsx` (client component)
-- [ ] Form fields: city, guest count, venue, all cost fields, story
-- [ ] Zod validation schema in `src/lib/validations/submission.ts`
-- [ ] Auto-save draft to localStorage hook
-- [ ] Honeypot field implementation
-- [ ] Loading state + success/error UI
+- [x] `src/app/(main)/submit/page.tsx`
+- [x] `src/components/submission/SubmissionForm.tsx` (client component)
+- [x] Form fields: city, guest count, venue, all cost fields, story
+- [x] Zod validation schema in `src/lib/validations/submission.ts`
+- [x] Auto-save draft to localStorage hook (`src/hooks/useLocalStorageDraft.ts`)
+- [x] Honeypot field implementation
+- [x] Loading state + success/error UI
 
 ### Deliverables
 - Fully functional submission form UI
@@ -112,11 +112,11 @@ Rules:
 - Client-side validation with error messages
 
 ### Checklist
-- [ ] All required fields present
-- [ ] Validation shows inline errors
-- [ ] Draft persists on page refresh
-- [ ] Honeypot field is hidden
-- [ ] Mobile layout is clean
+- [x] All required fields present
+- [x] Validation shows inline errors
+- [x] Draft persists on page refresh
+- [x] Honeypot field is hidden
+- [x] Mobile layout is clean
 
 ---
 
