@@ -60,8 +60,8 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\CLAUDE.md": {
-    "mtime": 1779738020.529787,
-    "ast_hash": "f422b2ea61155facf3571dd50834c2d2",
+    "mtime": 1779738549.3507442,
+    "ast_hash": "e7c876d9304ae77c0f6ce0c60b43f3f8",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\prompt.md": {
@@ -212,6 +212,31 @@
   "E:\\biyerkhoroch\\src\\components\\admin\\ModerationCard.tsx": {
     "mtime": 1779737788.2798052,
     "ast_hash": "4e84271d7506ff2b1637b09e2032381e",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\src\\app\\(main)\\story\\[slug]\\page.tsx": {
+    "mtime": 1779738451.3887591,
+    "ast_hash": "abcd48258d240b2b9a290f6ee8ca4bed",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\src\\components\\story\\CostBreakdown.tsx": {
+    "mtime": 1779738371.5691824,
+    "ast_hash": "61e942f3dd49386bb1e8fce629bec8df",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\src\\components\\story\\ShareButtons.tsx": {
+    "mtime": 1779738393.877975,
+    "ast_hash": "41cc76d0f82c254fc921b15fccfd337d",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\src\\components\\story\\StoryDetail.tsx": {
+    "mtime": 1779738429.6374748,
+    "ast_hash": "9bedaf526a75d9ff55990aeefe370976",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\src\\lib\\data\\stories.ts": {
+    "mtime": 1779738352.6260395,
+    "ast_hash": "ad1f8824ce4d472c1e53fd667b39d387",
     "semantic_hash": ""
   }
 }

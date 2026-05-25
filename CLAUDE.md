@@ -214,7 +214,7 @@ Rules:
 ---
 
 ## Phase 7 — Search & Filter System
-**Status:** `Pending`
+**Status:** `Completed`
 
 ### Objectives
 - Full-text + faceted search
@@ -222,13 +222,13 @@ Rules:
 - Fast, mobile-friendly filter UI
 
 ### Tasks
-- [ ] `src/app/(main)/search/page.tsx`
-- [ ] `src/components/search/FilterPanel.tsx`
-- [ ] `src/components/search/SearchResults.tsx`
-- [ ] `src/app/api/search/route.ts` — query builder with MongoDB
-- [ ] Filters: city, budget range, guest count, venue, sort order
-- [ ] Pagination (cursor-based or page-based)
-- [ ] URL sync for all filter state
+- [x] `src/app/(main)/search/page.tsx`
+- [x] `src/components/search/FilterPanel.tsx`
+- [x] `src/components/search/SearchResults.tsx`
+- [x] `src/app/api/search/route.ts` — query builder with MongoDB
+- [x] Filters: city, budget range, guest count, sort order
+- [x] Pagination (page-based)
+- [x] URL sync for all filter state
 
 ### Deliverables
 - Search page with all filter types
@@ -237,10 +237,10 @@ Rules:
 - Fast response time
 
 ### Checklist
-- [ ] All filter params reflected in URL
-- [ ] Text search works across story field
-- [ ] Price range slider works on mobile
-- [ ] Empty state handled gracefully
+- [x] All filter params reflected in URL
+- [x] Text search works across story field
+- [x] Price range inputs with presets work on mobile
+- [x] Empty state handled gracefully
 
 ---
 
