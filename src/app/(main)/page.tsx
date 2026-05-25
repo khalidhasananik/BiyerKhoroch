@@ -1,118 +1,31 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { StoryCard } from "@/components/story/StoryCard";
-import { formatBDT, formatBDTCompact } from "@/lib/utils/format";
-import type { Submission } from "@/types";
-
-// ─── Placeholder data (replaced by DB in Phase 4) ────────────────────────────
-
-const PLACEHOLDER_STORIES: Pick<
-  Submission,
-  | "_id"
-  | "slug"
-  | "city"
-  | "guestCount"
-  | "venueName"
-  | "photographyCompany"
-  | "totalCost"
-  | "story"
-  | "createdAt"
->[] = [
-  {
-    _id: "1",
-    slug: "dhaka-wedding-bashundhara-2024",
-    city: "Dhaka",
-    guestCount: 600,
-    venueName: "Bashundhara Convention City",
-    photographyCompany: "Lens & Light Studio",
-    totalCost: 1850000,
-    story:
-      "We thought ৳20 lakh was enough. We were wrong. The gate dhora alone cost more than our photography package. Our relatives showed up with 80 extra guests nobody told us about. The biryani ran out by 8pm. Would do it again, somehow.",
-    createdAt: new Date(Date.now() - 3 * 24 * 60 * 60 * 1000).toISOString(),
-  },
-  {
-    _id: "2",
-    slug: "chittagong-wedding-radisson-2024",
-    city: "Chittagong",
-    guestCount: 400,
-    venueName: "Radisson Blu Chittagong",
-    photographyCompany: "Moments by Farhan",
-    totalCost: 2400000,
-    story:
-      "Planned for 400 guests, fed 550. My father-in-law invited the entire neighbourhood without telling anyone. Decoration was supposed to be simple — ended up being a full-on floral chaos. No regrets, photos were stunning.",
-    createdAt: new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString(),
-  },
-  {
-    _id: "3",
-    slug: "sylhet-wedding-rose-view-2024",
-    city: "Sylhet",
-    guestCount: 250,
-    venueName: "Rose View Hotel",
-    photographyCompany: "Captured Moments BD",
-    totalCost: 980000,
-    story:
-      "We kept it small and honest. Sylheti family weddings have a reputation for going overboard — we refused to. Under ৳10 lakh, 250 guests, everyone ate well. My nana cried. Total success.",
-    createdAt: new Date(Date.now() - 12 * 24 * 60 * 60 * 1000).toISOString(),
-  },
-  {
-    _id: "4",
-    slug: "dhaka-wedding-hotel-intercontinental-2024",
-    city: "Dhaka",
-    guestCount: 800,
-    venueName: "Hotel InterContinental",
-    photographyCompany: "Wedding Diaries BD",
-    totalCost: 4200000,
-    story:
-      "৳42 lakh and my mother still asks why the sweets weren't good enough. We had international catering, live ghazal, 800 guests — and the photographer's memory card corrupted. We only have 200 photos from our own wedding.",
-    createdAt: new Date(Date.now() - 20 * 24 * 60 * 60 * 1000).toISOString(),
-  },
-  {
-    _id: "5",
-    slug: "rajshahi-wedding-nice-garden-2024",
-    city: "Rajshahi",
-    guestCount: 300,
-    venueName: "Nice Garden Banquet",
-    photographyCompany: "Al-Amin Photography",
-    totalCost: 620000,
-    story:
-      "Rajshahi biye — clean, warm, simple. The mango tree in the garden made the photos incredible. Spent most of the budget on food because that is the right priority. Zero drama, maximum misti paan.",
-    createdAt: new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString(),
-  },
-  {
-    _id: "6",
-    slug: "khulna-wedding-city-inn-2024",
-    city: "Khulna",
-    guestCount: 450,
-    venueName: "City Inn Banquet Hall",
-    photographyCompany: "Shutter Story KHL",
-    totalCost: 1150000,
-    story:
-      "Everything went fine until the power went out during the ring ceremony. Generator kicked in after 8 minutes of complete darkness and panicked aunties. My husband still says it was 'romantic'. It was not romantic.",
-    createdAt: new Date(Date.now() - 45 * 24 * 60 * 60 * 1000).toISOString(),
-  },
-];
-
-const TRENDING = PLACEHOLDER_STORIES.slice(0, 3);
-const LATEST = PLACEHOLDER_STORIES;
-
-// ─── Stats strip data ─────────────────────────────────────────────────────────
-
-const STATS = [
-  { label: "Weddings shared", value: "247" },
-  { label: "Average total cost", value: formatBDTCompact(1_850_000) },
-  { label: "Cities covered", value: "42" },
-  { label: "Avg per guest", value: formatBDTCompact(3_800) },
-];
-
-// ─── Metadata ─────────────────────────────────────────────────────────────────
+import { formatBDTCompact } from "@/lib/utils/format";
+import { searchStories } from "@/lib/data/stories";
+import { getAnalytics } from "@/lib/data/analytics";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
 };
 
-// ─── Page ─────────────────────────────────────────────────────────────────────
+export default async function HomePage() {
+  const [latestResult, trendingResult, analytics] = await Promise.all([
+    searchStories({ sort: "latest", page: "1" }),
+    searchStories({ sort: "highest", page: "1" }),
+    getAnalytics(),
+  ]);
 
-export default function HomePage() {
+  const latest = latestResult.data.slice(0, 6);
+  const trending = trendingResult.data.slice(0, 3);
+
+  const stats = [
+    { label: "Weddings shared", value: analytics.totalSubmissions > 0 ? String(analytics.totalSubmissions) : "—" },
+    { label: "Average total cost", value: analytics.avgTotalCost > 0 ? formatBDTCompact(analytics.avgTotalCost) : "—" },
+    { label: "Cities covered", value: analytics.citiesRepresented > 0 ? String(analytics.citiesRepresented) : "—" },
+    { label: "Avg per guest", value: analytics.avgCostPerGuest > 0 ? formatBDTCompact(analytics.avgCostPerGuest) : "—" },
+  ];
+
   return (
     <main className="flex-1">
       {/* ── Hero ─────────────────────────────────────────────────────────── */}
@@ -184,7 +97,7 @@ export default function HomePage() {
           <dl className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-0 md:divide-x"
             style={{ "--tw-divide-opacity": "1" } as React.CSSProperties}
           >
-            {STATS.map(({ label, value }) => (
+            {stats.map(({ label, value }) => (
               <div key={label} className="px-0 md:px-6 first:pl-0 last:pr-0 flex flex-col gap-0.5">
                 <dt
                   className="text-xs font-medium uppercase tracking-wide"
@@ -211,7 +124,7 @@ export default function HomePage() {
             Trending Stories
           </h2>
           <Link
-            href="/search?sort=funniest"
+            href="/search?sort=highest"
             className="text-sm font-medium hover:underline"
             style={{ color: "var(--accent)" }}
           >
@@ -219,11 +132,32 @@ export default function HomePage() {
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          {TRENDING.map((s) => (
-            <StoryCard key={s._id} submission={s} variant="featured" />
-          ))}
-        </div>
+        {trending.length > 0 ? (
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {trending.map((s) => (
+              <StoryCard key={s._id} submission={s} variant="featured" />
+            ))}
+          </div>
+        ) : (
+          <div
+            className="rounded-xl border py-16 text-center"
+            style={{ borderColor: "var(--border)", backgroundColor: "var(--surface)" }}
+          >
+            <p className="text-base font-medium mb-2" style={{ color: "var(--text)" }}>
+              No stories yet
+            </p>
+            <p className="text-sm mb-6" style={{ color: "var(--text-muted)" }}>
+              Be the first to share your wedding costs anonymously.
+            </p>
+            <Link
+              href="/submit"
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg text-sm font-medium transition-colors"
+              style={{ backgroundColor: "var(--accent)", color: "#fff" }}
+            >
+              Share Your Story
+            </Link>
+          </div>
+        )}
       </section>
 
       {/* ── Latest feed ──────────────────────────────────────────────────── */}
@@ -245,11 +179,32 @@ export default function HomePage() {
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {LATEST.map((s) => (
-              <StoryCard key={s._id} submission={s} />
-            ))}
-          </div>
+          {latest.length > 0 ? (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {latest.map((s) => (
+                <StoryCard key={s._id} submission={s} />
+              ))}
+            </div>
+          ) : (
+            <div
+              className="rounded-xl border py-16 text-center"
+              style={{ borderColor: "var(--border)" }}
+            >
+              <p className="text-base font-medium mb-2" style={{ color: "var(--text)" }}>
+                No submissions yet
+              </p>
+              <p className="text-sm mb-6" style={{ color: "var(--text-muted)" }}>
+                Stories appear here once approved. Share yours to get started.
+              </p>
+              <Link
+                href="/submit"
+                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg text-sm font-medium transition-colors"
+                style={{ backgroundColor: "var(--accent)", color: "#fff" }}
+              >
+                Share Your Wedding Cost
+              </Link>
+            </div>
+          )}
         </div>
       </section>
 
