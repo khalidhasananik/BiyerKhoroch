@@ -1,16 +1,16 @@
 # Graph Report - biyerkhoroch  (2026-05-26)
 
 ## Corpus Check
-- 21 files · ~6,580 words
+- 25 files · ~8,916 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 148 nodes · 153 edges · 18 communities (17 shown, 1 thin omitted)
+- 177 nodes · 188 edges · 17 communities (16 shown, 1 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `defef92d`
+- Built from commit: `b1a70ef6`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -27,7 +27,6 @@
 - [[_COMMUNITY_Community 10|Community 10]]
 - [[_COMMUNITY_Community 11|Community 11]]
 - [[_COMMUNITY_Community 12|Community 12]]
-- [[_COMMUNITY_Community 13|Community 13]]
 - [[_COMMUNITY_Community 14|Community 14]]
 - [[_COMMUNITY_Community 16|Community 16]]
 - [[_COMMUNITY_Community 17|Community 17]]
@@ -46,12 +45,14 @@
 10. `Phase 9 — SEO Optimization` - 5 edges
 
 ## Surprising Connections (you probably didn't know these)
+- `SubmissionForm()` --calls--> `useLocalStorageDraft()`  [EXTRACTED]
+  src/components/submission/SubmissionForm.tsx → src/hooks/useLocalStorageDraft.ts
 - `StoryCard()` --calls--> `formatBDTCompact()`  [EXTRACTED]
   src/components/story/StoryCard.tsx → src/lib/utils/format.ts
 - `StoryCard()` --calls--> `timeAgo()`  [EXTRACTED]
   src/components/story/StoryCard.tsx → src/lib/utils/format.ts
 
-## Communities (18 total, 1 thin omitted)
+## Communities (17 total, 1 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.24
@@ -62,24 +63,24 @@ Cohesion: 0.09
 Nodes (20): Accessibility, Admin System, Analytics & Statistics, Code Quality Requirements, Color System (60-30-10 Rule), Core Tech Stack, Database Design, Development Style (+12 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.40
-Nodes (5): Checklist, Deliverables, Objectives, Phase 3 — Submission Form (Frontend), Tasks
+Cohesion: 0.08
+Nodes (23): BiyerKhoroch — Development Phases, Checklist, Checklist, Checklist, Checklist, Deliverables, Deliverables, Deliverables (+15 more)
 
 ### Community 4 - "Community 4"
-Cohesion: 0.14
-Nodes (13): dependencies, mongoose, next, react, react-dom, name, private, scripts (+5 more)
+Cohesion: 0.11
+Nodes (17): devDependencies, eslint, eslint-config-next, tailwindcss, @tailwindcss/postcss, @types/node, @types/react, @types/react-dom (+9 more)
 
 ### Community 5 - "Community 5"
-Cohesion: 0.22
-Nodes (9): devDependencies, eslint, eslint-config-next, tailwindcss, @tailwindcss/postcss, @types/node, @types/react, @types/react-dom (+1 more)
+Cohesion: 0.09
+Nodes (13): useLocalStorageDraft(), calcTotal(), CITIES, COST_FIELDS, CostKey, EMPTY, FormState, n() (+5 more)
 
 ### Community 6 - "Community 6"
 Cohesion: 0.16
 Nodes (14): PLACEHOLDER_STORIES, STATS, TRENDING, StoryCard(), StoryCardProps, CostBreakdown, PaginatedResult, SearchParams (+6 more)
 
 ### Community 7 - "Community 7"
-Cohesion: 0.14
-Nodes (13): BiyerKhoroch — Development Phases, Checklist, Checklist, Deliverables, Deliverables, graphify, Objectives, Objectives (+5 more)
+Cohesion: 0.40
+Nodes (5): Checklist, Deliverables, Objectives, Phase 1 — Project Setup, Folder Structure, Theme, MongoDB Connection, Tasks
 
 ### Community 8 - "Community 8"
 Cohesion: 0.40
@@ -90,20 +91,16 @@ Cohesion: 0.40
 Nodes (5): Checklist, Deliverables, Objectives, Phase 5 — Admin Panel, Tasks
 
 ### Community 10 - "Community 10"
-Cohesion: 0.40
-Nodes (5): Checklist, Deliverables, Objectives, Phase 7 — Search & Filter System, Tasks
+Cohesion: 0.33
+Nodes (6): dependencies, mongoose, next, react, react-dom, zod
 
 ### Community 11 - "Community 11"
 Cohesion: 0.40
-Nodes (5): Checklist, Deliverables, Objectives, Phase 8 — Analytics & Statistics, Tasks
+Nodes (5): Checklist, Deliverables, Objectives, Phase 6 — Story Detail Pages, Tasks
 
 ### Community 12 - "Community 12"
 Cohesion: 0.40
 Nodes (5): Checklist, Deliverables, Objectives, Phase 9 — SEO Optimization, Tasks
-
-### Community 13 - "Community 13"
-Cohesion: 0.40
-Nodes (5): Checklist, Deliverables, Objectives, Phase 10 — Performance Optimization & Deployment Prep, Tasks
 
 ### Community 14 - "Community 14"
 Cohesion: 0.40
@@ -118,22 +115,24 @@ Cohesion: 0.31
 Nodes (4): Footer(), Navbar(), navLinks, ThemeToggle()
 
 ## Knowledge Gaps
-- **98 isolated node(s):** `graphify`, `Objectives`, `Tasks`, `Deliverables`, `Checklist` (+93 more)
+- **107 isolated node(s):** `allow`, `PreToolUse`, `graphify`, `Objectives`, `Tasks` (+102 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `BiyerKhoroch — Development Phases` connect `Community 7` to `Community 3`, `Community 8`, `Community 9`, `Community 10`, `Community 11`, `Community 12`, `Community 13`, `Community 14`?**
-  _High betweenness centrality (0.119) - this node is a cross-community bridge._
-- **Why does `Phase 2 — Homepage UI (Hero, Feed Cards, Navbar, Footer)` connect `Community 14` to `Community 7`?**
-  _High betweenness centrality (0.019) - this node is a cross-community bridge._
-- **What connects `graphify`, `Objectives`, `Tasks` to the rest of the system?**
-  _98 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `BiyerKhoroch — Development Phases` connect `Community 3` to `Community 7`, `Community 8`, `Community 9`, `Community 11`, `Community 12`, `Community 14`?**
+  _High betweenness centrality (0.083) - this node is a cross-community bridge._
+- **Why does `formatBDT()` connect `Community 6` to `Community 5`?**
+  _High betweenness centrality (0.033) - this node is a cross-community bridge._
+- **What connects `allow`, `PreToolUse`, `graphify` to the rest of the system?**
+  _107 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.09090909090909091 - nodes in this community are weakly interconnected._
+- **Should `Community 3` be split into smaller, more focused modules?**
+  _Cohesion score 0.08333333333333333 - nodes in this community are weakly interconnected._
 - **Should `Community 4` be split into smaller, more focused modules?**
-  _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
-- **Should `Community 7` be split into smaller, more focused modules?**
-  _Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.1111111111111111 - nodes in this community are weakly interconnected._
+- **Should `Community 5` be split into smaller, more focused modules?**
+  _Cohesion score 0.0873015873015873 - nodes in this community are weakly interconnected._

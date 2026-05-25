@@ -89,7 +89,7 @@ Rules:
 ---
 
 ## Phase 3 — Submission Form (Frontend)
-**Status:** `Pending Review`
+**Status:** `Completed`
 
 ### Objectives
 - Anonymous multi-step submission form
@@ -121,7 +121,7 @@ Rules:
 ---
 
 ## Phase 4 — Backend: Submission API + Database Schema
-**Status:** `Pending`
+**Status:** `Pending Review`
 
 ### Objectives
 - Mongoose submission schema with all fields
@@ -130,14 +130,14 @@ Rules:
 - Admin moderation queue (pending/approved/rejected status)
 
 ### Tasks
-- [ ] `src/lib/db/models/Submission.ts` — full Mongoose schema with indexes
-- [ ] `src/lib/db/models/AdminLog.ts`
-- [ ] `src/app/api/submissions/route.ts` — POST handler
-- [ ] Server-side Zod validation
-- [ ] Rate limiting (in-memory or Upstash-ready)
-- [ ] Status field: `pending` | `approved` | `rejected`
-- [ ] Slug auto-generation from city + id
-- [ ] Total cost auto-calculation logic
+- [x] `src/lib/db/models/Submission.ts` — full Mongoose schema with indexes
+- [x] `src/lib/db/models/AdminLog.ts`
+- [x] `src/app/api/submissions/route.ts` — POST handler
+- [x] Server-side Zod validation
+- [x] Rate limiting (in-memory or Upstash-ready)
+- [x] Status field: `pending` | `approved` | `rejected`
+- [x] Slug auto-generation from city + id
+- [x] Total cost auto-calculation logic
 
 ### Deliverables
 - Submission saved to MongoDB on form submit
@@ -145,10 +145,10 @@ Rules:
 - Proper error responses
 
 ### Checklist
-- [ ] Schema has all required fields + indexes
-- [ ] Images field array present (for future use)
-- [ ] Duplicate/spam submissions blocked by rate limit
-- [ ] API returns proper HTTP status codes
+- [x] Schema has all required fields + indexes
+- [x] Images field array present (for future use)
+- [x] Duplicate/spam submissions blocked by rate limit
+- [x] API returns proper HTTP status codes
 
 ---
 
