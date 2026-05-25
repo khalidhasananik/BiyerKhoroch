@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
+import { ThemeScript } from "@/components/layout/ThemeScript";
 import "./globals.css";
 
 const inter = Inter({
@@ -53,6 +54,9 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={inter.variable} suppressHydrationWarning>
+      <head>
+        <ThemeScript />
+      </head>
       <body className="min-h-screen flex flex-col antialiased">{children}</body>
     </html>
   );

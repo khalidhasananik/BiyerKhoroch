@@ -20,7 +20,7 @@ Rules:
 ---
 
 ## Phase 1 — Project Setup, Folder Structure, Theme, MongoDB Connection
-**Status:** `Pending Review`
+**Status:** `Completed`
 
 ### Objectives
 - Establish the full folder/file architecture
@@ -54,7 +54,7 @@ Rules:
 ---
 
 ## Phase 2 — Homepage UI (Hero, Feed Cards, Navbar, Footer)
-**Status:** `Pending`
+**Status:** `Pending Review`
 
 ### Objectives
 - Build the main public homepage

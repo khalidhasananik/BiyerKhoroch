@@ -1,12 +1,102 @@
 {
   "E:\\biyerkhoroch\\src\\app\\layout.tsx": {
-    "mtime": 1779733920.0151894,
-    "ast_hash": "94c34ef68b3949a75807a0211ec2273c",
-    "semantic_hash": "94c34ef68b3949a75807a0211ec2273c"
+    "mtime": 1779735268.2500768,
+    "ast_hash": "2b317a06122b91ac0d329a11b5c79bac",
+    "semantic_hash": ""
   },
-  "E:\\biyerkhoroch\\src\\app\\page.tsx": {
-    "mtime": 1779733937.058913,
-    "ast_hash": "1e489b26bb597dc97f8d44954dd042da",
-    "semantic_hash": "1e489b26bb597dc97f8d44954dd042da"
+  "E:\\biyerkhoroch\\eslint.config.mjs": {
+    "mtime": 1779733919.8827918,
+    "ast_hash": "dfa1f5f6a7037bf39dc510f30b180002",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\next.config.ts": {
+    "mtime": 1779733919.9864428,
+    "ast_hash": "9b77af189a21a7a64e4bd7a426f64176",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\package.json": {
+    "mtime": 1779735311.3227117,
+    "ast_hash": "64cef505a317846d0cda10b34928935e",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\postcss.config.mjs": {
+    "mtime": 1779733919.9072995,
+    "ast_hash": "239f3ebf717465dc636818a1a619398d",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\tsconfig.json": {
+    "mtime": 1779733937.057912,
+    "ast_hash": "ee17fd1c97c735e9f3564e3f5251f125",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\.claude\\settings.json": {
+    "mtime": 1779735373.063702,
+    "ast_hash": "4f6c1488bcc1445bdd740c2e32437503",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\src\\app\\(main)\\layout.tsx": {
+    "mtime": 1779735283.879562,
+    "ast_hash": "d624c9912dee51e182840c13ded4d34f",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\src\\app\\(main)\\page.tsx": {
+    "mtime": 1779735289.8791897,
+    "ast_hash": "1513c939580dfbf908a039367789ab36",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\src\\lib\\db\\connection.ts": {
+    "mtime": 1779735238.8857517,
+    "ast_hash": "bc39203404758441d424c6f33ab7ef42",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\src\\types\\index.ts": {
+    "mtime": 1779735279.400282,
+    "ast_hash": "1e5e682c8e274518047c37349d3d488b",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\AGENTS.md": {
+    "mtime": 1779734010.2520525,
+    "ast_hash": "9e09241799026ac05be315a2f0b50055",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\CLAUDE.md": {
+    "mtime": 1779735159.7519913,
+    "ast_hash": "fae69f0fe94fc3d4fb576b5a5ab750f2",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\prompt.md": {
+    "mtime": 1779734608.071005,
+    "ast_hash": "4d1e5eb5a70c9ef40ddbc7fb3bf0ec36",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\README.md": {
+    "mtime": 1779733919.8617048,
+    "ast_hash": "f15aaa42d5d299d091b1171097ea56ad",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\public\\file.svg": {
+    "mtime": 1779733919.914593,
+    "ast_hash": "d09f95206c3fa0bb9bd9fefabfd0ea71",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\public\\globe.svg": {
+    "mtime": 1779733919.9255922,
+    "ast_hash": "2aaafa6a49b6563925fe440891e32717",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\public\\next.svg": {
+    "mtime": 1779733919.9381018,
+    "ast_hash": "8e061864f388b47f33a1c3780831193e",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\public\\vercel.svg": {
+    "mtime": 1779733919.9508345,
+    "ast_hash": "c0af2f507b369b085b35ef4bbe3bcf1e",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\public\\window.svg": {
+    "mtime": 1779733919.9604232,
+    "ast_hash": "a2760511c65806022ad20adf74370ff3",
+    "semantic_hash": ""
   }
 }
