@@ -121,7 +121,7 @@ Rules:
 ---
 
 ## Phase 4 — Backend: Submission API + Database Schema
-**Status:** `Pending Review`
+**Status:** `Completed`
 
 ### Objectives
 - Mongoose submission schema with all fields
@@ -153,7 +153,7 @@ Rules:
 ---
 
 ## Phase 5 — Admin Panel
-**Status:** `Pending`
+**Status:** `Completed`
 
 ### Objectives
 - Protected admin route (simple password auth via env var)
@@ -161,13 +161,13 @@ Rules:
 - Dashboard with key stats
 
 ### Tasks
-- [ ] `src/app/admin/page.tsx` — login page
-- [ ] `src/app/admin/dashboard/page.tsx`
-- [ ] `src/app/admin/queue/page.tsx` — pending submissions list
-- [ ] `src/app/api/admin/auth/route.ts` — password check, set httpOnly cookie
-- [ ] `src/middleware.ts` — protect `/admin/*` routes
-- [ ] `src/app/api/admin/submissions/[id]/route.ts` — approve/reject/delete
-- [ ] Admin log writes on every action
+- [x] `src/app/admin/page.tsx` — login page
+- [x] `src/app/admin/dashboard/page.tsx`
+- [x] `src/app/admin/queue/page.tsx` — pending submissions list
+- [x] `src/app/api/admin/auth/route.ts` — password check, set httpOnly cookie
+- [x] `src/proxy.ts` — protect `/admin/*` routes (Next.js 16 uses `proxy.ts` not `middleware.ts`)
+- [x] `src/app/api/admin/submissions/[id]/route.ts` — approve/reject/delete
+- [x] Admin log writes on every action
 
 ### Deliverables
 - Admin can log in with password from env var
@@ -175,10 +175,10 @@ Rules:
 - Dashboard shows total/pending/approved counts
 
 ### Checklist
-- [ ] Admin routes redirect to login if not authenticated
-- [ ] Approve sets status to `approved`, triggers public visibility
-- [ ] Admin log records every action
-- [ ] No frontend auth framework used
+- [x] Admin routes redirect to login if not authenticated
+- [x] Approve sets status to `approved`, triggers public visibility
+- [x] Admin log records every action
+- [x] No frontend auth framework used
 
 ---
 
