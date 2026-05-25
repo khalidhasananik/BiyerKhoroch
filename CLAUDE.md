@@ -245,7 +245,7 @@ Rules:
 ---
 
 ## Phase 8 — Analytics & Statistics
-**Status:** `Pending`
+**Status:** `Completed`
 
 ### Objectives
 - Aggregate stats from approved submissions
@@ -253,12 +253,12 @@ Rules:
 - City-based averages, category breakdowns
 
 ### Tasks
-- [ ] `src/app/(main)/analytics/page.tsx`
-- [ ] `src/app/api/analytics/route.ts` — MongoDB aggregation pipeline
-- [ ] `src/components/analytics/BarChart.tsx` — lightweight SVG chart
-- [ ] `src/components/analytics/StatCard.tsx`
-- [ ] Cached aggregations (revalidate every 24h)
-- [ ] Metrics: avg cost by city, avg cost/guest, top venues, category breakdown
+- [x] `src/app/(main)/analytics/page.tsx`
+- [x] `src/app/api/analytics/route.ts` — MongoDB aggregation pipeline
+- [x] `src/components/analytics/BarChart.tsx` — lightweight SVG chart
+- [x] `src/components/analytics/StatCard.tsx`
+- [x] Cached aggregations (revalidate every 24h)
+- [x] Metrics: avg cost by city, avg cost/guest, top venues, category breakdown
 
 ### Deliverables
 - Analytics page with readable charts
@@ -266,10 +266,10 @@ Rules:
 - Mobile-readable layouts
 
 ### Checklist
-- [ ] Charts render on mobile
-- [ ] Data aggregation is accurate
-- [ ] Cache invalidates when new submission approved
-- [ ] No heavy chart library added to bundle
+- [x] Charts render on mobile
+- [x] Data aggregation is accurate
+- [x] Cache invalidates when new submission approved
+- [x] No heavy chart library added to bundle
 
 ---
 
