@@ -43,6 +43,12 @@ export default async function DashboardPage() {
         </div>
         <div className="flex items-center gap-3">
           <Link
+            href="/admin/approved"
+            className="text-sm px-4 py-2 rounded-lg border border-[var(--border)] text-[var(--text-muted)] hover:text-[var(--text)] hover:bg-[var(--surface-2)] transition"
+          >
+            Approved Stories
+          </Link>
+          <Link
             href="/admin/queue"
             className="text-sm px-4 py-2 rounded-lg bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white font-medium transition"
           >

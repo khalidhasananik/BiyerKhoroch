@@ -1,7 +1,7 @@
 {
   "E:\\biyerkhoroch\\src\\app\\layout.tsx": {
-    "mtime": 1779740521.7190154,
-    "ast_hash": "48fd3d706eacbe9eefb1e84a11e0af95",
+    "mtime": 1779742760.6949127,
+    "ast_hash": "00ecf2adc120c2d719c5ac11db9d28f6",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\eslint.config.mjs": {
@@ -15,8 +15,8 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\package.json": {
-    "mtime": 1779741501.6387365,
-    "ast_hash": "e524ba0a80467d299b1bf2d90937f853",
+    "mtime": 1779742803.8768206,
+    "ast_hash": "4f2e370eb13c1dd056dde977d951a6e3",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\postcss.config.mjs": {
@@ -60,8 +60,8 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\CLAUDE.md": {
-    "mtime": 1779741109.5773447,
-    "ast_hash": "7b725d257b6b114a3f8e87b8cf903aff",
+    "mtime": 1779742820.155188,
+    "ast_hash": "1700d9e21382d3d314684ebfac3524d3",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\prompt.md": {
@@ -100,13 +100,13 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\components\\layout\\Footer.tsx": {
-    "mtime": 1779735760.9667566,
-    "ast_hash": "f4830d91eb3a5baaf5c283719a2ab793",
+    "mtime": 1779742767.5193825,
+    "ast_hash": "b060a68f2a7a6baaf85da9d52d791b23",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\components\\layout\\Navbar.tsx": {
-    "mtime": 1779735743.2375662,
-    "ast_hash": "6377bce9e56adafea88c80abd02c72e1",
+    "mtime": 1779742765.360602,
+    "ast_hash": "850ec2b213ed65ea2d10e03fd1514ad8",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\components\\layout\\ThemeScript.tsx": {
@@ -130,13 +130,13 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\app\\(main)\\submit\\page.tsx": {
-    "mtime": 1779740962.522382,
-    "ast_hash": "9ee599c678e0ba0422b12aa678f5265d",
+    "mtime": 1779742785.9626307,
+    "ast_hash": "848a02ed6d886cc9028481e421c3fcf9",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\components\\submission\\SubmissionForm.tsx": {
-    "mtime": 1779736854.7997408,
-    "ast_hash": "e7a52a9e0ab5684f8699de52b526f2c6",
+    "mtime": 1779742796.0368345,
+    "ast_hash": "047e2b219de73eff2ff0d2c649bdd6ae",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\hooks\\useLocalStorageDraft.ts": {
@@ -180,13 +180,13 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\app\\admin\\page.tsx": {
-    "mtime": 1779737694.0932405,
-    "ast_hash": "09d898594d4194a3fdac60ab05b99309",
+    "mtime": 1779742787.3290603,
+    "ast_hash": "df63dc6896f19458293680d938faaf46",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\app\\admin\\dashboard\\page.tsx": {
-    "mtime": 1779737740.1918383,
-    "ast_hash": "2286b42b35e6c31976d35dc1ef608c58",
+    "mtime": 1779742789.1717157,
+    "ast_hash": "49b3994bc15f90e1f714b9812ae675b3",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\app\\admin\\queue\\page.tsx": {
@@ -215,8 +215,8 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\app\\(main)\\story\\[slug]\\page.tsx": {
-    "mtime": 1779740463.3183138,
-    "ast_hash": "d4e839d0283f08129cd35af9b0e7ddde",
+    "mtime": 1779742774.825454,
+    "ast_hash": "918b238bc75bc310a8551e42eab56d43",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\components\\story\\CostBreakdown.tsx": {
@@ -230,8 +230,8 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\components\\story\\StoryDetail.tsx": {
-    "mtime": 1779738429.6374748,
-    "ast_hash": "9bedaf526a75d9ff55990aeefe370976",
+    "mtime": 1779742802.7949865,
+    "ast_hash": "f0d4aa47a2bc18e52b1b6f13403ca1d1",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\lib\\data\\stories.ts": {
@@ -240,8 +240,8 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\app\\(main)\\search\\page.tsx": {
-    "mtime": 1779739142.934176,
-    "ast_hash": "27c4956c3b0197f27ce55cb7a9253914",
+    "mtime": 1779742783.2994456,
+    "ast_hash": "9c690ca5d26e7cbb3d2730d312b499c2",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\app\\api\\search\\route.ts": {
@@ -260,8 +260,8 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\app\\(main)\\analytics\\page.tsx": {
-    "mtime": 1779739828.9136822,
-    "ast_hash": "6de44db424821dd666bc03e5884b378e",
+    "mtime": 1779742784.7117522,
+    "ast_hash": "ef5e8c7c69cf29a9f722be25e203f60d",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\app\\api\\analytics\\route.ts": {
@@ -285,33 +285,33 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\app\\opengraph-image.tsx": {
-    "mtime": 1779740409.1840086,
-    "ast_hash": "c1d624210e7b77ad1bad1b8d60bc8409",
+    "mtime": 1779742779.3225732,
+    "ast_hash": "d08bb9aaa760e41c1c45b3215ef48c8b",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\app\\robots.ts": {
-    "mtime": 1779740393.9506989,
-    "ast_hash": "6411c144e2844bb6e5480ec87d5ceba4",
+    "mtime": 1779742762.0999885,
+    "ast_hash": "b79b254ce395c2704ff5958919bb98a9",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\app\\sitemap.ts": {
-    "mtime": 1779740376.5203435,
-    "ast_hash": "f15ebcedc883adaabf1183e606243b99",
+    "mtime": 1779742763.1924086,
+    "ast_hash": "70d9f573a7fad8ee201b746bbbd79733",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\app\\(main)\\story\\[slug]\\opengraph-image.tsx": {
-    "mtime": 1779740431.0125566,
-    "ast_hash": "274a4084416abb5cc29480b61c6380f8",
+    "mtime": 1779742777.168428,
+    "ast_hash": "e65070e9d788bacba1a5bdbe62b72de7",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\DEPLOYMENT.md": {
-    "mtime": 1779740934.4722805,
-    "ast_hash": "b394cddd38e5576d04731b1f452e63c6",
+    "mtime": 1779742808.3516216,
+    "ast_hash": "a9c32b5d68ed7185a574c4080c005e70",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\lib\\email.ts": {
-    "mtime": 1779741530.1197312,
-    "ast_hash": "2d8a9dd8c720ca1425a8e0768cdda80f",
+    "mtime": 1779742790.2491198,
+    "ast_hash": "db0f3ea866f67e527c84d33aa1486229",
     "semantic_hash": ""
   }
 }

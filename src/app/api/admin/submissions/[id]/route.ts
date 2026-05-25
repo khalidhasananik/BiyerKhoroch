@@ -84,6 +84,8 @@ export async function DELETE(
   });
 
   revalidatePath("/analytics");
+  revalidatePath("/");
+  revalidatePath(`/story/${submission.slug}`);
 
   return NextResponse.json({ ok: true });
 }

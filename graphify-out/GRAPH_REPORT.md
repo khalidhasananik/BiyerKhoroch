@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `5575d78f`
+- Built from commit: `22f4cda1`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -37,28 +37,28 @@
 - [[_COMMUNITY_Community 24|Community 24]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `BiyerKhoroch — Development Phases` - 12 edges
-2. `Deployment Guide — BiyerKhoroch` - 9 edges
+1. `BiyerKahini — Development Phases` - 12 edges
+2. `Deployment Guide — BiyerKahini` - 9 edges
 3. `formatBDTCompact()` - 9 edges
 4. `connectToDatabase()` - 8 edges
 5. `getStoryBySlug()` - 7 edges
 6. `StoryCard()` - 6 edges
 7. `formatBDT()` - 6 edges
 8. `Submission` - 6 edges
-9. `scripts` - 5 edges
-10. `Phase 1 — Project Setup, Folder Structure, Theme, MongoDB Connection` - 5 edges
+9. `Phase 1 — Project Setup, Folder Structure, Theme, MongoDB Connection` - 5 edges
+10. `Phase 2 — Homepage UI (Hero, Feed Cards, Navbar, Footer)` - 5 edges
 
 ## Surprising Connections (you probably didn't know these)
+- `AnalyticsPage()` --calls--> `getAnalytics`  [EXTRACTED]
+  src/app/(main)/analytics/page.tsx → src/lib/data/analytics.ts
 - `Image()` --calls--> `getStoryBySlug()`  [EXTRACTED]
   src/app/(main)/story/[slug]/opengraph-image.tsx → src/lib/data/stories.ts
 - `generateMetadata()` --calls--> `getStoryBySlug()`  [EXTRACTED]
   src/app/(main)/story/[slug]/page.tsx → src/lib/data/stories.ts
-- `AnalyticsPage()` --calls--> `getAnalytics`  [EXTRACTED]
-  src/app/(main)/analytics/page.tsx → src/lib/data/analytics.ts
 - `GET()` --calls--> `getAnalytics`  [EXTRACTED]
   src/app/api/analytics/route.ts → src/lib/data/analytics.ts
-- `POST()` --calls--> `sendSubmissionNotification()`  [EXTRACTED]
-  src/app/api/submissions/route.ts → src/lib/email.ts
+- `ResultsSection()` --calls--> `searchStories()`  [EXTRACTED]
+  src/app/(main)/search/page.tsx → src/lib/data/stories.ts
 
 ## Communities (25 total, 3 thin omitted)
 
@@ -72,7 +72,7 @@ Nodes (20): Accessibility, Admin System, Analytics & Statistics, Code Quality Re
 
 ### Community 3 - "Community 3"
 Cohesion: 0.05
-Nodes (43): BiyerKhoroch — Development Phases, Checklist, Checklist, Checklist, Checklist, Checklist, Checklist, Checklist (+35 more)
+Nodes (43): BiyerKahini — Development Phases, Checklist, Checklist, Checklist, Checklist, Checklist, Checklist, Checklist (+35 more)
 
 ### Community 4 - "Community 4"
 Cohesion: 0.08
@@ -131,7 +131,7 @@ Cohesion: 0.31
 Nodes (4): Footer(), Navbar(), navLinks, ThemeToggle()
 
 ## Knowledge Gaps
-- **158 isolated node(s):** `name`, `version`, `private`, `dev`, `build` (+153 more)
+- **158 isolated node(s):** `graphify`, `Objectives`, `Tasks`, `Deliverables`, `Checklist` (+153 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -144,7 +144,7 @@ _Questions this graph is uniquely positioned to answer:_
   _High betweenness centrality (0.054) - this node is a cross-community bridge._
 - **Why does `Submission` connect `Community 6` to `Community 10`, `Community 12`?**
   _High betweenness centrality (0.037) - this node is a cross-community bridge._
-- **What connects `name`, `version`, `private` to the rest of the system?**
+- **What connects `graphify`, `Objectives`, `Tasks` to the rest of the system?**
   _158 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.09090909090909091 - nodes in this community are weakly interconnected._
