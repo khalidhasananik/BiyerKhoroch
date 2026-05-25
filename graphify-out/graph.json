@@ -1,0 +1,124 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "layout.tsx",
+      "source_location": "L1",
+      "id": "layout_tsx",
+      "community": 0,
+      "norm_label": "layout.tsx"
+    },
+    {
+      "label": "geistSans",
+      "file_type": "code",
+      "source_file": "layout.tsx",
+      "source_location": "L5",
+      "id": "app_layout_geistsans",
+      "community": 0,
+      "norm_label": "geistsans"
+    },
+    {
+      "label": "geistMono",
+      "file_type": "code",
+      "source_file": "layout.tsx",
+      "source_location": "L10",
+      "id": "app_layout_geistmono",
+      "community": 0,
+      "norm_label": "geistmono"
+    },
+    {
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "layout.tsx",
+      "source_location": "L15",
+      "id": "app_layout_metadata",
+      "community": 0,
+      "norm_label": "metadata"
+    },
+    {
+      "label": "RootLayout()",
+      "file_type": "code",
+      "source_file": "layout.tsx",
+      "source_location": "L20",
+      "id": "app_layout_rootlayout",
+      "community": 0,
+      "norm_label": "rootlayout()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "page.tsx",
+      "source_location": "L1",
+      "id": "page_tsx",
+      "community": 1,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "Home()",
+      "file_type": "code",
+      "source_file": "page.tsx",
+      "source_location": "L3",
+      "id": "app_page_home",
+      "community": 1,
+      "norm_label": "home()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "layout.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "layout_tsx",
+      "target": "app_layout_geistsans",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "layout.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "layout_tsx",
+      "target": "app_layout_geistmono",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "layout.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "layout_tsx",
+      "target": "app_layout_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "layout.tsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "layout_tsx",
+      "target": "app_layout_rootlayout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "page_tsx",
+      "target": "app_page_home",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "4594f3798a01ce0d5893d03726696a9d78267e18"
+}
