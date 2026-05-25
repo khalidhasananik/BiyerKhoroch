@@ -1,7 +1,7 @@
 {
   "E:\\biyerkhoroch\\src\\app\\layout.tsx": {
-    "mtime": 1779735896.442531,
-    "ast_hash": "e3643a27e18e4acd618e230fb109206a",
+    "mtime": 1779740521.7190154,
+    "ast_hash": "48fd3d706eacbe9eefb1e84a11e0af95",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\eslint.config.mjs": {
@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\next.config.ts": {
-    "mtime": 1779733919.9864428,
-    "ast_hash": "9b77af189a21a7a64e4bd7a426f64176",
+    "mtime": 1779740552.41563,
+    "ast_hash": "5ff89d6304402aab61afde60a088abc0",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\package.json": {
@@ -40,8 +40,8 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\app\\(main)\\page.tsx": {
-    "mtime": 1779735864.0044386,
-    "ast_hash": "6e1d1a964aa8e51dc6f639c49681344b",
+    "mtime": 1779740603.540937,
+    "ast_hash": "d557f0202613221050d29538dc5a4f52",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\lib\\db\\connection.ts": {
@@ -60,8 +60,8 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\CLAUDE.md": {
-    "mtime": 1779740113.0539637,
-    "ast_hash": "9a59715ac74cf482eb4ba15c5bcfcf9e",
+    "mtime": 1779740705.9734063,
+    "ast_hash": "cb0359d1414d7ba66456be9339635c8b",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\prompt.md": {
@@ -130,8 +130,8 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\app\\(main)\\submit\\page.tsx": {
-    "mtime": 1779736801.7114127,
-    "ast_hash": "82956be22b1e4383df4b7d3f0997fc7b",
+    "mtime": 1779740541.094202,
+    "ast_hash": "3aef5605c250902259caede10517d790",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\components\\submission\\SubmissionForm.tsx": {
@@ -215,8 +215,8 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\app\\(main)\\story\\[slug]\\page.tsx": {
-    "mtime": 1779738451.3887591,
-    "ast_hash": "abcd48258d240b2b9a290f6ee8ca4bed",
+    "mtime": 1779740463.3183138,
+    "ast_hash": "d4e839d0283f08129cd35af9b0e7ddde",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\components\\story\\CostBreakdown.tsx": {
@@ -235,8 +235,8 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\lib\\data\\stories.ts": {
-    "mtime": 1779739026.7130964,
-    "ast_hash": "b99a1eb1051a2ce645e2dc6a9e9f2d00",
+    "mtime": 1779740361.6059825,
+    "ast_hash": "12f12596439756217b84c989f907b3cf",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\app\\(main)\\search\\page.tsx": {
@@ -282,6 +282,26 @@
   "E:\\biyerkhoroch\\src\\lib\\data\\analytics.ts": {
     "mtime": 1779739950.2080803,
     "ast_hash": "a1717d7447803a06d374aca878b8c197",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\src\\app\\opengraph-image.tsx": {
+    "mtime": 1779740409.1840086,
+    "ast_hash": "c1d624210e7b77ad1bad1b8d60bc8409",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\src\\app\\robots.ts": {
+    "mtime": 1779740393.9506989,
+    "ast_hash": "6411c144e2844bb6e5480ec87d5ceba4",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\src\\app\\sitemap.ts": {
+    "mtime": 1779740376.5203435,
+    "ast_hash": "f15ebcedc883adaabf1183e606243b99",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\src\\app\\(main)\\story\\[slug]\\opengraph-image.tsx": {
+    "mtime": 1779740431.0125566,
+    "ast_hash": "274a4084416abb5cc29480b61c6380f8",
     "semantic_hash": ""
   }
 }
