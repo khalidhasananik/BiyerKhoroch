@@ -2,6 +2,7 @@
 
 import { useState, type ReactNode } from "react";
 import { useLocalStorageDraft } from "@/hooks/useLocalStorageDraft";
+import { useGTM } from "@/hooks/useGTM";
 import { submissionFormSchema } from "@/lib/validations/submission";
 import { formatBDT } from "@/lib/utils/format";
 
@@ -77,6 +78,7 @@ export function SubmissionForm() {
   const [hasDraft, setHasDraft] = useState(false);
   const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
   const [serverError, setServerError] = useState("");
+  const { trackEvent } = useGTM();
 
   const clearDraft = useLocalStorageDraft(DRAFT_KEY, form, (saved) => {
     setForm(saved);
@@ -164,6 +166,7 @@ export function SubmissionForm() {
       }
       clearDraft();
       setStatus("success");
+      trackEvent({ event: "form_submit_success", city: payload.city, total_cost: calcTotal(form), guest_count: Math.round(n(form.guestCount)) });
     } catch (err) {
       setServerError(err instanceof Error ? err.message : "Something went wrong. Please try again.");
       setStatus("error");

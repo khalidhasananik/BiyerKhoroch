@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useGTM } from "@/hooks/useGTM";
 
 interface ShareButtonsProps {
   url: string;
@@ -9,6 +10,8 @@ interface ShareButtonsProps {
 
 export function ShareButtons({ url, title }: ShareButtonsProps) {
   const [copied, setCopied] = useState(false);
+  const { trackEvent } = useGTM();
+  const slug = url.split("/").filter(Boolean).pop() ?? url;
 
   async function handleCopy() {
     try {
@@ -26,6 +29,7 @@ export function ShareButtons({ url, title }: ShareButtonsProps) {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     }
+    trackEvent({ event: "share_click", method: "copy", story_slug: slug });
   }
 
   const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(title)}&url=${encodeURIComponent(url)}`;
@@ -70,6 +74,7 @@ export function ShareButtons({ url, title }: ShareButtonsProps) {
         href={twitterUrl}
         target="_blank"
         rel="noopener noreferrer"
+        onClick={() => trackEvent({ event: "share_click", method: "twitter", story_slug: slug })}
         className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border text-sm font-medium transition-colors hover:border-[var(--accent)] hover:text-[var(--accent)]"
         style={{
           borderColor: "var(--border)",
@@ -88,6 +93,7 @@ export function ShareButtons({ url, title }: ShareButtonsProps) {
         href={facebookUrl}
         target="_blank"
         rel="noopener noreferrer"
+        onClick={() => trackEvent({ event: "share_click", method: "facebook", story_slug: slug })}
         className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border text-sm font-medium transition-colors hover:border-[var(--accent)] hover:text-[var(--accent)]"
         style={{
           borderColor: "var(--border)",

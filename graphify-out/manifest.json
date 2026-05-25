@@ -185,8 +185,8 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\app\\admin\\dashboard\\page.tsx": {
-    "mtime": 1779742789.1717157,
-    "ast_hash": "49b3994bc15f90e1f714b9812ae675b3",
+    "mtime": 1779743211.238433,
+    "ast_hash": "d3e55327713a5daf51c5f88bb902e88f",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\app\\admin\\queue\\page.tsx": {
@@ -200,8 +200,8 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\app\\api\\admin\\submissions\\[id]\\route.ts": {
-    "mtime": 1779739933.264215,
-    "ast_hash": "dbe302c7c6d6756f6c25cda1f2cb530f",
+    "mtime": 1779743221.4983344,
+    "ast_hash": "f303aca989a8dca5768aa050ee50bd1d",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\components\\admin\\LogoutButton.tsx": {
@@ -312,6 +312,16 @@
   "E:\\biyerkhoroch\\src\\lib\\email.ts": {
     "mtime": 1779742790.2491198,
     "ast_hash": "db0f3ea866f67e527c84d33aa1486229",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\src\\app\\admin\\approved\\page.tsx": {
+    "mtime": 1779743200.0750384,
+    "ast_hash": "826276ad5b9e090587d21ee7cdf8def6",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\src\\components\\admin\\ApprovedCard.tsx": {
+    "mtime": 1779743182.38267,
+    "ast_hash": "9a3651f0d5f1ebe879fd79f95317bf13",
     "semantic_hash": ""
   }
 }

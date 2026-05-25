@@ -4,1053 +4,45 @@
   "graph": {},
   "nodes": [
     {
-      "label": "CLAUDE.md",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/admin/approved/page.tsx",
       "source_location": "L1",
-      "id": "claude_md",
-      "community": 3,
-      "norm_label": "claude.md"
+      "id": "app_admin_approved_page_tsx",
+      "community": 7,
+      "norm_label": "page.tsx"
     },
     {
-      "label": "graphify",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L3",
-      "id": "biyerkhoroch_claude_graphify",
-      "community": 3,
-      "norm_label": "graphify"
-    },
-    {
-      "label": "BiyerKahini \u2014 Development Phases",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L15",
-      "id": "biyerkhoroch_claude_biyerkahini_development_phases",
-      "community": 3,
-      "norm_label": "biyerkahini \u2014 development phases"
-    },
-    {
-      "label": "Phase 1 \u2014 Project Setup, Folder Structure, Theme, MongoDB Connection",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L22",
-      "id": "biyerkhoroch_claude_phase_1_project_setup_folder_structure_theme_mongodb_connection",
-      "community": 13,
-      "norm_label": "phase 1 \u2014 project setup, folder structure, theme, mongodb connection"
-    },
-    {
-      "label": "Objectives",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L25",
-      "id": "biyerkhoroch_claude_objectives",
-      "community": 13,
-      "norm_label": "objectives"
-    },
-    {
-      "label": "Tasks",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L32",
-      "id": "biyerkhoroch_claude_tasks",
-      "community": 13,
-      "norm_label": "tasks"
-    },
-    {
-      "label": "Deliverables",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L42",
-      "id": "biyerkhoroch_claude_deliverables",
-      "community": 13,
-      "norm_label": "deliverables"
-    },
-    {
-      "label": "Checklist",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L48",
-      "id": "biyerkhoroch_claude_checklist",
-      "community": 13,
-      "norm_label": "checklist"
-    },
-    {
-      "label": "Phase 2 \u2014 Homepage UI (Hero, Feed Cards, Navbar, Footer)",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L56",
-      "id": "biyerkhoroch_claude_phase_2_homepage_ui_hero_feed_cards_navbar_footer",
-      "community": 3,
-      "norm_label": "phase 2 \u2014 homepage ui (hero, feed cards, navbar, footer)"
-    },
-    {
-      "label": "Objectives",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L59",
-      "id": "biyerkhoroch_claude_objectives_59",
-      "community": 3,
-      "norm_label": "objectives"
-    },
-    {
-      "label": "Tasks",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L65",
-      "id": "biyerkhoroch_claude_tasks_65",
-      "community": 3,
-      "norm_label": "tasks"
-    },
-    {
-      "label": "Deliverables",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L78",
-      "id": "biyerkhoroch_claude_deliverables_78",
-      "community": 3,
-      "norm_label": "deliverables"
-    },
-    {
-      "label": "Checklist",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L83",
-      "id": "biyerkhoroch_claude_checklist_83",
-      "community": 3,
-      "norm_label": "checklist"
-    },
-    {
-      "label": "Phase 3 \u2014 Submission Form (Frontend)",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L91",
-      "id": "biyerkhoroch_claude_phase_3_submission_form_frontend",
-      "community": 3,
-      "norm_label": "phase 3 \u2014 submission form (frontend)"
-    },
-    {
-      "label": "Objectives",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L94",
-      "id": "biyerkhoroch_claude_objectives_94",
-      "community": 3,
-      "norm_label": "objectives"
-    },
-    {
-      "label": "Tasks",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L100",
-      "id": "biyerkhoroch_claude_tasks_100",
-      "community": 3,
-      "norm_label": "tasks"
-    },
-    {
-      "label": "Deliverables",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L109",
-      "id": "biyerkhoroch_claude_deliverables_109",
-      "community": 3,
-      "norm_label": "deliverables"
-    },
-    {
-      "label": "Checklist",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L114",
-      "id": "biyerkhoroch_claude_checklist_114",
-      "community": 3,
-      "norm_label": "checklist"
-    },
-    {
-      "label": "Phase 4 \u2014 Backend: Submission API + Database Schema",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L123",
-      "id": "biyerkhoroch_claude_phase_4_backend_submission_api_database_schema",
-      "community": 3,
-      "norm_label": "phase 4 \u2014 backend: submission api + database schema"
-    },
-    {
-      "label": "Objectives",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L126",
-      "id": "biyerkhoroch_claude_objectives_126",
-      "community": 3,
-      "norm_label": "objectives"
-    },
-    {
-      "label": "Tasks",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L132",
-      "id": "biyerkhoroch_claude_tasks_132",
-      "community": 3,
-      "norm_label": "tasks"
-    },
-    {
-      "label": "Deliverables",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L142",
-      "id": "biyerkhoroch_claude_deliverables_142",
-      "community": 3,
-      "norm_label": "deliverables"
-    },
-    {
-      "label": "Checklist",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L147",
-      "id": "biyerkhoroch_claude_checklist_147",
-      "community": 3,
-      "norm_label": "checklist"
-    },
-    {
-      "label": "Phase 5 \u2014 Admin Panel",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L155",
-      "id": "biyerkhoroch_claude_phase_5_admin_panel",
-      "community": 3,
-      "norm_label": "phase 5 \u2014 admin panel"
-    },
-    {
-      "label": "Objectives",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L158",
-      "id": "biyerkhoroch_claude_objectives_158",
-      "community": 3,
-      "norm_label": "objectives"
-    },
-    {
-      "label": "Tasks",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L163",
-      "id": "biyerkhoroch_claude_tasks_163",
-      "community": 3,
-      "norm_label": "tasks"
-    },
-    {
-      "label": "Deliverables",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L172",
-      "id": "biyerkhoroch_claude_deliverables_172",
-      "community": 3,
-      "norm_label": "deliverables"
-    },
-    {
-      "label": "Checklist",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L177",
-      "id": "biyerkhoroch_claude_checklist_177",
-      "community": 3,
-      "norm_label": "checklist"
-    },
-    {
-      "label": "Phase 6 \u2014 Story Detail Pages",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L185",
-      "id": "biyerkhoroch_claude_phase_6_story_detail_pages",
-      "community": 3,
-      "norm_label": "phase 6 \u2014 story detail pages"
-    },
-    {
-      "label": "Objectives",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L188",
-      "id": "biyerkhoroch_claude_objectives_188",
-      "community": 3,
-      "norm_label": "objectives"
-    },
-    {
-      "label": "Tasks",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L194",
-      "id": "biyerkhoroch_claude_tasks_194",
-      "community": 3,
-      "norm_label": "tasks"
-    },
-    {
-      "label": "Deliverables",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L203",
-      "id": "biyerkhoroch_claude_deliverables_203",
-      "community": 3,
-      "norm_label": "deliverables"
-    },
-    {
-      "label": "Checklist",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L208",
-      "id": "biyerkhoroch_claude_checklist_208",
-      "community": 3,
-      "norm_label": "checklist"
-    },
-    {
-      "label": "Phase 7 \u2014 Search & Filter System",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L216",
-      "id": "biyerkhoroch_claude_phase_7_search_filter_system",
-      "community": 14,
-      "norm_label": "phase 7 \u2014 search & filter system"
-    },
-    {
-      "label": "Objectives",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L219",
-      "id": "biyerkhoroch_claude_objectives_219",
-      "community": 14,
-      "norm_label": "objectives"
-    },
-    {
-      "label": "Tasks",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L224",
-      "id": "biyerkhoroch_claude_tasks_224",
-      "community": 14,
-      "norm_label": "tasks"
-    },
-    {
-      "label": "Deliverables",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L233",
-      "id": "biyerkhoroch_claude_deliverables_233",
-      "community": 14,
-      "norm_label": "deliverables"
-    },
-    {
-      "label": "Checklist",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L239",
-      "id": "biyerkhoroch_claude_checklist_239",
-      "community": 14,
-      "norm_label": "checklist"
-    },
-    {
-      "label": "Phase 8 \u2014 Analytics & Statistics",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L247",
-      "id": "biyerkhoroch_claude_phase_8_analytics_statistics",
-      "community": 3,
-      "norm_label": "phase 8 \u2014 analytics & statistics"
-    },
-    {
-      "label": "Objectives",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L250",
-      "id": "biyerkhoroch_claude_objectives_250",
-      "community": 3,
-      "norm_label": "objectives"
-    },
-    {
-      "label": "Tasks",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L255",
-      "id": "biyerkhoroch_claude_tasks_255",
-      "community": 3,
-      "norm_label": "tasks"
-    },
-    {
-      "label": "Deliverables",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L263",
-      "id": "biyerkhoroch_claude_deliverables_263",
-      "community": 3,
-      "norm_label": "deliverables"
-    },
-    {
-      "label": "Checklist",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L268",
-      "id": "biyerkhoroch_claude_checklist_268",
-      "community": 3,
-      "norm_label": "checklist"
-    },
-    {
-      "label": "Phase 9 \u2014 SEO Optimization",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L276",
-      "id": "biyerkhoroch_claude_phase_9_seo_optimization",
-      "community": 3,
-      "norm_label": "phase 9 \u2014 seo optimization"
-    },
-    {
-      "label": "Objectives",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L279",
-      "id": "biyerkhoroch_claude_objectives_279",
-      "community": 3,
-      "norm_label": "objectives"
-    },
-    {
-      "label": "Tasks",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L286",
-      "id": "biyerkhoroch_claude_tasks_286",
-      "community": 3,
-      "norm_label": "tasks"
-    },
-    {
-      "label": "Deliverables",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L296",
-      "id": "biyerkhoroch_claude_deliverables_296",
-      "community": 3,
-      "norm_label": "deliverables"
-    },
-    {
-      "label": "Checklist",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L302",
-      "id": "biyerkhoroch_claude_checklist_302",
-      "community": 3,
-      "norm_label": "checklist"
-    },
-    {
-      "label": "Phase 10 \u2014 Performance Optimization & Deployment Prep",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L310",
-      "id": "biyerkhoroch_claude_phase_10_performance_optimization_deployment_prep",
-      "community": 3,
-      "norm_label": "phase 10 \u2014 performance optimization & deployment prep"
-    },
-    {
-      "label": "Objectives",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L313",
-      "id": "biyerkhoroch_claude_objectives_313",
-      "community": 3,
-      "norm_label": "objectives"
-    },
-    {
-      "label": "Tasks",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L320",
-      "id": "biyerkhoroch_claude_tasks_320",
-      "community": 3,
-      "norm_label": "tasks"
-    },
-    {
-      "label": "Deliverables",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L330",
-      "id": "biyerkhoroch_claude_deliverables_330",
-      "community": 3,
-      "norm_label": "deliverables"
-    },
-    {
-      "label": "Checklist",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L336",
-      "id": "biyerkhoroch_claude_checklist_336",
-      "community": 3,
-      "norm_label": "checklist"
-    },
-    {
-      "label": "Workflow Rules",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L344",
-      "id": "biyerkhoroch_claude_workflow_rules",
-      "community": 3,
-      "norm_label": "workflow rules"
-    },
-    {
-      "label": "DEPLOYMENT.md",
-      "file_type": "document",
-      "source_file": "DEPLOYMENT.md",
-      "source_location": "L1",
-      "id": "deployment_md",
-      "community": 9,
-      "norm_label": "deployment.md"
-    },
-    {
-      "label": "Deployment Guide \u2014 BiyerKahini",
-      "file_type": "document",
-      "source_file": "DEPLOYMENT.md",
-      "source_location": "L1",
-      "id": "biyerkhoroch_deployment_deployment_guide_biyerkahini",
-      "community": 9,
-      "norm_label": "deployment guide \u2014 biyerkahini"
-    },
-    {
-      "label": "Prerequisites",
-      "file_type": "document",
-      "source_file": "DEPLOYMENT.md",
-      "source_location": "L3",
-      "id": "biyerkhoroch_deployment_prerequisites",
-      "community": 9,
-      "norm_label": "prerequisites"
-    },
-    {
-      "label": "1. MongoDB Setup",
-      "file_type": "document",
-      "source_file": "DEPLOYMENT.md",
-      "source_location": "L11",
-      "id": "biyerkhoroch_deployment_1_mongodb_setup",
-      "community": 9,
-      "norm_label": "1. mongodb setup"
-    },
-    {
-      "label": "code:block1 (mongodb+srv://<user>:<password>@<cluster>.mongodb.net/?retry)",
-      "file_type": "document",
-      "source_file": "DEPLOYMENT.md",
-      "source_location": "L17",
-      "id": "biyerkhoroch_deployment_codeblock_1",
-      "community": 9,
-      "norm_label": "code:block1 (mongodb+srv://<user>:<password>@<cluster>.mongodb.net/?retry)"
-    },
-    {
-      "label": "2. Environment Variables",
-      "file_type": "document",
-      "source_file": "DEPLOYMENT.md",
-      "source_location": "L24",
-      "id": "biyerkhoroch_deployment_2_environment_variables",
-      "community": 9,
-      "norm_label": "2. environment variables"
-    },
-    {
-      "label": "3. Deploy to Vercel",
-      "file_type": "document",
-      "source_file": "DEPLOYMENT.md",
-      "source_location": "L38",
-      "id": "biyerkhoroch_deployment_3_deploy_to_vercel",
-      "community": 9,
-      "norm_label": "3. deploy to vercel"
-    },
-    {
-      "label": "Via Vercel CLI",
-      "file_type": "document",
-      "source_file": "DEPLOYMENT.md",
-      "source_location": "L40",
-      "id": "biyerkhoroch_deployment_via_vercel_cli",
-      "community": 9,
-      "norm_label": "via vercel cli"
-    },
-    {
-      "label": "code:bash (npm i -g vercel)",
-      "file_type": "document",
-      "source_file": "DEPLOYMENT.md",
-      "source_location": "L42",
-      "id": "biyerkhoroch_deployment_codeblock_2",
-      "community": 9,
-      "norm_label": "code:bash (npm i -g vercel)"
-    },
-    {
-      "label": "Via GitHub Integration",
-      "file_type": "document",
-      "source_file": "DEPLOYMENT.md",
-      "source_location": "L47",
-      "id": "biyerkhoroch_deployment_via_github_integration",
-      "community": 9,
-      "norm_label": "via github integration"
-    },
-    {
-      "label": "4. Custom Domain",
-      "file_type": "document",
-      "source_file": "DEPLOYMENT.md",
-      "source_location": "L57",
-      "id": "biyerkhoroch_deployment_4_custom_domain",
-      "community": 9,
-      "norm_label": "4. custom domain"
-    },
-    {
-      "label": "5. Post-Deployment Checklist",
-      "file_type": "document",
-      "source_file": "DEPLOYMENT.md",
-      "source_location": "L65",
-      "id": "biyerkhoroch_deployment_5_post_deployment_checklist",
-      "community": 9,
-      "norm_label": "5. post-deployment checklist"
-    },
-    {
-      "label": "6. Local Development",
-      "file_type": "document",
-      "source_file": "DEPLOYMENT.md",
-      "source_location": "L77",
-      "id": "biyerkhoroch_deployment_6_local_development",
-      "community": 9,
-      "norm_label": "6. local development"
-    },
-    {
-      "label": "code:bash (cp .env.example .env.local)",
-      "file_type": "document",
-      "source_file": "DEPLOYMENT.md",
-      "source_location": "L79",
-      "id": "biyerkhoroch_deployment_codeblock_3",
-      "community": 9,
-      "norm_label": "code:bash (cp .env.example .env.local)"
-    },
-    {
-      "label": "7. Useful Commands",
-      "file_type": "document",
-      "source_file": "DEPLOYMENT.md",
-      "source_location": "L91",
-      "id": "biyerkhoroch_deployment_7_useful_commands",
-      "community": 9,
-      "norm_label": "7. useful commands"
-    },
-    {
-      "label": "package.json",
+      "label": "getApprovedSubmissions()",
       "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L1",
-      "id": "package_json",
-      "community": 4,
-      "norm_label": "package.json"
-    },
-    {
-      "label": "name",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L2",
-      "id": "biyerkhoroch_package_name",
-      "community": 4,
-      "norm_label": "name"
-    },
-    {
-      "label": "version",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L3",
-      "id": "biyerkhoroch_package_version",
-      "community": 4,
-      "norm_label": "version"
-    },
-    {
-      "label": "private",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L4",
-      "id": "biyerkhoroch_package_private",
-      "community": 4,
-      "norm_label": "private"
-    },
-    {
-      "label": "scripts",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L5",
-      "id": "biyerkhoroch_package_scripts",
-      "community": 4,
-      "norm_label": "scripts"
-    },
-    {
-      "label": "dev",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L6",
-      "id": "biyerkhoroch_package_scripts_dev",
-      "community": 4,
-      "norm_label": "dev"
-    },
-    {
-      "label": "build",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L7",
-      "id": "biyerkhoroch_package_scripts_build",
-      "community": 4,
-      "norm_label": "build"
-    },
-    {
-      "label": "start",
-      "file_type": "code",
-      "source_file": "package.json",
+      "source_file": "app/admin/approved/page.tsx",
       "source_location": "L8",
-      "id": "biyerkhoroch_package_scripts_start",
-      "community": 4,
-      "norm_label": "start"
+      "id": "approved_page_getapprovedsubmissions",
+      "community": 7,
+      "norm_label": "getapprovedsubmissions()"
     },
     {
-      "label": "lint",
+      "label": "ApprovedPage()",
       "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L9",
-      "id": "biyerkhoroch_package_scripts_lint",
-      "community": 4,
-      "norm_label": "lint"
-    },
-    {
-      "label": "dependencies",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L11",
-      "id": "biyerkhoroch_package_dependencies",
-      "community": 4,
-      "norm_label": "dependencies"
-    },
-    {
-      "label": "mongoose",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L12",
-      "id": "biyerkhoroch_package_dependencies_mongoose",
-      "community": 4,
-      "norm_label": "mongoose"
-    },
-    {
-      "label": "next",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L13",
-      "id": "biyerkhoroch_package_dependencies_next",
-      "community": 4,
-      "norm_label": "next"
-    },
-    {
-      "label": "nodemailer",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L14",
-      "id": "biyerkhoroch_package_dependencies_nodemailer",
-      "community": 4,
-      "norm_label": "nodemailer"
-    },
-    {
-      "label": "react",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L15",
-      "id": "biyerkhoroch_package_dependencies_react",
-      "community": 4,
-      "norm_label": "react"
-    },
-    {
-      "label": "react-dom",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L16",
-      "id": "biyerkhoroch_package_dependencies_react_dom",
-      "community": 4,
-      "norm_label": "react-dom"
-    },
-    {
-      "label": "zod",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L17",
-      "id": "biyerkhoroch_package_dependencies_zod",
-      "community": 4,
-      "norm_label": "zod"
-    },
-    {
-      "label": "devDependencies",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L19",
-      "id": "biyerkhoroch_package_devdependencies",
-      "community": 4,
-      "norm_label": "devdependencies"
-    },
-    {
-      "label": "@tailwindcss/postcss",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L20",
-      "id": "biyerkhoroch_package_devdependencies_tailwindcss_postcss",
-      "community": 4,
-      "norm_label": "@tailwindcss/postcss"
-    },
-    {
-      "label": "@types/node",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L21",
-      "id": "biyerkhoroch_package_devdependencies_types_node",
-      "community": 4,
-      "norm_label": "@types/node"
-    },
-    {
-      "label": "@types/nodemailer",
-      "file_type": "code",
-      "source_file": "package.json",
+      "source_file": "app/admin/approved/page.tsx",
       "source_location": "L22",
-      "id": "biyerkhoroch_package_devdependencies_types_nodemailer",
-      "community": 4,
-      "norm_label": "@types/nodemailer"
-    },
-    {
-      "label": "@types/react",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L23",
-      "id": "biyerkhoroch_package_devdependencies_types_react",
-      "community": 4,
-      "norm_label": "@types/react"
-    },
-    {
-      "label": "@types/react-dom",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L24",
-      "id": "biyerkhoroch_package_devdependencies_types_react_dom",
-      "community": 4,
-      "norm_label": "@types/react-dom"
-    },
-    {
-      "label": "eslint",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L25",
-      "id": "biyerkhoroch_package_devdependencies_eslint",
-      "community": 4,
-      "norm_label": "eslint"
-    },
-    {
-      "label": "eslint-config-next",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L26",
-      "id": "biyerkhoroch_package_devdependencies_eslint_config_next",
-      "community": 4,
-      "norm_label": "eslint-config-next"
-    },
-    {
-      "label": "tailwindcss",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L27",
-      "id": "biyerkhoroch_package_devdependencies_tailwindcss",
-      "community": 4,
-      "norm_label": "tailwindcss"
-    },
-    {
-      "label": "typescript",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L28",
-      "id": "biyerkhoroch_package_devdependencies_typescript",
-      "community": 4,
-      "norm_label": "typescript"
+      "id": "approved_page_approvedpage",
+      "community": 7,
+      "norm_label": "approvedpage()"
     },
     {
       "label": "page.tsx",
       "file_type": "code",
-      "source_file": "src/app/(main)/analytics/page.tsx",
+      "source_file": "app/admin/dashboard/page.tsx",
       "source_location": "L1",
-      "id": "src_app_main_analytics_page_tsx",
-      "community": 11,
-      "norm_label": "page.tsx"
-    },
-    {
-      "label": "metadata",
-      "file_type": "code",
-      "source_file": "src/app/(main)/analytics/page.tsx",
-      "source_location": "L9",
-      "id": "analytics_page_metadata",
-      "community": 11,
-      "norm_label": "metadata"
-    },
-    {
-      "label": "AnalyticsPage()",
-      "file_type": "code",
-      "source_file": "src/app/(main)/analytics/page.tsx",
-      "source_location": "L16",
-      "id": "analytics_page_analyticspage",
-      "community": 11,
-      "norm_label": "analyticspage()"
-    },
-    {
-      "label": "page.tsx",
-      "file_type": "code",
-      "source_file": "src/app/(main)/search/page.tsx",
-      "source_location": "L1",
-      "id": "src_app_main_search_page_tsx",
-      "community": 10,
-      "norm_label": "page.tsx"
-    },
-    {
-      "label": "metadata",
-      "file_type": "code",
-      "source_file": "src/app/(main)/search/page.tsx",
-      "source_location": "L11",
-      "id": "search_page_metadata",
-      "community": 10,
-      "norm_label": "metadata"
-    },
-    {
-      "label": "SearchResultsSkeleton()",
-      "file_type": "code",
-      "source_file": "src/app/(main)/search/page.tsx",
-      "source_location": "L20",
-      "id": "search_page_searchresultsskeleton",
-      "community": 10,
-      "norm_label": "searchresultsskeleton()"
-    },
-    {
-      "label": "ResultsSection()",
-      "file_type": "code",
-      "source_file": "src/app/(main)/search/page.tsx",
-      "source_location": "L55",
-      "id": "search_page_resultssection",
-      "community": 12,
-      "norm_label": "resultssection()"
-    },
-    {
-      "label": "SearchPage()",
-      "file_type": "code",
-      "source_file": "src/app/(main)/search/page.tsx",
-      "source_location": "L80",
-      "id": "search_page_searchpage",
-      "community": 10,
-      "norm_label": "searchpage()"
-    },
-    {
-      "label": "opengraph-image.tsx",
-      "file_type": "code",
-      "source_file": "src/app/(main)/story/[slug]/opengraph-image.tsx",
-      "source_location": "L1",
-      "id": "src_app_main_story_slug_opengraph_image_tsx",
-      "community": 12,
-      "norm_label": "opengraph-image.tsx"
-    },
-    {
-      "label": "size",
-      "file_type": "code",
-      "source_file": "src/app/(main)/story/[slug]/opengraph-image.tsx",
-      "source_location": "L5",
-      "id": "slug_opengraph_image_size",
-      "community": 12,
-      "norm_label": "size"
-    },
-    {
-      "label": "Image()",
-      "file_type": "code",
-      "source_file": "src/app/(main)/story/[slug]/opengraph-image.tsx",
-      "source_location": "L8",
-      "id": "slug_opengraph_image_image",
-      "community": 12,
-      "norm_label": "image()"
-    },
-    {
-      "label": "page.tsx",
-      "file_type": "code",
-      "source_file": "src/app/(main)/story/[slug]/page.tsx",
-      "source_location": "L1",
-      "id": "src_app_main_story_slug_page_tsx",
-      "community": 12,
-      "norm_label": "page.tsx"
-    },
-    {
-      "label": "generateStaticParams()",
-      "file_type": "code",
-      "source_file": "src/app/(main)/story/[slug]/page.tsx",
-      "source_location": "L16",
-      "id": "slug_page_generatestaticparams",
-      "community": 12,
-      "norm_label": "generatestaticparams()"
-    },
-    {
-      "label": "generateMetadata()",
-      "file_type": "code",
-      "source_file": "src/app/(main)/story/[slug]/page.tsx",
-      "source_location": "L21",
-      "id": "slug_page_generatemetadata",
-      "community": 12,
-      "norm_label": "generatemetadata()"
-    },
-    {
-      "label": "StoryPage()",
-      "file_type": "code",
-      "source_file": "src/app/(main)/story/[slug]/page.tsx",
-      "source_location": "L60",
-      "id": "slug_page_storypage",
-      "community": 12,
-      "norm_label": "storypage()"
-    },
-    {
-      "label": "page.tsx",
-      "file_type": "code",
-      "source_file": "src/app/(main)/submit/page.tsx",
-      "source_location": "L1",
-      "id": "src_app_main_submit_page_tsx",
-      "community": 5,
-      "norm_label": "page.tsx"
-    },
-    {
-      "label": "metadata",
-      "file_type": "code",
-      "source_file": "src/app/(main)/submit/page.tsx",
-      "source_location": "L4",
-      "id": "submit_page_metadata",
-      "community": 5,
-      "norm_label": "metadata"
-    },
-    {
-      "label": "FormSkeleton()",
-      "file_type": "code",
-      "source_file": "src/app/(main)/submit/page.tsx",
-      "source_location": "L12",
-      "id": "submit_page_formskeleton",
-      "community": 5,
-      "norm_label": "formskeleton()"
-    },
-    {
-      "label": "SubmissionForm",
-      "file_type": "code",
-      "source_file": "src/app/(main)/submit/page.tsx",
-      "source_location": "L55",
-      "id": "submit_page_submissionform",
-      "community": 5,
-      "norm_label": "submissionform"
-    },
-    {
-      "label": "SubmitPage()",
-      "file_type": "code",
-      "source_file": "src/app/(main)/submit/page.tsx",
-      "source_location": "L60",
-      "id": "submit_page_submitpage",
-      "community": 5,
-      "norm_label": "submitpage()"
-    },
-    {
-      "label": "page.tsx",
-      "file_type": "code",
-      "source_file": "src/app/admin/dashboard/page.tsx",
-      "source_location": "L1",
-      "id": "src_app_admin_dashboard_page_tsx",
+      "id": "app_admin_dashboard_page_tsx",
       "community": 8,
       "norm_label": "page.tsx"
     },
     {
       "label": "getStats()",
       "file_type": "code",
-      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_file": "app/admin/dashboard/page.tsx",
       "source_location": "L7",
       "id": "dashboard_page_getstats",
       "community": 8,
@@ -1059,7 +51,7 @@
     {
       "label": "ACTION_LABELS",
       "file_type": "code",
-      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_file": "app/admin/dashboard/page.tsx",
       "source_location": "L21",
       "id": "dashboard_page_action_labels",
       "community": 8,
@@ -1068,7 +60,7 @@
     {
       "label": "ACTION_COLORS",
       "file_type": "code",
-      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_file": "app/admin/dashboard/page.tsx",
       "source_location": "L27",
       "id": "dashboard_page_action_colors",
       "community": 8,
@@ -1077,7 +69,7 @@
     {
       "label": "DashboardPage()",
       "file_type": "code",
-      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_file": "app/admin/dashboard/page.tsx",
       "source_location": "L33",
       "id": "dashboard_page_dashboardpage",
       "community": 8,
@@ -1086,416 +78,1523 @@
     {
       "label": "StatCard()",
       "file_type": "code",
-      "source_file": "src/app/admin/dashboard/page.tsx",
-      "source_location": "L112",
+      "source_file": "app/admin/dashboard/page.tsx",
+      "source_location": "L118",
       "id": "dashboard_page_statcard",
       "community": 8,
       "norm_label": "statcard()"
+    },
+    {
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "app/api/admin/submissions/[id]/route.ts",
+      "source_location": "L1",
+      "id": "app_api_admin_submissions_id_route_ts",
+      "community": 8,
+      "norm_label": "route.ts"
+    },
+    {
+      "label": "isAuthenticated()",
+      "file_type": "code",
+      "source_file": "app/api/admin/submissions/[id]/route.ts",
+      "source_location": "L9",
+      "id": "id_route_isauthenticated",
+      "community": 8,
+      "norm_label": "isauthenticated()"
+    },
+    {
+      "label": "PATCH()",
+      "file_type": "code",
+      "source_file": "app/api/admin/submissions/[id]/route.ts",
+      "source_location": "L14",
+      "id": "id_route_patch",
+      "community": 8,
+      "norm_label": "patch()"
+    },
+    {
+      "label": "DELETE()",
+      "file_type": "code",
+      "source_file": "app/api/admin/submissions/[id]/route.ts",
+      "source_location": "L63",
+      "id": "id_route_delete",
+      "community": 8,
+      "norm_label": "delete()"
+    },
+    {
+      "label": "ApprovedCard.tsx",
+      "file_type": "code",
+      "source_file": "components/admin/ApprovedCard.tsx",
+      "source_location": "L1",
+      "id": "components_admin_approvedcard_tsx",
+      "community": 7,
+      "norm_label": "approvedcard.tsx"
+    },
+    {
+      "label": "formatBDT()",
+      "file_type": "code",
+      "source_file": "components/admin/ApprovedCard.tsx",
+      "source_location": "L8",
+      "id": "admin_approvedcard_formatbdt",
+      "community": 7,
+      "norm_label": "formatbdt()"
+    },
+    {
+      "label": "ApprovedCard()",
+      "file_type": "code",
+      "source_file": "components/admin/ApprovedCard.tsx",
+      "source_location": "L12",
+      "id": "admin_approvedcard_approvedcard",
+      "community": 7,
+      "norm_label": "approvedcard()"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "community": 3,
+      "norm_label": "claude.md",
+      "id": "claude_md"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L3",
+      "community": 3,
+      "norm_label": "graphify",
+      "id": "biyerkhoroch_claude_graphify"
+    },
+    {
+      "label": "BiyerKahini \u2014 Development Phases",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L15",
+      "community": 3,
+      "norm_label": "biyerkahini \u2014 development phases",
+      "id": "biyerkhoroch_claude_biyerkahini_development_phases"
+    },
+    {
+      "label": "Phase 1 \u2014 Project Setup, Folder Structure, Theme, MongoDB Connection",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L22",
+      "community": 3,
+      "norm_label": "phase 1 \u2014 project setup, folder structure, theme, mongodb connection",
+      "id": "biyerkhoroch_claude_phase_1_project_setup_folder_structure_theme_mongodb_connection"
+    },
+    {
+      "label": "Objectives",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L25",
+      "community": 3,
+      "norm_label": "objectives",
+      "id": "biyerkhoroch_claude_objectives"
+    },
+    {
+      "label": "Tasks",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L32",
+      "community": 3,
+      "norm_label": "tasks",
+      "id": "biyerkhoroch_claude_tasks"
+    },
+    {
+      "label": "Deliverables",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L42",
+      "community": 3,
+      "norm_label": "deliverables",
+      "id": "biyerkhoroch_claude_deliverables"
+    },
+    {
+      "label": "Checklist",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L48",
+      "community": 3,
+      "norm_label": "checklist",
+      "id": "biyerkhoroch_claude_checklist"
+    },
+    {
+      "label": "Phase 2 \u2014 Homepage UI (Hero, Feed Cards, Navbar, Footer)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L56",
+      "community": 3,
+      "norm_label": "phase 2 \u2014 homepage ui (hero, feed cards, navbar, footer)",
+      "id": "biyerkhoroch_claude_phase_2_homepage_ui_hero_feed_cards_navbar_footer"
+    },
+    {
+      "label": "Objectives",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L59",
+      "community": 3,
+      "norm_label": "objectives",
+      "id": "biyerkhoroch_claude_objectives_59"
+    },
+    {
+      "label": "Tasks",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L65",
+      "community": 3,
+      "norm_label": "tasks",
+      "id": "biyerkhoroch_claude_tasks_65"
+    },
+    {
+      "label": "Deliverables",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L78",
+      "community": 3,
+      "norm_label": "deliverables",
+      "id": "biyerkhoroch_claude_deliverables_78"
+    },
+    {
+      "label": "Checklist",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L83",
+      "community": 3,
+      "norm_label": "checklist",
+      "id": "biyerkhoroch_claude_checklist_83"
+    },
+    {
+      "label": "Phase 3 \u2014 Submission Form (Frontend)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L91",
+      "community": 3,
+      "norm_label": "phase 3 \u2014 submission form (frontend)",
+      "id": "biyerkhoroch_claude_phase_3_submission_form_frontend"
+    },
+    {
+      "label": "Objectives",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L94",
+      "community": 3,
+      "norm_label": "objectives",
+      "id": "biyerkhoroch_claude_objectives_94"
+    },
+    {
+      "label": "Tasks",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L100",
+      "community": 3,
+      "norm_label": "tasks",
+      "id": "biyerkhoroch_claude_tasks_100"
+    },
+    {
+      "label": "Deliverables",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L109",
+      "community": 3,
+      "norm_label": "deliverables",
+      "id": "biyerkhoroch_claude_deliverables_109"
+    },
+    {
+      "label": "Checklist",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L114",
+      "community": 3,
+      "norm_label": "checklist",
+      "id": "biyerkhoroch_claude_checklist_114"
+    },
+    {
+      "label": "Phase 4 \u2014 Backend: Submission API + Database Schema",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L123",
+      "community": 3,
+      "norm_label": "phase 4 \u2014 backend: submission api + database schema",
+      "id": "biyerkhoroch_claude_phase_4_backend_submission_api_database_schema"
+    },
+    {
+      "label": "Objectives",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L126",
+      "community": 3,
+      "norm_label": "objectives",
+      "id": "biyerkhoroch_claude_objectives_126"
+    },
+    {
+      "label": "Tasks",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L132",
+      "community": 3,
+      "norm_label": "tasks",
+      "id": "biyerkhoroch_claude_tasks_132"
+    },
+    {
+      "label": "Deliverables",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L142",
+      "community": 3,
+      "norm_label": "deliverables",
+      "id": "biyerkhoroch_claude_deliverables_142"
+    },
+    {
+      "label": "Checklist",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L147",
+      "community": 3,
+      "norm_label": "checklist",
+      "id": "biyerkhoroch_claude_checklist_147"
+    },
+    {
+      "label": "Phase 5 \u2014 Admin Panel",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L155",
+      "community": 10,
+      "norm_label": "phase 5 \u2014 admin panel",
+      "id": "biyerkhoroch_claude_phase_5_admin_panel"
+    },
+    {
+      "label": "Objectives",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L158",
+      "community": 10,
+      "norm_label": "objectives",
+      "id": "biyerkhoroch_claude_objectives_158"
+    },
+    {
+      "label": "Tasks",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L163",
+      "community": 10,
+      "norm_label": "tasks",
+      "id": "biyerkhoroch_claude_tasks_163"
+    },
+    {
+      "label": "Deliverables",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L172",
+      "community": 10,
+      "norm_label": "deliverables",
+      "id": "biyerkhoroch_claude_deliverables_172"
+    },
+    {
+      "label": "Checklist",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L177",
+      "community": 10,
+      "norm_label": "checklist",
+      "id": "biyerkhoroch_claude_checklist_177"
+    },
+    {
+      "label": "Phase 6 \u2014 Story Detail Pages",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L185",
+      "community": 3,
+      "norm_label": "phase 6 \u2014 story detail pages",
+      "id": "biyerkhoroch_claude_phase_6_story_detail_pages"
+    },
+    {
+      "label": "Objectives",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L188",
+      "community": 3,
+      "norm_label": "objectives",
+      "id": "biyerkhoroch_claude_objectives_188"
+    },
+    {
+      "label": "Tasks",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L194",
+      "community": 3,
+      "norm_label": "tasks",
+      "id": "biyerkhoroch_claude_tasks_194"
+    },
+    {
+      "label": "Deliverables",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L203",
+      "community": 3,
+      "norm_label": "deliverables",
+      "id": "biyerkhoroch_claude_deliverables_203"
+    },
+    {
+      "label": "Checklist",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L208",
+      "community": 3,
+      "norm_label": "checklist",
+      "id": "biyerkhoroch_claude_checklist_208"
+    },
+    {
+      "label": "Phase 7 \u2014 Search & Filter System",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L216",
+      "community": 3,
+      "norm_label": "phase 7 \u2014 search & filter system",
+      "id": "biyerkhoroch_claude_phase_7_search_filter_system"
+    },
+    {
+      "label": "Objectives",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L219",
+      "community": 3,
+      "norm_label": "objectives",
+      "id": "biyerkhoroch_claude_objectives_219"
+    },
+    {
+      "label": "Tasks",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L224",
+      "community": 3,
+      "norm_label": "tasks",
+      "id": "biyerkhoroch_claude_tasks_224"
+    },
+    {
+      "label": "Deliverables",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L233",
+      "community": 3,
+      "norm_label": "deliverables",
+      "id": "biyerkhoroch_claude_deliverables_233"
+    },
+    {
+      "label": "Checklist",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L239",
+      "community": 3,
+      "norm_label": "checklist",
+      "id": "biyerkhoroch_claude_checklist_239"
+    },
+    {
+      "label": "Phase 8 \u2014 Analytics & Statistics",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L247",
+      "community": 3,
+      "norm_label": "phase 8 \u2014 analytics & statistics",
+      "id": "biyerkhoroch_claude_phase_8_analytics_statistics"
+    },
+    {
+      "label": "Objectives",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L250",
+      "community": 3,
+      "norm_label": "objectives",
+      "id": "biyerkhoroch_claude_objectives_250"
+    },
+    {
+      "label": "Tasks",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L255",
+      "community": 3,
+      "norm_label": "tasks",
+      "id": "biyerkhoroch_claude_tasks_255"
+    },
+    {
+      "label": "Deliverables",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L263",
+      "community": 3,
+      "norm_label": "deliverables",
+      "id": "biyerkhoroch_claude_deliverables_263"
+    },
+    {
+      "label": "Checklist",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L268",
+      "community": 3,
+      "norm_label": "checklist",
+      "id": "biyerkhoroch_claude_checklist_268"
+    },
+    {
+      "label": "Phase 9 \u2014 SEO Optimization",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L276",
+      "community": 3,
+      "norm_label": "phase 9 \u2014 seo optimization",
+      "id": "biyerkhoroch_claude_phase_9_seo_optimization"
+    },
+    {
+      "label": "Objectives",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L279",
+      "community": 3,
+      "norm_label": "objectives",
+      "id": "biyerkhoroch_claude_objectives_279"
+    },
+    {
+      "label": "Tasks",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L286",
+      "community": 3,
+      "norm_label": "tasks",
+      "id": "biyerkhoroch_claude_tasks_286"
+    },
+    {
+      "label": "Deliverables",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L296",
+      "community": 3,
+      "norm_label": "deliverables",
+      "id": "biyerkhoroch_claude_deliverables_296"
+    },
+    {
+      "label": "Checklist",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L302",
+      "community": 3,
+      "norm_label": "checklist",
+      "id": "biyerkhoroch_claude_checklist_302"
+    },
+    {
+      "label": "Phase 10 \u2014 Performance Optimization & Deployment Prep",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L310",
+      "community": 3,
+      "norm_label": "phase 10 \u2014 performance optimization & deployment prep",
+      "id": "biyerkhoroch_claude_phase_10_performance_optimization_deployment_prep"
+    },
+    {
+      "label": "Objectives",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L313",
+      "community": 3,
+      "norm_label": "objectives",
+      "id": "biyerkhoroch_claude_objectives_313"
+    },
+    {
+      "label": "Tasks",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L320",
+      "community": 3,
+      "norm_label": "tasks",
+      "id": "biyerkhoroch_claude_tasks_320"
+    },
+    {
+      "label": "Deliverables",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L330",
+      "community": 3,
+      "norm_label": "deliverables",
+      "id": "biyerkhoroch_claude_deliverables_330"
+    },
+    {
+      "label": "Checklist",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L336",
+      "community": 3,
+      "norm_label": "checklist",
+      "id": "biyerkhoroch_claude_checklist_336"
+    },
+    {
+      "label": "Workflow Rules",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L344",
+      "community": 3,
+      "norm_label": "workflow rules",
+      "id": "biyerkhoroch_claude_workflow_rules"
+    },
+    {
+      "label": "DEPLOYMENT.md",
+      "file_type": "document",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L1",
+      "community": 9,
+      "norm_label": "deployment.md",
+      "id": "deployment_md"
+    },
+    {
+      "label": "Deployment Guide \u2014 BiyerKahini",
+      "file_type": "document",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L1",
+      "community": 9,
+      "norm_label": "deployment guide \u2014 biyerkahini",
+      "id": "biyerkhoroch_deployment_deployment_guide_biyerkahini"
+    },
+    {
+      "label": "Prerequisites",
+      "file_type": "document",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L3",
+      "community": 9,
+      "norm_label": "prerequisites",
+      "id": "biyerkhoroch_deployment_prerequisites"
+    },
+    {
+      "label": "1. MongoDB Setup",
+      "file_type": "document",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L11",
+      "community": 9,
+      "norm_label": "1. mongodb setup",
+      "id": "biyerkhoroch_deployment_1_mongodb_setup"
+    },
+    {
+      "label": "code:block1 (mongodb+srv://<user>:<password>@<cluster>.mongodb.net/?retry)",
+      "file_type": "document",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L17",
+      "community": 9,
+      "norm_label": "code:block1 (mongodb+srv://<user>:<password>@<cluster>.mongodb.net/?retry)",
+      "id": "biyerkhoroch_deployment_codeblock_1"
+    },
+    {
+      "label": "2. Environment Variables",
+      "file_type": "document",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L24",
+      "community": 9,
+      "norm_label": "2. environment variables",
+      "id": "biyerkhoroch_deployment_2_environment_variables"
+    },
+    {
+      "label": "3. Deploy to Vercel",
+      "file_type": "document",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L38",
+      "community": 9,
+      "norm_label": "3. deploy to vercel",
+      "id": "biyerkhoroch_deployment_3_deploy_to_vercel"
+    },
+    {
+      "label": "Via Vercel CLI",
+      "file_type": "document",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L40",
+      "community": 9,
+      "norm_label": "via vercel cli",
+      "id": "biyerkhoroch_deployment_via_vercel_cli"
+    },
+    {
+      "label": "code:bash (npm i -g vercel)",
+      "file_type": "document",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L42",
+      "community": 9,
+      "norm_label": "code:bash (npm i -g vercel)",
+      "id": "biyerkhoroch_deployment_codeblock_2"
+    },
+    {
+      "label": "Via GitHub Integration",
+      "file_type": "document",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L47",
+      "community": 9,
+      "norm_label": "via github integration",
+      "id": "biyerkhoroch_deployment_via_github_integration"
+    },
+    {
+      "label": "4. Custom Domain",
+      "file_type": "document",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L57",
+      "community": 9,
+      "norm_label": "4. custom domain",
+      "id": "biyerkhoroch_deployment_4_custom_domain"
+    },
+    {
+      "label": "5. Post-Deployment Checklist",
+      "file_type": "document",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L65",
+      "community": 9,
+      "norm_label": "5. post-deployment checklist",
+      "id": "biyerkhoroch_deployment_5_post_deployment_checklist"
+    },
+    {
+      "label": "6. Local Development",
+      "file_type": "document",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L77",
+      "community": 9,
+      "norm_label": "6. local development",
+      "id": "biyerkhoroch_deployment_6_local_development"
+    },
+    {
+      "label": "code:bash (cp .env.example .env.local)",
+      "file_type": "document",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L79",
+      "community": 9,
+      "norm_label": "code:bash (cp .env.example .env.local)",
+      "id": "biyerkhoroch_deployment_codeblock_3"
+    },
+    {
+      "label": "7. Useful Commands",
+      "file_type": "document",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L91",
+      "community": 9,
+      "norm_label": "7. useful commands",
+      "id": "biyerkhoroch_deployment_7_useful_commands"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "community": 4,
+      "norm_label": "package.json",
+      "id": "package_json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "community": 4,
+      "norm_label": "name",
+      "id": "biyerkhoroch_package_name"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "community": 4,
+      "norm_label": "version",
+      "id": "biyerkhoroch_package_version"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "community": 4,
+      "norm_label": "private",
+      "id": "biyerkhoroch_package_private"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "community": 4,
+      "norm_label": "scripts",
+      "id": "biyerkhoroch_package_scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "community": 4,
+      "norm_label": "dev",
+      "id": "biyerkhoroch_package_scripts_dev"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "community": 4,
+      "norm_label": "build",
+      "id": "biyerkhoroch_package_scripts_build"
+    },
+    {
+      "label": "start",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "community": 4,
+      "norm_label": "start",
+      "id": "biyerkhoroch_package_scripts_start"
+    },
+    {
+      "label": "lint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "community": 4,
+      "norm_label": "lint",
+      "id": "biyerkhoroch_package_scripts_lint"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "community": 4,
+      "norm_label": "dependencies",
+      "id": "biyerkhoroch_package_dependencies"
+    },
+    {
+      "label": "mongoose",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "community": 4,
+      "norm_label": "mongoose",
+      "id": "biyerkhoroch_package_dependencies_mongoose"
+    },
+    {
+      "label": "next",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "community": 4,
+      "norm_label": "next",
+      "id": "biyerkhoroch_package_dependencies_next"
+    },
+    {
+      "label": "nodemailer",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "community": 4,
+      "norm_label": "nodemailer",
+      "id": "biyerkhoroch_package_dependencies_nodemailer"
+    },
+    {
+      "label": "react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "community": 4,
+      "norm_label": "react",
+      "id": "biyerkhoroch_package_dependencies_react"
+    },
+    {
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "community": 4,
+      "norm_label": "react-dom",
+      "id": "biyerkhoroch_package_dependencies_react_dom"
+    },
+    {
+      "label": "zod",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "community": 4,
+      "norm_label": "zod",
+      "id": "biyerkhoroch_package_dependencies_zod"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "community": 4,
+      "norm_label": "devdependencies",
+      "id": "biyerkhoroch_package_devdependencies"
+    },
+    {
+      "label": "@tailwindcss/postcss",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "community": 4,
+      "norm_label": "@tailwindcss/postcss",
+      "id": "biyerkhoroch_package_devdependencies_tailwindcss_postcss"
+    },
+    {
+      "label": "@types/node",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "community": 4,
+      "norm_label": "@types/node",
+      "id": "biyerkhoroch_package_devdependencies_types_node"
+    },
+    {
+      "label": "@types/nodemailer",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "community": 4,
+      "norm_label": "@types/nodemailer",
+      "id": "biyerkhoroch_package_devdependencies_types_nodemailer"
+    },
+    {
+      "label": "@types/react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "community": 4,
+      "norm_label": "@types/react",
+      "id": "biyerkhoroch_package_devdependencies_types_react"
+    },
+    {
+      "label": "@types/react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "community": 4,
+      "norm_label": "@types/react-dom",
+      "id": "biyerkhoroch_package_devdependencies_types_react_dom"
+    },
+    {
+      "label": "eslint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "community": 4,
+      "norm_label": "eslint",
+      "id": "biyerkhoroch_package_devdependencies_eslint"
+    },
+    {
+      "label": "eslint-config-next",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "community": 4,
+      "norm_label": "eslint-config-next",
+      "id": "biyerkhoroch_package_devdependencies_eslint_config_next"
+    },
+    {
+      "label": "tailwindcss",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "community": 4,
+      "norm_label": "tailwindcss",
+      "id": "biyerkhoroch_package_devdependencies_tailwindcss"
+    },
+    {
+      "label": "typescript",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "community": 4,
+      "norm_label": "typescript",
+      "id": "biyerkhoroch_package_devdependencies_typescript"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(main)/analytics/page.tsx",
+      "source_location": "L1",
+      "community": 11,
+      "norm_label": "page.tsx",
+      "id": "src_app_main_analytics_page_tsx"
+    },
+    {
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "src/app/(main)/analytics/page.tsx",
+      "source_location": "L9",
+      "community": 11,
+      "norm_label": "metadata",
+      "id": "analytics_page_metadata"
+    },
+    {
+      "label": "AnalyticsPage()",
+      "file_type": "code",
+      "source_file": "src/app/(main)/analytics/page.tsx",
+      "source_location": "L16",
+      "community": 11,
+      "norm_label": "analyticspage()",
+      "id": "analytics_page_analyticspage"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(main)/search/page.tsx",
+      "source_location": "L1",
+      "community": 12,
+      "norm_label": "page.tsx",
+      "id": "src_app_main_search_page_tsx"
+    },
+    {
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "src/app/(main)/search/page.tsx",
+      "source_location": "L11",
+      "community": 12,
+      "norm_label": "metadata",
+      "id": "search_page_metadata"
+    },
+    {
+      "label": "SearchResultsSkeleton()",
+      "file_type": "code",
+      "source_file": "src/app/(main)/search/page.tsx",
+      "source_location": "L20",
+      "community": 12,
+      "norm_label": "searchresultsskeleton()",
+      "id": "search_page_searchresultsskeleton"
+    },
+    {
+      "label": "ResultsSection()",
+      "file_type": "code",
+      "source_file": "src/app/(main)/search/page.tsx",
+      "source_location": "L55",
+      "community": 12,
+      "norm_label": "resultssection()",
+      "id": "search_page_resultssection"
+    },
+    {
+      "label": "SearchPage()",
+      "file_type": "code",
+      "source_file": "src/app/(main)/search/page.tsx",
+      "source_location": "L80",
+      "community": 12,
+      "norm_label": "searchpage()",
+      "id": "search_page_searchpage"
+    },
+    {
+      "label": "opengraph-image.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(main)/story/[slug]/opengraph-image.tsx",
+      "source_location": "L1",
+      "community": 12,
+      "norm_label": "opengraph-image.tsx",
+      "id": "src_app_main_story_slug_opengraph_image_tsx"
+    },
+    {
+      "label": "size",
+      "file_type": "code",
+      "source_file": "src/app/(main)/story/[slug]/opengraph-image.tsx",
+      "source_location": "L5",
+      "community": 12,
+      "norm_label": "size",
+      "id": "slug_opengraph_image_size"
+    },
+    {
+      "label": "Image()",
+      "file_type": "code",
+      "source_file": "src/app/(main)/story/[slug]/opengraph-image.tsx",
+      "source_location": "L8",
+      "community": 12,
+      "norm_label": "image()",
+      "id": "slug_opengraph_image_image"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(main)/story/[slug]/page.tsx",
+      "source_location": "L1",
+      "community": 12,
+      "norm_label": "page.tsx",
+      "id": "src_app_main_story_slug_page_tsx"
+    },
+    {
+      "label": "generateStaticParams()",
+      "file_type": "code",
+      "source_file": "src/app/(main)/story/[slug]/page.tsx",
+      "source_location": "L16",
+      "community": 12,
+      "norm_label": "generatestaticparams()",
+      "id": "slug_page_generatestaticparams"
+    },
+    {
+      "label": "generateMetadata()",
+      "file_type": "code",
+      "source_file": "src/app/(main)/story/[slug]/page.tsx",
+      "source_location": "L21",
+      "community": 12,
+      "norm_label": "generatemetadata()",
+      "id": "slug_page_generatemetadata"
+    },
+    {
+      "label": "StoryPage()",
+      "file_type": "code",
+      "source_file": "src/app/(main)/story/[slug]/page.tsx",
+      "source_location": "L60",
+      "community": 12,
+      "norm_label": "storypage()",
+      "id": "slug_page_storypage"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(main)/submit/page.tsx",
+      "source_location": "L1",
+      "community": 5,
+      "norm_label": "page.tsx",
+      "id": "src_app_main_submit_page_tsx"
+    },
+    {
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "src/app/(main)/submit/page.tsx",
+      "source_location": "L4",
+      "community": 5,
+      "norm_label": "metadata",
+      "id": "submit_page_metadata"
+    },
+    {
+      "label": "FormSkeleton()",
+      "file_type": "code",
+      "source_file": "src/app/(main)/submit/page.tsx",
+      "source_location": "L12",
+      "community": 5,
+      "norm_label": "formskeleton()",
+      "id": "submit_page_formskeleton"
+    },
+    {
+      "label": "SubmissionForm",
+      "file_type": "code",
+      "source_file": "src/app/(main)/submit/page.tsx",
+      "source_location": "L55",
+      "community": 5,
+      "norm_label": "submissionform",
+      "id": "submit_page_submissionform"
+    },
+    {
+      "label": "SubmitPage()",
+      "file_type": "code",
+      "source_file": "src/app/(main)/submit/page.tsx",
+      "source_location": "L60",
+      "community": 5,
+      "norm_label": "submitpage()",
+      "id": "submit_page_submitpage"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L1",
+      "community": 8,
+      "norm_label": "page.tsx",
+      "id": "src_app_admin_dashboard_page_tsx"
     },
     {
       "label": "page.tsx",
       "file_type": "code",
       "source_file": "src/app/admin/page.tsx",
       "source_location": "L1",
-      "id": "src_app_admin_page_tsx",
       "community": 22,
-      "norm_label": "page.tsx"
+      "norm_label": "page.tsx",
+      "id": "src_app_admin_page_tsx"
     },
     {
       "label": "AdminLoginPage()",
       "file_type": "code",
       "source_file": "src/app/admin/page.tsx",
       "source_location": "L6",
-      "id": "admin_page_adminloginpage",
       "community": 22,
-      "norm_label": "adminloginpage()"
+      "norm_label": "adminloginpage()",
+      "id": "admin_page_adminloginpage"
     },
     {
       "label": "layout.tsx",
       "file_type": "code",
       "source_file": "src/app/layout.tsx",
       "source_location": "L1",
-      "id": "src_app_layout_tsx",
       "community": 0,
-      "norm_label": "layout.tsx"
+      "norm_label": "layout.tsx",
+      "id": "src_app_layout_tsx"
     },
     {
       "label": "inter",
       "file_type": "code",
       "source_file": "src/app/layout.tsx",
       "source_location": "L6",
-      "id": "app_layout_inter",
       "community": 0,
-      "norm_label": "inter"
+      "norm_label": "inter",
+      "id": "app_layout_inter"
     },
     {
       "label": "metadata",
       "file_type": "code",
       "source_file": "src/app/layout.tsx",
       "source_location": "L14",
-      "id": "app_layout_metadata",
       "community": 0,
-      "norm_label": "metadata"
+      "norm_label": "metadata",
+      "id": "app_layout_metadata"
     },
     {
       "label": "viewport",
       "file_type": "code",
       "source_file": "src/app/layout.tsx",
       "source_location": "L67",
-      "id": "app_layout_viewport",
       "community": 0,
-      "norm_label": "viewport"
+      "norm_label": "viewport",
+      "id": "app_layout_viewport"
     },
     {
       "label": "RootLayout()",
       "file_type": "code",
       "source_file": "src/app/layout.tsx",
       "source_location": "L76",
-      "id": "app_layout_rootlayout",
       "community": 0,
-      "norm_label": "rootlayout()"
+      "norm_label": "rootlayout()",
+      "id": "app_layout_rootlayout"
     },
     {
       "label": "opengraph-image.tsx",
       "file_type": "code",
       "source_file": "src/app/opengraph-image.tsx",
       "source_location": "L1",
-      "id": "src_app_opengraph_image_tsx",
       "community": 15,
-      "norm_label": "opengraph-image.tsx"
+      "norm_label": "opengraph-image.tsx",
+      "id": "src_app_opengraph_image_tsx"
     },
     {
       "label": "size",
       "file_type": "code",
       "source_file": "src/app/opengraph-image.tsx",
       "source_location": "L3",
-      "id": "app_opengraph_image_size",
       "community": 15,
-      "norm_label": "size"
+      "norm_label": "size",
+      "id": "app_opengraph_image_size"
     },
     {
       "label": "Image()",
       "file_type": "code",
       "source_file": "src/app/opengraph-image.tsx",
       "source_location": "L6",
-      "id": "app_opengraph_image_image",
       "community": 15,
-      "norm_label": "image()"
+      "norm_label": "image()",
+      "id": "app_opengraph_image_image"
     },
     {
       "label": "robots.ts",
       "file_type": "code",
       "source_file": "src/app/robots.ts",
       "source_location": "L1",
-      "id": "src_app_robots_ts",
       "community": 23,
-      "norm_label": "robots.ts"
+      "norm_label": "robots.ts",
+      "id": "src_app_robots_ts"
     },
     {
       "label": "robots()",
       "file_type": "code",
       "source_file": "src/app/robots.ts",
       "source_location": "L5",
-      "id": "app_robots_robots",
       "community": 23,
-      "norm_label": "robots()"
+      "norm_label": "robots()",
+      "id": "app_robots_robots"
     },
     {
       "label": "sitemap.ts",
       "file_type": "code",
       "source_file": "src/app/sitemap.ts",
       "source_location": "L1",
-      "id": "src_app_sitemap_ts",
       "community": 12,
-      "norm_label": "sitemap.ts"
+      "norm_label": "sitemap.ts",
+      "id": "src_app_sitemap_ts"
     },
     {
       "label": "sitemap()",
       "file_type": "code",
       "source_file": "src/app/sitemap.ts",
       "source_location": "L8",
-      "id": "app_sitemap_sitemap",
       "community": 12,
-      "norm_label": "sitemap()"
+      "norm_label": "sitemap()",
+      "id": "app_sitemap_sitemap"
     },
     {
       "label": "Footer.tsx",
       "file_type": "code",
       "source_file": "src/components/layout/Footer.tsx",
       "source_location": "L1",
-      "id": "src_components_layout_footer_tsx",
       "community": 18,
-      "norm_label": "footer.tsx"
+      "norm_label": "footer.tsx",
+      "id": "src_components_layout_footer_tsx"
     },
     {
       "label": "Footer()",
       "file_type": "code",
       "source_file": "src/components/layout/Footer.tsx",
       "source_location": "L3",
-      "id": "layout_footer_footer",
       "community": 18,
-      "norm_label": "footer()"
+      "norm_label": "footer()",
+      "id": "layout_footer_footer"
     },
     {
       "label": "Navbar.tsx",
       "file_type": "code",
       "source_file": "src/components/layout/Navbar.tsx",
       "source_location": "L1",
-      "id": "src_components_layout_navbar_tsx",
       "community": 18,
-      "norm_label": "navbar.tsx"
+      "norm_label": "navbar.tsx",
+      "id": "src_components_layout_navbar_tsx"
     },
     {
       "label": "navLinks",
       "file_type": "code",
       "source_file": "src/components/layout/Navbar.tsx",
       "source_location": "L8",
-      "id": "layout_navbar_navlinks",
       "community": 18,
-      "norm_label": "navlinks"
+      "norm_label": "navlinks",
+      "id": "layout_navbar_navlinks"
     },
     {
       "label": "Navbar()",
       "file_type": "code",
       "source_file": "src/components/layout/Navbar.tsx",
       "source_location": "L15",
-      "id": "layout_navbar_navbar",
       "community": 18,
-      "norm_label": "navbar()"
+      "norm_label": "navbar()",
+      "id": "layout_navbar_navbar"
     },
     {
       "label": "StoryDetail.tsx",
       "file_type": "code",
       "source_file": "src/components/story/StoryDetail.tsx",
       "source_location": "L1",
-      "id": "src_components_story_storydetail_tsx",
       "community": 6,
-      "norm_label": "storydetail.tsx"
+      "norm_label": "storydetail.tsx",
+      "id": "src_components_story_storydetail_tsx"
     },
     {
       "label": "StoryDetailProps",
       "file_type": "code",
       "source_file": "src/components/story/StoryDetail.tsx",
       "source_location": "L7",
-      "id": "story_storydetail_storydetailprops",
       "community": 6,
-      "norm_label": "storydetailprops"
+      "norm_label": "storydetailprops",
+      "id": "story_storydetail_storydetailprops"
     },
     {
       "label": "StoryDetail()",
       "file_type": "code",
       "source_file": "src/components/story/StoryDetail.tsx",
       "source_location": "L12",
-      "id": "story_storydetail_storydetail",
       "community": 12,
-      "norm_label": "storydetail()"
+      "norm_label": "storydetail()",
+      "id": "story_storydetail_storydetail"
     },
     {
       "label": "SubmissionForm.tsx",
       "file_type": "code",
       "source_file": "src/components/submission/SubmissionForm.tsx",
       "source_location": "L1",
-      "id": "src_components_submission_submissionform_tsx",
       "community": 5,
-      "norm_label": "submissionform.tsx"
+      "norm_label": "submissionform.tsx",
+      "id": "src_components_submission_submissionform_tsx"
     },
     {
       "label": "CITIES",
       "file_type": "code",
       "source_file": "src/components/submission/SubmissionForm.tsx",
       "source_location": "L10",
-      "id": "submission_submissionform_cities",
       "community": 5,
-      "norm_label": "cities"
+      "norm_label": "cities",
+      "id": "submission_submissionform_cities"
     },
     {
       "label": "COST_FIELDS",
       "file_type": "code",
       "source_file": "src/components/submission/SubmissionForm.tsx",
       "source_location": "L16",
-      "id": "submission_submissionform_cost_fields",
       "community": 5,
-      "norm_label": "cost_fields"
+      "norm_label": "cost_fields",
+      "id": "submission_submissionform_cost_fields"
     },
     {
       "label": "CostKey",
       "file_type": "code",
       "source_file": "src/components/submission/SubmissionForm.tsx",
       "source_location": "L28",
-      "id": "submission_submissionform_costkey",
       "community": 5,
-      "norm_label": "costkey"
+      "norm_label": "costkey",
+      "id": "submission_submissionform_costkey"
     },
     {
       "label": "FormState",
       "file_type": "code",
       "source_file": "src/components/submission/SubmissionForm.tsx",
       "source_location": "L30",
-      "id": "submission_submissionform_formstate",
       "community": 5,
-      "norm_label": "formstate"
+      "norm_label": "formstate",
+      "id": "submission_submissionform_formstate"
     },
     {
       "label": "EMPTY",
       "file_type": "code",
       "source_file": "src/components/submission/SubmissionForm.tsx",
       "source_location": "L49",
-      "id": "submission_submissionform_empty",
       "community": 5,
-      "norm_label": "empty"
+      "norm_label": "empty",
+      "id": "submission_submissionform_empty"
     },
     {
       "label": "n()",
       "file_type": "code",
       "source_file": "src/components/submission/SubmissionForm.tsx",
       "source_location": "L56",
-      "id": "submission_submissionform_n",
       "community": 5,
-      "norm_label": "n()"
+      "norm_label": "n()",
+      "id": "submission_submissionform_n"
     },
     {
       "label": "calcTotal()",
       "file_type": "code",
       "source_file": "src/components/submission/SubmissionForm.tsx",
       "source_location": "L58",
-      "id": "submission_submissionform_calctotal",
       "community": 5,
-      "norm_label": "calctotal()"
+      "norm_label": "calctotal()",
+      "id": "submission_submissionform_calctotal"
     },
     {
       "label": "parseErrors()",
       "file_type": "code",
       "source_file": "src/components/submission/SubmissionForm.tsx",
       "source_location": "L62",
-      "id": "submission_submissionform_parseerrors",
       "community": 5,
-      "norm_label": "parseerrors()"
+      "norm_label": "parseerrors()",
+      "id": "submission_submissionform_parseerrors"
     },
     {
       "label": "SubmissionForm()",
       "file_type": "code",
       "source_file": "src/components/submission/SubmissionForm.tsx",
       "source_location": "L73",
-      "id": "submission_submissionform_submissionform",
       "community": 5,
-      "norm_label": "submissionform()"
+      "norm_label": "submissionform()",
+      "id": "submission_submissionform_submissionform"
     },
     {
       "label": "StepBar()",
       "file_type": "code",
       "source_file": "src/components/submission/SubmissionForm.tsx",
       "source_location": "L391",
-      "id": "submission_submissionform_stepbar",
       "community": 5,
-      "norm_label": "stepbar()"
+      "norm_label": "stepbar()",
+      "id": "submission_submissionform_stepbar"
     },
     {
       "label": "Card()",
       "file_type": "code",
       "source_file": "src/components/submission/SubmissionForm.tsx",
       "source_location": "L435",
-      "id": "submission_submissionform_card",
       "community": 5,
-      "norm_label": "card()"
+      "norm_label": "card()",
+      "id": "submission_submissionform_card"
     },
     {
       "label": "CardTitle()",
       "file_type": "code",
       "source_file": "src/components/submission/SubmissionForm.tsx",
       "source_location": "L446",
-      "id": "submission_submissionform_cardtitle",
       "community": 5,
-      "norm_label": "cardtitle()"
+      "norm_label": "cardtitle()",
+      "id": "submission_submissionform_cardtitle"
     },
     {
       "label": "Field()",
       "file_type": "code",
       "source_file": "src/components/submission/SubmissionForm.tsx",
       "source_location": "L454",
-      "id": "submission_submissionform_field",
       "community": 5,
-      "norm_label": "field()"
+      "norm_label": "field()",
+      "id": "submission_submissionform_field"
     },
     {
       "label": "CostInput()",
       "file_type": "code",
       "source_file": "src/components/submission/SubmissionForm.tsx",
       "source_location": "L476",
-      "id": "submission_submissionform_costinput",
       "community": 5,
-      "norm_label": "costinput()"
+      "norm_label": "costinput()",
+      "id": "submission_submissionform_costinput"
     },
     {
       "label": "ReviewRow()",
       "file_type": "code",
       "source_file": "src/components/submission/SubmissionForm.tsx",
       "source_location": "L507",
-      "id": "submission_submissionform_reviewrow",
       "community": 5,
-      "norm_label": "reviewrow()"
+      "norm_label": "reviewrow()",
+      "id": "submission_submissionform_reviewrow"
     },
     {
       "label": "PrimaryBtn()",
       "file_type": "code",
       "source_file": "src/components/submission/SubmissionForm.tsx",
       "source_location": "L521",
-      "id": "submission_submissionform_primarybtn",
       "community": 5,
-      "norm_label": "primarybtn()"
+      "norm_label": "primarybtn()",
+      "id": "submission_submissionform_primarybtn"
     },
     {
       "label": "OutlineBtn()",
       "file_type": "code",
       "source_file": "src/components/submission/SubmissionForm.tsx",
       "source_location": "L533",
-      "id": "submission_submissionform_outlinebtn",
       "community": 5,
-      "norm_label": "outlinebtn()"
+      "norm_label": "outlinebtn()",
+      "id": "submission_submissionform_outlinebtn"
     },
     {
       "label": "SuccessView()",
       "file_type": "code",
       "source_file": "src/components/submission/SubmissionForm.tsx",
       "source_location": "L545",
-      "id": "submission_submissionform_successview",
       "community": 5,
-      "norm_label": "successview()"
+      "norm_label": "successview()",
+      "id": "submission_submissionform_successview"
     },
     {
       "label": "email.ts",
       "file_type": "code",
       "source_file": "src/lib/email.ts",
       "source_location": "L1",
-      "id": "src_lib_email_ts",
       "community": 17,
-      "norm_label": "email.ts"
+      "norm_label": "email.ts",
+      "id": "src_lib_email_ts"
     },
     {
       "label": "transporter",
       "file_type": "code",
       "source_file": "src/lib/email.ts",
       "source_location": "L3",
-      "id": "lib_email_transporter",
       "community": 17,
-      "norm_label": "transporter"
+      "norm_label": "transporter",
+      "id": "lib_email_transporter"
     },
     {
       "label": "SubmissionNotificationData",
       "file_type": "code",
       "source_file": "src/lib/email.ts",
       "source_location": "L11",
-      "id": "lib_email_submissionnotificationdata",
       "community": 17,
-      "norm_label": "submissionnotificationdata"
+      "norm_label": "submissionnotificationdata",
+      "id": "lib_email_submissionnotificationdata"
     },
     {
       "label": "sendSubmissionNotification()",
       "file_type": "code",
       "source_file": "src/lib/email.ts",
       "source_location": "L20",
-      "id": "lib_email_sendsubmissionnotification",
       "community": 17,
-      "norm_label": "sendsubmissionnotification()"
+      "norm_label": "sendsubmissionnotification()",
+      "id": "lib_email_sendsubmissionnotification"
     },
     {
       "label": "route.ts",
@@ -1619,7 +1718,7 @@
       "file_type": "code",
       "source_file": "src/lib/data/stories.ts",
       "source_location": "L19",
-      "community": 10,
+      "community": 12,
       "norm_label": "searchstoryparams",
       "id": "data_stories_searchstoryparams"
     },
@@ -1637,7 +1736,7 @@
       "file_type": "code",
       "source_file": "src/lib/data/stories.ts",
       "source_location": "L84",
-      "community": 10,
+      "community": 12,
       "norm_label": "getdistinctcities()",
       "id": "data_stories_getdistinctcities"
     },
@@ -1703,33 +1802,6 @@
       "community": 8,
       "norm_label": "route.ts",
       "id": "src_app_api_admin_submissions_id_route_ts"
-    },
-    {
-      "label": "isAuthenticated()",
-      "file_type": "code",
-      "source_file": "src/app/api/admin/submissions/[id]/route.ts",
-      "source_location": "L9",
-      "community": 8,
-      "norm_label": "isauthenticated()",
-      "id": "id_route_isauthenticated"
-    },
-    {
-      "label": "PATCH()",
-      "file_type": "code",
-      "source_file": "src/app/api/admin/submissions/[id]/route.ts",
-      "source_location": "L14",
-      "community": 8,
-      "norm_label": "patch()",
-      "id": "id_route_patch"
-    },
-    {
-      "label": "DELETE()",
-      "file_type": "code",
-      "source_file": "src/app/api/admin/submissions/[id]/route.ts",
-      "source_location": "L63",
-      "community": 8,
-      "norm_label": "delete()",
-      "id": "id_route_delete"
     },
     {
       "label": "route.ts",
@@ -1916,7 +1988,7 @@
       "file_type": "code",
       "source_file": "src/components/search/FilterPanel.tsx",
       "source_location": "L1",
-      "community": 10,
+      "community": 12,
       "norm_label": "filterpanel.tsx",
       "id": "src_components_search_filterpanel_tsx"
     },
@@ -1925,7 +1997,7 @@
       "file_type": "code",
       "source_file": "src/components/search/FilterPanel.tsx",
       "source_location": "L7",
-      "community": 10,
+      "community": 12,
       "norm_label": "default_cities",
       "id": "search_filterpanel_default_cities"
     },
@@ -1934,7 +2006,7 @@
       "file_type": "code",
       "source_file": "src/components/search/FilterPanel.tsx",
       "source_location": "L13",
-      "community": 10,
+      "community": 12,
       "norm_label": "sort_options",
       "id": "search_filterpanel_sort_options"
     },
@@ -1943,7 +2015,7 @@
       "file_type": "code",
       "source_file": "src/components/search/FilterPanel.tsx",
       "source_location": "L21",
-      "community": 10,
+      "community": 12,
       "norm_label": "budget_presets",
       "id": "search_filterpanel_budget_presets"
     },
@@ -1952,7 +2024,7 @@
       "file_type": "code",
       "source_file": "src/components/search/FilterPanel.tsx",
       "source_location": "L29",
-      "community": 10,
+      "community": 12,
       "norm_label": "guest_presets",
       "id": "search_filterpanel_guest_presets"
     },
@@ -1961,7 +2033,7 @@
       "file_type": "code",
       "source_file": "src/components/search/FilterPanel.tsx",
       "source_location": "L36",
-      "community": 10,
+      "community": 12,
       "norm_label": "filterpanelprops",
       "id": "search_filterpanel_filterpanelprops"
     },
@@ -1970,7 +2042,7 @@
       "file_type": "code",
       "source_file": "src/components/search/FilterPanel.tsx",
       "source_location": "L40",
-      "community": 10,
+      "community": 12,
       "norm_label": "filterpanel()",
       "id": "search_filterpanel_filterpanel"
     },
@@ -1979,7 +2051,7 @@
       "file_type": "code",
       "source_file": "src/components/search/FilterPanel.tsx",
       "source_location": "L438",
-      "community": 10,
+      "community": 12,
       "norm_label": "filterchip()",
       "id": "search_filterpanel_filterchip"
     },
@@ -1988,7 +2060,7 @@
       "file_type": "code",
       "source_file": "src/components/search/SearchResults.tsx",
       "source_location": "L1",
-      "community": 10,
+      "community": 6,
       "norm_label": "searchresults.tsx",
       "id": "src_components_search_searchresults_tsx"
     },
@@ -1997,7 +2069,7 @@
       "file_type": "code",
       "source_file": "src/components/search/SearchResults.tsx",
       "source_location": "L5",
-      "community": 10,
+      "community": 6,
       "norm_label": "searchresultsprops",
       "id": "search_searchresults_searchresultsprops"
     },
@@ -2006,7 +2078,7 @@
       "file_type": "code",
       "source_file": "src/components/search/SearchResults.tsx",
       "source_location": "L13",
-      "community": 10,
+      "community": 6,
       "norm_label": "buildpageurl()",
       "id": "search_searchresults_buildpageurl"
     },
@@ -2015,7 +2087,7 @@
       "file_type": "code",
       "source_file": "src/components/search/SearchResults.tsx",
       "source_location": "L24",
-      "community": 10,
+      "community": 6,
       "norm_label": "searchresults()",
       "id": "search_searchresults_searchresults"
     },
@@ -2940,6 +3012,360 @@
   ],
   "links": [
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/admin/approved/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_admin_approved_page_tsx",
+      "target": "db_connection_connecttodatabase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/admin/approved/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "app_admin_approved_page_tsx",
+      "target": "models_submission_isubmission",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/admin/approved/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_admin_approved_page_tsx",
+      "target": "components_admin_approvedcard_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/admin/approved/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_admin_approved_page_tsx",
+      "target": "admin_approvedcard_approvedcard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/admin/approved/page.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "app_admin_approved_page_tsx",
+      "target": "approved_page_getapprovedsubmissions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/admin/approved/page.tsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "app_admin_approved_page_tsx",
+      "target": "approved_page_approvedpage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/admin/approved/page.tsx",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "approved_page_approvedpage",
+      "target": "approved_page_getapprovedsubmissions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/admin/dashboard/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_admin_dashboard_page_tsx",
+      "target": "db_connection_connecttodatabase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/admin/dashboard/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "app_admin_dashboard_page_tsx",
+      "target": "admin_logoutbutton_logoutbutton",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/admin/dashboard/page.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "app_admin_dashboard_page_tsx",
+      "target": "dashboard_page_getstats",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/admin/dashboard/page.tsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "app_admin_dashboard_page_tsx",
+      "target": "dashboard_page_action_labels",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/admin/dashboard/page.tsx",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "app_admin_dashboard_page_tsx",
+      "target": "dashboard_page_action_colors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/admin/dashboard/page.tsx",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "app_admin_dashboard_page_tsx",
+      "target": "dashboard_page_dashboardpage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/admin/dashboard/page.tsx",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "app_admin_dashboard_page_tsx",
+      "target": "dashboard_page_statcard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "dashboard_page_dashboardpage",
+      "target": "dashboard_page_getstats"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_admin_dashboard_page_tsx",
+      "target": "dashboard_page_getstats"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_admin_dashboard_page_tsx",
+      "target": "dashboard_page_action_labels"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_admin_dashboard_page_tsx",
+      "target": "dashboard_page_action_colors"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_admin_dashboard_page_tsx",
+      "target": "dashboard_page_dashboardpage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L112",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_admin_dashboard_page_tsx",
+      "target": "dashboard_page_statcard"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/admin/submissions/[id]/route.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_api_admin_submissions_id_route_ts",
+      "target": "db_connection_connecttodatabase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/admin/submissions/[id]/route.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "app_api_admin_submissions_id_route_ts",
+      "target": "models_adminlog_adminaction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/admin/submissions/[id]/route.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "app_api_admin_submissions_id_route_ts",
+      "target": "id_route_isauthenticated",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/admin/submissions/[id]/route.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "app_api_admin_submissions_id_route_ts",
+      "target": "id_route_patch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/api/admin/submissions/[id]/route.ts",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "app_api_admin_submissions_id_route_ts",
+      "target": "id_route_delete",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/admin/submissions/[id]/route.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "id_route_patch",
+      "target": "id_route_isauthenticated"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/admin/submissions/[id]/route.ts",
+      "source_location": "L64",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "id_route_delete",
+      "target": "id_route_isauthenticated"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/admin/submissions/[id]/route.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_api_admin_submissions_id_route_ts",
+      "target": "id_route_isauthenticated"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/admin/submissions/[id]/route.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_api_admin_submissions_id_route_ts",
+      "target": "id_route_patch"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/admin/submissions/[id]/route.ts",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_api_admin_submissions_id_route_ts",
+      "target": "id_route_delete"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/admin/ApprovedCard.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "components_admin_approvedcard_tsx",
+      "target": "models_submission_isubmission",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/admin/ApprovedCard.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "components_admin_approvedcard_tsx",
+      "target": "admin_approvedcard_formatbdt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/admin/ApprovedCard.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "components_admin_approvedcard_tsx",
+      "target": "admin_approvedcard_approvedcard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "components/admin/ApprovedCard.tsx",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "admin_approvedcard_approvedcard",
+      "target": "admin_approvedcard_formatbdt",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
@@ -2955,9 +3381,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_md",
-      "target": "biyerkhoroch_claude_biyerkahini_development_phases",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_biyerkahini_development_phases"
     },
     {
       "relation": "contains",
@@ -2965,9 +3391,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_biyerkahini_development_phases",
-      "target": "biyerkhoroch_claude_phase_1_project_setup_folder_structure_theme_mongodb_connection",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_phase_1_project_setup_folder_structure_theme_mongodb_connection"
     },
     {
       "relation": "contains",
@@ -2975,9 +3401,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_biyerkahini_development_phases",
-      "target": "biyerkhoroch_claude_phase_2_homepage_ui_hero_feed_cards_navbar_footer",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_phase_2_homepage_ui_hero_feed_cards_navbar_footer"
     },
     {
       "relation": "contains",
@@ -2985,9 +3411,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L91",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_biyerkahini_development_phases",
-      "target": "biyerkhoroch_claude_phase_3_submission_form_frontend",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_phase_3_submission_form_frontend"
     },
     {
       "relation": "contains",
@@ -2995,9 +3421,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L123",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_biyerkahini_development_phases",
-      "target": "biyerkhoroch_claude_phase_4_backend_submission_api_database_schema",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_phase_4_backend_submission_api_database_schema"
     },
     {
       "relation": "contains",
@@ -3005,9 +3431,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L155",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_biyerkahini_development_phases",
-      "target": "biyerkhoroch_claude_phase_5_admin_panel",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_phase_5_admin_panel"
     },
     {
       "relation": "contains",
@@ -3015,9 +3441,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L185",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_biyerkahini_development_phases",
-      "target": "biyerkhoroch_claude_phase_6_story_detail_pages",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_phase_6_story_detail_pages"
     },
     {
       "relation": "contains",
@@ -3025,9 +3451,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L216",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_biyerkahini_development_phases",
-      "target": "biyerkhoroch_claude_phase_7_search_filter_system",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_phase_7_search_filter_system"
     },
     {
       "relation": "contains",
@@ -3035,9 +3461,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L247",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_biyerkahini_development_phases",
-      "target": "biyerkhoroch_claude_phase_8_analytics_statistics",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_phase_8_analytics_statistics"
     },
     {
       "relation": "contains",
@@ -3045,9 +3471,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L276",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_biyerkahini_development_phases",
-      "target": "biyerkhoroch_claude_phase_9_seo_optimization",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_phase_9_seo_optimization"
     },
     {
       "relation": "contains",
@@ -3055,9 +3481,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L310",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_biyerkahini_development_phases",
-      "target": "biyerkhoroch_claude_phase_10_performance_optimization_deployment_prep",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_phase_10_performance_optimization_deployment_prep"
     },
     {
       "relation": "contains",
@@ -3065,9 +3491,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L344",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_claude_biyerkahini_development_phases",
-      "target": "biyerkhoroch_claude_workflow_rules",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_claude_workflow_rules"
     },
     {
       "relation": "contains",
@@ -3475,9 +3901,9 @@
       "source_file": "DEPLOYMENT.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "deployment_md",
-      "target": "biyerkhoroch_deployment_deployment_guide_biyerkahini",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_deployment_deployment_guide_biyerkahini"
     },
     {
       "relation": "contains",
@@ -3485,9 +3911,9 @@
       "source_file": "DEPLOYMENT.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_deployment_deployment_guide_biyerkahini",
-      "target": "biyerkhoroch_deployment_prerequisites",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_deployment_prerequisites"
     },
     {
       "relation": "contains",
@@ -3495,9 +3921,9 @@
       "source_file": "DEPLOYMENT.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_deployment_deployment_guide_biyerkahini",
-      "target": "biyerkhoroch_deployment_1_mongodb_setup",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_deployment_1_mongodb_setup"
     },
     {
       "relation": "contains",
@@ -3505,9 +3931,9 @@
       "source_file": "DEPLOYMENT.md",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_deployment_deployment_guide_biyerkahini",
-      "target": "biyerkhoroch_deployment_2_environment_variables",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_deployment_2_environment_variables"
     },
     {
       "relation": "contains",
@@ -3515,9 +3941,9 @@
       "source_file": "DEPLOYMENT.md",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_deployment_deployment_guide_biyerkahini",
-      "target": "biyerkhoroch_deployment_3_deploy_to_vercel",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_deployment_3_deploy_to_vercel"
     },
     {
       "relation": "contains",
@@ -3525,9 +3951,9 @@
       "source_file": "DEPLOYMENT.md",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_deployment_deployment_guide_biyerkahini",
-      "target": "biyerkhoroch_deployment_4_custom_domain",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_deployment_4_custom_domain"
     },
     {
       "relation": "contains",
@@ -3535,9 +3961,9 @@
       "source_file": "DEPLOYMENT.md",
       "source_location": "L65",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_deployment_deployment_guide_biyerkahini",
-      "target": "biyerkhoroch_deployment_5_post_deployment_checklist",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_deployment_5_post_deployment_checklist"
     },
     {
       "relation": "contains",
@@ -3545,9 +3971,9 @@
       "source_file": "DEPLOYMENT.md",
       "source_location": "L77",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_deployment_deployment_guide_biyerkahini",
-      "target": "biyerkhoroch_deployment_6_local_development",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_deployment_6_local_development"
     },
     {
       "relation": "contains",
@@ -3555,9 +3981,9 @@
       "source_file": "DEPLOYMENT.md",
       "source_location": "L91",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_deployment_deployment_guide_biyerkahini",
-      "target": "biyerkhoroch_deployment_7_useful_commands",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_deployment_7_useful_commands"
     },
     {
       "relation": "contains",
@@ -4461,56 +4887,6 @@
       "target": "admin_logoutbutton_logoutbutton"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/admin/dashboard/page.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_admin_dashboard_page_tsx",
-      "target": "dashboard_page_getstats"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/admin/dashboard/page.tsx",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_admin_dashboard_page_tsx",
-      "target": "dashboard_page_action_labels"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/admin/dashboard/page.tsx",
-      "source_location": "L27",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_admin_dashboard_page_tsx",
-      "target": "dashboard_page_action_colors"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/admin/dashboard/page.tsx",
-      "source_location": "L33",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_admin_dashboard_page_tsx",
-      "target": "dashboard_page_dashboardpage"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/admin/dashboard/page.tsx",
-      "source_location": "L112",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_admin_dashboard_page_tsx",
-      "target": "dashboard_page_statcard"
-    },
-    {
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -4520,17 +4896,6 @@
       "confidence_score": 1.0,
       "source": "src_app_admin_dashboard_page_tsx",
       "target": "src_components_admin_logoutbutton_tsx"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/admin/dashboard/page.tsx",
-      "source_location": "L34",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "dashboard_page_dashboardpage",
-      "target": "dashboard_page_getstats"
     },
     {
       "relation": "contains",
@@ -5642,58 +6007,6 @@
       "confidence_score": 1.0,
       "source": "src_app_api_admin_submissions_id_route_ts",
       "target": "models_adminlog_adminaction"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/api/admin/submissions/[id]/route.ts",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_api_admin_submissions_id_route_ts",
-      "target": "id_route_isauthenticated"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/api/admin/submissions/[id]/route.ts",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_api_admin_submissions_id_route_ts",
-      "target": "id_route_patch"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/api/admin/submissions/[id]/route.ts",
-      "source_location": "L60",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_api_admin_submissions_id_route_ts",
-      "target": "id_route_delete"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/api/admin/submissions/[id]/route.ts",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "id_route_patch",
-      "target": "id_route_isauthenticated"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/api/admin/submissions/[id]/route.ts",
-      "source_location": "L64",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "id_route_delete",
-      "target": "id_route_isauthenticated"
     },
     {
       "relation": "imports_from",
@@ -7002,5 +7315,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "22f4cda18da542481854a66709d13e5b440ab2f5"
+  "built_at_commit": "c7da2eca17dc90329a74a89c22dba82454deed63"
 }

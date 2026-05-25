@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useRef, useState, useTransition } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { formatBDTCompact } from "@/lib/utils/format";
+import { useGTM } from "@/hooks/useGTM";
 
 const DEFAULT_CITIES = [
   "Dhaka", "Chittagong", "Sylhet", "Rajshahi", "Khulna",
@@ -42,6 +43,7 @@ export function FilterPanel({ cities }: FilterPanelProps) {
   const searchParams = useSearchParams();
   const [isPending, startTransition] = useTransition();
   const [showAdvanced, setShowAdvanced] = useState(false);
+  const { trackEvent } = useGTM();
 
   const [q,         setQ]         = useState(searchParams.get("q")         ?? "");
   const [city,      setCity]      = useState(searchParams.get("city")      ?? "");
@@ -88,29 +90,36 @@ export function FilterPanel({ cities }: FilterPanelProps) {
   const handleQueryChange = (value: string) => {
     setQ(value);
     clearTimeout(debounceTimer.current);
-    debounceTimer.current = setTimeout(() => pushUrl({ q: value }), 400);
+    debounceTimer.current = setTimeout(() => {
+      pushUrl({ q: value });
+      if (value) trackEvent({ event: "search", search_term: value });
+    }, 400);
   };
 
   const handleCityChange = (value: string) => {
     setCity(value);
     pushUrl({ city: value });
+    if (value) trackEvent({ event: "filter_change", filter_type: "city", filter_value: value });
   };
 
   const handleSortChange = (value: string) => {
     setSort(value);
     pushUrl({ sort: value });
+    trackEvent({ event: "filter_change", filter_type: "sort", filter_value: value });
   };
 
   const applyBudgetPreset = (min: string, max: string) => {
     setMinCost(min);
     setMaxCost(max);
     pushUrl({ minCost: min, maxCost: max });
+    trackEvent({ event: "filter_change", filter_type: "budget", filter_value: `${min || "0"}-${max || "∞"}` });
   };
 
   const applyGuestPreset = (min: string, max: string) => {
     setMinGuests(min);
     setMaxGuests(max);
     pushUrl({ minGuests: min, maxGuests: max });
+    trackEvent({ event: "filter_change", filter_type: "guests", filter_value: `${min || "0"}-${max || "∞"}` });
   };
 
   const applyRangeFilters = () => {

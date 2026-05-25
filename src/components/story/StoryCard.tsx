@@ -1,5 +1,8 @@
+"use client";
+
 import Link from "next/link";
 import { formatBDTCompact, timeAgo } from "@/lib/utils/format";
+import { useGTM } from "@/hooks/useGTM";
 import type { Submission } from "@/types";
 
 interface StoryCardProps {
@@ -19,6 +22,7 @@ interface StoryCardProps {
 }
 
 export function StoryCard({ submission, variant = "default" }: StoryCardProps) {
+  const { trackEvent } = useGTM();
   const {
     slug,
     city,
@@ -35,6 +39,7 @@ export function StoryCard({ submission, variant = "default" }: StoryCardProps) {
   return (
     <Link
       href={`/story/${slug}`}
+      onClick={() => trackEvent({ event: "story_click", story_slug: slug, story_city: city, total_cost: totalCost })}
       className="group block rounded-xl border p-5 transition-colors hover:border-[var(--accent)]"
       style={{
         backgroundColor: "var(--surface)",
