@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\next.config.ts": {
-    "mtime": 1779740552.41563,
-    "ast_hash": "5ff89d6304402aab61afde60a088abc0",
+    "mtime": 1779740883.7388747,
+    "ast_hash": "f94ad85ed2ab4ba93e8a37ba2b517967",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\package.json": {
@@ -60,8 +60,8 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\CLAUDE.md": {
-    "mtime": 1779740705.9734063,
-    "ast_hash": "cb0359d1414d7ba66456be9339635c8b",
+    "mtime": 1779741109.5773447,
+    "ast_hash": "7b725d257b6b114a3f8e87b8cf903aff",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\prompt.md": {
@@ -130,8 +130,8 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\app\\(main)\\submit\\page.tsx": {
-    "mtime": 1779740541.094202,
-    "ast_hash": "3aef5605c250902259caede10517d790",
+    "mtime": 1779740962.522382,
+    "ast_hash": "9ee599c678e0ba0422b12aa678f5265d",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\components\\submission\\SubmissionForm.tsx": {
@@ -302,6 +302,11 @@
   "E:\\biyerkhoroch\\src\\app\\(main)\\story\\[slug]\\opengraph-image.tsx": {
     "mtime": 1779740431.0125566,
     "ast_hash": "274a4084416abb5cc29480b61c6380f8",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\DEPLOYMENT.md": {
+    "mtime": 1779740934.4722805,
+    "ast_hash": "b394cddd38e5576d04731b1f452e63c6",
     "semantic_hash": ""
   }
 }

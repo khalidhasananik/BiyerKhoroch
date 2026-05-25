@@ -81,7 +81,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L56",
       "id": "biyerkhoroch_claude_phase_2_homepage_ui_hero_feed_cards_navbar_footer",
-      "community": 3,
+      "community": 25,
       "norm_label": "phase 2 \u2014 homepage ui (hero, feed cards, navbar, footer)"
     },
     {
@@ -90,7 +90,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L59",
       "id": "biyerkhoroch_claude_objectives_59",
-      "community": 3,
+      "community": 25,
       "norm_label": "objectives"
     },
     {
@@ -99,7 +99,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L65",
       "id": "biyerkhoroch_claude_tasks_65",
-      "community": 3,
+      "community": 25,
       "norm_label": "tasks"
     },
     {
@@ -108,7 +108,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L78",
       "id": "biyerkhoroch_claude_deliverables_78",
-      "community": 3,
+      "community": 25,
       "norm_label": "deliverables"
     },
     {
@@ -117,7 +117,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L83",
       "id": "biyerkhoroch_claude_checklist_83",
-      "community": 3,
+      "community": 25,
       "norm_label": "checklist"
     },
     {
@@ -216,7 +216,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L155",
       "id": "biyerkhoroch_claude_phase_5_admin_panel",
-      "community": 13,
+      "community": 3,
       "norm_label": "phase 5 \u2014 admin panel"
     },
     {
@@ -225,7 +225,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L158",
       "id": "biyerkhoroch_claude_objectives_158",
-      "community": 13,
+      "community": 3,
       "norm_label": "objectives"
     },
     {
@@ -234,7 +234,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L163",
       "id": "biyerkhoroch_claude_tasks_163",
-      "community": 13,
+      "community": 3,
       "norm_label": "tasks"
     },
     {
@@ -243,7 +243,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L172",
       "id": "biyerkhoroch_claude_deliverables_172",
-      "community": 13,
+      "community": 3,
       "norm_label": "deliverables"
     },
     {
@@ -252,7 +252,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L177",
       "id": "biyerkhoroch_claude_checklist_177",
-      "community": 13,
+      "community": 3,
       "norm_label": "checklist"
     },
     {
@@ -490,6 +490,141 @@
       "norm_label": "workflow rules"
     },
     {
+      "label": "DEPLOYMENT.md",
+      "file_type": "document",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L1",
+      "id": "deployment_md",
+      "community": 9,
+      "norm_label": "deployment.md"
+    },
+    {
+      "label": "Deployment Guide \u2014 BiyerKhoroch",
+      "file_type": "document",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L1",
+      "id": "biyerkhoroch_deployment_deployment_guide_biyerkhoroch",
+      "community": 9,
+      "norm_label": "deployment guide \u2014 biyerkhoroch"
+    },
+    {
+      "label": "Prerequisites",
+      "file_type": "document",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L3",
+      "id": "biyerkhoroch_deployment_prerequisites",
+      "community": 9,
+      "norm_label": "prerequisites"
+    },
+    {
+      "label": "1. MongoDB Setup",
+      "file_type": "document",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L11",
+      "id": "biyerkhoroch_deployment_1_mongodb_setup",
+      "community": 9,
+      "norm_label": "1. mongodb setup"
+    },
+    {
+      "label": "code:block1 (mongodb+srv://<user>:<password>@<cluster>.mongodb.net/?retry)",
+      "file_type": "document",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L17",
+      "id": "biyerkhoroch_deployment_codeblock_1",
+      "community": 9,
+      "norm_label": "code:block1 (mongodb+srv://<user>:<password>@<cluster>.mongodb.net/?retry)"
+    },
+    {
+      "label": "2. Environment Variables",
+      "file_type": "document",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L24",
+      "id": "biyerkhoroch_deployment_2_environment_variables",
+      "community": 9,
+      "norm_label": "2. environment variables"
+    },
+    {
+      "label": "3. Deploy to Vercel",
+      "file_type": "document",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L38",
+      "id": "biyerkhoroch_deployment_3_deploy_to_vercel",
+      "community": 9,
+      "norm_label": "3. deploy to vercel"
+    },
+    {
+      "label": "Via Vercel CLI",
+      "file_type": "document",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L40",
+      "id": "biyerkhoroch_deployment_via_vercel_cli",
+      "community": 9,
+      "norm_label": "via vercel cli"
+    },
+    {
+      "label": "code:bash (npm i -g vercel)",
+      "file_type": "document",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L42",
+      "id": "biyerkhoroch_deployment_codeblock_2",
+      "community": 9,
+      "norm_label": "code:bash (npm i -g vercel)"
+    },
+    {
+      "label": "Via GitHub Integration",
+      "file_type": "document",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L47",
+      "id": "biyerkhoroch_deployment_via_github_integration",
+      "community": 9,
+      "norm_label": "via github integration"
+    },
+    {
+      "label": "4. Custom Domain",
+      "file_type": "document",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L57",
+      "id": "biyerkhoroch_deployment_4_custom_domain",
+      "community": 9,
+      "norm_label": "4. custom domain"
+    },
+    {
+      "label": "5. Post-Deployment Checklist",
+      "file_type": "document",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L65",
+      "id": "biyerkhoroch_deployment_5_post_deployment_checklist",
+      "community": 9,
+      "norm_label": "5. post-deployment checklist"
+    },
+    {
+      "label": "6. Local Development",
+      "file_type": "document",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L77",
+      "id": "biyerkhoroch_deployment_6_local_development",
+      "community": 9,
+      "norm_label": "6. local development"
+    },
+    {
+      "label": "code:bash (cp .env.example .env.local)",
+      "file_type": "document",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L79",
+      "id": "biyerkhoroch_deployment_codeblock_3",
+      "community": 9,
+      "norm_label": "code:bash (cp .env.example .env.local)"
+    },
+    {
+      "label": "7. Useful Commands",
+      "file_type": "document",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L91",
+      "id": "biyerkhoroch_deployment_7_useful_commands",
+      "community": 9,
+      "norm_label": "7. useful commands"
+    },
+    {
       "label": "next.config.ts",
       "file_type": "code",
       "source_file": "next.config.ts",
@@ -510,123 +645,6 @@
     {
       "label": "page.tsx",
       "file_type": "code",
-      "source_file": "src/app/(main)/page.tsx",
-      "source_location": "L1",
-      "id": "src_app_main_page_tsx",
-      "community": 6,
-      "norm_label": "page.tsx"
-    },
-    {
-      "label": "PLACEHOLDER_STORIES",
-      "file_type": "code",
-      "source_file": "src/app/(main)/page.tsx",
-      "source_location": "L9",
-      "id": "main_page_placeholder_stories",
-      "community": 6,
-      "norm_label": "placeholder_stories"
-    },
-    {
-      "label": "TRENDING",
-      "file_type": "code",
-      "source_file": "src/app/(main)/page.tsx",
-      "source_location": "L95",
-      "id": "main_page_trending",
-      "community": 6,
-      "norm_label": "trending"
-    },
-    {
-      "label": "STATS",
-      "file_type": "code",
-      "source_file": "src/app/(main)/page.tsx",
-      "source_location": "L100",
-      "id": "main_page_stats",
-      "community": 6,
-      "norm_label": "stats"
-    },
-    {
-      "label": "metadata",
-      "file_type": "code",
-      "source_file": "src/app/(main)/page.tsx",
-      "source_location": "L109",
-      "id": "main_page_metadata",
-      "community": 6,
-      "norm_label": "metadata"
-    },
-    {
-      "label": "HomePage()",
-      "file_type": "code",
-      "source_file": "src/app/(main)/page.tsx",
-      "source_location": "L115",
-      "id": "main_page_homepage",
-      "community": 6,
-      "norm_label": "homepage()"
-    },
-    {
-      "label": "opengraph-image.tsx",
-      "file_type": "code",
-      "source_file": "src/app/(main)/story/[slug]/opengraph-image.tsx",
-      "source_location": "L1",
-      "id": "src_app_main_story_slug_opengraph_image_tsx",
-      "community": 12,
-      "norm_label": "opengraph-image.tsx"
-    },
-    {
-      "label": "size",
-      "file_type": "code",
-      "source_file": "src/app/(main)/story/[slug]/opengraph-image.tsx",
-      "source_location": "L5",
-      "id": "slug_opengraph_image_size",
-      "community": 12,
-      "norm_label": "size"
-    },
-    {
-      "label": "Image()",
-      "file_type": "code",
-      "source_file": "src/app/(main)/story/[slug]/opengraph-image.tsx",
-      "source_location": "L8",
-      "id": "slug_opengraph_image_image",
-      "community": 12,
-      "norm_label": "image()"
-    },
-    {
-      "label": "page.tsx",
-      "file_type": "code",
-      "source_file": "src/app/(main)/story/[slug]/page.tsx",
-      "source_location": "L1",
-      "id": "src_app_main_story_slug_page_tsx",
-      "community": 12,
-      "norm_label": "page.tsx"
-    },
-    {
-      "label": "generateStaticParams()",
-      "file_type": "code",
-      "source_file": "src/app/(main)/story/[slug]/page.tsx",
-      "source_location": "L16",
-      "id": "slug_page_generatestaticparams",
-      "community": 12,
-      "norm_label": "generatestaticparams()"
-    },
-    {
-      "label": "generateMetadata()",
-      "file_type": "code",
-      "source_file": "src/app/(main)/story/[slug]/page.tsx",
-      "source_location": "L21",
-      "id": "slug_page_generatemetadata",
-      "community": 12,
-      "norm_label": "generatemetadata()"
-    },
-    {
-      "label": "StoryPage()",
-      "file_type": "code",
-      "source_file": "src/app/(main)/story/[slug]/page.tsx",
-      "source_location": "L60",
-      "id": "slug_page_storypage",
-      "community": 12,
-      "norm_label": "storypage()"
-    },
-    {
-      "label": "page.tsx",
-      "file_type": "code",
       "source_file": "src/app/(main)/submit/page.tsx",
       "source_location": "L1",
       "id": "src_app_main_submit_page_tsx",
@@ -643,229 +661,364 @@
       "norm_label": "metadata"
     },
     {
-      "label": "SubmitPage()",
+      "label": "FormSkeleton()",
       "file_type": "code",
       "source_file": "src/app/(main)/submit/page.tsx",
       "source_location": "L12",
+      "id": "submit_page_formskeleton",
+      "community": 5,
+      "norm_label": "formskeleton()"
+    },
+    {
+      "label": "SubmissionForm",
+      "file_type": "code",
+      "source_file": "src/app/(main)/submit/page.tsx",
+      "source_location": "L55",
+      "id": "submit_page_submissionform",
+      "community": 5,
+      "norm_label": "submissionform"
+    },
+    {
+      "label": "SubmitPage()",
+      "file_type": "code",
+      "source_file": "src/app/(main)/submit/page.tsx",
+      "source_location": "L60",
       "id": "submit_page_submitpage",
       "community": 5,
       "norm_label": "submitpage()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(main)/page.tsx",
+      "source_location": "L1",
+      "community": 6,
+      "norm_label": "page.tsx",
+      "id": "src_app_main_page_tsx"
+    },
+    {
+      "label": "PLACEHOLDER_STORIES",
+      "file_type": "code",
+      "source_file": "src/app/(main)/page.tsx",
+      "source_location": "L9",
+      "community": 6,
+      "norm_label": "placeholder_stories",
+      "id": "main_page_placeholder_stories"
+    },
+    {
+      "label": "TRENDING",
+      "file_type": "code",
+      "source_file": "src/app/(main)/page.tsx",
+      "source_location": "L95",
+      "community": 6,
+      "norm_label": "trending",
+      "id": "main_page_trending"
+    },
+    {
+      "label": "STATS",
+      "file_type": "code",
+      "source_file": "src/app/(main)/page.tsx",
+      "source_location": "L100",
+      "community": 6,
+      "norm_label": "stats",
+      "id": "main_page_stats"
+    },
+    {
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "src/app/(main)/page.tsx",
+      "source_location": "L109",
+      "community": 6,
+      "norm_label": "metadata",
+      "id": "main_page_metadata"
+    },
+    {
+      "label": "HomePage()",
+      "file_type": "code",
+      "source_file": "src/app/(main)/page.tsx",
+      "source_location": "L115",
+      "community": 6,
+      "norm_label": "homepage()",
+      "id": "main_page_homepage"
+    },
+    {
+      "label": "opengraph-image.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(main)/story/[slug]/opengraph-image.tsx",
+      "source_location": "L1",
+      "community": 12,
+      "norm_label": "opengraph-image.tsx",
+      "id": "src_app_main_story_slug_opengraph_image_tsx"
+    },
+    {
+      "label": "size",
+      "file_type": "code",
+      "source_file": "src/app/(main)/story/[slug]/opengraph-image.tsx",
+      "source_location": "L5",
+      "community": 12,
+      "norm_label": "size",
+      "id": "slug_opengraph_image_size"
+    },
+    {
+      "label": "Image()",
+      "file_type": "code",
+      "source_file": "src/app/(main)/story/[slug]/opengraph-image.tsx",
+      "source_location": "L8",
+      "community": 12,
+      "norm_label": "image()",
+      "id": "slug_opengraph_image_image"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/(main)/story/[slug]/page.tsx",
+      "source_location": "L1",
+      "community": 12,
+      "norm_label": "page.tsx",
+      "id": "src_app_main_story_slug_page_tsx"
+    },
+    {
+      "label": "generateStaticParams()",
+      "file_type": "code",
+      "source_file": "src/app/(main)/story/[slug]/page.tsx",
+      "source_location": "L16",
+      "community": 12,
+      "norm_label": "generatestaticparams()",
+      "id": "slug_page_generatestaticparams"
+    },
+    {
+      "label": "generateMetadata()",
+      "file_type": "code",
+      "source_file": "src/app/(main)/story/[slug]/page.tsx",
+      "source_location": "L21",
+      "community": 12,
+      "norm_label": "generatemetadata()",
+      "id": "slug_page_generatemetadata"
+    },
+    {
+      "label": "StoryPage()",
+      "file_type": "code",
+      "source_file": "src/app/(main)/story/[slug]/page.tsx",
+      "source_location": "L60",
+      "community": 12,
+      "norm_label": "storypage()",
+      "id": "slug_page_storypage"
     },
     {
       "label": "layout.tsx",
       "file_type": "code",
       "source_file": "src/app/layout.tsx",
       "source_location": "L1",
-      "id": "src_app_layout_tsx",
       "community": 0,
-      "norm_label": "layout.tsx"
+      "norm_label": "layout.tsx",
+      "id": "src_app_layout_tsx"
     },
     {
       "label": "inter",
       "file_type": "code",
       "source_file": "src/app/layout.tsx",
       "source_location": "L6",
-      "id": "app_layout_inter",
       "community": 0,
-      "norm_label": "inter"
+      "norm_label": "inter",
+      "id": "app_layout_inter"
     },
     {
       "label": "metadata",
       "file_type": "code",
       "source_file": "src/app/layout.tsx",
       "source_location": "L14",
-      "id": "app_layout_metadata",
       "community": 0,
-      "norm_label": "metadata"
+      "norm_label": "metadata",
+      "id": "app_layout_metadata"
     },
     {
       "label": "viewport",
       "file_type": "code",
       "source_file": "src/app/layout.tsx",
       "source_location": "L67",
-      "id": "app_layout_viewport",
       "community": 0,
-      "norm_label": "viewport"
+      "norm_label": "viewport",
+      "id": "app_layout_viewport"
     },
     {
       "label": "RootLayout()",
       "file_type": "code",
       "source_file": "src/app/layout.tsx",
       "source_location": "L76",
-      "id": "app_layout_rootlayout",
       "community": 0,
-      "norm_label": "rootlayout()"
+      "norm_label": "rootlayout()",
+      "id": "app_layout_rootlayout"
     },
     {
       "label": "opengraph-image.tsx",
       "file_type": "code",
       "source_file": "src/app/opengraph-image.tsx",
       "source_location": "L1",
-      "id": "src_app_opengraph_image_tsx",
       "community": 15,
-      "norm_label": "opengraph-image.tsx"
+      "norm_label": "opengraph-image.tsx",
+      "id": "src_app_opengraph_image_tsx"
     },
     {
       "label": "size",
       "file_type": "code",
       "source_file": "src/app/opengraph-image.tsx",
       "source_location": "L3",
-      "id": "app_opengraph_image_size",
       "community": 15,
-      "norm_label": "size"
+      "norm_label": "size",
+      "id": "app_opengraph_image_size"
     },
     {
       "label": "Image()",
       "file_type": "code",
       "source_file": "src/app/opengraph-image.tsx",
       "source_location": "L6",
-      "id": "app_opengraph_image_image",
       "community": 15,
-      "norm_label": "image()"
+      "norm_label": "image()",
+      "id": "app_opengraph_image_image"
     },
     {
       "label": "robots.ts",
       "file_type": "code",
       "source_file": "src/app/robots.ts",
       "source_location": "L1",
-      "id": "src_app_robots_ts",
       "community": 23,
-      "norm_label": "robots.ts"
+      "norm_label": "robots.ts",
+      "id": "src_app_robots_ts"
     },
     {
       "label": "robots()",
       "file_type": "code",
       "source_file": "src/app/robots.ts",
       "source_location": "L5",
-      "id": "app_robots_robots",
       "community": 23,
-      "norm_label": "robots()"
+      "norm_label": "robots()",
+      "id": "app_robots_robots"
     },
     {
       "label": "sitemap.ts",
       "file_type": "code",
       "source_file": "src/app/sitemap.ts",
       "source_location": "L1",
-      "id": "src_app_sitemap_ts",
       "community": 12,
-      "norm_label": "sitemap.ts"
+      "norm_label": "sitemap.ts",
+      "id": "src_app_sitemap_ts"
     },
     {
       "label": "sitemap()",
       "file_type": "code",
       "source_file": "src/app/sitemap.ts",
       "source_location": "L8",
-      "id": "app_sitemap_sitemap",
       "community": 12,
-      "norm_label": "sitemap()"
+      "norm_label": "sitemap()",
+      "id": "app_sitemap_sitemap"
     },
     {
       "label": "stories.ts",
       "file_type": "code",
       "source_file": "src/lib/data/stories.ts",
       "source_location": "L1",
-      "id": "src_lib_data_stories_ts",
       "community": 12,
-      "norm_label": "stories.ts"
+      "norm_label": "stories.ts",
+      "id": "src_lib_data_stories_ts"
     },
     {
       "label": "SORT_MAP",
       "file_type": "code",
       "source_file": "src/lib/data/stories.ts",
       "source_location": "L7",
-      "id": "data_stories_sort_map",
       "community": 12,
-      "norm_label": "sort_map"
+      "norm_label": "sort_map",
+      "id": "data_stories_sort_map"
     },
     {
       "label": "escapeRegex()",
       "file_type": "code",
       "source_file": "src/lib/data/stories.ts",
       "source_location": "L15",
-      "id": "data_stories_escaperegex",
       "community": 10,
-      "norm_label": "escaperegex()"
+      "norm_label": "escaperegex()",
+      "id": "data_stories_escaperegex"
     },
     {
       "label": "SearchStoryParams",
       "file_type": "code",
       "source_file": "src/lib/data/stories.ts",
       "source_location": "L19",
-      "id": "data_stories_searchstoryparams",
       "community": 10,
-      "norm_label": "searchstoryparams"
+      "norm_label": "searchstoryparams",
+      "id": "data_stories_searchstoryparams"
     },
     {
       "label": "searchStories()",
       "file_type": "code",
       "source_file": "src/lib/data/stories.ts",
       "source_location": "L30",
-      "id": "data_stories_searchstories",
       "community": 10,
-      "norm_label": "searchstories()"
+      "norm_label": "searchstories()",
+      "id": "data_stories_searchstories"
     },
     {
       "label": "getDistinctCities()",
       "file_type": "code",
       "source_file": "src/lib/data/stories.ts",
       "source_location": "L84",
-      "id": "data_stories_getdistinctcities",
       "community": 10,
-      "norm_label": "getdistinctcities()"
+      "norm_label": "getdistinctcities()",
+      "id": "data_stories_getdistinctcities"
     },
     {
       "label": "serialize()",
       "file_type": "code",
       "source_file": "src/lib/data/stories.ts",
       "source_location": "L90",
-      "id": "data_stories_serialize",
       "community": 12,
-      "norm_label": "serialize()"
+      "norm_label": "serialize()",
+      "id": "data_stories_serialize"
     },
     {
       "label": "getStoryBySlug()",
       "file_type": "code",
       "source_file": "src/lib/data/stories.ts",
       "source_location": "L94",
-      "id": "data_stories_getstorybyslug",
       "community": 12,
-      "norm_label": "getstorybyslug()"
+      "norm_label": "getstorybyslug()",
+      "id": "data_stories_getstorybyslug"
     },
     {
       "label": "getRelatedStories()",
       "file_type": "code",
       "source_file": "src/lib/data/stories.ts",
       "source_location": "L100",
-      "id": "data_stories_getrelatedstories",
       "community": 12,
-      "norm_label": "getrelatedstories()"
+      "norm_label": "getrelatedstories()",
+      "id": "data_stories_getrelatedstories"
     },
     {
       "label": "getLatestStories()",
       "file_type": "code",
       "source_file": "src/lib/data/stories.ts",
       "source_location": "L114",
-      "id": "data_stories_getlateststories",
       "community": 12,
-      "norm_label": "getlateststories()"
+      "norm_label": "getlateststories()",
+      "id": "data_stories_getlateststories"
     },
     {
       "label": "getApprovedStorySlugs()",
       "file_type": "code",
       "source_file": "src/lib/data/stories.ts",
       "source_location": "L124",
-      "id": "data_stories_getapprovedstoryslugs",
       "community": 12,
-      "norm_label": "getapprovedstoryslugs()"
+      "norm_label": "getapprovedstoryslugs()",
+      "id": "data_stories_getapprovedstoryslugs"
     },
     {
       "label": "getApprovedStoriesForSitemap()",
       "file_type": "code",
       "source_file": "src/lib/data/stories.ts",
       "source_location": "L132",
-      "id": "data_stories_getapprovedstoriesforsitemap",
       "community": 12,
-      "norm_label": "getapprovedstoriesforsitemap()"
+      "norm_label": "getapprovedstoriesforsitemap()",
+      "id": "data_stories_getapprovedstoriesforsitemap"
     },
     {
       "label": "page.tsx",
@@ -899,7 +1052,7 @@
       "file_type": "code",
       "source_file": "src/app/api/admin/submissions/[id]/route.ts",
       "source_location": "L1",
-      "community": 9,
+      "community": 8,
       "norm_label": "route.ts",
       "id": "src_app_api_admin_submissions_id_route_ts"
     },
@@ -908,7 +1061,7 @@
       "file_type": "code",
       "source_file": "src/app/api/admin/submissions/[id]/route.ts",
       "source_location": "L9",
-      "community": 9,
+      "community": 8,
       "norm_label": "isauthenticated()",
       "id": "id_route_isauthenticated"
     },
@@ -917,7 +1070,7 @@
       "file_type": "code",
       "source_file": "src/app/api/admin/submissions/[id]/route.ts",
       "source_location": "L14",
-      "community": 9,
+      "community": 8,
       "norm_label": "patch()",
       "id": "id_route_patch"
     },
@@ -926,7 +1079,7 @@
       "file_type": "code",
       "source_file": "src/app/api/admin/submissions/[id]/route.ts",
       "source_location": "L63",
-      "community": 9,
+      "community": 8,
       "norm_label": "delete()",
       "id": "id_route_delete"
     },
@@ -1349,7 +1502,7 @@
       "file_type": "code",
       "source_file": "src/components/story/StoryDetail.tsx",
       "source_location": "L12",
-      "community": 6,
+      "community": 12,
       "norm_label": "storydetail()",
       "id": "story_storydetail_storydetail"
     },
@@ -1358,7 +1511,7 @@
       "file_type": "code",
       "source_file": "src/app/admin/dashboard/page.tsx",
       "source_location": "L1",
-      "community": 8,
+      "community": 13,
       "norm_label": "page.tsx",
       "id": "src_app_admin_dashboard_page_tsx"
     },
@@ -1367,7 +1520,7 @@
       "file_type": "code",
       "source_file": "src/app/admin/dashboard/page.tsx",
       "source_location": "L7",
-      "community": 8,
+      "community": 13,
       "norm_label": "getstats()",
       "id": "dashboard_page_getstats"
     },
@@ -1376,7 +1529,7 @@
       "file_type": "code",
       "source_file": "src/app/admin/dashboard/page.tsx",
       "source_location": "L21",
-      "community": 8,
+      "community": 13,
       "norm_label": "action_labels",
       "id": "dashboard_page_action_labels"
     },
@@ -1385,7 +1538,7 @@
       "file_type": "code",
       "source_file": "src/app/admin/dashboard/page.tsx",
       "source_location": "L27",
-      "community": 8,
+      "community": 13,
       "norm_label": "action_colors",
       "id": "dashboard_page_action_colors"
     },
@@ -1394,7 +1547,7 @@
       "file_type": "code",
       "source_file": "src/app/admin/dashboard/page.tsx",
       "source_location": "L33",
-      "community": 8,
+      "community": 13,
       "norm_label": "dashboardpage()",
       "id": "dashboard_page_dashboardpage"
     },
@@ -1403,7 +1556,7 @@
       "file_type": "code",
       "source_file": "src/app/admin/dashboard/page.tsx",
       "source_location": "L112",
-      "community": 8,
+      "community": 13,
       "norm_label": "statcard()",
       "id": "dashboard_page_statcard"
     },
@@ -1502,7 +1655,7 @@
       "file_type": "code",
       "source_file": "src/components/admin/LogoutButton.tsx",
       "source_location": "L1",
-      "community": 8,
+      "community": 13,
       "norm_label": "logoutbutton.tsx",
       "id": "src_components_admin_logoutbutton_tsx"
     },
@@ -1511,7 +1664,7 @@
       "file_type": "code",
       "source_file": "src/components/admin/LogoutButton.tsx",
       "source_location": "L6",
-      "community": 8,
+      "community": 13,
       "norm_label": "logoutbutton()",
       "id": "admin_logoutbutton_logoutbutton"
     },
@@ -1646,7 +1799,7 @@
       "file_type": "code",
       "source_file": "src/lib/db/models/AdminLog.ts",
       "source_location": "L1",
-      "community": 9,
+      "community": 8,
       "norm_label": "adminlog.ts",
       "id": "src_lib_db_models_adminlog_ts"
     },
@@ -1655,7 +1808,7 @@
       "file_type": "code",
       "source_file": "src/lib/db/models/AdminLog.ts",
       "source_location": "L3",
-      "community": 9,
+      "community": 8,
       "norm_label": "adminaction",
       "id": "models_adminlog_adminaction"
     },
@@ -1664,7 +1817,7 @@
       "file_type": "code",
       "source_file": "src/lib/db/models/AdminLog.ts",
       "source_location": "L5",
-      "community": 9,
+      "community": 8,
       "norm_label": "iadminlog",
       "id": "models_adminlog_iadminlog"
     },
@@ -1673,7 +1826,7 @@
       "file_type": "code",
       "source_file": "src/lib/db/models/AdminLog.ts",
       "source_location": "L13",
-      "community": 9,
+      "community": 8,
       "norm_label": "adminlogschema",
       "id": "models_adminlog_adminlogschema"
     },
@@ -3265,12 +3418,214 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "deployment_md",
+      "target": "biyerkhoroch_deployment_deployment_guide_biyerkhoroch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "biyerkhoroch_deployment_deployment_guide_biyerkhoroch",
+      "target": "biyerkhoroch_deployment_prerequisites",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "biyerkhoroch_deployment_deployment_guide_biyerkhoroch",
+      "target": "biyerkhoroch_deployment_1_mongodb_setup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "biyerkhoroch_deployment_deployment_guide_biyerkhoroch",
+      "target": "biyerkhoroch_deployment_2_environment_variables",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "biyerkhoroch_deployment_deployment_guide_biyerkhoroch",
+      "target": "biyerkhoroch_deployment_3_deploy_to_vercel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "biyerkhoroch_deployment_deployment_guide_biyerkhoroch",
+      "target": "biyerkhoroch_deployment_4_custom_domain",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "biyerkhoroch_deployment_deployment_guide_biyerkhoroch",
+      "target": "biyerkhoroch_deployment_5_post_deployment_checklist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "biyerkhoroch_deployment_deployment_guide_biyerkhoroch",
+      "target": "biyerkhoroch_deployment_6_local_development",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "biyerkhoroch_deployment_deployment_guide_biyerkhoroch",
+      "target": "biyerkhoroch_deployment_7_useful_commands",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "biyerkhoroch_deployment_1_mongodb_setup",
+      "target": "biyerkhoroch_deployment_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "biyerkhoroch_deployment_3_deploy_to_vercel",
+      "target": "biyerkhoroch_deployment_via_vercel_cli",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "biyerkhoroch_deployment_3_deploy_to_vercel",
+      "target": "biyerkhoroch_deployment_via_github_integration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "biyerkhoroch_deployment_via_vercel_cli",
+      "target": "biyerkhoroch_deployment_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "DEPLOYMENT.md",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "biyerkhoroch_deployment_6_local_development",
+      "target": "biyerkhoroch_deployment_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "next.config.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "next_config_ts",
-      "target": "biyerkhoroch_next_config_nextconfig",
+      "target": "biyerkhoroch_next_config_nextconfig"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/submit/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_main_submit_page_tsx",
+      "target": "submit_page_metadata"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/submit/page.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "src_app_main_submit_page_tsx",
+      "target": "submit_page_formskeleton",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/submit/page.tsx",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "src_app_main_submit_page_tsx",
+      "target": "submit_page_submissionform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/submit/page.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_main_submit_page_tsx",
+      "target": "submit_page_submitpage"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/submit/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_main_submit_page_tsx",
+      "target": "submission_submissionform_submissionform"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/submit/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_main_submit_page_tsx",
+      "target": "src_components_submission_submissionform_tsx"
     },
     {
       "relation": "imports",
@@ -3352,9 +3707,9 @@
       "source_file": "src/app/(main)/page.tsx",
       "source_location": "L109",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_main_page_tsx",
-      "target": "main_page_metadata",
-      "confidence_score": 1.0
+      "target": "main_page_metadata"
     },
     {
       "relation": "contains",
@@ -3395,9 +3750,9 @@
       "source_file": "src/app/(main)/story/[slug]/opengraph-image.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_main_story_slug_opengraph_image_tsx",
-      "target": "src_lib_data_stories_ts",
-      "confidence_score": 1.0
+      "target": "src_lib_data_stories_ts"
     },
     {
       "relation": "imports",
@@ -3406,9 +3761,9 @@
       "source_file": "src/app/(main)/story/[slug]/opengraph-image.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_main_story_slug_opengraph_image_tsx",
-      "target": "data_stories_getstorybyslug",
-      "confidence_score": 1.0
+      "target": "data_stories_getstorybyslug"
     },
     {
       "relation": "imports",
@@ -3417,9 +3772,9 @@
       "source_file": "src/app/(main)/story/[slug]/opengraph-image.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_main_story_slug_opengraph_image_tsx",
-      "target": "utils_format_formatbdtcompact",
-      "confidence_score": 1.0
+      "target": "utils_format_formatbdtcompact"
     },
     {
       "relation": "contains",
@@ -3427,9 +3782,9 @@
       "source_file": "src/app/(main)/story/[slug]/opengraph-image.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_main_story_slug_opengraph_image_tsx",
-      "target": "slug_opengraph_image_size",
-      "confidence_score": 1.0
+      "target": "slug_opengraph_image_size"
     },
     {
       "relation": "contains",
@@ -3437,9 +3792,9 @@
       "source_file": "src/app/(main)/story/[slug]/opengraph-image.tsx",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_main_story_slug_opengraph_image_tsx",
-      "target": "slug_opengraph_image_image",
-      "confidence_score": 1.0
+      "target": "slug_opengraph_image_image"
     },
     {
       "relation": "calls",
@@ -3640,48 +3995,6 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "src/app/(main)/submit/page.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_main_submit_page_tsx",
-      "target": "submission_submissionform_submissionform"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/(main)/submit/page.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_main_submit_page_tsx",
-      "target": "submit_page_metadata"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/(main)/submit/page.tsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_main_submit_page_tsx",
-      "target": "submit_page_submitpage"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/(main)/submit/page.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_main_submit_page_tsx",
-      "target": "src_components_submission_submissionform_tsx"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
       "source_file": "src/app/layout.tsx",
       "source_location": "L3",
       "weight": 1.0,
@@ -3766,9 +4079,9 @@
       "source_file": "src/app/opengraph-image.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_opengraph_image_tsx",
-      "target": "app_opengraph_image_size",
-      "confidence_score": 1.0
+      "target": "app_opengraph_image_size"
     },
     {
       "relation": "contains",
@@ -3776,9 +4089,9 @@
       "source_file": "src/app/opengraph-image.tsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_opengraph_image_tsx",
-      "target": "app_opengraph_image_image",
-      "confidence_score": 1.0
+      "target": "app_opengraph_image_image"
     },
     {
       "relation": "contains",
@@ -3786,9 +4099,9 @@
       "source_file": "src/app/robots.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_robots_ts",
-      "target": "app_robots_robots",
-      "confidence_score": 1.0
+      "target": "app_robots_robots"
     },
     {
       "relation": "imports_from",
@@ -3797,9 +4110,9 @@
       "source_file": "src/app/sitemap.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_sitemap_ts",
-      "target": "src_lib_data_stories_ts",
-      "confidence_score": 1.0
+      "target": "src_lib_data_stories_ts"
     },
     {
       "relation": "imports",
@@ -3808,9 +4121,9 @@
       "source_file": "src/app/sitemap.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_sitemap_ts",
-      "target": "data_stories_getapprovedstoriesforsitemap",
-      "confidence_score": 1.0
+      "target": "data_stories_getapprovedstoriesforsitemap"
     },
     {
       "relation": "contains",
@@ -3818,9 +4131,9 @@
       "source_file": "src/app/sitemap.ts",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_sitemap_ts",
-      "target": "app_sitemap_sitemap",
-      "confidence_score": 1.0
+      "target": "app_sitemap_sitemap"
     },
     {
       "relation": "calls",
@@ -3972,9 +4285,9 @@
       "source_file": "src/lib/data/stories.ts",
       "source_location": "L132",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_data_stories_ts",
-      "target": "data_stories_getapprovedstoriesforsitemap",
-      "confidence_score": 1.0
+      "target": "data_stories_getapprovedstoriesforsitemap"
     },
     {
       "relation": "imports_from",
@@ -6552,5 +6865,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "6ae48503acef1eef9b120ecfa00e15b3448435d3"
+  "built_at_commit": "3841925a45ae6048fe03de7babb951c1bb6b1aa5"
 }

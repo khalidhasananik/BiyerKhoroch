@@ -3,6 +3,7 @@ import { connectToDatabase } from "@/lib/db/connection";
 import SubmissionModel from "@/lib/db/models/Submission";
 import { submissionFormSchema } from "@/lib/validations/submission";
 import { checkRateLimit, getClientIp } from "@/lib/rateLimit";
+import { sendSubmissionNotification } from "@/lib/email";
 
 export async function POST(request: Request) {
   // Rate limit by IP
@@ -67,6 +68,16 @@ export async function POST(request: Request) {
   });
 
   await submission.save();
+
+  // Fire-and-forget — don't let email failure block the response
+  sendSubmissionNotification({
+    slug: submission.slug,
+    city: submission.city,
+    guestCount: submission.guestCount,
+    venueName: submission.venueName,
+    totalCost: submission.totalCost,
+    story: submission.story,
+  }).catch((err) => console.error("[email] notification failed:", err));
 
   return NextResponse.json(
     {
