@@ -183,7 +183,7 @@ Rules:
 ---
 
 ## Phase 6 — Story Detail Pages
-**Status:** `Pending`
+**Status:** `Completed`
 
 ### Objectives
 - SEO-friendly individual story pages
@@ -192,13 +192,13 @@ Rules:
 - Social share meta tags
 
 ### Tasks
-- [ ] `src/app/(main)/story/[slug]/page.tsx`
-- [ ] `generateStaticParams` or ISR for story pages
-- [ ] `generateMetadata` for dynamic OG/Twitter tags
-- [ ] `src/components/story/StoryDetail.tsx` — full page layout
-- [ ] `src/components/story/CostBreakdown.tsx` — expense table
-- [ ] Share buttons (copy link, X/Twitter, Facebook)
-- [ ] Related stories section
+- [x] `src/app/(main)/story/[slug]/page.tsx`
+- [x] `generateStaticParams` or ISR for story pages
+- [x] `generateMetadata` for dynamic OG/Twitter tags
+- [x] `src/components/story/StoryDetail.tsx` — full page layout
+- [x] `src/components/story/CostBreakdown.tsx` — expense table
+- [x] Share buttons (copy link, X/Twitter, Facebook)
+- [x] Related stories section
 
 ### Deliverables
 - Each approved submission has a public URL
@@ -206,10 +206,10 @@ Rules:
 - Cost breakdown readable on mobile
 
 ### Checklist
-- [ ] URLs are `/story/dhaka-wedding-abc123` format
-- [ ] Page title uses city + guest count
-- [ ] Share preview shows correct image/description
-- [ ] 404 for pending/rejected stories
+- [x] URLs are `/story/dhaka-wedding-abc123` format
+- [x] Page title uses city + guest count
+- [x] Share preview shows correct image/description
+- [x] 404 for pending/rejected stories
 
 ---
 

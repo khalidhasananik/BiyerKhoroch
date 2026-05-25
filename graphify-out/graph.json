@@ -4,51 +4,6 @@
   "graph": {},
   "nodes": [
     {
-      "label": "settings.json",
-      "file_type": "code",
-      "source_file": ".claude/settings.json",
-      "source_location": "L1",
-      "id": "claude_settings_json",
-      "community": 16,
-      "norm_label": "settings.json"
-    },
-    {
-      "label": "permissions",
-      "file_type": "code",
-      "source_file": ".claude/settings.json",
-      "source_location": "L2",
-      "id": "claude_settings_permissions",
-      "community": 16,
-      "norm_label": "permissions"
-    },
-    {
-      "label": "allow",
-      "file_type": "code",
-      "source_file": ".claude/settings.json",
-      "source_location": "L3",
-      "id": "claude_settings_permissions_allow",
-      "community": 16,
-      "norm_label": "allow"
-    },
-    {
-      "label": "hooks",
-      "file_type": "code",
-      "source_file": ".claude/settings.json",
-      "source_location": "L17",
-      "id": "claude_settings_hooks",
-      "community": 16,
-      "norm_label": "hooks"
-    },
-    {
-      "label": "PreToolUse",
-      "file_type": "code",
-      "source_file": ".claude/settings.json",
-      "source_location": "L18",
-      "id": "claude_settings_hooks_pretooluse",
-      "community": 16,
-      "norm_label": "pretooluse"
-    },
-    {
       "label": "CLAUDE.md",
       "file_type": "document",
       "source_file": "CLAUDE.md",
@@ -81,7 +36,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L22",
       "id": "biyerkhoroch_claude_phase_1_project_setup_folder_structure_theme_mongodb_connection",
-      "community": 3,
+      "community": 12,
       "norm_label": "phase 1 \u2014 project setup, folder structure, theme, mongodb connection"
     },
     {
@@ -90,7 +45,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L25",
       "id": "biyerkhoroch_claude_objectives",
-      "community": 3,
+      "community": 12,
       "norm_label": "objectives"
     },
     {
@@ -99,7 +54,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L32",
       "id": "biyerkhoroch_claude_tasks",
-      "community": 3,
+      "community": 12,
       "norm_label": "tasks"
     },
     {
@@ -108,7 +63,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L42",
       "id": "biyerkhoroch_claude_deliverables",
-      "community": 3,
+      "community": 12,
       "norm_label": "deliverables"
     },
     {
@@ -117,7 +72,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L48",
       "id": "biyerkhoroch_claude_checklist",
-      "community": 3,
+      "community": 12,
       "norm_label": "checklist"
     },
     {
@@ -171,7 +126,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L91",
       "id": "biyerkhoroch_claude_phase_3_submission_form_frontend",
-      "community": 3,
+      "community": 14,
       "norm_label": "phase 3 \u2014 submission form (frontend)"
     },
     {
@@ -180,7 +135,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L94",
       "id": "biyerkhoroch_claude_objectives_94",
-      "community": 3,
+      "community": 14,
       "norm_label": "objectives"
     },
     {
@@ -189,7 +144,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L100",
       "id": "biyerkhoroch_claude_tasks_100",
-      "community": 3,
+      "community": 14,
       "norm_label": "tasks"
     },
     {
@@ -198,7 +153,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L109",
       "id": "biyerkhoroch_claude_deliverables_109",
-      "community": 3,
+      "community": 14,
       "norm_label": "deliverables"
     },
     {
@@ -207,7 +162,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L114",
       "id": "biyerkhoroch_claude_checklist_114",
-      "community": 3,
+      "community": 14,
       "norm_label": "checklist"
     },
     {
@@ -216,7 +171,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L123",
       "id": "biyerkhoroch_claude_phase_4_backend_submission_api_database_schema",
-      "community": 8,
+      "community": 3,
       "norm_label": "phase 4 \u2014 backend: submission api + database schema"
     },
     {
@@ -225,7 +180,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L126",
       "id": "biyerkhoroch_claude_objectives_126",
-      "community": 8,
+      "community": 3,
       "norm_label": "objectives"
     },
     {
@@ -234,7 +189,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L132",
       "id": "biyerkhoroch_claude_tasks_132",
-      "community": 8,
+      "community": 3,
       "norm_label": "tasks"
     },
     {
@@ -243,7 +198,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L142",
       "id": "biyerkhoroch_claude_deliverables_142",
-      "community": 8,
+      "community": 3,
       "norm_label": "deliverables"
     },
     {
@@ -252,7 +207,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L147",
       "id": "biyerkhoroch_claude_checklist_147",
-      "community": 8,
+      "community": 3,
       "norm_label": "checklist"
     },
     {
@@ -351,7 +306,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L216",
       "id": "biyerkhoroch_claude_phase_7_search_filter_system",
-      "community": 7,
+      "community": 3,
       "norm_label": "phase 7 \u2014 search & filter system"
     },
     {
@@ -360,7 +315,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L219",
       "id": "biyerkhoroch_claude_objectives_219",
-      "community": 7,
+      "community": 3,
       "norm_label": "objectives"
     },
     {
@@ -369,7 +324,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L224",
       "id": "biyerkhoroch_claude_tasks_224",
-      "community": 7,
+      "community": 3,
       "norm_label": "tasks"
     },
     {
@@ -378,7 +333,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L233",
       "id": "biyerkhoroch_claude_deliverables_233",
-      "community": 7,
+      "community": 3,
       "norm_label": "deliverables"
     },
     {
@@ -387,7 +342,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L239",
       "id": "biyerkhoroch_claude_checklist_239",
-      "community": 7,
+      "community": 3,
       "norm_label": "checklist"
     },
     {
@@ -396,7 +351,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L247",
       "id": "biyerkhoroch_claude_phase_8_analytics_statistics",
-      "community": 10,
+      "community": 3,
       "norm_label": "phase 8 \u2014 analytics & statistics"
     },
     {
@@ -405,7 +360,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L250",
       "id": "biyerkhoroch_claude_objectives_250",
-      "community": 10,
+      "community": 3,
       "norm_label": "objectives"
     },
     {
@@ -414,7 +369,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L255",
       "id": "biyerkhoroch_claude_tasks_255",
-      "community": 10,
+      "community": 3,
       "norm_label": "tasks"
     },
     {
@@ -423,7 +378,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L263",
       "id": "biyerkhoroch_claude_deliverables_263",
-      "community": 10,
+      "community": 3,
       "norm_label": "deliverables"
     },
     {
@@ -432,7 +387,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L268",
       "id": "biyerkhoroch_claude_checklist_268",
-      "community": 10,
+      "community": 3,
       "norm_label": "checklist"
     },
     {
@@ -441,7 +396,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L276",
       "id": "biyerkhoroch_claude_phase_9_seo_optimization",
-      "community": 12,
+      "community": 3,
       "norm_label": "phase 9 \u2014 seo optimization"
     },
     {
@@ -450,7 +405,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L279",
       "id": "biyerkhoroch_claude_objectives_279",
-      "community": 12,
+      "community": 3,
       "norm_label": "objectives"
     },
     {
@@ -459,7 +414,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L286",
       "id": "biyerkhoroch_claude_tasks_286",
-      "community": 12,
+      "community": 3,
       "norm_label": "tasks"
     },
     {
@@ -468,7 +423,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L296",
       "id": "biyerkhoroch_claude_deliverables_296",
-      "community": 12,
+      "community": 3,
       "norm_label": "deliverables"
     },
     {
@@ -477,7 +432,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L302",
       "id": "biyerkhoroch_claude_checklist_302",
-      "community": 12,
+      "community": 3,
       "norm_label": "checklist"
     },
     {
@@ -486,7 +441,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L310",
       "id": "biyerkhoroch_claude_phase_10_performance_optimization_deployment_prep",
-      "community": 3,
+      "community": 15,
       "norm_label": "phase 10 \u2014 performance optimization & deployment prep"
     },
     {
@@ -495,7 +450,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L313",
       "id": "biyerkhoroch_claude_objectives_313",
-      "community": 3,
+      "community": 15,
       "norm_label": "objectives"
     },
     {
@@ -504,7 +459,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L320",
       "id": "biyerkhoroch_claude_tasks_320",
-      "community": 3,
+      "community": 15,
       "norm_label": "tasks"
     },
     {
@@ -513,7 +468,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L330",
       "id": "biyerkhoroch_claude_deliverables_330",
-      "community": 3,
+      "community": 15,
       "norm_label": "deliverables"
     },
     {
@@ -522,7 +477,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L336",
       "id": "biyerkhoroch_claude_checklist_336",
-      "community": 3,
+      "community": 15,
       "norm_label": "checklist"
     },
     {
@@ -535,166 +490,472 @@
       "norm_label": "workflow rules"
     },
     {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L1",
+      "id": "src_app_admin_dashboard_page_tsx",
+      "community": 8,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "getStats()",
+      "file_type": "code",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L7",
+      "id": "dashboard_page_getstats",
+      "community": 8,
+      "norm_label": "getstats()"
+    },
+    {
+      "label": "ACTION_LABELS",
+      "file_type": "code",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L21",
+      "id": "dashboard_page_action_labels",
+      "community": 8,
+      "norm_label": "action_labels"
+    },
+    {
+      "label": "ACTION_COLORS",
+      "file_type": "code",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L27",
+      "id": "dashboard_page_action_colors",
+      "community": 8,
+      "norm_label": "action_colors"
+    },
+    {
+      "label": "DashboardPage()",
+      "file_type": "code",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L33",
+      "id": "dashboard_page_dashboardpage",
+      "community": 8,
+      "norm_label": "dashboardpage()"
+    },
+    {
+      "label": "StatCard()",
+      "file_type": "code",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L112",
+      "id": "dashboard_page_statcard",
+      "community": 8,
+      "norm_label": "statcard()"
+    },
+    {
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "src/app/admin/layout.tsx",
+      "source_location": "L1",
+      "id": "src_app_admin_layout_tsx",
+      "community": 21,
+      "norm_label": "layout.tsx"
+    },
+    {
+      "label": "AdminLayout()",
+      "file_type": "code",
+      "source_file": "src/app/admin/layout.tsx",
+      "source_location": "L1",
+      "id": "admin_layout_adminlayout",
+      "community": 21,
+      "norm_label": "adminlayout()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/admin/page.tsx",
+      "source_location": "L1",
+      "id": "src_app_admin_page_tsx",
+      "community": 22,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "AdminLoginPage()",
+      "file_type": "code",
+      "source_file": "src/app/admin/page.tsx",
+      "source_location": "L6",
+      "id": "admin_page_adminloginpage",
+      "community": 22,
+      "norm_label": "adminloginpage()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/admin/queue/page.tsx",
+      "source_location": "L1",
+      "id": "src_app_admin_queue_page_tsx",
+      "community": 7,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "getPendingSubmissions()",
+      "file_type": "code",
+      "source_file": "src/app/admin/queue/page.tsx",
+      "source_location": "L8",
+      "id": "queue_page_getpendingsubmissions",
+      "community": 7,
+      "norm_label": "getpendingsubmissions()"
+    },
+    {
+      "label": "QueuePage()",
+      "file_type": "code",
+      "source_file": "src/app/admin/queue/page.tsx",
+      "source_location": "L22",
+      "id": "queue_page_queuepage",
+      "community": 7,
+      "norm_label": "queuepage()"
+    },
+    {
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "src/app/api/admin/auth/route.ts",
+      "source_location": "L1",
+      "id": "src_app_api_admin_auth_route_ts",
+      "community": 19,
+      "norm_label": "route.ts"
+    },
+    {
+      "label": "POST()",
+      "file_type": "code",
+      "source_file": "src/app/api/admin/auth/route.ts",
+      "source_location": "L7",
+      "id": "auth_route_post",
+      "community": 19,
+      "norm_label": "post()"
+    },
+    {
+      "label": "DELETE()",
+      "file_type": "code",
+      "source_file": "src/app/api/admin/auth/route.ts",
+      "source_location": "L41",
+      "id": "auth_route_delete",
+      "community": 19,
+      "norm_label": "delete()"
+    },
+    {
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "src/app/api/admin/submissions/[id]/route.ts",
+      "source_location": "L1",
+      "id": "src_app_api_admin_submissions_id_route_ts",
+      "community": 13,
+      "norm_label": "route.ts"
+    },
+    {
+      "label": "isAuthenticated()",
+      "file_type": "code",
+      "source_file": "src/app/api/admin/submissions/[id]/route.ts",
+      "source_location": "L8",
+      "id": "id_route_isauthenticated",
+      "community": 13,
+      "norm_label": "isauthenticated()"
+    },
+    {
+      "label": "PATCH()",
+      "file_type": "code",
+      "source_file": "src/app/api/admin/submissions/[id]/route.ts",
+      "source_location": "L13",
+      "id": "id_route_patch",
+      "community": 13,
+      "norm_label": "patch()"
+    },
+    {
+      "label": "DELETE()",
+      "file_type": "code",
+      "source_file": "src/app/api/admin/submissions/[id]/route.ts",
+      "source_location": "L60",
+      "id": "id_route_delete",
+      "community": 13,
+      "norm_label": "delete()"
+    },
+    {
+      "label": "LogoutButton.tsx",
+      "file_type": "code",
+      "source_file": "src/components/admin/LogoutButton.tsx",
+      "source_location": "L1",
+      "id": "src_components_admin_logoutbutton_tsx",
+      "community": 8,
+      "norm_label": "logoutbutton.tsx"
+    },
+    {
+      "label": "LogoutButton()",
+      "file_type": "code",
+      "source_file": "src/components/admin/LogoutButton.tsx",
+      "source_location": "L6",
+      "id": "admin_logoutbutton_logoutbutton",
+      "community": 8,
+      "norm_label": "logoutbutton()"
+    },
+    {
+      "label": "ModerationCard.tsx",
+      "file_type": "code",
+      "source_file": "src/components/admin/ModerationCard.tsx",
+      "source_location": "L1",
+      "id": "src_components_admin_moderationcard_tsx",
+      "community": 7,
+      "norm_label": "moderationcard.tsx"
+    },
+    {
+      "label": "COST_LABELS",
+      "file_type": "code",
+      "source_file": "src/components/admin/ModerationCard.tsx",
+      "source_location": "L7",
+      "id": "admin_moderationcard_cost_labels",
+      "community": 7,
+      "norm_label": "cost_labels"
+    },
+    {
+      "label": "formatBDT()",
+      "file_type": "code",
+      "source_file": "src/components/admin/ModerationCard.tsx",
+      "source_location": "L19",
+      "id": "admin_moderationcard_formatbdt",
+      "community": 7,
+      "norm_label": "formatbdt()"
+    },
+    {
+      "label": "ModerationCard()",
+      "file_type": "code",
+      "source_file": "src/components/admin/ModerationCard.tsx",
+      "source_location": "L23",
+      "id": "admin_moderationcard_moderationcard",
+      "community": 7,
+      "norm_label": "moderationcard()"
+    },
+    {
+      "label": "proxy.ts",
+      "file_type": "code",
+      "source_file": "src/proxy.ts",
+      "source_location": "L1",
+      "id": "src_proxy_ts",
+      "community": 20,
+      "norm_label": "proxy.ts"
+    },
+    {
+      "label": "proxy()",
+      "file_type": "code",
+      "source_file": "src/proxy.ts",
+      "source_location": "L3",
+      "id": "src_proxy_proxy",
+      "community": 20,
+      "norm_label": "proxy()"
+    },
+    {
+      "label": "config",
+      "file_type": "code",
+      "source_file": "src/proxy.ts",
+      "source_location": "L24",
+      "id": "src_proxy_config",
+      "community": 20,
+      "norm_label": "config"
+    },
+    {
+      "label": "settings.json",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L1",
+      "community": 16,
+      "norm_label": "settings.json",
+      "id": "claude_settings_json"
+    },
+    {
+      "label": "permissions",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L2",
+      "community": 16,
+      "norm_label": "permissions",
+      "id": "claude_settings_permissions"
+    },
+    {
+      "label": "allow",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L3",
+      "community": 16,
+      "norm_label": "allow",
+      "id": "claude_settings_permissions_allow"
+    },
+    {
+      "label": "hooks",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L17",
+      "community": 16,
+      "norm_label": "hooks",
+      "id": "claude_settings_hooks"
+    },
+    {
+      "label": "PreToolUse",
+      "file_type": "code",
+      "source_file": ".claude/settings.json",
+      "source_location": "L18",
+      "community": 16,
+      "norm_label": "pretooluse",
+      "id": "claude_settings_hooks_pretooluse"
+    },
+    {
       "label": "route.ts",
       "file_type": "code",
       "source_file": "src/app/api/submissions/route.ts",
       "source_location": "L1",
-      "id": "src_app_api_submissions_route_ts",
       "community": 17,
-      "norm_label": "route.ts"
+      "norm_label": "route.ts",
+      "id": "src_app_api_submissions_route_ts"
     },
     {
       "label": "POST()",
       "file_type": "code",
       "source_file": "src/app/api/submissions/route.ts",
       "source_location": "L7",
-      "id": "submissions_route_post",
       "community": 17,
-      "norm_label": "post()"
+      "norm_label": "post()",
+      "id": "submissions_route_post"
     },
     {
       "label": "AdminLog.ts",
       "file_type": "code",
       "source_file": "src/lib/db/models/AdminLog.ts",
       "source_location": "L1",
-      "id": "src_lib_db_models_adminlog_ts",
       "community": 13,
-      "norm_label": "adminlog.ts"
+      "norm_label": "adminlog.ts",
+      "id": "src_lib_db_models_adminlog_ts"
     },
     {
       "label": "AdminAction",
       "file_type": "code",
       "source_file": "src/lib/db/models/AdminLog.ts",
       "source_location": "L3",
-      "id": "models_adminlog_adminaction",
       "community": 13,
-      "norm_label": "adminaction"
+      "norm_label": "adminaction",
+      "id": "models_adminlog_adminaction"
     },
     {
       "label": "IAdminLog",
       "file_type": "code",
       "source_file": "src/lib/db/models/AdminLog.ts",
       "source_location": "L5",
-      "id": "models_adminlog_iadminlog",
       "community": 13,
-      "norm_label": "iadminlog"
+      "norm_label": "iadminlog",
+      "id": "models_adminlog_iadminlog"
     },
     {
       "label": "adminLogSchema",
       "file_type": "code",
       "source_file": "src/lib/db/models/AdminLog.ts",
       "source_location": "L13",
-      "id": "models_adminlog_adminlogschema",
       "community": 13,
-      "norm_label": "adminlogschema"
+      "norm_label": "adminlogschema",
+      "id": "models_adminlog_adminlogschema"
     },
     {
       "label": "Submission.ts",
       "file_type": "code",
       "source_file": "src/lib/db/models/Submission.ts",
       "source_location": "L1",
-      "id": "src_lib_db_models_submission_ts",
-      "community": 17,
-      "norm_label": "submission.ts"
+      "community": 7,
+      "norm_label": "submission.ts",
+      "id": "src_lib_db_models_submission_ts"
     },
     {
       "label": "ISubmission",
       "file_type": "code",
       "source_file": "src/lib/db/models/Submission.ts",
       "source_location": "L3",
-      "id": "models_submission_isubmission",
-      "community": 17,
-      "norm_label": "isubmission"
+      "community": 7,
+      "norm_label": "isubmission",
+      "id": "models_submission_isubmission"
     },
     {
       "label": "costBreakdownSchema",
       "file_type": "code",
       "source_file": "src/lib/db/models/Submission.ts",
       "source_location": "L29",
-      "id": "models_submission_costbreakdownschema",
-      "community": 17,
-      "norm_label": "costbreakdownschema"
+      "community": 7,
+      "norm_label": "costbreakdownschema",
+      "id": "models_submission_costbreakdownschema"
     },
     {
       "label": "cityToSlugPart()",
       "file_type": "code",
       "source_file": "src/lib/db/models/Submission.ts",
       "source_location": "L44",
-      "id": "models_submission_citytoslugpart",
-      "community": 17,
-      "norm_label": "citytoslugpart()"
+      "community": 7,
+      "norm_label": "citytoslugpart()",
+      "id": "models_submission_citytoslugpart"
     },
     {
       "label": "submissionSchema",
       "file_type": "code",
       "source_file": "src/lib/db/models/Submission.ts",
       "source_location": "L52",
-      "id": "models_submission_submissionschema",
-      "community": 17,
-      "norm_label": "submissionschema"
+      "community": 7,
+      "norm_label": "submissionschema",
+      "id": "models_submission_submissionschema"
     },
     {
       "label": "shortId",
       "file_type": "code",
       "source_file": "src/lib/db/models/Submission.ts",
       "source_location": "L78",
-      "id": "models_submission_shortid",
-      "community": 17,
-      "norm_label": "shortid"
+      "community": 7,
+      "norm_label": "shortid",
+      "id": "models_submission_shortid"
     },
     {
       "label": "rateLimit.ts",
       "file_type": "code",
       "source_file": "src/lib/rateLimit.ts",
       "source_location": "L1",
-      "id": "src_lib_ratelimit_ts",
       "community": 17,
-      "norm_label": "ratelimit.ts"
+      "norm_label": "ratelimit.ts",
+      "id": "src_lib_ratelimit_ts"
     },
     {
       "label": "Entry",
       "file_type": "code",
       "source_file": "src/lib/rateLimit.ts",
       "source_location": "L8",
-      "id": "lib_ratelimit_entry",
       "community": 17,
-      "norm_label": "entry"
+      "norm_label": "entry",
+      "id": "lib_ratelimit_entry"
     },
     {
       "label": "store",
       "file_type": "code",
       "source_file": "src/lib/rateLimit.ts",
       "source_location": "L13",
-      "id": "lib_ratelimit_store",
       "community": 17,
-      "norm_label": "store"
+      "norm_label": "store",
+      "id": "lib_ratelimit_store"
     },
     {
       "label": "RateLimitResult",
       "file_type": "code",
       "source_file": "src/lib/rateLimit.ts",
       "source_location": "L15",
-      "id": "lib_ratelimit_ratelimitresult",
       "community": 17,
-      "norm_label": "ratelimitresult"
+      "norm_label": "ratelimitresult",
+      "id": "lib_ratelimit_ratelimitresult"
     },
     {
       "label": "checkRateLimit()",
       "file_type": "code",
       "source_file": "src/lib/rateLimit.ts",
       "source_location": "L21",
-      "id": "lib_ratelimit_checkratelimit",
       "community": 17,
-      "norm_label": "checkratelimit()"
+      "norm_label": "checkratelimit()",
+      "id": "lib_ratelimit_checkratelimit"
     },
     {
       "label": "getClientIp()",
       "file_type": "code",
       "source_file": "src/lib/rateLimit.ts",
       "source_location": "L38",
-      "id": "lib_ratelimit_getclientip",
       "community": 17,
-      "norm_label": "getclientip()"
+      "norm_label": "getclientip()",
+      "id": "lib_ratelimit_getclientip"
     },
     {
       "label": "package.json",
@@ -836,7 +1097,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L18",
-      "community": 4,
+      "community": 10,
       "norm_label": "devdependencies",
       "id": "biyerkhoroch_package_devdependencies"
     },
@@ -845,7 +1106,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L19",
-      "community": 4,
+      "community": 10,
       "norm_label": "@tailwindcss/postcss",
       "id": "biyerkhoroch_package_devdependencies_tailwindcss_postcss"
     },
@@ -854,7 +1115,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L20",
-      "community": 4,
+      "community": 10,
       "norm_label": "@types/node",
       "id": "biyerkhoroch_package_devdependencies_types_node"
     },
@@ -863,7 +1124,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L21",
-      "community": 4,
+      "community": 10,
       "norm_label": "@types/react",
       "id": "biyerkhoroch_package_devdependencies_types_react"
     },
@@ -872,7 +1133,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L22",
-      "community": 4,
+      "community": 10,
       "norm_label": "@types/react-dom",
       "id": "biyerkhoroch_package_devdependencies_types_react_dom"
     },
@@ -881,7 +1142,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L23",
-      "community": 4,
+      "community": 10,
       "norm_label": "eslint",
       "id": "biyerkhoroch_package_devdependencies_eslint"
     },
@@ -890,7 +1151,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L24",
-      "community": 4,
+      "community": 10,
       "norm_label": "eslint-config-next",
       "id": "biyerkhoroch_package_devdependencies_eslint_config_next"
     },
@@ -899,7 +1160,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L25",
-      "community": 4,
+      "community": 10,
       "norm_label": "tailwindcss",
       "id": "biyerkhoroch_package_devdependencies_tailwindcss"
     },
@@ -908,7 +1169,7 @@
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L26",
-      "community": 4,
+      "community": 10,
       "norm_label": "typescript",
       "id": "biyerkhoroch_package_devdependencies_typescript"
     },
@@ -1619,7 +1880,7 @@
       "file_type": "code",
       "source_file": "src/lib/db/connection.ts",
       "source_location": "L1",
-      "community": 17,
+      "community": 8,
       "norm_label": "connection.ts",
       "id": "src_lib_db_connection_ts"
     },
@@ -1628,7 +1889,7 @@
       "file_type": "code",
       "source_file": "src/lib/db/connection.ts",
       "source_location": "L3",
-      "community": 17,
+      "community": 8,
       "norm_label": "mongodb_uri",
       "id": "db_connection_mongodb_uri"
     },
@@ -1637,7 +1898,7 @@
       "file_type": "code",
       "source_file": "src/lib/db/connection.ts",
       "source_location": "L9",
-      "community": 17,
+      "community": 8,
       "norm_label": "mongoosecache",
       "id": "db_connection_mongoosecache"
     },
@@ -1646,7 +1907,7 @@
       "file_type": "code",
       "source_file": "src/lib/db/connection.ts",
       "source_location": "L23",
-      "community": 17,
+      "community": 8,
       "norm_label": "connecttodatabase()",
       "id": "db_connection_connecttodatabase"
     },
@@ -1760,46 +2021,6 @@
     }
   ],
   "links": [
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/settings.json",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_settings_json",
-      "target": "claude_settings_permissions"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/settings.json",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_settings_json",
-      "target": "claude_settings_hooks"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/settings.json",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_settings_permissions",
-      "target": "claude_settings_permissions_allow"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": ".claude/settings.json",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_settings_hooks",
-      "target": "claude_settings_hooks_pretooluse"
-    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -2334,12 +2555,417 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_app_admin_dashboard_page_tsx",
+      "target": "db_connection_connecttodatabase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_app_admin_dashboard_page_tsx",
+      "target": "src_components_admin_logoutbutton_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_app_admin_dashboard_page_tsx",
+      "target": "admin_logoutbutton_logoutbutton",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_app_admin_dashboard_page_tsx",
+      "target": "dashboard_page_getstats",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "src_app_admin_dashboard_page_tsx",
+      "target": "dashboard_page_action_labels",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "src_app_admin_dashboard_page_tsx",
+      "target": "dashboard_page_action_colors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "src_app_admin_dashboard_page_tsx",
+      "target": "dashboard_page_dashboardpage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L112",
+      "weight": 1.0,
+      "source": "src_app_admin_dashboard_page_tsx",
+      "target": "dashboard_page_statcard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "dashboard_page_dashboardpage",
+      "target": "dashboard_page_getstats",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/layout.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_app_admin_layout_tsx",
+      "target": "admin_layout_adminlayout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/page.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_app_admin_page_tsx",
+      "target": "admin_page_adminloginpage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/queue/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_app_admin_queue_page_tsx",
+      "target": "db_connection_connecttodatabase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/queue/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app_admin_queue_page_tsx",
+      "target": "models_submission_isubmission",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/queue/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_app_admin_queue_page_tsx",
+      "target": "src_components_admin_moderationcard_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/queue/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_app_admin_queue_page_tsx",
+      "target": "admin_moderationcard_moderationcard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/queue/page.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_app_admin_queue_page_tsx",
+      "target": "queue_page_getpendingsubmissions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/queue/page.tsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "src_app_admin_queue_page_tsx",
+      "target": "queue_page_queuepage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/queue/page.tsx",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "queue_page_queuepage",
+      "target": "queue_page_getpendingsubmissions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/admin/auth/route.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_app_api_admin_auth_route_ts",
+      "target": "auth_route_post",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/admin/auth/route.ts",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "src_app_api_admin_auth_route_ts",
+      "target": "auth_route_delete",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/admin/submissions/[id]/route.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app_api_admin_submissions_id_route_ts",
+      "target": "db_connection_connecttodatabase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/admin/submissions/[id]/route.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_app_api_admin_submissions_id_route_ts",
+      "target": "models_adminlog_adminaction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/admin/submissions/[id]/route.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_app_api_admin_submissions_id_route_ts",
+      "target": "id_route_isauthenticated",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/admin/submissions/[id]/route.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_app_api_admin_submissions_id_route_ts",
+      "target": "id_route_patch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/admin/submissions/[id]/route.ts",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "src_app_api_admin_submissions_id_route_ts",
+      "target": "id_route_delete",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/admin/submissions/[id]/route.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "id_route_patch",
+      "target": "id_route_isauthenticated",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/admin/submissions/[id]/route.ts",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "id_route_delete",
+      "target": "id_route_isauthenticated",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/admin/LogoutButton.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_components_admin_logoutbutton_tsx",
+      "target": "admin_logoutbutton_logoutbutton",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/admin/ModerationCard.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_components_admin_moderationcard_tsx",
+      "target": "models_submission_isubmission",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/admin/ModerationCard.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_components_admin_moderationcard_tsx",
+      "target": "admin_moderationcard_cost_labels",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/admin/ModerationCard.tsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "src_components_admin_moderationcard_tsx",
+      "target": "admin_moderationcard_formatbdt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/admin/ModerationCard.tsx",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "src_components_admin_moderationcard_tsx",
+      "target": "admin_moderationcard_moderationcard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/admin/ModerationCard.tsx",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "admin_moderationcard_moderationcard",
+      "target": "admin_moderationcard_formatbdt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/proxy.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_proxy_ts",
+      "target": "src_proxy_proxy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/proxy.ts",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "src_proxy_ts",
+      "target": "src_proxy_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_settings_json",
+      "target": "claude_settings_permissions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_settings_json",
+      "target": "claude_settings_hooks"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_settings_permissions",
+      "target": "claude_settings_permissions_allow"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_settings_hooks",
+      "target": "claude_settings_hooks_pretooluse"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/app/api/submissions/route.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_api_submissions_route_ts",
-      "target": "db_connection_connecttodatabase",
-      "confidence_score": 1.0
+      "target": "db_connection_connecttodatabase"
     },
     {
       "relation": "imports_from",
@@ -2348,9 +2974,9 @@
       "source_file": "src/app/api/submissions/route.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_api_submissions_route_ts",
-      "target": "src_lib_db_models_submission_ts",
-      "confidence_score": 1.0
+      "target": "src_lib_db_models_submission_ts"
     },
     {
       "relation": "imports",
@@ -2359,9 +2985,9 @@
       "source_file": "src/app/api/submissions/route.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_api_submissions_route_ts",
-      "target": "validations_submission_submissionformschema",
-      "confidence_score": 1.0
+      "target": "validations_submission_submissionformschema"
     },
     {
       "relation": "imports_from",
@@ -2370,9 +2996,9 @@
       "source_file": "src/app/api/submissions/route.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_api_submissions_route_ts",
-      "target": "src_lib_ratelimit_ts",
-      "confidence_score": 1.0
+      "target": "src_lib_ratelimit_ts"
     },
     {
       "relation": "imports",
@@ -2381,9 +3007,9 @@
       "source_file": "src/app/api/submissions/route.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_api_submissions_route_ts",
-      "target": "lib_ratelimit_checkratelimit",
-      "confidence_score": 1.0
+      "target": "lib_ratelimit_checkratelimit"
     },
     {
       "relation": "imports",
@@ -2392,9 +3018,9 @@
       "source_file": "src/app/api/submissions/route.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_api_submissions_route_ts",
-      "target": "lib_ratelimit_getclientip",
-      "confidence_score": 1.0
+      "target": "lib_ratelimit_getclientip"
     },
     {
       "relation": "contains",
@@ -2402,9 +3028,9 @@
       "source_file": "src/app/api/submissions/route.ts",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_api_submissions_route_ts",
-      "target": "submissions_route_post",
-      "confidence_score": 1.0
+      "target": "submissions_route_post"
     },
     {
       "relation": "calls",
@@ -2434,9 +3060,9 @@
       "source_file": "src/lib/db/models/AdminLog.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_db_models_adminlog_ts",
-      "target": "models_adminlog_adminaction",
-      "confidence_score": 1.0
+      "target": "models_adminlog_adminaction"
     },
     {
       "relation": "contains",
@@ -2444,9 +3070,9 @@
       "source_file": "src/lib/db/models/AdminLog.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_db_models_adminlog_ts",
-      "target": "models_adminlog_iadminlog",
-      "confidence_score": 1.0
+      "target": "models_adminlog_iadminlog"
     },
     {
       "relation": "contains",
@@ -2454,9 +3080,9 @@
       "source_file": "src/lib/db/models/AdminLog.ts",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_db_models_adminlog_ts",
-      "target": "models_adminlog_adminlogschema",
-      "confidence_score": 1.0
+      "target": "models_adminlog_adminlogschema"
     },
     {
       "relation": "contains",
@@ -2464,9 +3090,9 @@
       "source_file": "src/lib/db/models/Submission.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_db_models_submission_ts",
-      "target": "models_submission_isubmission",
-      "confidence_score": 1.0
+      "target": "models_submission_isubmission"
     },
     {
       "relation": "contains",
@@ -2474,9 +3100,9 @@
       "source_file": "src/lib/db/models/Submission.ts",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_db_models_submission_ts",
-      "target": "models_submission_costbreakdownschema",
-      "confidence_score": 1.0
+      "target": "models_submission_costbreakdownschema"
     },
     {
       "relation": "contains",
@@ -2484,9 +3110,9 @@
       "source_file": "src/lib/db/models/Submission.ts",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_db_models_submission_ts",
-      "target": "models_submission_citytoslugpart",
-      "confidence_score": 1.0
+      "target": "models_submission_citytoslugpart"
     },
     {
       "relation": "contains",
@@ -2494,9 +3120,9 @@
       "source_file": "src/lib/db/models/Submission.ts",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_db_models_submission_ts",
-      "target": "models_submission_submissionschema",
-      "confidence_score": 1.0
+      "target": "models_submission_submissionschema"
     },
     {
       "relation": "contains",
@@ -2504,9 +3130,9 @@
       "source_file": "src/lib/db/models/Submission.ts",
       "source_location": "L78",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_db_models_submission_ts",
-      "target": "models_submission_shortid",
-      "confidence_score": 1.0
+      "target": "models_submission_shortid"
     },
     {
       "relation": "contains",
@@ -2514,9 +3140,9 @@
       "source_file": "src/lib/rateLimit.ts",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_ratelimit_ts",
-      "target": "lib_ratelimit_entry",
-      "confidence_score": 1.0
+      "target": "lib_ratelimit_entry"
     },
     {
       "relation": "contains",
@@ -2524,9 +3150,9 @@
       "source_file": "src/lib/rateLimit.ts",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_ratelimit_ts",
-      "target": "lib_ratelimit_store",
-      "confidence_score": 1.0
+      "target": "lib_ratelimit_store"
     },
     {
       "relation": "contains",
@@ -2534,9 +3160,9 @@
       "source_file": "src/lib/rateLimit.ts",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_ratelimit_ts",
-      "target": "lib_ratelimit_ratelimitresult",
-      "confidence_score": 1.0
+      "target": "lib_ratelimit_ratelimitresult"
     },
     {
       "relation": "contains",
@@ -2544,9 +3170,9 @@
       "source_file": "src/lib/rateLimit.ts",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_ratelimit_ts",
-      "target": "lib_ratelimit_checkratelimit",
-      "confidence_score": 1.0
+      "target": "lib_ratelimit_checkratelimit"
     },
     {
       "relation": "contains",
@@ -2554,9 +3180,9 @@
       "source_file": "src/lib/rateLimit.ts",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_lib_ratelimit_ts",
-      "target": "lib_ratelimit_getclientip",
-      "confidence_score": 1.0
+      "target": "lib_ratelimit_getclientip"
     },
     {
       "relation": "contains",
@@ -3900,5 +4526,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "bd263080470b1c6eebac1a8d71587f976ee13197"
+  "built_at_commit": "686bfe859cf3f3ee1884743a33931ae97b6a5e9c"
 }
