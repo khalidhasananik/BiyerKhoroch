@@ -15,8 +15,8 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\package.json": {
-    "mtime": 1779742803.8768206,
-    "ast_hash": "4f2e370eb13c1dd056dde977d951a6e3",
+    "mtime": 1779743670.4873269,
+    "ast_hash": "73bb2f5cfe48c76c7dfdd270e88a5eea",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\postcss.config.mjs": {
@@ -35,8 +35,8 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\app\\(main)\\layout.tsx": {
-    "mtime": 1779735878.4553676,
-    "ast_hash": "b4aed3cc85e2f5eb24f2ac621c04d610",
+    "mtime": 1779743709.0478895,
+    "ast_hash": "9ed43f2dc42de3b410627b561c3aa67a",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\app\\(main)\\page.tsx": {
@@ -120,8 +120,8 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\components\\story\\StoryCard.tsx": {
-    "mtime": 1779735810.4098113,
-    "ast_hash": "cfe4868f3f06404ed39158f275857336",
+    "mtime": 1779743722.4237502,
+    "ast_hash": "5fb2ea804a31e1d2f6f1c1387fa7baa4",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\lib\\utils\\format.ts": {
@@ -135,8 +135,8 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\components\\submission\\SubmissionForm.tsx": {
-    "mtime": 1779742796.0368345,
-    "ast_hash": "047e2b219de73eff2ff0d2c649bdd6ae",
+    "mtime": 1779743773.3935363,
+    "ast_hash": "700aaf427cf232937f907491c5eee4f5",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\hooks\\useLocalStorageDraft.ts": {
@@ -225,8 +225,8 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\components\\story\\ShareButtons.tsx": {
-    "mtime": 1779738393.877975,
-    "ast_hash": "41cc76d0f82c254fc921b15fccfd337d",
+    "mtime": 1779743752.3203063,
+    "ast_hash": "ba7bab36e1cfd9ad382c41b14ef639c5",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\components\\story\\StoryDetail.tsx": {
@@ -250,8 +250,8 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\components\\search\\FilterPanel.tsx": {
-    "mtime": 1779739219.2331274,
-    "ast_hash": "d3db19b6db5d684b32f66032c175d6d4",
+    "mtime": 1779743794.6504319,
+    "ast_hash": "0df002f8696e6316118f2427a333c9e6",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\components\\search\\SearchResults.tsx": {
@@ -322,6 +322,16 @@
   "E:\\biyerkhoroch\\src\\components\\admin\\ApprovedCard.tsx": {
     "mtime": 1779743182.38267,
     "ast_hash": "9a3651f0d5f1ebe879fd79f95317bf13",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\src\\components\\gtm\\GTMPageViewTracker.tsx": {
+    "mtime": 1779743702.559927,
+    "ast_hash": "705c384dd914922ab014b7f128116a1d",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\src\\hooks\\useGTM.ts": {
+    "mtime": 1779743697.9497206,
+    "ast_hash": "fb5a2d8ed19e7f888558013bbf17031b",
     "semantic_hash": ""
   }
 }

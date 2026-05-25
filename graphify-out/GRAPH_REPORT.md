@@ -1,16 +1,16 @@
 # Graph Report - biyerkhoroch  (2026-05-26)
 
 ## Corpus Check
-- 60 files · ~19,809 words
+- 62 files · ~20,155 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 334 nodes · 417 edges · 23 communities (20 shown, 3 thin omitted)
+- 340 nodes · 435 edges · 23 communities (20 shown, 3 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `c7da2eca`
+- Built from commit: `df26b9c7`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -37,26 +37,26 @@
 ## God Nodes (most connected - your core abstractions)
 1. `BiyerKahini — Development Phases` - 12 edges
 2. `connectToDatabase()` - 11 edges
-3. `Deployment Guide — BiyerKahini` - 9 edges
-4. `formatBDTCompact()` - 9 edges
-5. `getStoryBySlug()` - 7 edges
-6. `ISubmission` - 6 edges
-7. `StoryCard()` - 6 edges
-8. `formatBDT()` - 6 edges
-9. `Submission` - 6 edges
-10. `Phase 1 — Project Setup, Folder Structure, Theme, MongoDB Connection` - 5 edges
+3. `useGTM()` - 9 edges
+4. `Deployment Guide — BiyerKahini` - 9 edges
+5. `formatBDTCompact()` - 9 edges
+6. `StoryCard()` - 7 edges
+7. `getStoryBySlug()` - 7 edges
+8. `SubmissionForm()` - 6 edges
+9. `ISubmission` - 6 edges
+10. `formatBDT()` - 6 edges
 
 ## Surprising Connections (you probably didn't know these)
+- `FilterPanel()` --calls--> `useGTM()`  [EXTRACTED]
+  src/components/search/FilterPanel.tsx → src/hooks/useGTM.ts
+- `SubmissionForm()` --calls--> `useGTM()`  [EXTRACTED]
+  src/components/submission/SubmissionForm.tsx → src/hooks/useGTM.ts
 - `AnalyticsPage()` --calls--> `getAnalytics`  [EXTRACTED]
   src/app/(main)/analytics/page.tsx → src/lib/data/analytics.ts
 - `Image()` --calls--> `getStoryBySlug()`  [EXTRACTED]
   src/app/(main)/story/[slug]/opengraph-image.tsx → src/lib/data/stories.ts
 - `generateMetadata()` --calls--> `getStoryBySlug()`  [EXTRACTED]
   src/app/(main)/story/[slug]/page.tsx → src/lib/data/stories.ts
-- `GET()` --calls--> `getAnalytics`  [EXTRACTED]
-  src/app/api/analytics/route.ts → src/lib/data/analytics.ts
-- `ResultsSection()` --calls--> `searchStories()`  [EXTRACTED]
-  src/app/(main)/search/page.tsx → src/lib/data/stories.ts
 
 ## Communities (23 total, 3 thin omitted)
 
@@ -73,8 +73,8 @@ Cohesion: 0.04
 Nodes (48): BiyerKahini — Development Phases, Checklist, Checklist, Checklist, Checklist, Checklist, Checklist, Checklist (+40 more)
 
 ### Community 4 - "Community 4"
-Cohesion: 0.08
-Nodes (25): dependencies, mongoose, next, nodemailer, react, react-dom, zod, devDependencies (+17 more)
+Cohesion: 0.07
+Nodes (26): dependencies, mongoose, next, @next/third-parties, nodemailer, react, react-dom, zod (+18 more)
 
 ### Community 5 - "Community 5"
 Cohesion: 0.08
@@ -82,7 +82,7 @@ Nodes (14): useLocalStorageDraft(), calcTotal(), CITIES, COST_FIELDS, CostKey, E
 
 ### Community 6 - "Community 6"
 Cohesion: 0.09
-Nodes (24): metadata, PLACEHOLDER_STORIES, STATS, TRENDING, buildPageUrl(), SearchResults(), SearchResultsProps, COST_LABELS (+16 more)
+Nodes (25): GTMEventMap, useGTM(), metadata, PLACEHOLDER_STORIES, STATS, TRENDING, size, COST_LABELS (+17 more)
 
 ### Community 7 - "Community 7"
 Cohesion: 0.15
@@ -98,7 +98,7 @@ Nodes (14): 1. MongoDB Setup, 2. Environment Variables, 3. Deploy to Vercel, 4. 
 
 ### Community 10 - "Community 10"
 Cohesion: 0.40
-Nodes (5): Checklist, Deliverables, Objectives, Phase 5 — Admin Panel, Tasks
+Nodes (5): Checklist, Deliverables, Objectives, Phase 1 — Project Setup, Folder Structure, Theme, MongoDB Connection, Tasks
 
 ### Community 11 - "Community 11"
 Cohesion: 0.14
@@ -106,7 +106,7 @@ Nodes (14): BarChart(), BarChartItem, BarChartProps, AnalyticsPage(), metadata, 
 
 ### Community 12 - "Community 12"
 Cohesion: 0.09
-Nodes (27): sitemap(), escapeRegex(), getApprovedStoriesForSitemap(), getApprovedStorySlugs(), getDistinctCities(), getLatestStories(), getRelatedStories(), getStoryBySlug() (+19 more)
+Nodes (28): sitemap(), escapeRegex(), getApprovedStoriesForSitemap(), getApprovedStorySlugs(), getDistinctCities(), getLatestStories(), getRelatedStories(), getStoryBySlug() (+20 more)
 
 ### Community 16 - "Community 16"
 Cohesion: 0.40
@@ -117,11 +117,11 @@ Cohesion: 0.26
 Nodes (9): sendSubmissionNotification(), SubmissionNotificationData, transporter, checkRateLimit(), Entry, getClientIp(), RateLimitResult, store (+1 more)
 
 ### Community 18 - "Community 18"
-Cohesion: 0.31
-Nodes (4): Footer(), Navbar(), navLinks, ThemeToggle()
+Cohesion: 0.25
+Nodes (5): GTMPageViewTracker(), Footer(), Navbar(), navLinks, ThemeToggle()
 
 ## Knowledge Gaps
-- **156 isolated node(s):** `graphify`, `Objectives`, `Tasks`, `Deliverables`, `Checklist` (+151 more)
+- **158 isolated node(s):** `name`, `version`, `private`, `dev`, `build` (+153 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -129,16 +129,16 @@ Nodes (4): Footer(), Navbar(), navLinks, ThemeToggle()
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `connectToDatabase()` connect `Community 8` to `Community 17`, `Community 11`, `Community 12`, `Community 7`?**
-  _High betweenness centrality (0.116) - this node is a cross-community bridge._
-- **Why does `formatBDT()` connect `Community 6` to `Community 11`, `Community 5`?**
-  _High betweenness centrality (0.052) - this node is a cross-community bridge._
+  _High betweenness centrality (0.109) - this node is a cross-community bridge._
+- **Why does `submissionFormSchema` connect `Community 5` to `Community 17`?**
+  _High betweenness centrality (0.036) - this node is a cross-community bridge._
 - **Why does `Submission` connect `Community 6` to `Community 12`?**
-  _High betweenness centrality (0.039) - this node is a cross-community bridge._
-- **What connects `graphify`, `Objectives`, `Tasks` to the rest of the system?**
-  _156 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.034) - this node is a cross-community bridge._
+- **What connects `name`, `version`, `private` to the rest of the system?**
+  _158 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.09090909090909091 - nodes in this community are weakly interconnected._
 - **Should `Community 3` be split into smaller, more focused modules?**
   _Cohesion score 0.04081632653061224 - nodes in this community are weakly interconnected._
 - **Should `Community 4` be split into smaller, more focused modules?**
-  _Cohesion score 0.07692307692307693 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
