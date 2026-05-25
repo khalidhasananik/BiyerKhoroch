@@ -29,7 +29,7 @@ export function Navbar() {
         <Link
           href="/"
           className="flex items-center gap-2 font-bold text-[var(--text)] hover:opacity-80 transition-opacity"
-          aria-label="BiyerKhoroch home"
+          aria-label="BiyerKahini home"
         >
           <span
             className="text-xl font-bold"
@@ -39,7 +39,7 @@ export function Navbar() {
             ৳
           </span>
           <span className="text-base font-semibold tracking-tight">
-            BiyerKhoroch
+            BiyerKahini
           </span>
         </Link>
 

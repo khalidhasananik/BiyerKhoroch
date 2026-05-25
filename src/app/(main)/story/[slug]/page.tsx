@@ -69,7 +69,7 @@ export default async function StoryPage({
     notFound();
   }
 
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://biyerkhoroch.com";
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://biyerkahini.online";
   const shareUrl = `${baseUrl}/story/${slug}`;
 
   const title = `${story.city} Wedding · ${story.guestCount} Guests · ${formatBDTCompact(story.totalCost)}`;
@@ -88,7 +88,7 @@ export default async function StoryPage({
         dateModified: story.updatedAt ?? story.createdAt,
         publisher: {
           "@type": "Organization",
-          name: "BiyerKhoroch",
+          name: "BiyerKahini",
           url: baseUrl,
         },
         mainEntityOfPage: shareUrl,
@@ -152,7 +152,7 @@ export default async function StoryPage({
                   className="text-xs font-semibold uppercase tracking-wide mb-2"
                   style={{ color: "var(--text-muted)" }}
                 >
-                  About BiyerKhoroch
+                  About BiyerKahini
                 </p>
                 <p className="text-xs leading-relaxed" style={{ color: "var(--text-muted)" }}>
                   Anonymous wedding cost breakdowns from real couples across Bangladesh.

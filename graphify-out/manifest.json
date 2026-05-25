@@ -15,8 +15,8 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\package.json": {
-    "mtime": 1779736207.1834652,
-    "ast_hash": "e7ba94f057efe5add4a26862dc8e4a94",
+    "mtime": 1779741501.6387365,
+    "ast_hash": "e524ba0a80467d299b1bf2d90937f853",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\postcss.config.mjs": {
@@ -150,8 +150,8 @@
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\app\\api\\submissions\\route.ts": {
-    "mtime": 1779737193.7278976,
-    "ast_hash": "4f659fe6503427ea5be327529b112f94",
+    "mtime": 1779741540.7024016,
+    "ast_hash": "205d54bb2a316afef3f70c6fa5ffe772",
     "semantic_hash": ""
   },
   "E:\\biyerkhoroch\\src\\lib\\rateLimit.ts": {
@@ -307,6 +307,11 @@
   "E:\\biyerkhoroch\\DEPLOYMENT.md": {
     "mtime": 1779740934.4722805,
     "ast_hash": "b394cddd38e5576d04731b1f452e63c6",
+    "semantic_hash": ""
+  },
+  "E:\\biyerkhoroch\\src\\lib\\email.ts": {
+    "mtime": 1779741530.1197312,
+    "ast_hash": "2d8a9dd8c720ca1425a8e0768cdda80f",
     "semantic_hash": ""
   }
 }

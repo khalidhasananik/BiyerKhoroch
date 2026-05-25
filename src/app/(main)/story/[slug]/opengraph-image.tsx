@@ -28,7 +28,7 @@ export default async function Image({
           }}
         >
           <div style={{ color: "#ffffff", fontSize: 48, fontWeight: 700 }}>
-            BiyerKhoroch
+            BiyerKahini
           </div>
         </div>
       )
@@ -65,7 +65,7 @@ export default async function Image({
             marginBottom: 24,
           }}
         >
-          BiyerKhoroch · Wedding Cost Story
+          BiyerKahini · Wedding Cost Story
         </div>
 
         {/* Tags */}
@@ -149,7 +149,7 @@ export default async function Image({
             Anonymous · No names. No shame. Just numbers.
           </div>
           <div style={{ color: "#db2777", fontSize: 16, fontWeight: 600 }}>
-            biyerkhoroch.com
+            biyerkahini.online
           </div>
         </div>
       </div>

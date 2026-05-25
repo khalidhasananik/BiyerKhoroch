@@ -3,7 +3,7 @@ import { getApprovedStoriesForSitemap } from "@/lib/data/stories";
 
 export const revalidate = 3600;
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://biyerkhoroch.com";
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://biyerkahini.online";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const stories = await getApprovedStoriesForSitemap();

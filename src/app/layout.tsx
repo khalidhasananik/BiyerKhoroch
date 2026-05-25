@@ -9,13 +9,13 @@ const inter = Inter({
   display: "swap",
 });
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://biyerkhoroch.com";
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://biyerkahini.online";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: "বিয়ের খরচ | BiyerKhoroch — Real Wedding Costs in Bangladesh",
-    template: "%s | BiyerKhoroch",
+    default: "বিয়ের কাহিনী | BiyerKahini — Real Wedding Costs in Bangladesh",
+    template: "%s | BiyerKahini",
   },
   description:
     "Anonymous real wedding cost breakdowns, stories, and confessions from Bangladesh. Find out how much weddings actually cost in Dhaka, Chittagong, and beyond.",
@@ -30,21 +30,21 @@ export const metadata: Metadata = {
     "wedding expenses",
     "wedding planning bangladesh",
   ],
-  authors: [{ name: "BiyerKhoroch" }],
-  creator: "BiyerKhoroch",
+  authors: [{ name: "BiyerKahini" }],
+  creator: "BiyerKahini",
   openGraph: {
     type: "website",
     locale: "en_US",
-    siteName: "BiyerKhoroch",
-    title: "BiyerKhoroch — Real Wedding Costs in Bangladesh",
+    siteName: "BiyerKahini",
+    title: "BiyerKahini — Real Wedding Costs in Bangladesh",
     description:
       "Anonymous real wedding cost breakdowns, stories, and confessions from Bangladesh.",
     url: BASE_URL,
-    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "BiyerKhoroch — Real Wedding Costs in Bangladesh" }],
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "BiyerKahini — Real Wedding Costs in Bangladesh" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "BiyerKhoroch — Real Wedding Costs in Bangladesh",
+    title: "BiyerKahini — Real Wedding Costs in Bangladesh",
     description:
       "Anonymous real wedding cost breakdowns, stories, and confessions from Bangladesh.",
     images: ["/opengraph-image"],

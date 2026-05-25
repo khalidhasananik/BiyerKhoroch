@@ -42,7 +42,7 @@ export default function Image() {
             marginBottom: 28,
           }}
         >
-          BiyerKhoroch
+          BiyerKahini
         </div>
 
         <div
@@ -91,7 +91,7 @@ export default function Image() {
             fontWeight: 600,
           }}
         >
-          biyerkhoroch.com
+          biyerkahini.online
         </div>
       </div>
     )

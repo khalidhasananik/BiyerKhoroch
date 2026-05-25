@@ -28,11 +28,11 @@ export async function sendSubmissionNotification(
   }).format(data.totalCost);
 
   await transporter.sendMail({
-    from: `"BiyerKhoroch" <${process.env.NOTIFICATION_EMAIL_FROM}>`,
+    from: `"BiyerKahini" <${process.env.NOTIFICATION_EMAIL_FROM}>`,
     to: process.env.NOTIFICATION_EMAIL_TO,
     subject: `New submission: ${data.city} wedding (${data.guestCount} guests)`,
     text: [
-      `A new story was submitted on BiyerKhoroch.`,
+      `A new story was submitted on BiyerKahini.`,
       ``,
       `City:        ${data.city}`,
       `Guests:      ${data.guestCount}`,
@@ -45,7 +45,7 @@ export async function sendSubmissionNotification(
       `Review it here: ${adminUrl}`,
     ].join("\n"),
     html: `
-      <h2 style="color:#c0557a">New BiyerKhoroch submission</h2>
+      <h2 style="color:#c0557a">New BiyerKahini submission</h2>
       <table style="border-collapse:collapse;font-family:sans-serif;font-size:14px">
         <tr><td style="padding:4px 12px 4px 0;color:#666">City</td><td><strong>${data.city}</strong></td></tr>
         <tr><td style="padding:4px 12px 4px 0;color:#666">Guests</td><td>${data.guestCount}</td></tr>

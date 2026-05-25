@@ -12,7 +12,7 @@ Rules:
 
 ---
 
-# BiyerKhoroch — Development Phases
+# BiyerKahini — Development Phases
 
 **Project:** Anonymous wedding cost sharing platform for Bangladesh  
 **Stack:** Next.js 16 (App Router) · React 19 · TypeScript · Tailwind CSS v4 · MongoDB/Mongoose · Vercel

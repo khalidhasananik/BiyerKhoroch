@@ -5,7 +5,7 @@ import { useLocalStorageDraft } from "@/hooks/useLocalStorageDraft";
 import { submissionFormSchema } from "@/lib/validations/submission";
 import { formatBDT } from "@/lib/utils/format";
 
-const DRAFT_KEY = "biyerkhoroch_draft_v1";
+const DRAFT_KEY = "biyerkahini_draft_v1";
 
 const CITIES = [
   "Dhaka", "Chittagong", "Sylhet", "Rajshahi", "Khulna", "Barishal",

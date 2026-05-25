@@ -22,7 +22,7 @@ export function StoryDetail({ story, shareUrl }: StoryDetailProps) {
   } = story;
 
   const costPerGuest = guestCount > 0 ? Math.round(totalCost / guestCount) : 0;
-  const shareTitle = `${city} wedding · ${guestCount} guests · ${formatBDTCompact(totalCost)} — BiyerKhoroch`;
+  const shareTitle = `${city} wedding · ${guestCount} guests · ${formatBDTCompact(totalCost)} — BiyerKahini`;
 
   return (
     <article>

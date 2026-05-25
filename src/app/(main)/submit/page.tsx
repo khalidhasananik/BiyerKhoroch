@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import dynamic from "next/dynamic";
 
 export const metadata: Metadata = {
-  title: "Share Your Wedding Story — BiyerKhoroch",
+  title: "Share Your Wedding Story — BiyerKahini",
   description:
     "Anonymously share your wedding costs to help other Bangladeshi couples plan their special day.",
   alternates: { canonical: "/submit" },

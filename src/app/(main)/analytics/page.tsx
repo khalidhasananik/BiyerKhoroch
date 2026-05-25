@@ -7,7 +7,7 @@ import { formatBDT, formatBDTCompact } from "@/lib/utils/format";
 export const revalidate = 86400;
 
 export const metadata: Metadata = {
-  title: "Wedding Cost Analytics | BiyerKhoroch",
+  title: "Wedding Cost Analytics | BiyerKahini",
   description:
     "Real data from Bangladeshi weddings — average costs by city, venue spending, category breakdowns, and more.",
   alternates: { canonical: "/analytics" },

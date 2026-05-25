@@ -39,7 +39,7 @@ export default async function DashboardPage() {
       <div className="flex items-center justify-between mb-8">
         <div>
           <h1 className="text-2xl font-bold text-[var(--text)]">Dashboard</h1>
-          <p className="text-sm text-[var(--text-muted)] mt-0.5">BiyerKhoroch Admin</p>
+          <p className="text-sm text-[var(--text-muted)] mt-0.5">BiyerKahini Admin</p>
         </div>
         <div className="flex items-center gap-3">
           <Link

@@ -38,7 +38,7 @@ export default function AdminLoginPage() {
     <div className="min-h-screen flex items-center justify-center bg-[var(--bg)] px-4">
       <div className="w-full max-w-sm">
         <div className="mb-8 text-center">
-          <h1 className="text-2xl font-bold text-[var(--text)]">BiyerKhoroch</h1>
+          <h1 className="text-2xl font-bold text-[var(--text)]">BiyerKahini</h1>
           <p className="text-sm text-[var(--text-muted)] mt-1">Admin Panel</p>
         </div>
 

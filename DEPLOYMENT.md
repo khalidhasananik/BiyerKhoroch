@@ -1,4 +1,4 @@
-# Deployment Guide — BiyerKhoroch
+# Deployment Guide — BiyerKahini
 
 ## Prerequisites
 
@@ -17,7 +17,7 @@
    ```
    mongodb+srv://<user>:<password>@<cluster>.mongodb.net/?retryWrites=true&w=majority
    ```
-5. Append the database name: `...mongodb.net/biyerkhoroch?retryWrites=...`
+5. Append the database name: `...mongodb.net/biyerkahini?retryWrites=...`
 
 ---
 
@@ -29,7 +29,7 @@ Set these in Vercel → Project → Settings → Environment Variables:
 |-------------------------|----------|----------------------------------------------------------|
 | `MONGODB_URI`           | Yes      | Full MongoDB Atlas connection string (see above)         |
 | `ADMIN_PASSWORD`        | Yes      | Password for the `/admin` panel — use a strong password  |
-| `NEXT_PUBLIC_BASE_URL`  | No       | Canonical site URL, e.g. `https://biyerkhoroch.com`      |
+| `NEXT_PUBLIC_BASE_URL`  | No       | Canonical site URL, e.g. `https://biyerkahini.online`    |
 
 > Copy `.env.example` to `.env.local` for local development and fill in real values.
 

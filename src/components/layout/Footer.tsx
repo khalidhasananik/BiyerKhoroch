@@ -14,7 +14,7 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-2">
               <span className="text-xl font-bold" style={{ color: "var(--accent)" }}>৳</span>
-              <span className="font-semibold text-[var(--text)]">BiyerKhoroch</span>
+              <span className="font-semibold text-[var(--text)]">BiyerKahini</span>
             </div>
             <p className="text-sm leading-relaxed" style={{ color: "var(--text-muted)" }}>
               Real wedding costs from real couples across Bangladesh. All submissions are anonymous and free.
@@ -70,7 +70,7 @@ export function Footer() {
           className="pt-6 border-t flex flex-col sm:flex-row items-center justify-between gap-3 text-xs"
           style={{ borderColor: "var(--border)", color: "var(--text-muted)" }}
         >
-          <p>© {year} BiyerKhoroch · All submissions are anonymous</p>
+          <p>© {year} BiyerKahini · All submissions are anonymous</p>
           <p>Built for Bangladesh 🇧🇩</p>
         </div>
       </div>

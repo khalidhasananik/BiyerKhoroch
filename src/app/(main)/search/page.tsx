@@ -9,7 +9,7 @@ import {
 } from "@/lib/data/stories";
 
 export const metadata: Metadata = {
-  title: "Browse Wedding Stories | BiyerKhoroch",
+  title: "Browse Wedding Stories | BiyerKahini",
   description:
     "Search and filter real Bangladeshi wedding cost breakdowns. Filter by city, budget, guest count, and more.",
   alternates: { canonical: "/search" },

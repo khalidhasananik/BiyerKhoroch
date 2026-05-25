@@ -4,688 +4,976 @@
   "graph": {},
   "nodes": [
     {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "id": "package_json",
+      "community": 4,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "id": "biyerkhoroch_package_name",
+      "community": 4,
+      "norm_label": "name"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "id": "biyerkhoroch_package_version",
+      "community": 4,
+      "norm_label": "version"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "id": "biyerkhoroch_package_private",
+      "community": 4,
+      "norm_label": "private"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "id": "biyerkhoroch_package_scripts",
+      "community": 4,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "id": "biyerkhoroch_package_scripts_dev",
+      "community": 4,
+      "norm_label": "dev"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "id": "biyerkhoroch_package_scripts_build",
+      "community": 4,
+      "norm_label": "build"
+    },
+    {
+      "label": "start",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "id": "biyerkhoroch_package_scripts_start",
+      "community": 4,
+      "norm_label": "start"
+    },
+    {
+      "label": "lint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "id": "biyerkhoroch_package_scripts_lint",
+      "community": 4,
+      "norm_label": "lint"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "id": "biyerkhoroch_package_dependencies",
+      "community": 4,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "mongoose",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "id": "biyerkhoroch_package_dependencies_mongoose",
+      "community": 4,
+      "norm_label": "mongoose"
+    },
+    {
+      "label": "next",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "id": "biyerkhoroch_package_dependencies_next",
+      "community": 4,
+      "norm_label": "next"
+    },
+    {
+      "label": "nodemailer",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "id": "biyerkhoroch_package_dependencies_nodemailer",
+      "community": 4,
+      "norm_label": "nodemailer"
+    },
+    {
+      "label": "react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "id": "biyerkhoroch_package_dependencies_react",
+      "community": 4,
+      "norm_label": "react"
+    },
+    {
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "id": "biyerkhoroch_package_dependencies_react_dom",
+      "community": 4,
+      "norm_label": "react-dom"
+    },
+    {
+      "label": "zod",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "id": "biyerkhoroch_package_dependencies_zod",
+      "community": 4,
+      "norm_label": "zod"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "id": "biyerkhoroch_package_devdependencies",
+      "community": 4,
+      "norm_label": "devdependencies"
+    },
+    {
+      "label": "@tailwindcss/postcss",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "id": "biyerkhoroch_package_devdependencies_tailwindcss_postcss",
+      "community": 4,
+      "norm_label": "@tailwindcss/postcss"
+    },
+    {
+      "label": "@types/node",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "id": "biyerkhoroch_package_devdependencies_types_node",
+      "community": 4,
+      "norm_label": "@types/node"
+    },
+    {
+      "label": "@types/nodemailer",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "id": "biyerkhoroch_package_devdependencies_types_nodemailer",
+      "community": 4,
+      "norm_label": "@types/nodemailer"
+    },
+    {
+      "label": "@types/react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "id": "biyerkhoroch_package_devdependencies_types_react",
+      "community": 4,
+      "norm_label": "@types/react"
+    },
+    {
+      "label": "@types/react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "id": "biyerkhoroch_package_devdependencies_types_react_dom",
+      "community": 4,
+      "norm_label": "@types/react-dom"
+    },
+    {
+      "label": "eslint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "id": "biyerkhoroch_package_devdependencies_eslint",
+      "community": 4,
+      "norm_label": "eslint"
+    },
+    {
+      "label": "eslint-config-next",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "id": "biyerkhoroch_package_devdependencies_eslint_config_next",
+      "community": 4,
+      "norm_label": "eslint-config-next"
+    },
+    {
+      "label": "tailwindcss",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "id": "biyerkhoroch_package_devdependencies_tailwindcss",
+      "community": 4,
+      "norm_label": "tailwindcss"
+    },
+    {
+      "label": "typescript",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "id": "biyerkhoroch_package_devdependencies_typescript",
+      "community": 4,
+      "norm_label": "typescript"
+    },
+    {
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "src/app/api/submissions/route.ts",
+      "source_location": "L1",
+      "id": "src_app_api_submissions_route_ts",
+      "community": 17,
+      "norm_label": "route.ts"
+    },
+    {
+      "label": "POST()",
+      "file_type": "code",
+      "source_file": "src/app/api/submissions/route.ts",
+      "source_location": "L8",
+      "id": "submissions_route_post",
+      "community": 17,
+      "norm_label": "post()"
+    },
+    {
+      "label": "email.ts",
+      "file_type": "code",
+      "source_file": "src/lib/email.ts",
+      "source_location": "L1",
+      "id": "src_lib_email_ts",
+      "community": 17,
+      "norm_label": "email.ts"
+    },
+    {
+      "label": "transporter",
+      "file_type": "code",
+      "source_file": "src/lib/email.ts",
+      "source_location": "L3",
+      "id": "lib_email_transporter",
+      "community": 17,
+      "norm_label": "transporter"
+    },
+    {
+      "label": "SubmissionNotificationData",
+      "file_type": "code",
+      "source_file": "src/lib/email.ts",
+      "source_location": "L11",
+      "id": "lib_email_submissionnotificationdata",
+      "community": 17,
+      "norm_label": "submissionnotificationdata"
+    },
+    {
+      "label": "sendSubmissionNotification()",
+      "file_type": "code",
+      "source_file": "src/lib/email.ts",
+      "source_location": "L20",
+      "id": "lib_email_sendsubmissionnotification",
+      "community": 17,
+      "norm_label": "sendsubmissionnotification()"
+    },
+    {
       "label": "CLAUDE.md",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L1",
-      "id": "claude_md",
       "community": 3,
-      "norm_label": "claude.md"
+      "norm_label": "claude.md",
+      "id": "claude_md"
     },
     {
       "label": "graphify",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L3",
-      "id": "biyerkhoroch_claude_graphify",
       "community": 3,
-      "norm_label": "graphify"
+      "norm_label": "graphify",
+      "id": "biyerkhoroch_claude_graphify"
     },
     {
       "label": "BiyerKhoroch \u2014 Development Phases",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L15",
-      "id": "biyerkhoroch_claude_biyerkhoroch_development_phases",
       "community": 3,
-      "norm_label": "biyerkhoroch \u2014 development phases"
+      "norm_label": "biyerkhoroch \u2014 development phases",
+      "id": "biyerkhoroch_claude_biyerkhoroch_development_phases"
     },
     {
       "label": "Phase 1 \u2014 Project Setup, Folder Structure, Theme, MongoDB Connection",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L22",
-      "id": "biyerkhoroch_claude_phase_1_project_setup_folder_structure_theme_mongodb_connection",
-      "community": 3,
-      "norm_label": "phase 1 \u2014 project setup, folder structure, theme, mongodb connection"
+      "community": 13,
+      "norm_label": "phase 1 \u2014 project setup, folder structure, theme, mongodb connection",
+      "id": "biyerkhoroch_claude_phase_1_project_setup_folder_structure_theme_mongodb_connection"
     },
     {
       "label": "Objectives",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L25",
-      "id": "biyerkhoroch_claude_objectives",
-      "community": 3,
-      "norm_label": "objectives"
+      "community": 13,
+      "norm_label": "objectives",
+      "id": "biyerkhoroch_claude_objectives"
     },
     {
       "label": "Tasks",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L32",
-      "id": "biyerkhoroch_claude_tasks",
-      "community": 3,
-      "norm_label": "tasks"
+      "community": 13,
+      "norm_label": "tasks",
+      "id": "biyerkhoroch_claude_tasks"
     },
     {
       "label": "Deliverables",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L42",
-      "id": "biyerkhoroch_claude_deliverables",
-      "community": 3,
-      "norm_label": "deliverables"
+      "community": 13,
+      "norm_label": "deliverables",
+      "id": "biyerkhoroch_claude_deliverables"
     },
     {
       "label": "Checklist",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L48",
-      "id": "biyerkhoroch_claude_checklist",
-      "community": 3,
-      "norm_label": "checklist"
+      "community": 13,
+      "norm_label": "checklist",
+      "id": "biyerkhoroch_claude_checklist"
     },
     {
       "label": "Phase 2 \u2014 Homepage UI (Hero, Feed Cards, Navbar, Footer)",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L56",
-      "id": "biyerkhoroch_claude_phase_2_homepage_ui_hero_feed_cards_navbar_footer",
-      "community": 25,
-      "norm_label": "phase 2 \u2014 homepage ui (hero, feed cards, navbar, footer)"
+      "community": 3,
+      "norm_label": "phase 2 \u2014 homepage ui (hero, feed cards, navbar, footer)",
+      "id": "biyerkhoroch_claude_phase_2_homepage_ui_hero_feed_cards_navbar_footer"
     },
     {
       "label": "Objectives",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L59",
-      "id": "biyerkhoroch_claude_objectives_59",
-      "community": 25,
-      "norm_label": "objectives"
+      "community": 3,
+      "norm_label": "objectives",
+      "id": "biyerkhoroch_claude_objectives_59"
     },
     {
       "label": "Tasks",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L65",
-      "id": "biyerkhoroch_claude_tasks_65",
-      "community": 25,
-      "norm_label": "tasks"
+      "community": 3,
+      "norm_label": "tasks",
+      "id": "biyerkhoroch_claude_tasks_65"
     },
     {
       "label": "Deliverables",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L78",
-      "id": "biyerkhoroch_claude_deliverables_78",
-      "community": 25,
-      "norm_label": "deliverables"
+      "community": 3,
+      "norm_label": "deliverables",
+      "id": "biyerkhoroch_claude_deliverables_78"
     },
     {
       "label": "Checklist",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L83",
-      "id": "biyerkhoroch_claude_checklist_83",
-      "community": 25,
-      "norm_label": "checklist"
+      "community": 3,
+      "norm_label": "checklist",
+      "id": "biyerkhoroch_claude_checklist_83"
     },
     {
       "label": "Phase 3 \u2014 Submission Form (Frontend)",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L91",
-      "id": "biyerkhoroch_claude_phase_3_submission_form_frontend",
       "community": 3,
-      "norm_label": "phase 3 \u2014 submission form (frontend)"
+      "norm_label": "phase 3 \u2014 submission form (frontend)",
+      "id": "biyerkhoroch_claude_phase_3_submission_form_frontend"
     },
     {
       "label": "Objectives",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L94",
-      "id": "biyerkhoroch_claude_objectives_94",
       "community": 3,
-      "norm_label": "objectives"
+      "norm_label": "objectives",
+      "id": "biyerkhoroch_claude_objectives_94"
     },
     {
       "label": "Tasks",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L100",
-      "id": "biyerkhoroch_claude_tasks_100",
       "community": 3,
-      "norm_label": "tasks"
+      "norm_label": "tasks",
+      "id": "biyerkhoroch_claude_tasks_100"
     },
     {
       "label": "Deliverables",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L109",
-      "id": "biyerkhoroch_claude_deliverables_109",
       "community": 3,
-      "norm_label": "deliverables"
+      "norm_label": "deliverables",
+      "id": "biyerkhoroch_claude_deliverables_109"
     },
     {
       "label": "Checklist",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L114",
-      "id": "biyerkhoroch_claude_checklist_114",
       "community": 3,
-      "norm_label": "checklist"
+      "norm_label": "checklist",
+      "id": "biyerkhoroch_claude_checklist_114"
     },
     {
       "label": "Phase 4 \u2014 Backend: Submission API + Database Schema",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L123",
-      "id": "biyerkhoroch_claude_phase_4_backend_submission_api_database_schema",
       "community": 3,
-      "norm_label": "phase 4 \u2014 backend: submission api + database schema"
+      "norm_label": "phase 4 \u2014 backend: submission api + database schema",
+      "id": "biyerkhoroch_claude_phase_4_backend_submission_api_database_schema"
     },
     {
       "label": "Objectives",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L126",
-      "id": "biyerkhoroch_claude_objectives_126",
       "community": 3,
-      "norm_label": "objectives"
+      "norm_label": "objectives",
+      "id": "biyerkhoroch_claude_objectives_126"
     },
     {
       "label": "Tasks",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L132",
-      "id": "biyerkhoroch_claude_tasks_132",
       "community": 3,
-      "norm_label": "tasks"
+      "norm_label": "tasks",
+      "id": "biyerkhoroch_claude_tasks_132"
     },
     {
       "label": "Deliverables",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L142",
-      "id": "biyerkhoroch_claude_deliverables_142",
       "community": 3,
-      "norm_label": "deliverables"
+      "norm_label": "deliverables",
+      "id": "biyerkhoroch_claude_deliverables_142"
     },
     {
       "label": "Checklist",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L147",
-      "id": "biyerkhoroch_claude_checklist_147",
       "community": 3,
-      "norm_label": "checklist"
+      "norm_label": "checklist",
+      "id": "biyerkhoroch_claude_checklist_147"
     },
     {
       "label": "Phase 5 \u2014 Admin Panel",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L155",
-      "id": "biyerkhoroch_claude_phase_5_admin_panel",
       "community": 3,
-      "norm_label": "phase 5 \u2014 admin panel"
+      "norm_label": "phase 5 \u2014 admin panel",
+      "id": "biyerkhoroch_claude_phase_5_admin_panel"
     },
     {
       "label": "Objectives",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L158",
-      "id": "biyerkhoroch_claude_objectives_158",
       "community": 3,
-      "norm_label": "objectives"
+      "norm_label": "objectives",
+      "id": "biyerkhoroch_claude_objectives_158"
     },
     {
       "label": "Tasks",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L163",
-      "id": "biyerkhoroch_claude_tasks_163",
       "community": 3,
-      "norm_label": "tasks"
+      "norm_label": "tasks",
+      "id": "biyerkhoroch_claude_tasks_163"
     },
     {
       "label": "Deliverables",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L172",
-      "id": "biyerkhoroch_claude_deliverables_172",
       "community": 3,
-      "norm_label": "deliverables"
+      "norm_label": "deliverables",
+      "id": "biyerkhoroch_claude_deliverables_172"
     },
     {
       "label": "Checklist",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L177",
-      "id": "biyerkhoroch_claude_checklist_177",
       "community": 3,
-      "norm_label": "checklist"
+      "norm_label": "checklist",
+      "id": "biyerkhoroch_claude_checklist_177"
     },
     {
       "label": "Phase 6 \u2014 Story Detail Pages",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L185",
-      "id": "biyerkhoroch_claude_phase_6_story_detail_pages",
       "community": 3,
-      "norm_label": "phase 6 \u2014 story detail pages"
+      "norm_label": "phase 6 \u2014 story detail pages",
+      "id": "biyerkhoroch_claude_phase_6_story_detail_pages"
     },
     {
       "label": "Objectives",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L188",
-      "id": "biyerkhoroch_claude_objectives_188",
       "community": 3,
-      "norm_label": "objectives"
+      "norm_label": "objectives",
+      "id": "biyerkhoroch_claude_objectives_188"
     },
     {
       "label": "Tasks",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L194",
-      "id": "biyerkhoroch_claude_tasks_194",
       "community": 3,
-      "norm_label": "tasks"
+      "norm_label": "tasks",
+      "id": "biyerkhoroch_claude_tasks_194"
     },
     {
       "label": "Deliverables",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L203",
-      "id": "biyerkhoroch_claude_deliverables_203",
       "community": 3,
-      "norm_label": "deliverables"
+      "norm_label": "deliverables",
+      "id": "biyerkhoroch_claude_deliverables_203"
     },
     {
       "label": "Checklist",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L208",
-      "id": "biyerkhoroch_claude_checklist_208",
       "community": 3,
-      "norm_label": "checklist"
+      "norm_label": "checklist",
+      "id": "biyerkhoroch_claude_checklist_208"
     },
     {
       "label": "Phase 7 \u2014 Search & Filter System",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L216",
-      "id": "biyerkhoroch_claude_phase_7_search_filter_system",
       "community": 14,
-      "norm_label": "phase 7 \u2014 search & filter system"
+      "norm_label": "phase 7 \u2014 search & filter system",
+      "id": "biyerkhoroch_claude_phase_7_search_filter_system"
     },
     {
       "label": "Objectives",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L219",
-      "id": "biyerkhoroch_claude_objectives_219",
       "community": 14,
-      "norm_label": "objectives"
+      "norm_label": "objectives",
+      "id": "biyerkhoroch_claude_objectives_219"
     },
     {
       "label": "Tasks",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L224",
-      "id": "biyerkhoroch_claude_tasks_224",
       "community": 14,
-      "norm_label": "tasks"
+      "norm_label": "tasks",
+      "id": "biyerkhoroch_claude_tasks_224"
     },
     {
       "label": "Deliverables",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L233",
-      "id": "biyerkhoroch_claude_deliverables_233",
       "community": 14,
-      "norm_label": "deliverables"
+      "norm_label": "deliverables",
+      "id": "biyerkhoroch_claude_deliverables_233"
     },
     {
       "label": "Checklist",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L239",
-      "id": "biyerkhoroch_claude_checklist_239",
       "community": 14,
-      "norm_label": "checklist"
+      "norm_label": "checklist",
+      "id": "biyerkhoroch_claude_checklist_239"
     },
     {
       "label": "Phase 8 \u2014 Analytics & Statistics",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L247",
-      "id": "biyerkhoroch_claude_phase_8_analytics_statistics",
       "community": 3,
-      "norm_label": "phase 8 \u2014 analytics & statistics"
+      "norm_label": "phase 8 \u2014 analytics & statistics",
+      "id": "biyerkhoroch_claude_phase_8_analytics_statistics"
     },
     {
       "label": "Objectives",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L250",
-      "id": "biyerkhoroch_claude_objectives_250",
       "community": 3,
-      "norm_label": "objectives"
+      "norm_label": "objectives",
+      "id": "biyerkhoroch_claude_objectives_250"
     },
     {
       "label": "Tasks",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L255",
-      "id": "biyerkhoroch_claude_tasks_255",
       "community": 3,
-      "norm_label": "tasks"
+      "norm_label": "tasks",
+      "id": "biyerkhoroch_claude_tasks_255"
     },
     {
       "label": "Deliverables",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L263",
-      "id": "biyerkhoroch_claude_deliverables_263",
       "community": 3,
-      "norm_label": "deliverables"
+      "norm_label": "deliverables",
+      "id": "biyerkhoroch_claude_deliverables_263"
     },
     {
       "label": "Checklist",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L268",
-      "id": "biyerkhoroch_claude_checklist_268",
       "community": 3,
-      "norm_label": "checklist"
+      "norm_label": "checklist",
+      "id": "biyerkhoroch_claude_checklist_268"
     },
     {
       "label": "Phase 9 \u2014 SEO Optimization",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L276",
-      "id": "biyerkhoroch_claude_phase_9_seo_optimization",
       "community": 3,
-      "norm_label": "phase 9 \u2014 seo optimization"
+      "norm_label": "phase 9 \u2014 seo optimization",
+      "id": "biyerkhoroch_claude_phase_9_seo_optimization"
     },
     {
       "label": "Objectives",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L279",
-      "id": "biyerkhoroch_claude_objectives_279",
       "community": 3,
-      "norm_label": "objectives"
+      "norm_label": "objectives",
+      "id": "biyerkhoroch_claude_objectives_279"
     },
     {
       "label": "Tasks",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L286",
-      "id": "biyerkhoroch_claude_tasks_286",
       "community": 3,
-      "norm_label": "tasks"
+      "norm_label": "tasks",
+      "id": "biyerkhoroch_claude_tasks_286"
     },
     {
       "label": "Deliverables",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L296",
-      "id": "biyerkhoroch_claude_deliverables_296",
       "community": 3,
-      "norm_label": "deliverables"
+      "norm_label": "deliverables",
+      "id": "biyerkhoroch_claude_deliverables_296"
     },
     {
       "label": "Checklist",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L302",
-      "id": "biyerkhoroch_claude_checklist_302",
       "community": 3,
-      "norm_label": "checklist"
+      "norm_label": "checklist",
+      "id": "biyerkhoroch_claude_checklist_302"
     },
     {
       "label": "Phase 10 \u2014 Performance Optimization & Deployment Prep",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L310",
-      "id": "biyerkhoroch_claude_phase_10_performance_optimization_deployment_prep",
       "community": 3,
-      "norm_label": "phase 10 \u2014 performance optimization & deployment prep"
+      "norm_label": "phase 10 \u2014 performance optimization & deployment prep",
+      "id": "biyerkhoroch_claude_phase_10_performance_optimization_deployment_prep"
     },
     {
       "label": "Objectives",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L313",
-      "id": "biyerkhoroch_claude_objectives_313",
       "community": 3,
-      "norm_label": "objectives"
+      "norm_label": "objectives",
+      "id": "biyerkhoroch_claude_objectives_313"
     },
     {
       "label": "Tasks",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L320",
-      "id": "biyerkhoroch_claude_tasks_320",
       "community": 3,
-      "norm_label": "tasks"
+      "norm_label": "tasks",
+      "id": "biyerkhoroch_claude_tasks_320"
     },
     {
       "label": "Deliverables",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L330",
-      "id": "biyerkhoroch_claude_deliverables_330",
       "community": 3,
-      "norm_label": "deliverables"
+      "norm_label": "deliverables",
+      "id": "biyerkhoroch_claude_deliverables_330"
     },
     {
       "label": "Checklist",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L336",
-      "id": "biyerkhoroch_claude_checklist_336",
       "community": 3,
-      "norm_label": "checklist"
+      "norm_label": "checklist",
+      "id": "biyerkhoroch_claude_checklist_336"
     },
     {
       "label": "Workflow Rules",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L344",
-      "id": "biyerkhoroch_claude_workflow_rules",
       "community": 3,
-      "norm_label": "workflow rules"
+      "norm_label": "workflow rules",
+      "id": "biyerkhoroch_claude_workflow_rules"
     },
     {
       "label": "DEPLOYMENT.md",
       "file_type": "document",
       "source_file": "DEPLOYMENT.md",
       "source_location": "L1",
-      "id": "deployment_md",
       "community": 9,
-      "norm_label": "deployment.md"
+      "norm_label": "deployment.md",
+      "id": "deployment_md"
     },
     {
       "label": "Deployment Guide \u2014 BiyerKhoroch",
       "file_type": "document",
       "source_file": "DEPLOYMENT.md",
       "source_location": "L1",
-      "id": "biyerkhoroch_deployment_deployment_guide_biyerkhoroch",
       "community": 9,
-      "norm_label": "deployment guide \u2014 biyerkhoroch"
+      "norm_label": "deployment guide \u2014 biyerkhoroch",
+      "id": "biyerkhoroch_deployment_deployment_guide_biyerkhoroch"
     },
     {
       "label": "Prerequisites",
       "file_type": "document",
       "source_file": "DEPLOYMENT.md",
       "source_location": "L3",
-      "id": "biyerkhoroch_deployment_prerequisites",
       "community": 9,
-      "norm_label": "prerequisites"
+      "norm_label": "prerequisites",
+      "id": "biyerkhoroch_deployment_prerequisites"
     },
     {
       "label": "1. MongoDB Setup",
       "file_type": "document",
       "source_file": "DEPLOYMENT.md",
       "source_location": "L11",
-      "id": "biyerkhoroch_deployment_1_mongodb_setup",
       "community": 9,
-      "norm_label": "1. mongodb setup"
+      "norm_label": "1. mongodb setup",
+      "id": "biyerkhoroch_deployment_1_mongodb_setup"
     },
     {
       "label": "code:block1 (mongodb+srv://<user>:<password>@<cluster>.mongodb.net/?retry)",
       "file_type": "document",
       "source_file": "DEPLOYMENT.md",
       "source_location": "L17",
-      "id": "biyerkhoroch_deployment_codeblock_1",
       "community": 9,
-      "norm_label": "code:block1 (mongodb+srv://<user>:<password>@<cluster>.mongodb.net/?retry)"
+      "norm_label": "code:block1 (mongodb+srv://<user>:<password>@<cluster>.mongodb.net/?retry)",
+      "id": "biyerkhoroch_deployment_codeblock_1"
     },
     {
       "label": "2. Environment Variables",
       "file_type": "document",
       "source_file": "DEPLOYMENT.md",
       "source_location": "L24",
-      "id": "biyerkhoroch_deployment_2_environment_variables",
       "community": 9,
-      "norm_label": "2. environment variables"
+      "norm_label": "2. environment variables",
+      "id": "biyerkhoroch_deployment_2_environment_variables"
     },
     {
       "label": "3. Deploy to Vercel",
       "file_type": "document",
       "source_file": "DEPLOYMENT.md",
       "source_location": "L38",
-      "id": "biyerkhoroch_deployment_3_deploy_to_vercel",
       "community": 9,
-      "norm_label": "3. deploy to vercel"
+      "norm_label": "3. deploy to vercel",
+      "id": "biyerkhoroch_deployment_3_deploy_to_vercel"
     },
     {
       "label": "Via Vercel CLI",
       "file_type": "document",
       "source_file": "DEPLOYMENT.md",
       "source_location": "L40",
-      "id": "biyerkhoroch_deployment_via_vercel_cli",
       "community": 9,
-      "norm_label": "via vercel cli"
+      "norm_label": "via vercel cli",
+      "id": "biyerkhoroch_deployment_via_vercel_cli"
     },
     {
       "label": "code:bash (npm i -g vercel)",
       "file_type": "document",
       "source_file": "DEPLOYMENT.md",
       "source_location": "L42",
-      "id": "biyerkhoroch_deployment_codeblock_2",
       "community": 9,
-      "norm_label": "code:bash (npm i -g vercel)"
+      "norm_label": "code:bash (npm i -g vercel)",
+      "id": "biyerkhoroch_deployment_codeblock_2"
     },
     {
       "label": "Via GitHub Integration",
       "file_type": "document",
       "source_file": "DEPLOYMENT.md",
       "source_location": "L47",
-      "id": "biyerkhoroch_deployment_via_github_integration",
       "community": 9,
-      "norm_label": "via github integration"
+      "norm_label": "via github integration",
+      "id": "biyerkhoroch_deployment_via_github_integration"
     },
     {
       "label": "4. Custom Domain",
       "file_type": "document",
       "source_file": "DEPLOYMENT.md",
       "source_location": "L57",
-      "id": "biyerkhoroch_deployment_4_custom_domain",
       "community": 9,
-      "norm_label": "4. custom domain"
+      "norm_label": "4. custom domain",
+      "id": "biyerkhoroch_deployment_4_custom_domain"
     },
     {
       "label": "5. Post-Deployment Checklist",
       "file_type": "document",
       "source_file": "DEPLOYMENT.md",
       "source_location": "L65",
-      "id": "biyerkhoroch_deployment_5_post_deployment_checklist",
       "community": 9,
-      "norm_label": "5. post-deployment checklist"
+      "norm_label": "5. post-deployment checklist",
+      "id": "biyerkhoroch_deployment_5_post_deployment_checklist"
     },
     {
       "label": "6. Local Development",
       "file_type": "document",
       "source_file": "DEPLOYMENT.md",
       "source_location": "L77",
-      "id": "biyerkhoroch_deployment_6_local_development",
       "community": 9,
-      "norm_label": "6. local development"
+      "norm_label": "6. local development",
+      "id": "biyerkhoroch_deployment_6_local_development"
     },
     {
       "label": "code:bash (cp .env.example .env.local)",
       "file_type": "document",
       "source_file": "DEPLOYMENT.md",
       "source_location": "L79",
-      "id": "biyerkhoroch_deployment_codeblock_3",
       "community": 9,
-      "norm_label": "code:bash (cp .env.example .env.local)"
+      "norm_label": "code:bash (cp .env.example .env.local)",
+      "id": "biyerkhoroch_deployment_codeblock_3"
     },
     {
       "label": "7. Useful Commands",
       "file_type": "document",
       "source_file": "DEPLOYMENT.md",
       "source_location": "L91",
-      "id": "biyerkhoroch_deployment_7_useful_commands",
       "community": 9,
-      "norm_label": "7. useful commands"
+      "norm_label": "7. useful commands",
+      "id": "biyerkhoroch_deployment_7_useful_commands"
     },
     {
       "label": "next.config.ts",
       "file_type": "code",
       "source_file": "next.config.ts",
       "source_location": "L1",
-      "id": "next_config_ts",
       "community": 24,
-      "norm_label": "next.config.ts"
+      "norm_label": "next.config.ts",
+      "id": "next_config_ts"
     },
     {
       "label": "nextConfig",
       "file_type": "code",
       "source_file": "next.config.ts",
       "source_location": "L3",
-      "id": "biyerkhoroch_next_config_nextconfig",
       "community": 24,
-      "norm_label": "nextconfig"
+      "norm_label": "nextconfig",
+      "id": "biyerkhoroch_next_config_nextconfig"
     },
     {
       "label": "page.tsx",
       "file_type": "code",
       "source_file": "src/app/(main)/submit/page.tsx",
       "source_location": "L1",
-      "id": "src_app_main_submit_page_tsx",
       "community": 5,
-      "norm_label": "page.tsx"
+      "norm_label": "page.tsx",
+      "id": "src_app_main_submit_page_tsx"
     },
     {
       "label": "metadata",
       "file_type": "code",
       "source_file": "src/app/(main)/submit/page.tsx",
       "source_location": "L4",
-      "id": "submit_page_metadata",
       "community": 5,
-      "norm_label": "metadata"
+      "norm_label": "metadata",
+      "id": "submit_page_metadata"
     },
     {
       "label": "FormSkeleton()",
       "file_type": "code",
       "source_file": "src/app/(main)/submit/page.tsx",
       "source_location": "L12",
-      "id": "submit_page_formskeleton",
       "community": 5,
-      "norm_label": "formskeleton()"
+      "norm_label": "formskeleton()",
+      "id": "submit_page_formskeleton"
     },
     {
       "label": "SubmissionForm",
       "file_type": "code",
       "source_file": "src/app/(main)/submit/page.tsx",
       "source_location": "L55",
-      "id": "submit_page_submissionform",
       "community": 5,
-      "norm_label": "submissionform"
+      "norm_label": "submissionform",
+      "id": "submit_page_submissionform"
     },
     {
       "label": "SubmitPage()",
       "file_type": "code",
       "source_file": "src/app/(main)/submit/page.tsx",
       "source_location": "L60",
-      "id": "submit_page_submitpage",
       "community": 5,
-      "norm_label": "submitpage()"
+      "norm_label": "submitpage()",
+      "id": "submit_page_submitpage"
     },
     {
       "label": "page.tsx",
@@ -935,7 +1223,7 @@
       "file_type": "code",
       "source_file": "src/lib/data/stories.ts",
       "source_location": "L15",
-      "community": 10,
+      "community": 12,
       "norm_label": "escaperegex()",
       "id": "data_stories_escaperegex"
     },
@@ -953,7 +1241,7 @@
       "file_type": "code",
       "source_file": "src/lib/data/stories.ts",
       "source_location": "L30",
-      "community": 10,
+      "community": 12,
       "norm_label": "searchstories()",
       "id": "data_stories_searchstories"
     },
@@ -1259,7 +1547,7 @@
       "file_type": "code",
       "source_file": "src/app/(main)/search/page.tsx",
       "source_location": "L55",
-      "community": 10,
+      "community": 12,
       "norm_label": "resultssection()",
       "id": "search_page_resultssection"
     },
@@ -1511,7 +1799,7 @@
       "file_type": "code",
       "source_file": "src/app/admin/dashboard/page.tsx",
       "source_location": "L1",
-      "community": 13,
+      "community": 8,
       "norm_label": "page.tsx",
       "id": "src_app_admin_dashboard_page_tsx"
     },
@@ -1520,7 +1808,7 @@
       "file_type": "code",
       "source_file": "src/app/admin/dashboard/page.tsx",
       "source_location": "L7",
-      "community": 13,
+      "community": 8,
       "norm_label": "getstats()",
       "id": "dashboard_page_getstats"
     },
@@ -1529,7 +1817,7 @@
       "file_type": "code",
       "source_file": "src/app/admin/dashboard/page.tsx",
       "source_location": "L21",
-      "community": 13,
+      "community": 8,
       "norm_label": "action_labels",
       "id": "dashboard_page_action_labels"
     },
@@ -1538,7 +1826,7 @@
       "file_type": "code",
       "source_file": "src/app/admin/dashboard/page.tsx",
       "source_location": "L27",
-      "community": 13,
+      "community": 8,
       "norm_label": "action_colors",
       "id": "dashboard_page_action_colors"
     },
@@ -1547,7 +1835,7 @@
       "file_type": "code",
       "source_file": "src/app/admin/dashboard/page.tsx",
       "source_location": "L33",
-      "community": 13,
+      "community": 8,
       "norm_label": "dashboardpage()",
       "id": "dashboard_page_dashboardpage"
     },
@@ -1556,7 +1844,7 @@
       "file_type": "code",
       "source_file": "src/app/admin/dashboard/page.tsx",
       "source_location": "L112",
-      "community": 13,
+      "community": 8,
       "norm_label": "statcard()",
       "id": "dashboard_page_statcard"
     },
@@ -1655,7 +1943,7 @@
       "file_type": "code",
       "source_file": "src/components/admin/LogoutButton.tsx",
       "source_location": "L1",
-      "community": 13,
+      "community": 8,
       "norm_label": "logoutbutton.tsx",
       "id": "src_components_admin_logoutbutton_tsx"
     },
@@ -1664,7 +1952,7 @@
       "file_type": "code",
       "source_file": "src/components/admin/LogoutButton.tsx",
       "source_location": "L6",
-      "community": 13,
+      "community": 8,
       "norm_label": "logoutbutton()",
       "id": "admin_logoutbutton_logoutbutton"
     },
@@ -1775,24 +2063,6 @@
       "community": 16,
       "norm_label": "pretooluse",
       "id": "claude_settings_hooks_pretooluse"
-    },
-    {
-      "label": "route.ts",
-      "file_type": "code",
-      "source_file": "src/app/api/submissions/route.ts",
-      "source_location": "L1",
-      "community": 17,
-      "norm_label": "route.ts",
-      "id": "src_app_api_submissions_route_ts"
-    },
-    {
-      "label": "POST()",
-      "file_type": "code",
-      "source_file": "src/app/api/submissions/route.ts",
-      "source_location": "L7",
-      "community": 17,
-      "norm_label": "post()",
-      "id": "submissions_route_post"
     },
     {
       "label": "AdminLog.ts",
@@ -1937,222 +2207,6 @@
       "community": 17,
       "norm_label": "getclientip()",
       "id": "lib_ratelimit_getclientip"
-    },
-    {
-      "label": "package.json",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L1",
-      "community": 4,
-      "norm_label": "package.json",
-      "id": "package_json"
-    },
-    {
-      "label": "name",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L2",
-      "community": 4,
-      "norm_label": "name",
-      "id": "biyerkhoroch_package_name"
-    },
-    {
-      "label": "version",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L3",
-      "community": 4,
-      "norm_label": "version",
-      "id": "biyerkhoroch_package_version"
-    },
-    {
-      "label": "private",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L4",
-      "community": 4,
-      "norm_label": "private",
-      "id": "biyerkhoroch_package_private"
-    },
-    {
-      "label": "scripts",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L5",
-      "community": 4,
-      "norm_label": "scripts",
-      "id": "biyerkhoroch_package_scripts"
-    },
-    {
-      "label": "dev",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L6",
-      "community": 4,
-      "norm_label": "dev",
-      "id": "biyerkhoroch_package_scripts_dev"
-    },
-    {
-      "label": "build",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L7",
-      "community": 4,
-      "norm_label": "build",
-      "id": "biyerkhoroch_package_scripts_build"
-    },
-    {
-      "label": "start",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L8",
-      "community": 4,
-      "norm_label": "start",
-      "id": "biyerkhoroch_package_scripts_start"
-    },
-    {
-      "label": "lint",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L9",
-      "community": 4,
-      "norm_label": "lint",
-      "id": "biyerkhoroch_package_scripts_lint"
-    },
-    {
-      "label": "dependencies",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L11",
-      "community": 4,
-      "norm_label": "dependencies",
-      "id": "biyerkhoroch_package_dependencies"
-    },
-    {
-      "label": "mongoose",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L12",
-      "community": 4,
-      "norm_label": "mongoose",
-      "id": "biyerkhoroch_package_dependencies_mongoose"
-    },
-    {
-      "label": "next",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L13",
-      "community": 4,
-      "norm_label": "next",
-      "id": "biyerkhoroch_package_dependencies_next"
-    },
-    {
-      "label": "react",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L14",
-      "community": 4,
-      "norm_label": "react",
-      "id": "biyerkhoroch_package_dependencies_react"
-    },
-    {
-      "label": "react-dom",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L15",
-      "community": 4,
-      "norm_label": "react-dom",
-      "id": "biyerkhoroch_package_dependencies_react_dom"
-    },
-    {
-      "label": "zod",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L16",
-      "community": 4,
-      "norm_label": "zod",
-      "id": "biyerkhoroch_package_dependencies_zod"
-    },
-    {
-      "label": "devDependencies",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L18",
-      "community": 4,
-      "norm_label": "devdependencies",
-      "id": "biyerkhoroch_package_devdependencies"
-    },
-    {
-      "label": "@tailwindcss/postcss",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L19",
-      "community": 4,
-      "norm_label": "@tailwindcss/postcss",
-      "id": "biyerkhoroch_package_devdependencies_tailwindcss_postcss"
-    },
-    {
-      "label": "@types/node",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L20",
-      "community": 4,
-      "norm_label": "@types/node",
-      "id": "biyerkhoroch_package_devdependencies_types_node"
-    },
-    {
-      "label": "@types/react",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L21",
-      "community": 4,
-      "norm_label": "@types/react",
-      "id": "biyerkhoroch_package_devdependencies_types_react"
-    },
-    {
-      "label": "@types/react-dom",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L22",
-      "community": 4,
-      "norm_label": "@types/react-dom",
-      "id": "biyerkhoroch_package_devdependencies_types_react_dom"
-    },
-    {
-      "label": "eslint",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L23",
-      "community": 4,
-      "norm_label": "eslint",
-      "id": "biyerkhoroch_package_devdependencies_eslint"
-    },
-    {
-      "label": "eslint-config-next",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L24",
-      "community": 4,
-      "norm_label": "eslint-config-next",
-      "id": "biyerkhoroch_package_devdependencies_eslint_config_next"
-    },
-    {
-      "label": "tailwindcss",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L25",
-      "community": 4,
-      "norm_label": "tailwindcss",
-      "id": "biyerkhoroch_package_devdependencies_tailwindcss"
-    },
-    {
-      "label": "typescript",
-      "file_type": "code",
-      "source_file": "package.json",
-      "source_location": "L26",
-      "community": 4,
-      "norm_label": "typescript",
-      "id": "biyerkhoroch_package_devdependencies_typescript"
     },
     {
       "label": "SubmissionForm.tsx",
@@ -2888,6 +2942,417 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "biyerkhoroch_package_name"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "biyerkhoroch_package_version"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "biyerkhoroch_package_private"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "biyerkhoroch_package_scripts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "biyerkhoroch_package_dependencies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "package_json",
+      "target": "biyerkhoroch_package_devdependencies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_scripts",
+      "target": "biyerkhoroch_package_scripts_dev"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_scripts",
+      "target": "biyerkhoroch_package_scripts_build"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_scripts",
+      "target": "biyerkhoroch_package_scripts_start"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_scripts",
+      "target": "biyerkhoroch_package_scripts_lint"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_dependencies",
+      "target": "biyerkhoroch_package_dependencies_mongoose"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_dependencies",
+      "target": "biyerkhoroch_package_dependencies_next"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "biyerkhoroch_package_dependencies",
+      "target": "biyerkhoroch_package_dependencies_nodemailer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_dependencies",
+      "target": "biyerkhoroch_package_dependencies_react"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_dependencies",
+      "target": "biyerkhoroch_package_dependencies_react_dom"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_dependencies",
+      "target": "biyerkhoroch_package_dependencies_zod"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_devdependencies",
+      "target": "biyerkhoroch_package_devdependencies_tailwindcss_postcss"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_devdependencies",
+      "target": "biyerkhoroch_package_devdependencies_types_node"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "biyerkhoroch_package_devdependencies",
+      "target": "biyerkhoroch_package_devdependencies_types_nodemailer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_devdependencies",
+      "target": "biyerkhoroch_package_devdependencies_types_react"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_devdependencies",
+      "target": "biyerkhoroch_package_devdependencies_types_react_dom"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_devdependencies",
+      "target": "biyerkhoroch_package_devdependencies_eslint"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_devdependencies",
+      "target": "biyerkhoroch_package_devdependencies_eslint_config_next"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_devdependencies",
+      "target": "biyerkhoroch_package_devdependencies_tailwindcss"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "biyerkhoroch_package_devdependencies",
+      "target": "biyerkhoroch_package_devdependencies_typescript"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/submissions/route.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_api_submissions_route_ts",
+      "target": "db_connection_connecttodatabase"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/submissions/route.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_api_submissions_route_ts",
+      "target": "validations_submission_submissionformschema"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/submissions/route.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_api_submissions_route_ts",
+      "target": "lib_ratelimit_checkratelimit"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/submissions/route.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_api_submissions_route_ts",
+      "target": "lib_ratelimit_getclientip"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/submissions/route.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_app_api_submissions_route_ts",
+      "target": "src_lib_email_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/submissions/route.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_app_api_submissions_route_ts",
+      "target": "lib_email_sendsubmissionnotification",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/submissions/route.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_api_submissions_route_ts",
+      "target": "submissions_route_post"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/submissions/route.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_api_submissions_route_ts",
+      "target": "src_lib_db_models_submission_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/submissions/route.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_api_submissions_route_ts",
+      "target": "src_lib_ratelimit_ts"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/api/submissions/route.ts",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "submissions_route_post",
+      "target": "lib_email_sendsubmissionnotification"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/api/submissions/route.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "submissions_route_post",
+      "target": "lib_ratelimit_getclientip"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/api/submissions/route.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "submissions_route_post",
+      "target": "lib_ratelimit_checkratelimit"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/email.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_lib_email_ts",
+      "target": "lib_email_transporter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/email.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_lib_email_ts",
+      "target": "lib_email_submissionnotificationdata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/email.ts",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "src_lib_email_ts",
+      "target": "lib_email_sendsubmissionnotification",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
       "source_location": "L3",
       "weight": 1.0,
@@ -3421,9 +3886,9 @@
       "source_file": "DEPLOYMENT.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "deployment_md",
-      "target": "biyerkhoroch_deployment_deployment_guide_biyerkhoroch",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_deployment_deployment_guide_biyerkhoroch"
     },
     {
       "relation": "contains",
@@ -3431,9 +3896,9 @@
       "source_file": "DEPLOYMENT.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_deployment_deployment_guide_biyerkhoroch",
-      "target": "biyerkhoroch_deployment_prerequisites",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_deployment_prerequisites"
     },
     {
       "relation": "contains",
@@ -3441,9 +3906,9 @@
       "source_file": "DEPLOYMENT.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_deployment_deployment_guide_biyerkhoroch",
-      "target": "biyerkhoroch_deployment_1_mongodb_setup",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_deployment_1_mongodb_setup"
     },
     {
       "relation": "contains",
@@ -3451,9 +3916,9 @@
       "source_file": "DEPLOYMENT.md",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_deployment_deployment_guide_biyerkhoroch",
-      "target": "biyerkhoroch_deployment_2_environment_variables",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_deployment_2_environment_variables"
     },
     {
       "relation": "contains",
@@ -3461,9 +3926,9 @@
       "source_file": "DEPLOYMENT.md",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_deployment_deployment_guide_biyerkhoroch",
-      "target": "biyerkhoroch_deployment_3_deploy_to_vercel",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_deployment_3_deploy_to_vercel"
     },
     {
       "relation": "contains",
@@ -3471,9 +3936,9 @@
       "source_file": "DEPLOYMENT.md",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_deployment_deployment_guide_biyerkhoroch",
-      "target": "biyerkhoroch_deployment_4_custom_domain",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_deployment_4_custom_domain"
     },
     {
       "relation": "contains",
@@ -3481,9 +3946,9 @@
       "source_file": "DEPLOYMENT.md",
       "source_location": "L65",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_deployment_deployment_guide_biyerkhoroch",
-      "target": "biyerkhoroch_deployment_5_post_deployment_checklist",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_deployment_5_post_deployment_checklist"
     },
     {
       "relation": "contains",
@@ -3491,9 +3956,9 @@
       "source_file": "DEPLOYMENT.md",
       "source_location": "L77",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_deployment_deployment_guide_biyerkhoroch",
-      "target": "biyerkhoroch_deployment_6_local_development",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_deployment_6_local_development"
     },
     {
       "relation": "contains",
@@ -3501,9 +3966,9 @@
       "source_file": "DEPLOYMENT.md",
       "source_location": "L91",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_deployment_deployment_guide_biyerkhoroch",
-      "target": "biyerkhoroch_deployment_7_useful_commands",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_deployment_7_useful_commands"
     },
     {
       "relation": "contains",
@@ -3511,9 +3976,9 @@
       "source_file": "DEPLOYMENT.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_deployment_1_mongodb_setup",
-      "target": "biyerkhoroch_deployment_codeblock_1",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_deployment_codeblock_1"
     },
     {
       "relation": "contains",
@@ -3521,9 +3986,9 @@
       "source_file": "DEPLOYMENT.md",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_deployment_3_deploy_to_vercel",
-      "target": "biyerkhoroch_deployment_via_vercel_cli",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_deployment_via_vercel_cli"
     },
     {
       "relation": "contains",
@@ -3531,9 +3996,9 @@
       "source_file": "DEPLOYMENT.md",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_deployment_3_deploy_to_vercel",
-      "target": "biyerkhoroch_deployment_via_github_integration",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_deployment_via_github_integration"
     },
     {
       "relation": "contains",
@@ -3541,9 +4006,9 @@
       "source_file": "DEPLOYMENT.md",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_deployment_via_vercel_cli",
-      "target": "biyerkhoroch_deployment_codeblock_2",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_deployment_codeblock_2"
     },
     {
       "relation": "contains",
@@ -3551,9 +4016,9 @@
       "source_file": "DEPLOYMENT.md",
       "source_location": "L79",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "biyerkhoroch_deployment_6_local_development",
-      "target": "biyerkhoroch_deployment_codeblock_3",
-      "confidence_score": 1.0
+      "target": "biyerkhoroch_deployment_codeblock_3"
     },
     {
       "relation": "contains",
@@ -3581,9 +4046,9 @@
       "source_file": "src/app/(main)/submit/page.tsx",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_main_submit_page_tsx",
-      "target": "submit_page_formskeleton",
-      "confidence_score": 1.0
+      "target": "submit_page_formskeleton"
     },
     {
       "relation": "contains",
@@ -3591,9 +4056,9 @@
       "source_file": "src/app/(main)/submit/page.tsx",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_main_submit_page_tsx",
-      "target": "submit_page_submissionform",
-      "confidence_score": 1.0
+      "target": "submit_page_submissionform"
     },
     {
       "relation": "contains",
@@ -5526,104 +5991,6 @@
       "target": "claude_settings_hooks_pretooluse"
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/api/submissions/route.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_api_submissions_route_ts",
-      "target": "db_connection_connecttodatabase"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/api/submissions/route.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_api_submissions_route_ts",
-      "target": "src_lib_db_models_submission_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/api/submissions/route.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_api_submissions_route_ts",
-      "target": "validations_submission_submissionformschema"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/api/submissions/route.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_api_submissions_route_ts",
-      "target": "src_lib_ratelimit_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/api/submissions/route.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_api_submissions_route_ts",
-      "target": "lib_ratelimit_checkratelimit"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/api/submissions/route.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_api_submissions_route_ts",
-      "target": "lib_ratelimit_getclientip"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/api/submissions/route.ts",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_api_submissions_route_ts",
-      "target": "submissions_route_post"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/app/api/submissions/route.ts",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "submissions_route_post",
-      "target": "lib_ratelimit_getclientip"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/app/api/submissions/route.ts",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "submissions_route_post",
-      "target": "lib_ratelimit_checkratelimit"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/db/models/AdminLog.ts",
@@ -5752,236 +6119,6 @@
       "confidence_score": 1.0,
       "source": "src_lib_ratelimit_ts",
       "target": "lib_ratelimit_getclientip"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_json",
-      "target": "biyerkhoroch_package_name"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_json",
-      "target": "biyerkhoroch_package_version"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_json",
-      "target": "biyerkhoroch_package_private"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_json",
-      "target": "biyerkhoroch_package_scripts"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_json",
-      "target": "biyerkhoroch_package_dependencies"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L17",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "package_json",
-      "target": "biyerkhoroch_package_devdependencies"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "biyerkhoroch_package_scripts",
-      "target": "biyerkhoroch_package_scripts_dev"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "biyerkhoroch_package_scripts",
-      "target": "biyerkhoroch_package_scripts_build"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "biyerkhoroch_package_scripts",
-      "target": "biyerkhoroch_package_scripts_start"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "biyerkhoroch_package_scripts",
-      "target": "biyerkhoroch_package_scripts_lint"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "biyerkhoroch_package_dependencies",
-      "target": "biyerkhoroch_package_dependencies_mongoose"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L13",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "biyerkhoroch_package_dependencies",
-      "target": "biyerkhoroch_package_dependencies_next"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L14",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "biyerkhoroch_package_dependencies",
-      "target": "biyerkhoroch_package_dependencies_react"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "biyerkhoroch_package_dependencies",
-      "target": "biyerkhoroch_package_dependencies_react_dom"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "biyerkhoroch_package_dependencies",
-      "target": "biyerkhoroch_package_dependencies_zod"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "biyerkhoroch_package_devdependencies",
-      "target": "biyerkhoroch_package_devdependencies_tailwindcss_postcss"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "biyerkhoroch_package_devdependencies",
-      "target": "biyerkhoroch_package_devdependencies_types_node"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L20",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "biyerkhoroch_package_devdependencies",
-      "target": "biyerkhoroch_package_devdependencies_types_react"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "biyerkhoroch_package_devdependencies",
-      "target": "biyerkhoroch_package_devdependencies_types_react_dom"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L22",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "biyerkhoroch_package_devdependencies",
-      "target": "biyerkhoroch_package_devdependencies_eslint"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L23",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "biyerkhoroch_package_devdependencies",
-      "target": "biyerkhoroch_package_devdependencies_eslint_config_next"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L24",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "biyerkhoroch_package_devdependencies",
-      "target": "biyerkhoroch_package_devdependencies_tailwindcss"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "package.json",
-      "source_location": "L25",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "biyerkhoroch_package_devdependencies",
-      "target": "biyerkhoroch_package_devdependencies_typescript"
     },
     {
       "relation": "imports_from",
@@ -6865,5 +7002,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "3841925a45ae6048fe03de7babb951c1bb6b1aa5"
+  "built_at_commit": "5575d78fa55c6164bea00b9781924ae5edcd59f0"
 }
