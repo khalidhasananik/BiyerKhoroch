@@ -59,7 +59,7 @@ export async function PATCH(
   revalidatePath("/search");
   revalidatePath(`/story/${submission.slug}`);
   revalidatePath("/analytics");
-  revalidateTag("analytics-data");
+  revalidateTag("analytics-data", "max");
 
   return NextResponse.json({ ok: true, status: newStatus });
 }
@@ -91,7 +91,7 @@ export async function DELETE(
   revalidatePath("/search");
   revalidatePath(`/story/${submission.slug}`);
   revalidatePath("/analytics");
-  revalidateTag("analytics-data");
+  revalidateTag("analytics-data", "max");
 
   return NextResponse.json({ ok: true });
 }
