@@ -12,8 +12,11 @@ const costBreakdownSchema = z.object({
   miscellaneous: z.number().min(0, "Must be 0 or more"),
 });
 
+const CURRENT_YEAR = new Date().getFullYear();
+
 export const submissionFormSchema = z.object({
   city:               z.string().min(2, "City is required"),
+  weddingYear:        z.number().int().min(2000, "Year must be 2000 or later").max(CURRENT_YEAR, `Year cannot be in the future`),
   guestCount:         z.number().min(1, "At least 1 guest required").max(10000, "Too many guests"),
   venueName:          z.string().min(2, "Venue name is required").max(100, "Too long"),
   photographyCompany: z.string().max(100, "Too long").optional(),

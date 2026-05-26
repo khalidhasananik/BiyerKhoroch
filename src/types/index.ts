@@ -16,6 +16,7 @@ export interface Submission {
   _id: string;
   slug: string;
   city: string;
+  weddingYear: number;
   guestCount: number;
   venueName: string;
   photographyCompany: string;
@@ -31,6 +32,7 @@ export interface Submission {
 
 export interface SubmissionFormData {
   city: string;
+  weddingYear: number;
   guestCount: number;
   venueName: string;
   photographyCompany: string;

@@ -1,337 +1,337 @@
 {
-  "E:\\biyerkhoroch\\src\\app\\layout.tsx": {
-    "mtime": 1779742760.6949127,
-    "ast_hash": "00ecf2adc120c2d719c5ac11db9d28f6",
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\eslint.config.mjs": {
+    "mtime": 1779771084.7195833,
+    "ast_hash": "6c4307ffa009658f5c97f5629094c0c2",
     "semantic_hash": ""
   },
-  "E:\\biyerkhoroch\\eslint.config.mjs": {
-    "mtime": 1779733919.8827918,
-    "ast_hash": "dfa1f5f6a7037bf39dc510f30b180002",
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\next.config.ts": {
+    "mtime": 1779771084.8067315,
+    "ast_hash": "d7e85538c27288118eb8855b96290bd0",
     "semantic_hash": ""
   },
-  "E:\\biyerkhoroch\\next.config.ts": {
-    "mtime": 1779740883.7388747,
-    "ast_hash": "f94ad85ed2ab4ba93e8a37ba2b517967",
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\package.json": {
+    "mtime": 1779771084.810771,
+    "ast_hash": "0703d1ab77b6ff757aacafb5de445459",
     "semantic_hash": ""
   },
-  "E:\\biyerkhoroch\\package.json": {
-    "mtime": 1779743670.4873269,
-    "ast_hash": "73bb2f5cfe48c76c7dfdd270e88a5eea",
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\postcss.config.mjs": {
+    "mtime": 1779771084.810771,
+    "ast_hash": "481fac0fdecd70e1821cc30b86030c1a",
     "semantic_hash": ""
   },
-  "E:\\biyerkhoroch\\postcss.config.mjs": {
-    "mtime": 1779733919.9072995,
-    "ast_hash": "239f3ebf717465dc636818a1a619398d",
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\tsconfig.json": {
+    "mtime": 1779771084.8687303,
+    "ast_hash": "0a2f4ed9289b65cd3feb4fb4ab3a4fcd",
     "semantic_hash": ""
   },
-  "E:\\biyerkhoroch\\tsconfig.json": {
-    "mtime": 1779733937.057912,
-    "ast_hash": "ee17fd1c97c735e9f3564e3f5251f125",
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\.claude\\settings.json": {
+    "mtime": 1779771495.3277664,
+    "ast_hash": "eaf344f2cf5e81a25dfffbcabc439e1c",
     "semantic_hash": ""
   },
-  "E:\\biyerkhoroch\\.claude\\settings.json": {
-    "mtime": 1779737324.0098116,
-    "ast_hash": "676f8c25b7ed5f5c4607dd41f86a6deb",
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\proxy.ts": {
+    "mtime": 1779771084.8670342,
+    "ast_hash": "da01d33d947ee375fbe440c629a8b1f6",
     "semantic_hash": ""
   },
-  "E:\\biyerkhoroch\\src\\app\\(main)\\layout.tsx": {
-    "mtime": 1779743709.0478895,
-    "ast_hash": "9ed43f2dc42de3b410627b561c3aa67a",
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\app\\layout.tsx": {
+    "mtime": 1779772272.614711,
+    "ast_hash": "03dd246ee9a68e92ff0ba825302df1a6",
     "semantic_hash": ""
   },
-  "E:\\biyerkhoroch\\src\\app\\(main)\\page.tsx": {
-    "mtime": 1779745656.1222658,
-    "ast_hash": "15089a6a89ed0b1196b99a86bce43d0d",
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\app\\opengraph-image.tsx": {
+    "mtime": 1779771084.8408637,
+    "ast_hash": "cf7c8064c8310cf3c3cbee6af5a74669",
     "semantic_hash": ""
   },
-  "E:\\biyerkhoroch\\src\\lib\\db\\connection.ts": {
-    "mtime": 1779735238.8857517,
-    "ast_hash": "bc39203404758441d424c6f33ab7ef42",
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\app\\robots.ts": {
+    "mtime": 1779771084.841987,
+    "ast_hash": "f6b17b25d7bb5b86e409c66381c80ccf",
     "semantic_hash": ""
   },
-  "E:\\biyerkhoroch\\src\\types\\index.ts": {
-    "mtime": 1779735279.400282,
-    "ast_hash": "1e5e682c8e274518047c37349d3d488b",
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\app\\sitemap.ts": {
+    "mtime": 1779771084.841987,
+    "ast_hash": "8f57f5fc18f002f0ef6cccabe8f3a035",
     "semantic_hash": ""
   },
-  "E:\\biyerkhoroch\\AGENTS.md": {
-    "mtime": 1779734010.2520525,
-    "ast_hash": "9e09241799026ac05be315a2f0b50055",
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\app\\(main)\\layout.tsx": {
+    "mtime": 1779771084.8181388,
+    "ast_hash": "0618d8448d2d54b6ec0e195adeef9ef9",
     "semantic_hash": ""
   },
-  "E:\\biyerkhoroch\\CLAUDE.md": {
-    "mtime": 1779742820.155188,
-    "ast_hash": "1700d9e21382d3d314684ebfac3524d3",
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\app\\(main)\\page.tsx": {
+    "mtime": 1779799308.4362245,
+    "ast_hash": "aaf39964f1e22bfcde7b54d1a1b15f8c",
     "semantic_hash": ""
   },
-  "E:\\biyerkhoroch\\prompt.md": {
-    "mtime": 1779734608.071005,
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\app\\(main)\\analytics\\page.tsx": {
+    "mtime": 1779771084.8181388,
+    "ast_hash": "9cff121a614145b6453ac51c7aaf4ae1",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\app\\(main)\\search\\page.tsx": {
+    "mtime": 1779771084.8206518,
+    "ast_hash": "aaf0a9c3caea467d5b98b63655653245",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\app\\(main)\\story\\[slug]\\opengraph-image.tsx": {
+    "mtime": 1779771084.8216813,
+    "ast_hash": "8b367800e21061320f7284c867f46432",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\app\\(main)\\story\\[slug]\\page.tsx": {
+    "mtime": 1779771084.823406,
+    "ast_hash": "bfc0bdb983e9248a88ac3157aba200c5",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\app\\(main)\\submit\\page.tsx": {
+    "mtime": 1779771084.8244028,
+    "ast_hash": "d210a918979a9428f2c516838e7c8a9f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\app\\admin\\layout.tsx": {
+    "mtime": 1779771084.8273947,
+    "ast_hash": "5a279444df0fb109b6906aebf5de223c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\app\\admin\\page.tsx": {
+    "mtime": 1779771084.8273947,
+    "ast_hash": "4f5155859321e709564d6fcf691d5648",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\app\\admin\\approved\\page.tsx": {
+    "mtime": 1779771084.8254,
+    "ast_hash": "23f429c5c4ca811425a719dc4a5f27c3",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\app\\admin\\dashboard\\page.tsx": {
+    "mtime": 1779799319.993528,
+    "ast_hash": "58978b98cada196c5a48ff88c6e94192",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\app\\admin\\queue\\page.tsx": {
+    "mtime": 1779771084.8287013,
+    "ast_hash": "1e17f2e1bf22d3c20493321d11c40026",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\app\\api\\admin\\auth\\route.ts": {
+    "mtime": 1779771084.8301916,
+    "ast_hash": "211c60bd6ee564a94cdb0f5caf1255bf",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\app\\api\\admin\\submissions\\[id]\\route.ts": {
+    "mtime": 1779799710.9813638,
+    "ast_hash": "e07ab9fb44ce6fe1e4d3dcf228694ec0",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\app\\api\\analytics\\route.ts": {
+    "mtime": 1779771084.8326154,
+    "ast_hash": "28442d54e586e118429cff22be8def55",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\app\\api\\search\\route.ts": {
+    "mtime": 1779771084.8336136,
+    "ast_hash": "f95d554819c6c5c8c4b7e668c5211937",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\app\\api\\submissions\\route.ts": {
+    "mtime": 1779771084.8345742,
+    "ast_hash": "88c0335985fe27a848eabea5e4e86878",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\components\\admin\\ApprovedCard.tsx": {
+    "mtime": 1779771084.8440983,
+    "ast_hash": "1d2861648d40b536b968d7524a8376bd",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\components\\admin\\LogoutButton.tsx": {
+    "mtime": 1779771084.8440983,
+    "ast_hash": "d42eef7adb20368b79c2bbffa03d903f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\components\\admin\\ModerationCard.tsx": {
+    "mtime": 1779771084.846094,
+    "ast_hash": "f44c022441a20a0721ffd84fc891a049",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\components\\analytics\\BarChart.tsx": {
+    "mtime": 1779771084.84709,
+    "ast_hash": "6a359627b6a86d604b6e7c8e054bf598",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\components\\analytics\\StatCard.tsx": {
+    "mtime": 1779771084.84709,
+    "ast_hash": "86eaf5696b47bd8188f53ee5840200be",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\components\\gtm\\GTMPageViewTracker.tsx": {
+    "mtime": 1779771084.8480887,
+    "ast_hash": "fb534529c8c4d5e8fe82ce0cf245bf1e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\components\\layout\\Footer.tsx": {
+    "mtime": 1779771084.8490846,
+    "ast_hash": "062c807e70d3478d9c5a8b9e508f0de4",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\components\\layout\\Navbar.tsx": {
+    "mtime": 1779771084.8500822,
+    "ast_hash": "bbedaa322a8a2ac31abb57a4296f6598",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\components\\layout\\ThemeScript.tsx": {
+    "mtime": 1779771084.8500822,
+    "ast_hash": "142fafebc8acec80addc522c15fbcd05",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\components\\layout\\ThemeToggle.tsx": {
+    "mtime": 1779771084.8510795,
+    "ast_hash": "e2c6d9aa73bed5e31081f825f84a4254",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\components\\search\\FilterPanel.tsx": {
+    "mtime": 1779771084.8530746,
+    "ast_hash": "976b71b5ff69aec9d1be1740c4e3468d",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\components\\search\\SearchResults.tsx": {
+    "mtime": 1779771084.8530746,
+    "ast_hash": "1554aa058b53c2f1ab4712d2e0c0b9f3",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\components\\story\\CostBreakdown.tsx": {
+    "mtime": 1779771084.8540716,
+    "ast_hash": "a38db69af5781589e15439c49d05d9de",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\components\\story\\ShareButtons.tsx": {
+    "mtime": 1779771084.8550704,
+    "ast_hash": "006c4b03762ca65eb9f4e7835de2332a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\components\\story\\StoryCard.tsx": {
+    "mtime": 1779771084.8560665,
+    "ast_hash": "591e6540241883ecf18c32fb96c728f3",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\components\\story\\StoryDetail.tsx": {
+    "mtime": 1779771084.857063,
+    "ast_hash": "d84dd10c7e02fe9fa7094c859851f8bd",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\components\\submission\\SubmissionForm.tsx": {
+    "mtime": 1779771084.8580604,
+    "ast_hash": "56518bc35628fcc9b66d49c7284269ca",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\hooks\\useGTM.ts": {
+    "mtime": 1779771084.8590581,
+    "ast_hash": "2a4fafa2169d89a3ade8c4c81aa9ff19",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\hooks\\useLocalStorageDraft.ts": {
+    "mtime": 1779771084.8590581,
+    "ast_hash": "d396acb031ffb7a6ec957022f049a090",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\lib\\email.ts": {
+    "mtime": 1779771084.8640444,
+    "ast_hash": "a7f5cf3bacfff9fcb44ade5a0a731d3b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\lib\\rateLimit.ts": {
+    "mtime": 1779771084.8650389,
+    "ast_hash": "1bc7f4b5cfcec5b643c67d563400fdeb",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\lib\\data\\analytics.ts": {
+    "mtime": 1779771084.8600552,
+    "ast_hash": "c42e248d7e14113290100e21d3ac44b3",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\lib\\data\\stories.ts": {
+    "mtime": 1779771084.8610523,
+    "ast_hash": "5fb81aba0cd0a72170131bc3f72c8a6a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\lib\\db\\connection.ts": {
+    "mtime": 1779771084.8620555,
+    "ast_hash": "969a41fcdd6d0b5c4db8c464520904bb",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\lib\\db\\models\\AdminLog.ts": {
+    "mtime": 1779771084.8630474,
+    "ast_hash": "a5bc2aafb9489bd923b34cacedf18065",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\lib\\db\\models\\Submission.ts": {
+    "mtime": 1779771084.8630474,
+    "ast_hash": "f277fe6421bc9e1f0a49c6bef5679da5",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\lib\\utils\\format.ts": {
+    "mtime": 1779771084.8650389,
+    "ast_hash": "e0f7c547e4ffd7480494c2f028726bd1",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\lib\\validations\\submission.ts": {
+    "mtime": 1779771084.8670342,
+    "ast_hash": "f84fc8ffae027655b7baa2a5fed3a539",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\types\\index.ts": {
+    "mtime": 1779771084.8687303,
+    "ast_hash": "e36ea019da9f1806378271976e463c90",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\AGENTS.md": {
+    "mtime": 1779771084.7144537,
+    "ast_hash": "9346a4897ff955555ddedb7bebf77adb",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\CLAUDE.md": {
+    "mtime": 1779771489.6964853,
+    "ast_hash": "f523fd2ae89287edc2a9f600e5613f46",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\DEPLOYMENT.md": {
+    "mtime": 1779771084.7174468,
+    "ast_hash": "c1fc78fde53b380e25e6dd6df7a21f9d",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\prompt.md": {
+    "mtime": 1779771084.8121548,
     "ast_hash": "4d1e5eb5a70c9ef40ddbc7fb3bf0ec36",
     "semantic_hash": ""
   },
-  "E:\\biyerkhoroch\\README.md": {
-    "mtime": 1779733919.8617048,
-    "ast_hash": "f15aaa42d5d299d091b1171097ea56ad",
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\README.md": {
+    "mtime": 1779771084.7185862,
+    "ast_hash": "9162add00befbcdb432430f405c4ad8d",
     "semantic_hash": ""
   },
-  "E:\\biyerkhoroch\\public\\file.svg": {
-    "mtime": 1779733919.914593,
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\public\\file.svg": {
+    "mtime": 1779771084.813154,
     "ast_hash": "d09f95206c3fa0bb9bd9fefabfd0ea71",
     "semantic_hash": ""
   },
-  "E:\\biyerkhoroch\\public\\globe.svg": {
-    "mtime": 1779733919.9255922,
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\public\\globe.svg": {
+    "mtime": 1779771084.813154,
     "ast_hash": "2aaafa6a49b6563925fe440891e32717",
     "semantic_hash": ""
   },
-  "E:\\biyerkhoroch\\public\\next.svg": {
-    "mtime": 1779733919.9381018,
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\public\\next.svg": {
+    "mtime": 1779771084.8141496,
     "ast_hash": "8e061864f388b47f33a1c3780831193e",
     "semantic_hash": ""
   },
-  "E:\\biyerkhoroch\\public\\vercel.svg": {
-    "mtime": 1779733919.9508345,
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\public\\vercel.svg": {
+    "mtime": 1779771084.815147,
     "ast_hash": "c0af2f507b369b085b35ef4bbe3bcf1e",
     "semantic_hash": ""
   },
-  "E:\\biyerkhoroch\\public\\window.svg": {
-    "mtime": 1779733919.9604232,
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\public\\window.svg": {
+    "mtime": 1779771084.815147,
     "ast_hash": "a2760511c65806022ad20adf74370ff3",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\components\\layout\\Footer.tsx": {
-    "mtime": 1779742767.5193825,
-    "ast_hash": "b060a68f2a7a6baaf85da9d52d791b23",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\components\\layout\\Navbar.tsx": {
-    "mtime": 1779742765.360602,
-    "ast_hash": "850ec2b213ed65ea2d10e03fd1514ad8",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\components\\layout\\ThemeScript.tsx": {
-    "mtime": 1779735709.4079626,
-    "ast_hash": "9a87655129ca255408ea9c74b102dbdb",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\components\\layout\\ThemeToggle.tsx": {
-    "mtime": 1779735720.5235126,
-    "ast_hash": "fd5ac13b6bdc885023c36c4e4d12cee6",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\components\\story\\StoryCard.tsx": {
-    "mtime": 1779743722.4237502,
-    "ast_hash": "5fb2ea804a31e1d2f6f1c1387fa7baa4",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\lib\\utils\\format.ts": {
-    "mtime": 1779735789.5810614,
-    "ast_hash": "f09e0effd047a73c5e76c052f695e3b1",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\app\\(main)\\submit\\page.tsx": {
-    "mtime": 1779742785.9626307,
-    "ast_hash": "848a02ed6d886cc9028481e421c3fcf9",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\components\\submission\\SubmissionForm.tsx": {
-    "mtime": 1779743773.3935363,
-    "ast_hash": "700aaf427cf232937f907491c5eee4f5",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\hooks\\useLocalStorageDraft.ts": {
-    "mtime": 1779736718.2779067,
-    "ast_hash": "8365c361e97debfb68e68d7016b8d136",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\lib\\validations\\submission.ts": {
-    "mtime": 1779736711.4272978,
-    "ast_hash": "d190a3c36a73156d3a6efe5c552b2b6a",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\app\\api\\submissions\\route.ts": {
-    "mtime": 1779741540.7024016,
-    "ast_hash": "205d54bb2a316afef3f70c6fa5ffe772",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\lib\\rateLimit.ts": {
-    "mtime": 1779737180.5386145,
-    "ast_hash": "4787c62ceee54ae29da0171782ea5e60",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\lib\\db\\models\\AdminLog.ts": {
-    "mtime": 1779737172.8138485,
-    "ast_hash": "ccbb7beffee9b4deddcbae7fdb172513",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\lib\\db\\models\\Submission.ts": {
-    "mtime": 1779737216.4958582,
-    "ast_hash": "47ca55149c252f127cc71c81d799b6df",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\proxy.ts": {
-    "mtime": 1779737866.2485566,
-    "ast_hash": "94c21ccfa1390a71a0b7282ebfca59dc",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\app\\admin\\layout.tsx": {
-    "mtime": 1779737701.9241927,
-    "ast_hash": "37e76cbc1c8451749cd229e29d6e999a",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\app\\admin\\page.tsx": {
-    "mtime": 1779742787.3290603,
-    "ast_hash": "df63dc6896f19458293680d938faaf46",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\app\\admin\\dashboard\\page.tsx": {
-    "mtime": 1779743211.238433,
-    "ast_hash": "d3e55327713a5daf51c5f88bb902e88f",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\app\\admin\\queue\\page.tsx": {
-    "mtime": 1779737766.5606134,
-    "ast_hash": "a6041fab56c252cbfde17b06864a2b18",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\app\\api\\admin\\auth\\route.ts": {
-    "mtime": 1779737669.0659108,
-    "ast_hash": "7f09b07fdd8a055b62a30ae312edb8a7",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\app\\api\\admin\\submissions\\[id]\\route.ts": {
-    "mtime": 1779743221.4983344,
-    "ast_hash": "f303aca989a8dca5768aa050ee50bd1d",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\components\\admin\\LogoutButton.tsx": {
-    "mtime": 1779737746.1557417,
-    "ast_hash": "1bf87d51fa511f7d7c3c745bb54bfd08",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\components\\admin\\ModerationCard.tsx": {
-    "mtime": 1779737788.2798052,
-    "ast_hash": "4e84271d7506ff2b1637b09e2032381e",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\app\\(main)\\story\\[slug]\\page.tsx": {
-    "mtime": 1779742774.825454,
-    "ast_hash": "918b238bc75bc310a8551e42eab56d43",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\components\\story\\CostBreakdown.tsx": {
-    "mtime": 1779738371.5691824,
-    "ast_hash": "61e942f3dd49386bb1e8fce629bec8df",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\components\\story\\ShareButtons.tsx": {
-    "mtime": 1779743752.3203063,
-    "ast_hash": "ba7bab36e1cfd9ad382c41b14ef639c5",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\components\\story\\StoryDetail.tsx": {
-    "mtime": 1779742802.7949865,
-    "ast_hash": "f0d4aa47a2bc18e52b1b6f13403ca1d1",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\lib\\data\\stories.ts": {
-    "mtime": 1779740361.6059825,
-    "ast_hash": "12f12596439756217b84c989f907b3cf",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\app\\(main)\\search\\page.tsx": {
-    "mtime": 1779742783.2994456,
-    "ast_hash": "9c690ca5d26e7cbb3d2730d312b499c2",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\app\\api\\search\\route.ts": {
-    "mtime": 1779739007.150558,
-    "ast_hash": "e880e169b338eb5917b97c097e6e8e5d",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\components\\search\\FilterPanel.tsx": {
-    "mtime": 1779743794.6504319,
-    "ast_hash": "0df002f8696e6316118f2427a333c9e6",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\components\\search\\SearchResults.tsx": {
-    "mtime": 1779739112.6668863,
-    "ast_hash": "4ace3105ae104d9485643feee73f3784",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\app\\(main)\\analytics\\page.tsx": {
-    "mtime": 1779742784.7117522,
-    "ast_hash": "ef5e8c7c69cf29a9f722be25e203f60d",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\app\\api\\analytics\\route.ts": {
-    "mtime": 1779739766.3782437,
-    "ast_hash": "836faa33d50e2fe3a3b1e6862d74c29f",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\components\\analytics\\BarChart.tsx": {
-    "mtime": 1779739797.079325,
-    "ast_hash": "bbde52f27f3752b53287a947e6b82951",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\components\\analytics\\StatCard.tsx": {
-    "mtime": 1779739779.4225914,
-    "ast_hash": "1ba3aa5f4ec5bcd21534db97b480b3fe",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\lib\\data\\analytics.ts": {
-    "mtime": 1779739950.2080803,
-    "ast_hash": "a1717d7447803a06d374aca878b8c197",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\app\\opengraph-image.tsx": {
-    "mtime": 1779742779.3225732,
-    "ast_hash": "d08bb9aaa760e41c1c45b3215ef48c8b",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\app\\robots.ts": {
-    "mtime": 1779742762.0999885,
-    "ast_hash": "b79b254ce395c2704ff5958919bb98a9",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\app\\sitemap.ts": {
-    "mtime": 1779742763.1924086,
-    "ast_hash": "70d9f573a7fad8ee201b746bbbd79733",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\app\\(main)\\story\\[slug]\\opengraph-image.tsx": {
-    "mtime": 1779742777.168428,
-    "ast_hash": "e65070e9d788bacba1a5bdbe62b72de7",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\DEPLOYMENT.md": {
-    "mtime": 1779742808.3516216,
-    "ast_hash": "a9c32b5d68ed7185a574c4080c005e70",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\lib\\email.ts": {
-    "mtime": 1779742790.2491198,
-    "ast_hash": "db0f3ea866f67e527c84d33aa1486229",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\app\\admin\\approved\\page.tsx": {
-    "mtime": 1779743200.0750384,
-    "ast_hash": "826276ad5b9e090587d21ee7cdf8def6",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\components\\admin\\ApprovedCard.tsx": {
-    "mtime": 1779743182.38267,
-    "ast_hash": "9a3651f0d5f1ebe879fd79f95317bf13",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\components\\gtm\\GTMPageViewTracker.tsx": {
-    "mtime": 1779743702.559927,
-    "ast_hash": "705c384dd914922ab014b7f128116a1d",
-    "semantic_hash": ""
-  },
-  "E:\\biyerkhoroch\\src\\hooks\\useGTM.ts": {
-    "mtime": 1779743697.9497206,
-    "ast_hash": "fb5a2d8ed19e7f888558013bbf17031b",
     "semantic_hash": ""
   }
 }

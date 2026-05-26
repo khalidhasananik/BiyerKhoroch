@@ -3,6 +3,7 @@ import { connectToDatabase } from "@/lib/db/connection";
 import SubmissionModel from "@/lib/db/models/Submission";
 import AdminLogModel from "@/lib/db/models/AdminLog";
 import { LogoutButton } from "@/components/admin/LogoutButton";
+import { ClearLogsButton } from "@/components/admin/ClearLogsButton";
 
 export const dynamic = "force-dynamic";
 
@@ -75,8 +76,9 @@ export default async function DashboardPage() {
 
       {/* Recent activity */}
       <div className="bg-[var(--surface)] border border-[var(--border)] rounded-xl overflow-hidden">
-        <div className="px-5 py-4 border-b border-[var(--border)]">
+        <div className="px-5 py-4 border-b border-[var(--border)] flex items-center justify-between gap-3">
           <h2 className="font-semibold text-[var(--text)]">Recent Activity</h2>
+          {recentLogs.length > 0 && <ClearLogsButton />}
         </div>
 
         {recentLogs.length === 0 ? (

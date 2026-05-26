@@ -56,6 +56,7 @@ export async function POST(request: Request) {
 
   const submission = new SubmissionModel({
     city: data.city,
+    weddingYear: data.weddingYear,
     guestCount: data.guestCount,
     venueName: data.venueName,
     photographyCompany: data.photographyCompany,

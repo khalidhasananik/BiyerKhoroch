@@ -3,6 +3,7 @@ import mongoose, { Schema, model, models, type Document, type Model } from "mong
 export interface ISubmission extends Document {
   slug: string;
   city: string;
+  weddingYear: number;
   guestCount: number;
   venueName: string;
   photographyCompany?: string;
@@ -53,6 +54,7 @@ const submissionSchema = new Schema<ISubmission>(
   {
     slug: { type: String, unique: true, index: true },
     city: { type: String, required: true, index: true },
+    weddingYear: { type: Number, required: true, index: true },
     guestCount: { type: Number, required: true, min: 1 },
     venueName: { type: String, required: true },
     photographyCompany: { type: String },

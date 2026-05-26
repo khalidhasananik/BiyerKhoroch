@@ -6,7 +6,9 @@ import { useGTM } from "@/hooks/useGTM";
 import { submissionFormSchema } from "@/lib/validations/submission";
 import { formatBDT } from "@/lib/utils/format";
 
-const DRAFT_KEY = "biyerkahini_draft_v1";
+const DRAFT_KEY = "biyerkahini_draft_v2";
+const CURRENT_YEAR = new Date().getFullYear();
+const YEAR_OPTIONS = Array.from({ length: CURRENT_YEAR - 1999 }, (_, i) => CURRENT_YEAR - i);
 
 const CITIES = [
   "Dhaka", "Chittagong", "Sylhet", "Rajshahi", "Khulna", "Barishal",
@@ -30,6 +32,7 @@ type CostKey = typeof COST_FIELDS[number]["key"];
 
 interface FormState {
   city: string;
+  weddingYear: string;
   guestCount: string;
   venueName: string;
   photographyCompany: string;
@@ -48,7 +51,7 @@ interface FormState {
 }
 
 const EMPTY: FormState = {
-  city: "", guestCount: "", venueName: "", photographyCompany: "",
+  city: "", weddingYear: "", guestCount: "", venueName: "", photographyCompany: "",
   venue: "", catering: "", photography: "", clothing: "", jewelry: "",
   decoration: "", makeup: "", gateDhora: "", miscellaneous: "",
   totalCostOverride: "", story: "", honeypot: "",
@@ -92,8 +95,8 @@ export function SubmissionForm() {
 
   function validate1(): boolean {
     const r = submissionFormSchema
-      .pick({ city: true, guestCount: true, venueName: true })
-      .safeParse({ city: form.city, guestCount: n(form.guestCount), venueName: form.venueName });
+      .pick({ city: true, weddingYear: true, guestCount: true, venueName: true })
+      .safeParse({ city: form.city, weddingYear: n(form.weddingYear), guestCount: n(form.guestCount), venueName: form.venueName });
     if (!r.success) { setErrors(parseErrors(r.error)); return false; }
     setErrors({});
     return true;
@@ -135,6 +138,7 @@ export function SubmissionForm() {
     const total = calcTotal(form);
     const payload = {
       city: form.city,
+      weddingYear: Math.round(n(form.weddingYear)),
       guestCount: Math.round(n(form.guestCount)),
       venueName: form.venueName,
       photographyCompany: form.photographyCompany || undefined,
@@ -227,6 +231,18 @@ export function SubmissionForm() {
               <datalist id="city-list">
                 {CITIES.map(c => <option key={c} value={c} />)}
               </datalist>
+            </Field>
+
+            <Field label="Year of Wedding" required error={errors.weddingYear}>
+              <select
+                value={form.weddingYear}
+                onChange={e => set("weddingYear", e.target.value)}
+                className="input-field"
+                style={errors.weddingYear ? { borderColor: "#ef4444" } : undefined}
+              >
+                <option value="">Select year…</option>
+                {YEAR_OPTIONS.map(y => <option key={y} value={y}>{y}</option>)}
+              </select>
             </Field>
 
             <Field label="Total Guests" required error={errors.guestCount}>
@@ -352,6 +368,7 @@ export function SubmissionForm() {
             </p>
             <div className="space-y-2 text-sm">
               <ReviewRow label="City" value={form.city} />
+              <ReviewRow label="Year of Wedding" value={form.weddingYear} />
               <ReviewRow label="Guests" value={form.guestCount} />
               <ReviewRow label="Venue" value={form.venueName} />
               {form.photographyCompany && (
