@@ -8,7 +8,7 @@ import { formatBDT } from "@/lib/utils/format";
 
 const DRAFT_KEY = "biyerkahini_draft_v2";
 const CURRENT_YEAR = new Date().getFullYear();
-const YEAR_OPTIONS = Array.from({ length: CURRENT_YEAR - 1999 }, (_, i) => CURRENT_YEAR - i);
+const YEAR_OPTIONS = Array.from({ length: CURRENT_YEAR - 1919 }, (_, i) => CURRENT_YEAR - i);
 
 const CITIES = [
   "Dhaka", "Chittagong", "Sylhet", "Rajshahi", "Khulna", "Barishal",

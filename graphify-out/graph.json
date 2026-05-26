@@ -4,40 +4,526 @@
   "graph": {},
   "nodes": [
     {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L1",
+      "id": "src_app_admin_dashboard_page_tsx",
+      "community": 31,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "getStats()",
+      "file_type": "code",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L10",
+      "id": "dashboard_page_getstats",
+      "community": 31,
+      "norm_label": "getstats()"
+    },
+    {
+      "label": "ACTION_LABELS",
+      "file_type": "code",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L24",
+      "id": "dashboard_page_action_labels",
+      "community": 31,
+      "norm_label": "action_labels"
+    },
+    {
+      "label": "ACTION_COLORS",
+      "file_type": "code",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L30",
+      "id": "dashboard_page_action_colors",
+      "community": 31,
+      "norm_label": "action_colors"
+    },
+    {
+      "label": "DashboardPage()",
+      "file_type": "code",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L36",
+      "id": "dashboard_page_dashboardpage",
+      "community": 31,
+      "norm_label": "dashboardpage()"
+    },
+    {
+      "label": "StatCard()",
+      "file_type": "code",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L122",
+      "id": "dashboard_page_statcard",
+      "community": 31,
+      "norm_label": "statcard()"
+    },
+    {
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "src/app/api/admin/logs/route.ts",
+      "source_location": "L1",
+      "id": "src_app_api_admin_logs_route_ts",
+      "community": 8,
+      "norm_label": "route.ts"
+    },
+    {
+      "label": "DELETE()",
+      "file_type": "code",
+      "source_file": "src/app/api/admin/logs/route.ts",
+      "source_location": "L6",
+      "id": "logs_route_delete",
+      "community": 8,
+      "norm_label": "delete()"
+    },
+    {
+      "label": "route.ts",
+      "file_type": "code",
+      "source_file": "src/app/api/submissions/route.ts",
+      "source_location": "L1",
+      "id": "src_app_api_submissions_route_ts",
+      "community": 17,
+      "norm_label": "route.ts"
+    },
+    {
+      "label": "POST()",
+      "file_type": "code",
+      "source_file": "src/app/api/submissions/route.ts",
+      "source_location": "L8",
+      "id": "submissions_route_post",
+      "community": 17,
+      "norm_label": "post()"
+    },
+    {
+      "label": "ClearLogsButton.tsx",
+      "file_type": "code",
+      "source_file": "src/components/admin/ClearLogsButton.tsx",
+      "source_location": "L1",
+      "id": "src_components_admin_clearlogsbutton_tsx",
+      "community": 31,
+      "norm_label": "clearlogsbutton.tsx"
+    },
+    {
+      "label": "ClearLogsButton()",
+      "file_type": "code",
+      "source_file": "src/components/admin/ClearLogsButton.tsx",
+      "source_location": "L6",
+      "id": "admin_clearlogsbutton_clearlogsbutton",
+      "community": 31,
+      "norm_label": "clearlogsbutton()"
+    },
+    {
+      "label": "StoryDetail.tsx",
+      "file_type": "code",
+      "source_file": "src/components/story/StoryDetail.tsx",
+      "source_location": "L1",
+      "id": "src_components_story_storydetail_tsx",
+      "community": 6,
+      "norm_label": "storydetail.tsx"
+    },
+    {
+      "label": "StoryDetailProps",
+      "file_type": "code",
+      "source_file": "src/components/story/StoryDetail.tsx",
+      "source_location": "L7",
+      "id": "story_storydetail_storydetailprops",
+      "community": 6,
+      "norm_label": "storydetailprops"
+    },
+    {
+      "label": "StoryDetail()",
+      "file_type": "code",
+      "source_file": "src/components/story/StoryDetail.tsx",
+      "source_location": "L12",
+      "id": "story_storydetail_storydetail",
+      "community": 6,
+      "norm_label": "storydetail()"
+    },
+    {
+      "label": "SubmissionForm.tsx",
+      "file_type": "code",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L1",
+      "id": "src_components_submission_submissionform_tsx",
+      "community": 5,
+      "norm_label": "submissionform.tsx"
+    },
+    {
+      "label": "CURRENT_YEAR",
+      "file_type": "code",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L10",
+      "id": "submission_submissionform_current_year",
+      "community": 5,
+      "norm_label": "current_year"
+    },
+    {
+      "label": "YEAR_OPTIONS",
+      "file_type": "code",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L11",
+      "id": "submission_submissionform_year_options",
+      "community": 5,
+      "norm_label": "year_options"
+    },
+    {
+      "label": "CITIES",
+      "file_type": "code",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L13",
+      "id": "submission_submissionform_cities",
+      "community": 5,
+      "norm_label": "cities"
+    },
+    {
+      "label": "COST_FIELDS",
+      "file_type": "code",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L19",
+      "id": "submission_submissionform_cost_fields",
+      "community": 5,
+      "norm_label": "cost_fields"
+    },
+    {
+      "label": "CostKey",
+      "file_type": "code",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L31",
+      "id": "submission_submissionform_costkey",
+      "community": 5,
+      "norm_label": "costkey"
+    },
+    {
+      "label": "FormState",
+      "file_type": "code",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L33",
+      "id": "submission_submissionform_formstate",
+      "community": 5,
+      "norm_label": "formstate"
+    },
+    {
+      "label": "EMPTY",
+      "file_type": "code",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L53",
+      "id": "submission_submissionform_empty",
+      "community": 5,
+      "norm_label": "empty"
+    },
+    {
+      "label": "n()",
+      "file_type": "code",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L60",
+      "id": "submission_submissionform_n",
+      "community": 5,
+      "norm_label": "n()"
+    },
+    {
+      "label": "calcTotal()",
+      "file_type": "code",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L62",
+      "id": "submission_submissionform_calctotal",
+      "community": 5,
+      "norm_label": "calctotal()"
+    },
+    {
+      "label": "parseErrors()",
+      "file_type": "code",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L66",
+      "id": "submission_submissionform_parseerrors",
+      "community": 5,
+      "norm_label": "parseerrors()"
+    },
+    {
+      "label": "SubmissionForm()",
+      "file_type": "code",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L77",
+      "id": "submission_submissionform_submissionform",
+      "community": 5,
+      "norm_label": "submissionform()"
+    },
+    {
+      "label": "StepBar()",
+      "file_type": "code",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L411",
+      "id": "submission_submissionform_stepbar",
+      "community": 5,
+      "norm_label": "stepbar()"
+    },
+    {
+      "label": "Card()",
+      "file_type": "code",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L455",
+      "id": "submission_submissionform_card",
+      "community": 5,
+      "norm_label": "card()"
+    },
+    {
+      "label": "CardTitle()",
+      "file_type": "code",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L466",
+      "id": "submission_submissionform_cardtitle",
+      "community": 5,
+      "norm_label": "cardtitle()"
+    },
+    {
+      "label": "Field()",
+      "file_type": "code",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L474",
+      "id": "submission_submissionform_field",
+      "community": 5,
+      "norm_label": "field()"
+    },
+    {
+      "label": "CostInput()",
+      "file_type": "code",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L496",
+      "id": "submission_submissionform_costinput",
+      "community": 5,
+      "norm_label": "costinput()"
+    },
+    {
+      "label": "ReviewRow()",
+      "file_type": "code",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L527",
+      "id": "submission_submissionform_reviewrow",
+      "community": 5,
+      "norm_label": "reviewrow()"
+    },
+    {
+      "label": "PrimaryBtn()",
+      "file_type": "code",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L541",
+      "id": "submission_submissionform_primarybtn",
+      "community": 5,
+      "norm_label": "primarybtn()"
+    },
+    {
+      "label": "OutlineBtn()",
+      "file_type": "code",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L553",
+      "id": "submission_submissionform_outlinebtn",
+      "community": 5,
+      "norm_label": "outlinebtn()"
+    },
+    {
+      "label": "SuccessView()",
+      "file_type": "code",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L565",
+      "id": "submission_submissionform_successview",
+      "community": 5,
+      "norm_label": "successview()"
+    },
+    {
+      "label": "Submission.ts",
+      "file_type": "code",
+      "source_file": "src/lib/db/models/Submission.ts",
+      "source_location": "L1",
+      "id": "src_lib_db_models_submission_ts",
+      "community": 7,
+      "norm_label": "submission.ts"
+    },
+    {
+      "label": "ISubmission",
+      "file_type": "code",
+      "source_file": "src/lib/db/models/Submission.ts",
+      "source_location": "L3",
+      "id": "models_submission_isubmission",
+      "community": 7,
+      "norm_label": "isubmission"
+    },
+    {
+      "label": "costBreakdownSchema",
+      "file_type": "code",
+      "source_file": "src/lib/db/models/Submission.ts",
+      "source_location": "L30",
+      "id": "models_submission_costbreakdownschema",
+      "community": 7,
+      "norm_label": "costbreakdownschema"
+    },
+    {
+      "label": "cityToSlugPart()",
+      "file_type": "code",
+      "source_file": "src/lib/db/models/Submission.ts",
+      "source_location": "L45",
+      "id": "models_submission_citytoslugpart",
+      "community": 7,
+      "norm_label": "citytoslugpart()"
+    },
+    {
+      "label": "submissionSchema",
+      "file_type": "code",
+      "source_file": "src/lib/db/models/Submission.ts",
+      "source_location": "L53",
+      "id": "models_submission_submissionschema",
+      "community": 7,
+      "norm_label": "submissionschema"
+    },
+    {
+      "label": "shortId",
+      "file_type": "code",
+      "source_file": "src/lib/db/models/Submission.ts",
+      "source_location": "L80",
+      "id": "models_submission_shortid",
+      "community": 7,
+      "norm_label": "shortid"
+    },
+    {
+      "label": "submission.ts",
+      "file_type": "code",
+      "source_file": "src/lib/validations/submission.ts",
+      "source_location": "L1",
+      "id": "src_lib_validations_submission_ts",
+      "community": 17,
+      "norm_label": "submission.ts"
+    },
+    {
+      "label": "costBreakdownSchema",
+      "file_type": "code",
+      "source_file": "src/lib/validations/submission.ts",
+      "source_location": "L3",
+      "id": "validations_submission_costbreakdownschema",
+      "community": 17,
+      "norm_label": "costbreakdownschema"
+    },
+    {
+      "label": "CURRENT_YEAR",
+      "file_type": "code",
+      "source_file": "src/lib/validations/submission.ts",
+      "source_location": "L15",
+      "id": "validations_submission_current_year",
+      "community": 17,
+      "norm_label": "current_year"
+    },
+    {
+      "label": "submissionFormSchema",
+      "file_type": "code",
+      "source_file": "src/lib/validations/submission.ts",
+      "source_location": "L17",
+      "id": "validations_submission_submissionformschema",
+      "community": 17,
+      "norm_label": "submissionformschema"
+    },
+    {
+      "label": "SubmissionFormValues",
+      "file_type": "code",
+      "source_file": "src/lib/validations/submission.ts",
+      "source_location": "L29",
+      "id": "validations_submission_submissionformvalues",
+      "community": 17,
+      "norm_label": "submissionformvalues"
+    },
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "src/types/index.ts",
+      "source_location": "L1",
+      "id": "src_types_index_ts",
+      "community": 6,
+      "norm_label": "index.ts"
+    },
+    {
+      "label": "SubmissionStatus",
+      "file_type": "code",
+      "source_file": "src/types/index.ts",
+      "source_location": "L1",
+      "id": "types_index_submissionstatus",
+      "community": 6,
+      "norm_label": "submissionstatus"
+    },
+    {
+      "label": "CostBreakdown",
+      "file_type": "code",
+      "source_file": "src/types/index.ts",
+      "source_location": "L3",
+      "id": "types_index_costbreakdown",
+      "community": 6,
+      "norm_label": "costbreakdown"
+    },
+    {
+      "label": "Submission",
+      "file_type": "code",
+      "source_file": "src/types/index.ts",
+      "source_location": "L15",
+      "id": "types_index_submission",
+      "community": 6,
+      "norm_label": "submission"
+    },
+    {
+      "label": "SubmissionFormData",
+      "file_type": "code",
+      "source_file": "src/types/index.ts",
+      "source_location": "L33",
+      "id": "types_index_submissionformdata",
+      "community": 6,
+      "norm_label": "submissionformdata"
+    },
+    {
+      "label": "PaginatedResult",
+      "file_type": "code",
+      "source_file": "src/types/index.ts",
+      "source_location": "L45",
+      "id": "types_index_paginatedresult",
+      "community": 6,
+      "norm_label": "paginatedresult"
+    },
+    {
+      "label": "SearchParams",
+      "file_type": "code",
+      "source_file": "src/types/index.ts",
+      "source_location": "L53",
+      "id": "types_index_searchparams",
+      "community": 6,
+      "norm_label": "searchparams"
+    },
+    {
       "label": "route.ts",
       "file_type": "code",
       "source_file": "src/app/api/admin/submissions/[id]/route.ts",
       "source_location": "L1",
-      "id": "src_app_api_admin_submissions_id_route_ts",
       "community": 8,
-      "norm_label": "route.ts"
+      "norm_label": "route.ts",
+      "id": "src_app_api_admin_submissions_id_route_ts"
     },
     {
       "label": "isAuthenticated()",
       "file_type": "code",
       "source_file": "src/app/api/admin/submissions/[id]/route.ts",
       "source_location": "L9",
-      "id": "id_route_isauthenticated",
       "community": 8,
-      "norm_label": "isauthenticated()"
+      "norm_label": "isauthenticated()",
+      "id": "id_route_isauthenticated"
     },
     {
       "label": "PATCH()",
       "file_type": "code",
       "source_file": "src/app/api/admin/submissions/[id]/route.ts",
       "source_location": "L14",
-      "id": "id_route_patch",
       "community": 8,
-      "norm_label": "patch()"
+      "norm_label": "patch()",
+      "id": "id_route_patch"
     },
     {
       "label": "DELETE()",
       "file_type": "code",
       "source_file": "src/app/api/admin/submissions/[id]/route.ts",
       "source_location": "L67",
-      "id": "id_route_delete",
       "community": 8,
-      "norm_label": "delete()"
+      "norm_label": "delete()",
+      "id": "id_route_delete"
     },
     {
       "label": "page.tsx",
@@ -350,7 +836,7 @@
       "file_type": "code",
       "source_file": "src/components/search/FilterPanel.tsx",
       "source_location": "L1",
-      "community": 12,
+      "community": 6,
       "norm_label": "filterpanel.tsx",
       "id": "src_components_search_filterpanel_tsx"
     },
@@ -359,7 +845,7 @@
       "file_type": "code",
       "source_file": "src/components/search/FilterPanel.tsx",
       "source_location": "L8",
-      "community": 12,
+      "community": 6,
       "norm_label": "default_cities",
       "id": "search_filterpanel_default_cities"
     },
@@ -368,7 +854,7 @@
       "file_type": "code",
       "source_file": "src/components/search/FilterPanel.tsx",
       "source_location": "L14",
-      "community": 12,
+      "community": 6,
       "norm_label": "sort_options",
       "id": "search_filterpanel_sort_options"
     },
@@ -377,7 +863,7 @@
       "file_type": "code",
       "source_file": "src/components/search/FilterPanel.tsx",
       "source_location": "L22",
-      "community": 12,
+      "community": 6,
       "norm_label": "budget_presets",
       "id": "search_filterpanel_budget_presets"
     },
@@ -386,7 +872,7 @@
       "file_type": "code",
       "source_file": "src/components/search/FilterPanel.tsx",
       "source_location": "L30",
-      "community": 12,
+      "community": 6,
       "norm_label": "guest_presets",
       "id": "search_filterpanel_guest_presets"
     },
@@ -395,7 +881,7 @@
       "file_type": "code",
       "source_file": "src/components/search/FilterPanel.tsx",
       "source_location": "L37",
-      "community": 12,
+      "community": 6,
       "norm_label": "filterpanelprops",
       "id": "search_filterpanel_filterpanelprops"
     },
@@ -404,7 +890,7 @@
       "file_type": "code",
       "source_file": "src/components/search/FilterPanel.tsx",
       "source_location": "L41",
-      "community": 12,
+      "community": 6,
       "norm_label": "filterpanel()",
       "id": "search_filterpanel_filterpanel"
     },
@@ -413,7 +899,7 @@
       "file_type": "code",
       "source_file": "src/components/search/FilterPanel.tsx",
       "source_location": "L447",
-      "community": 12,
+      "community": 6,
       "norm_label": "filterchip()",
       "id": "search_filterpanel_filterchip"
     },
@@ -422,7 +908,7 @@
       "file_type": "code",
       "source_file": "src/components/story/ShareButtons.tsx",
       "source_location": "L1",
-      "community": 12,
+      "community": 6,
       "norm_label": "sharebuttons.tsx",
       "id": "src_components_story_sharebuttons_tsx"
     },
@@ -431,7 +917,7 @@
       "file_type": "code",
       "source_file": "src/components/story/ShareButtons.tsx",
       "source_location": "L6",
-      "community": 12,
+      "community": 6,
       "norm_label": "sharebuttonsprops",
       "id": "story_sharebuttons_sharebuttonsprops"
     },
@@ -440,7 +926,7 @@
       "file_type": "code",
       "source_file": "src/components/story/ShareButtons.tsx",
       "source_location": "L11",
-      "community": 12,
+      "community": 6,
       "norm_label": "sharebuttons()",
       "id": "story_sharebuttons_sharebuttons"
     },
@@ -472,182 +958,11 @@
       "id": "story_storycard_storycard"
     },
     {
-      "label": "SubmissionForm.tsx",
-      "file_type": "code",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L1",
-      "community": 5,
-      "norm_label": "submissionform.tsx",
-      "id": "src_components_submission_submissionform_tsx"
-    },
-    {
-      "label": "CITIES",
-      "file_type": "code",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L11",
-      "community": 5,
-      "norm_label": "cities",
-      "id": "submission_submissionform_cities"
-    },
-    {
-      "label": "COST_FIELDS",
-      "file_type": "code",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L17",
-      "community": 5,
-      "norm_label": "cost_fields",
-      "id": "submission_submissionform_cost_fields"
-    },
-    {
-      "label": "CostKey",
-      "file_type": "code",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L29",
-      "community": 5,
-      "norm_label": "costkey",
-      "id": "submission_submissionform_costkey"
-    },
-    {
-      "label": "FormState",
-      "file_type": "code",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L31",
-      "community": 5,
-      "norm_label": "formstate",
-      "id": "submission_submissionform_formstate"
-    },
-    {
-      "label": "EMPTY",
-      "file_type": "code",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L50",
-      "community": 5,
-      "norm_label": "empty",
-      "id": "submission_submissionform_empty"
-    },
-    {
-      "label": "n()",
-      "file_type": "code",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L57",
-      "community": 5,
-      "norm_label": "n()",
-      "id": "submission_submissionform_n"
-    },
-    {
-      "label": "calcTotal()",
-      "file_type": "code",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L59",
-      "community": 5,
-      "norm_label": "calctotal()",
-      "id": "submission_submissionform_calctotal"
-    },
-    {
-      "label": "parseErrors()",
-      "file_type": "code",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L63",
-      "community": 5,
-      "norm_label": "parseerrors()",
-      "id": "submission_submissionform_parseerrors"
-    },
-    {
-      "label": "SubmissionForm()",
-      "file_type": "code",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L74",
-      "community": 5,
-      "norm_label": "submissionform()",
-      "id": "submission_submissionform_submissionform"
-    },
-    {
-      "label": "StepBar()",
-      "file_type": "code",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L394",
-      "community": 5,
-      "norm_label": "stepbar()",
-      "id": "submission_submissionform_stepbar"
-    },
-    {
-      "label": "Card()",
-      "file_type": "code",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L438",
-      "community": 5,
-      "norm_label": "card()",
-      "id": "submission_submissionform_card"
-    },
-    {
-      "label": "CardTitle()",
-      "file_type": "code",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L449",
-      "community": 5,
-      "norm_label": "cardtitle()",
-      "id": "submission_submissionform_cardtitle"
-    },
-    {
-      "label": "Field()",
-      "file_type": "code",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L457",
-      "community": 5,
-      "norm_label": "field()",
-      "id": "submission_submissionform_field"
-    },
-    {
-      "label": "CostInput()",
-      "file_type": "code",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L479",
-      "community": 5,
-      "norm_label": "costinput()",
-      "id": "submission_submissionform_costinput"
-    },
-    {
-      "label": "ReviewRow()",
-      "file_type": "code",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L510",
-      "community": 5,
-      "norm_label": "reviewrow()",
-      "id": "submission_submissionform_reviewrow"
-    },
-    {
-      "label": "PrimaryBtn()",
-      "file_type": "code",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L524",
-      "community": 5,
-      "norm_label": "primarybtn()",
-      "id": "submission_submissionform_primarybtn"
-    },
-    {
-      "label": "OutlineBtn()",
-      "file_type": "code",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L536",
-      "community": 5,
-      "norm_label": "outlinebtn()",
-      "id": "submission_submissionform_outlinebtn"
-    },
-    {
-      "label": "SuccessView()",
-      "file_type": "code",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L548",
-      "community": 5,
-      "norm_label": "successview()",
-      "id": "submission_submissionform_successview"
-    },
-    {
       "label": "useGTM.ts",
       "file_type": "code",
       "source_file": "src/hooks/useGTM.ts",
       "source_location": "L1",
-      "community": 12,
+      "community": 6,
       "norm_label": "usegtm.ts",
       "id": "src_hooks_usegtm_ts"
     },
@@ -656,7 +971,7 @@
       "file_type": "code",
       "source_file": "src/hooks/useGTM.ts",
       "source_location": "L6",
-      "community": 12,
+      "community": 6,
       "norm_label": "gtmeventmap",
       "id": "hooks_usegtm_gtmeventmap"
     },
@@ -665,7 +980,7 @@
       "file_type": "code",
       "source_file": "src/hooks/useGTM.ts",
       "source_location": "L13",
-      "community": 12,
+      "community": 6,
       "norm_label": "usegtm()",
       "id": "hooks_usegtm_usegtm"
     },
@@ -701,54 +1016,9 @@
       "file_type": "code",
       "source_file": "app/admin/dashboard/page.tsx",
       "source_location": "L1",
-      "community": 8,
+      "community": 31,
       "norm_label": "page.tsx",
       "id": "app_admin_dashboard_page_tsx"
-    },
-    {
-      "label": "getStats()",
-      "file_type": "code",
-      "source_file": "app/admin/dashboard/page.tsx",
-      "source_location": "L7",
-      "community": 8,
-      "norm_label": "getstats()",
-      "id": "dashboard_page_getstats"
-    },
-    {
-      "label": "ACTION_LABELS",
-      "file_type": "code",
-      "source_file": "app/admin/dashboard/page.tsx",
-      "source_location": "L21",
-      "community": 8,
-      "norm_label": "action_labels",
-      "id": "dashboard_page_action_labels"
-    },
-    {
-      "label": "ACTION_COLORS",
-      "file_type": "code",
-      "source_file": "app/admin/dashboard/page.tsx",
-      "source_location": "L27",
-      "community": 8,
-      "norm_label": "action_colors",
-      "id": "dashboard_page_action_colors"
-    },
-    {
-      "label": "DashboardPage()",
-      "file_type": "code",
-      "source_file": "app/admin/dashboard/page.tsx",
-      "source_location": "L33",
-      "community": 8,
-      "norm_label": "dashboardpage()",
-      "id": "dashboard_page_dashboardpage"
-    },
-    {
-      "label": "StatCard()",
-      "file_type": "code",
-      "source_file": "app/admin/dashboard/page.tsx",
-      "source_location": "L118",
-      "community": 8,
-      "norm_label": "statcard()",
-      "id": "dashboard_page_statcard"
     },
     {
       "label": "route.ts",
@@ -1484,7 +1754,7 @@
       "file_type": "code",
       "source_file": "src/app/(main)/story/[slug]/opengraph-image.tsx",
       "source_location": "L1",
-      "community": 6,
+      "community": 12,
       "norm_label": "opengraph-image.tsx",
       "id": "src_app_main_story_slug_opengraph_image_tsx"
     },
@@ -1493,7 +1763,7 @@
       "file_type": "code",
       "source_file": "src/app/(main)/story/[slug]/opengraph-image.tsx",
       "source_location": "L5",
-      "community": 6,
+      "community": 12,
       "norm_label": "size",
       "id": "slug_opengraph_image_size"
     },
@@ -1502,7 +1772,7 @@
       "file_type": "code",
       "source_file": "src/app/(main)/story/[slug]/opengraph-image.tsx",
       "source_location": "L8",
-      "community": 6,
+      "community": 12,
       "norm_label": "image()",
       "id": "slug_opengraph_image_image"
     },
@@ -1511,7 +1781,7 @@
       "file_type": "code",
       "source_file": "src/app/(main)/story/[slug]/page.tsx",
       "source_location": "L1",
-      "community": 6,
+      "community": 12,
       "norm_label": "page.tsx",
       "id": "src_app_main_story_slug_page_tsx"
     },
@@ -1520,7 +1790,7 @@
       "file_type": "code",
       "source_file": "src/app/(main)/story/[slug]/page.tsx",
       "source_location": "L16",
-      "community": 6,
+      "community": 12,
       "norm_label": "generatestaticparams()",
       "id": "slug_page_generatestaticparams"
     },
@@ -1529,7 +1799,7 @@
       "file_type": "code",
       "source_file": "src/app/(main)/story/[slug]/page.tsx",
       "source_location": "L21",
-      "community": 6,
+      "community": 12,
       "norm_label": "generatemetadata()",
       "id": "slug_page_generatemetadata"
     },
@@ -1538,7 +1808,7 @@
       "file_type": "code",
       "source_file": "src/app/(main)/story/[slug]/page.tsx",
       "source_location": "L60",
-      "community": 6,
+      "community": 12,
       "norm_label": "storypage()",
       "id": "slug_page_storypage"
     },
@@ -1586,15 +1856,6 @@
       "community": 5,
       "norm_label": "submitpage()",
       "id": "submit_page_submitpage"
-    },
-    {
-      "label": "page.tsx",
-      "file_type": "code",
-      "source_file": "src/app/admin/dashboard/page.tsx",
-      "source_location": "L1",
-      "community": 8,
-      "norm_label": "page.tsx",
-      "id": "src_app_admin_dashboard_page_tsx"
     },
     {
       "label": "page.tsx",
@@ -1709,7 +1970,7 @@
       "file_type": "code",
       "source_file": "src/app/sitemap.ts",
       "source_location": "L1",
-      "community": 6,
+      "community": 12,
       "norm_label": "sitemap.ts",
       "id": "src_app_sitemap_ts"
     },
@@ -1718,7 +1979,7 @@
       "file_type": "code",
       "source_file": "src/app/sitemap.ts",
       "source_location": "L8",
-      "community": 6,
+      "community": 12,
       "norm_label": "sitemap()",
       "id": "app_sitemap_sitemap"
     },
@@ -1768,33 +2029,6 @@
       "id": "layout_navbar_navbar"
     },
     {
-      "label": "StoryDetail.tsx",
-      "file_type": "code",
-      "source_file": "src/components/story/StoryDetail.tsx",
-      "source_location": "L1",
-      "community": 6,
-      "norm_label": "storydetail.tsx",
-      "id": "src_components_story_storydetail_tsx"
-    },
-    {
-      "label": "StoryDetailProps",
-      "file_type": "code",
-      "source_file": "src/components/story/StoryDetail.tsx",
-      "source_location": "L7",
-      "community": 6,
-      "norm_label": "storydetailprops",
-      "id": "story_storydetail_storydetailprops"
-    },
-    {
-      "label": "StoryDetail()",
-      "file_type": "code",
-      "source_file": "src/components/story/StoryDetail.tsx",
-      "source_location": "L12",
-      "community": 6,
-      "norm_label": "storydetail()",
-      "id": "story_storydetail_storydetail"
-    },
-    {
       "label": "email.ts",
       "file_type": "code",
       "source_file": "src/lib/email.ts",
@@ -1829,24 +2063,6 @@
       "community": 17,
       "norm_label": "sendsubmissionnotification()",
       "id": "lib_email_sendsubmissionnotification"
-    },
-    {
-      "label": "route.ts",
-      "file_type": "code",
-      "source_file": "src/app/api/submissions/route.ts",
-      "source_location": "L1",
-      "community": 17,
-      "norm_label": "route.ts",
-      "id": "src_app_api_submissions_route_ts"
-    },
-    {
-      "label": "POST()",
-      "file_type": "code",
-      "source_file": "src/app/api/submissions/route.ts",
-      "source_location": "L8",
-      "community": 17,
-      "norm_label": "post()",
-      "id": "submissions_route_post"
     },
     {
       "label": "next.config.ts",
@@ -1907,7 +2123,7 @@
       "file_type": "code",
       "source_file": "src/lib/data/stories.ts",
       "source_location": "L1",
-      "community": 6,
+      "community": 12,
       "norm_label": "stories.ts",
       "id": "src_lib_data_stories_ts"
     },
@@ -1916,7 +2132,7 @@
       "file_type": "code",
       "source_file": "src/lib/data/stories.ts",
       "source_location": "L7",
-      "community": 6,
+      "community": 12,
       "norm_label": "sort_map",
       "id": "data_stories_sort_map"
     },
@@ -1961,7 +2177,7 @@
       "file_type": "code",
       "source_file": "src/lib/data/stories.ts",
       "source_location": "L90",
-      "community": 6,
+      "community": 12,
       "norm_label": "serialize()",
       "id": "data_stories_serialize"
     },
@@ -1970,7 +2186,7 @@
       "file_type": "code",
       "source_file": "src/lib/data/stories.ts",
       "source_location": "L94",
-      "community": 6,
+      "community": 12,
       "norm_label": "getstorybyslug()",
       "id": "data_stories_getstorybyslug"
     },
@@ -1979,7 +2195,7 @@
       "file_type": "code",
       "source_file": "src/lib/data/stories.ts",
       "source_location": "L100",
-      "community": 6,
+      "community": 12,
       "norm_label": "getrelatedstories()",
       "id": "data_stories_getrelatedstories"
     },
@@ -1988,7 +2204,7 @@
       "file_type": "code",
       "source_file": "src/lib/data/stories.ts",
       "source_location": "L114",
-      "community": 6,
+      "community": 12,
       "norm_label": "getlateststories()",
       "id": "data_stories_getlateststories"
     },
@@ -1997,7 +2213,7 @@
       "file_type": "code",
       "source_file": "src/lib/data/stories.ts",
       "source_location": "L124",
-      "community": 6,
+      "community": 12,
       "norm_label": "getapprovedstoryslugs()",
       "id": "data_stories_getapprovedstoryslugs"
     },
@@ -2006,7 +2222,7 @@
       "file_type": "code",
       "source_file": "src/lib/data/stories.ts",
       "source_location": "L132",
-      "community": 6,
+      "community": 12,
       "norm_label": "getapprovedstoriesforsitemap()",
       "id": "data_stories_getapprovedstoriesforsitemap"
     },
@@ -2339,7 +2555,7 @@
       "file_type": "code",
       "source_file": "src/components/admin/LogoutButton.tsx",
       "source_location": "L1",
-      "community": 8,
+      "community": 31,
       "norm_label": "logoutbutton.tsx",
       "id": "src_components_admin_logoutbutton_tsx"
     },
@@ -2348,7 +2564,7 @@
       "file_type": "code",
       "source_file": "src/components/admin/LogoutButton.tsx",
       "source_location": "L6",
-      "community": 8,
+      "community": 31,
       "norm_label": "logoutbutton()",
       "id": "admin_logoutbutton_logoutbutton"
     },
@@ -2497,60 +2713,6 @@
       "id": "models_adminlog_adminlogschema"
     },
     {
-      "label": "Submission.ts",
-      "file_type": "code",
-      "source_file": "src/lib/db/models/Submission.ts",
-      "source_location": "L1",
-      "community": 7,
-      "norm_label": "submission.ts",
-      "id": "src_lib_db_models_submission_ts"
-    },
-    {
-      "label": "ISubmission",
-      "file_type": "code",
-      "source_file": "src/lib/db/models/Submission.ts",
-      "source_location": "L3",
-      "community": 7,
-      "norm_label": "isubmission",
-      "id": "models_submission_isubmission"
-    },
-    {
-      "label": "costBreakdownSchema",
-      "file_type": "code",
-      "source_file": "src/lib/db/models/Submission.ts",
-      "source_location": "L29",
-      "community": 7,
-      "norm_label": "costbreakdownschema",
-      "id": "models_submission_costbreakdownschema"
-    },
-    {
-      "label": "cityToSlugPart()",
-      "file_type": "code",
-      "source_file": "src/lib/db/models/Submission.ts",
-      "source_location": "L44",
-      "community": 7,
-      "norm_label": "citytoslugpart()",
-      "id": "models_submission_citytoslugpart"
-    },
-    {
-      "label": "submissionSchema",
-      "file_type": "code",
-      "source_file": "src/lib/db/models/Submission.ts",
-      "source_location": "L52",
-      "community": 7,
-      "norm_label": "submissionschema",
-      "id": "models_submission_submissionschema"
-    },
-    {
-      "label": "shortId",
-      "file_type": "code",
-      "source_file": "src/lib/db/models/Submission.ts",
-      "source_location": "L78",
-      "community": 7,
-      "norm_label": "shortid",
-      "id": "models_submission_shortid"
-    },
-    {
       "label": "rateLimit.ts",
       "file_type": "code",
       "source_file": "src/lib/rateLimit.ts",
@@ -2621,42 +2783,6 @@
       "community": 5,
       "norm_label": "uselocalstoragedraft()",
       "id": "hooks_uselocalstoragedraft_uselocalstoragedraft"
-    },
-    {
-      "label": "submission.ts",
-      "file_type": "code",
-      "source_file": "src/lib/validations/submission.ts",
-      "source_location": "L1",
-      "community": 5,
-      "norm_label": "submission.ts",
-      "id": "src_lib_validations_submission_ts"
-    },
-    {
-      "label": "costBreakdownSchema",
-      "file_type": "code",
-      "source_file": "src/lib/validations/submission.ts",
-      "source_location": "L3",
-      "community": 5,
-      "norm_label": "costbreakdownschema",
-      "id": "validations_submission_costbreakdownschema"
-    },
-    {
-      "label": "submissionFormSchema",
-      "file_type": "code",
-      "source_file": "src/lib/validations/submission.ts",
-      "source_location": "L15",
-      "community": 5,
-      "norm_label": "submissionformschema",
-      "id": "validations_submission_submissionformschema"
-    },
-    {
-      "label": "SubmissionFormValues",
-      "file_type": "code",
-      "source_file": "src/lib/validations/submission.ts",
-      "source_location": "L26",
-      "community": 5,
-      "norm_label": "submissionformvalues",
-      "id": "validations_submission_submissionformvalues"
     },
     {
       "label": "ThemeScript.tsx",
@@ -2965,69 +3091,6 @@
       "id": "db_connection_connecttodatabase"
     },
     {
-      "label": "index.ts",
-      "file_type": "code",
-      "source_file": "src/types/index.ts",
-      "source_location": "L1",
-      "community": 6,
-      "norm_label": "index.ts",
-      "id": "src_types_index_ts"
-    },
-    {
-      "label": "SubmissionStatus",
-      "file_type": "code",
-      "source_file": "src/types/index.ts",
-      "source_location": "L1",
-      "community": 6,
-      "norm_label": "submissionstatus",
-      "id": "types_index_submissionstatus"
-    },
-    {
-      "label": "CostBreakdown",
-      "file_type": "code",
-      "source_file": "src/types/index.ts",
-      "source_location": "L3",
-      "community": 6,
-      "norm_label": "costbreakdown",
-      "id": "types_index_costbreakdown"
-    },
-    {
-      "label": "Submission",
-      "file_type": "code",
-      "source_file": "src/types/index.ts",
-      "source_location": "L15",
-      "community": 6,
-      "norm_label": "submission",
-      "id": "types_index_submission"
-    },
-    {
-      "label": "SubmissionFormData",
-      "file_type": "code",
-      "source_file": "src/types/index.ts",
-      "source_location": "L32",
-      "community": 6,
-      "norm_label": "submissionformdata",
-      "id": "types_index_submissionformdata"
-    },
-    {
-      "label": "PaginatedResult",
-      "file_type": "code",
-      "source_file": "src/types/index.ts",
-      "source_location": "L43",
-      "community": 6,
-      "norm_label": "paginatedresult",
-      "id": "types_index_paginatedresult"
-    },
-    {
-      "label": "SearchParams",
-      "file_type": "code",
-      "source_file": "src/types/index.ts",
-      "source_location": "L51",
-      "community": 6,
-      "norm_label": "searchparams",
-      "id": "types_index_searchparams"
-    },
-    {
       "label": "layout.tsx",
       "file_type": "code",
       "source_file": "layout.tsx",
@@ -3065,6 +3128,1111 @@
     }
   ],
   "links": [
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_admin_dashboard_page_tsx",
+      "target": "db_connection_connecttodatabase"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app_admin_dashboard_page_tsx",
+      "target": "src_lib_db_models_submission_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_admin_dashboard_page_tsx",
+      "target": "admin_logoutbutton_logoutbutton"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_app_admin_dashboard_page_tsx",
+      "target": "src_components_admin_clearlogsbutton_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_app_admin_dashboard_page_tsx",
+      "target": "admin_clearlogsbutton_clearlogsbutton",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_admin_dashboard_page_tsx",
+      "target": "dashboard_page_getstats"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_admin_dashboard_page_tsx",
+      "target": "dashboard_page_action_labels"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_admin_dashboard_page_tsx",
+      "target": "dashboard_page_action_colors"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_admin_dashboard_page_tsx",
+      "target": "dashboard_page_dashboardpage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L112",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_admin_dashboard_page_tsx",
+      "target": "dashboard_page_statcard"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_admin_dashboard_page_tsx",
+      "target": "src_components_admin_logoutbutton_tsx"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/dashboard/page.tsx",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "dashboard_page_dashboardpage",
+      "target": "dashboard_page_getstats"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/admin/dashboard/page.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_admin_dashboard_page_tsx",
+      "target": "dashboard_page_getstats"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/admin/dashboard/page.tsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_admin_dashboard_page_tsx",
+      "target": "dashboard_page_action_labels"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/admin/dashboard/page.tsx",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_admin_dashboard_page_tsx",
+      "target": "dashboard_page_action_colors"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/admin/dashboard/page.tsx",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_admin_dashboard_page_tsx",
+      "target": "dashboard_page_dashboardpage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/admin/dashboard/page.tsx",
+      "source_location": "L118",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_admin_dashboard_page_tsx",
+      "target": "dashboard_page_statcard"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/admin/logs/route.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app_api_admin_logs_route_ts",
+      "target": "db_connection_connecttodatabase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/admin/logs/route.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_app_api_admin_logs_route_ts",
+      "target": "logs_route_delete",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/submissions/route.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_api_submissions_route_ts",
+      "target": "db_connection_connecttodatabase"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/submissions/route.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_api_submissions_route_ts",
+      "target": "src_lib_db_models_submission_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/submissions/route.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_app_api_submissions_route_ts",
+      "target": "src_lib_validations_submission_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/submissions/route.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_api_submissions_route_ts",
+      "target": "validations_submission_submissionformschema"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/submissions/route.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_api_submissions_route_ts",
+      "target": "lib_ratelimit_checkratelimit"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/submissions/route.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_api_submissions_route_ts",
+      "target": "lib_ratelimit_getclientip"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/submissions/route.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_api_submissions_route_ts",
+      "target": "lib_email_sendsubmissionnotification"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/submissions/route.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_api_submissions_route_ts",
+      "target": "submissions_route_post"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/submissions/route.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_api_submissions_route_ts",
+      "target": "src_lib_email_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/api/submissions/route.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_api_submissions_route_ts",
+      "target": "src_lib_ratelimit_ts"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/api/submissions/route.ts",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "submissions_route_post",
+      "target": "lib_email_sendsubmissionnotification"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/api/submissions/route.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "submissions_route_post",
+      "target": "lib_ratelimit_getclientip"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/app/api/submissions/route.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "submissions_route_post",
+      "target": "lib_ratelimit_checkratelimit"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/admin/ClearLogsButton.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_components_admin_clearlogsbutton_tsx",
+      "target": "admin_clearlogsbutton_clearlogsbutton",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/story/StoryDetail.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_story_storydetail_tsx",
+      "target": "utils_format_formatbdt"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/story/StoryDetail.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_story_storydetail_tsx",
+      "target": "utils_format_formatbdtcompact"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/story/StoryDetail.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_story_storydetail_tsx",
+      "target": "utils_format_timeago"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/story/StoryDetail.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_story_storydetail_tsx",
+      "target": "story_costbreakdown_costbreakdown"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/story/StoryDetail.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_story_storydetail_tsx",
+      "target": "story_sharebuttons_sharebuttons"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/story/StoryDetail.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_components_story_storydetail_tsx",
+      "target": "src_types_index_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/story/StoryDetail.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_story_storydetail_tsx",
+      "target": "types_index_submission"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/story/StoryDetail.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_story_storydetail_tsx",
+      "target": "story_storydetail_storydetailprops"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/story/StoryDetail.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_story_storydetail_tsx",
+      "target": "story_storydetail_storydetail"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/story/StoryDetail.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_story_storydetail_tsx",
+      "target": "src_components_story_sharebuttons_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/story/[slug]/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_main_story_slug_page_tsx",
+      "target": "src_components_story_storydetail_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/story/StoryDetail.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_story_storydetail_tsx",
+      "target": "src_components_story_costbreakdown_tsx"
+    },
+    {
+      "relation": "references",
+      "context": "field",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/story/StoryDetail.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "story_storydetail_storydetailprops",
+      "target": "types_index_submission",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/story/[slug]/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_main_story_slug_page_tsx",
+      "target": "story_storydetail_storydetail"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_submission_submissionform_tsx",
+      "target": "hooks_uselocalstoragedraft_uselocalstoragedraft"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_submission_submissionform_tsx",
+      "target": "hooks_usegtm_usegtm"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_submission_submissionform_tsx",
+      "target": "src_lib_validations_submission_ts"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_submission_submissionform_tsx",
+      "target": "validations_submission_submissionformschema"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_submission_submissionform_tsx",
+      "target": "utils_format_formatbdt"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_components_submission_submissionform_tsx",
+      "target": "submission_submissionform_current_year",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_components_submission_submissionform_tsx",
+      "target": "submission_submissionform_year_options",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_submission_submissionform_tsx",
+      "target": "submission_submissionform_cities"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_submission_submissionform_tsx",
+      "target": "submission_submissionform_cost_fields"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_submission_submissionform_tsx",
+      "target": "submission_submissionform_costkey"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_submission_submissionform_tsx",
+      "target": "submission_submissionform_formstate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_submission_submissionform_tsx",
+      "target": "submission_submissionform_empty"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L56",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_submission_submissionform_tsx",
+      "target": "submission_submissionform_n"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L58",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_submission_submissionform_tsx",
+      "target": "submission_submissionform_calctotal"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L62",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_submission_submissionform_tsx",
+      "target": "submission_submissionform_parseerrors"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L73",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_submission_submissionform_tsx",
+      "target": "submission_submissionform_submissionform"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L391",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_submission_submissionform_tsx",
+      "target": "submission_submissionform_stepbar"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L435",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_submission_submissionform_tsx",
+      "target": "submission_submissionform_card"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L446",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_submission_submissionform_tsx",
+      "target": "submission_submissionform_cardtitle"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L454",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_submission_submissionform_tsx",
+      "target": "submission_submissionform_field"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L476",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_submission_submissionform_tsx",
+      "target": "submission_submissionform_costinput"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L507",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_submission_submissionform_tsx",
+      "target": "submission_submissionform_reviewrow"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L521",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_submission_submissionform_tsx",
+      "target": "submission_submissionform_primarybtn"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L533",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_submission_submissionform_tsx",
+      "target": "submission_submissionform_outlinebtn"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L545",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_submission_submissionform_tsx",
+      "target": "submission_submissionform_successview"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_submission_submissionform_tsx",
+      "target": "src_hooks_usegtm_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/submit/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_main_submit_page_tsx",
+      "target": "src_components_submission_submissionform_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_submission_submissionform_tsx",
+      "target": "src_hooks_uselocalstoragedraft_ts"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L176",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "submission_submissionform_submissionform",
+      "target": "submission_submissionform_n"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L175",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "submission_submissionform_submissionform",
+      "target": "submission_submissionform_calctotal"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "submission_submissionform_submissionform",
+      "target": "hooks_usegtm_usegtm"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/submit/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_main_submit_page_tsx",
+      "target": "submission_submissionform_submissionform"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/submission/SubmissionForm.tsx",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "submission_submissionform_submissionform",
+      "target": "hooks_uselocalstoragedraft_uselocalstoragedraft"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/models/Submission.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_lib_db_models_submission_ts",
+      "target": "models_submission_isubmission"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/models/Submission.ts",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_lib_db_models_submission_ts",
+      "target": "models_submission_costbreakdownschema"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/models/Submission.ts",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_lib_db_models_submission_ts",
+      "target": "models_submission_citytoslugpart"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/models/Submission.ts",
+      "source_location": "L52",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_lib_db_models_submission_ts",
+      "target": "models_submission_submissionschema"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/db/models/Submission.ts",
+      "source_location": "L78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_lib_db_models_submission_ts",
+      "target": "models_submission_shortid"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/admin/approved/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_admin_approved_page_tsx",
+      "target": "models_submission_isubmission"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/admin/ApprovedCard.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_admin_approvedcard_tsx",
+      "target": "models_submission_isubmission"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/data/stories.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_lib_data_stories_ts",
+      "target": "models_submission_isubmission"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/admin/queue/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_admin_queue_page_tsx",
+      "target": "models_submission_isubmission"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/admin/ModerationCard.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_admin_moderationcard_tsx",
+      "target": "models_submission_isubmission"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/validations/submission.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_lib_validations_submission_ts",
+      "target": "validations_submission_costbreakdownschema"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/validations/submission.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_lib_validations_submission_ts",
+      "target": "validations_submission_current_year",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/validations/submission.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_lib_validations_submission_ts",
+      "target": "validations_submission_submissionformschema"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/validations/submission.ts",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_lib_validations_submission_ts",
+      "target": "validations_submission_submissionformvalues"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/types/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_types_index_ts",
+      "target": "types_index_submissionstatus"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/types/index.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_types_index_ts",
+      "target": "types_index_costbreakdown"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/types/index.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_types_index_ts",
+      "target": "types_index_submission"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/types/index.ts",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_types_index_ts",
+      "target": "types_index_submissionformdata"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/types/index.ts",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_types_index_ts",
+      "target": "types_index_paginatedresult"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/types/index.ts",
+      "source_location": "L51",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_types_index_ts",
+      "target": "types_index_searchparams"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/story/CostBreakdown.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_story_costbreakdown_tsx",
+      "target": "types_index_costbreakdown"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/story/StoryCard.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_story_storycard_tsx",
+      "target": "types_index_submission"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app/(main)/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_main_page_tsx",
+      "target": "types_index_submission"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/data/stories.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_lib_data_stories_ts",
+      "target": "types_index_submission"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/search/SearchResults.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_search_searchresults_tsx",
+      "target": "types_index_submission"
+    },
     {
       "relation": "imports",
       "context": "import",
@@ -3788,17 +4956,6 @@
       "target": "story_sharebuttons_sharebuttons"
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/story/StoryDetail.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_story_storydetail_tsx",
-      "target": "src_components_story_sharebuttons_tsx"
-    },
-    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -3808,17 +4965,6 @@
       "weight": 1.0,
       "source": "story_sharebuttons_sharebuttons",
       "target": "hooks_usegtm_usegtm"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/story/StoryDetail.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_story_storydetail_tsx",
-      "target": "story_sharebuttons_sharebuttons"
     },
     {
       "relation": "imports",
@@ -3863,17 +5009,6 @@
       "confidence_score": 1.0,
       "source": "src_components_story_storycard_tsx",
       "target": "hooks_usegtm_usegtm"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/story/StoryCard.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_story_storycard_tsx",
-      "target": "types_index_submission"
     },
     {
       "relation": "contains",
@@ -3984,329 +5119,6 @@
       "target": "utils_format_timeago"
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_submission_submissionform_tsx",
-      "target": "hooks_uselocalstoragedraft_uselocalstoragedraft"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_submission_submissionform_tsx",
-      "target": "src_hooks_usegtm_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_submission_submissionform_tsx",
-      "target": "hooks_usegtm_usegtm"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_submission_submissionform_tsx",
-      "target": "validations_submission_submissionformschema"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_submission_submissionform_tsx",
-      "target": "utils_format_formatbdt"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_submission_submissionform_tsx",
-      "target": "submission_submissionform_cities"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L16",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_submission_submissionform_tsx",
-      "target": "submission_submissionform_cost_fields"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L28",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_submission_submissionform_tsx",
-      "target": "submission_submissionform_costkey"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L30",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_submission_submissionform_tsx",
-      "target": "submission_submissionform_formstate"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L49",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_submission_submissionform_tsx",
-      "target": "submission_submissionform_empty"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L56",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_submission_submissionform_tsx",
-      "target": "submission_submissionform_n"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L58",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_submission_submissionform_tsx",
-      "target": "submission_submissionform_calctotal"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L62",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_submission_submissionform_tsx",
-      "target": "submission_submissionform_parseerrors"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L73",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_submission_submissionform_tsx",
-      "target": "submission_submissionform_submissionform"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L391",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_submission_submissionform_tsx",
-      "target": "submission_submissionform_stepbar"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L435",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_submission_submissionform_tsx",
-      "target": "submission_submissionform_card"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L446",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_submission_submissionform_tsx",
-      "target": "submission_submissionform_cardtitle"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L454",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_submission_submissionform_tsx",
-      "target": "submission_submissionform_field"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L476",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_submission_submissionform_tsx",
-      "target": "submission_submissionform_costinput"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L507",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_submission_submissionform_tsx",
-      "target": "submission_submissionform_reviewrow"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L521",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_submission_submissionform_tsx",
-      "target": "submission_submissionform_primarybtn"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L533",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_submission_submissionform_tsx",
-      "target": "submission_submissionform_outlinebtn"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L545",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_submission_submissionform_tsx",
-      "target": "submission_submissionform_successview"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/(main)/submit/page.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_main_submit_page_tsx",
-      "target": "src_components_submission_submissionform_tsx"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_submission_submissionform_tsx",
-      "target": "src_hooks_uselocalstoragedraft_ts"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_submission_submissionform_tsx",
-      "target": "src_lib_validations_submission_ts"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L176",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "submission_submissionform_submissionform",
-      "target": "submission_submissionform_n"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L175",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "submission_submissionform_submissionform",
-      "target": "submission_submissionform_calctotal"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L81",
-      "weight": 1.0,
-      "source": "submission_submissionform_submissionform",
-      "target": "hooks_usegtm_usegtm"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/(main)/submit/page.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_main_submit_page_tsx",
-      "target": "submission_submissionform_submissionform"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/components/submission/SubmissionForm.tsx",
-      "source_location": "L81",
-      "weight": 1.0,
-      "source": "submission_submissionform_submissionform",
-      "target": "hooks_uselocalstoragedraft_uselocalstoragedraft"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/hooks/useGTM.ts",
@@ -4336,17 +5148,6 @@
       "confidence_score": 1.0,
       "source": "app_admin_approved_page_tsx",
       "target": "db_connection_connecttodatabase"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "app/admin/approved/page.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_admin_approved_page_tsx",
-      "target": "models_submission_isubmission"
     },
     {
       "relation": "imports_from",
@@ -4424,117 +5225,6 @@
       "target": "admin_logoutbutton_logoutbutton"
     },
     {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/admin/dashboard/page.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_admin_dashboard_page_tsx",
-      "target": "dashboard_page_getstats"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/admin/dashboard/page.tsx",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_admin_dashboard_page_tsx",
-      "target": "dashboard_page_action_labels"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/admin/dashboard/page.tsx",
-      "source_location": "L27",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_admin_dashboard_page_tsx",
-      "target": "dashboard_page_action_colors"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/admin/dashboard/page.tsx",
-      "source_location": "L33",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_admin_dashboard_page_tsx",
-      "target": "dashboard_page_dashboardpage"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/admin/dashboard/page.tsx",
-      "source_location": "L118",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_admin_dashboard_page_tsx",
-      "target": "dashboard_page_statcard"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/admin/dashboard/page.tsx",
-      "source_location": "L34",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "dashboard_page_dashboardpage",
-      "target": "dashboard_page_getstats"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/admin/dashboard/page.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_admin_dashboard_page_tsx",
-      "target": "dashboard_page_getstats"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/admin/dashboard/page.tsx",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_admin_dashboard_page_tsx",
-      "target": "dashboard_page_action_labels"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/admin/dashboard/page.tsx",
-      "source_location": "L27",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_admin_dashboard_page_tsx",
-      "target": "dashboard_page_action_colors"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/admin/dashboard/page.tsx",
-      "source_location": "L33",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_admin_dashboard_page_tsx",
-      "target": "dashboard_page_dashboardpage"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/admin/dashboard/page.tsx",
-      "source_location": "L112",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_admin_dashboard_page_tsx",
-      "target": "dashboard_page_statcard"
-    },
-    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -4555,17 +5245,6 @@
       "confidence_score": 1.0,
       "source": "app_api_admin_submissions_id_route_ts",
       "target": "models_adminlog_adminaction"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "components/admin/ApprovedCard.tsx",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "components_admin_approvedcard_tsx",
-      "target": "models_submission_isubmission"
     },
     {
       "relation": "contains",
@@ -5580,28 +6259,6 @@
       "target": "data_stories_getstorybyslug"
     },
     {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/(main)/story/[slug]/page.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_main_story_slug_page_tsx",
-      "target": "src_components_story_storydetail_tsx"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/(main)/story/[slug]/page.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_main_story_slug_page_tsx",
-      "target": "story_storydetail_storydetail"
-    },
-    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -5791,39 +6448,6 @@
       "confidence_score": 1.0,
       "source": "src_app_main_submit_page_tsx",
       "target": "submit_page_submitpage"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/admin/dashboard/page.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_admin_dashboard_page_tsx",
-      "target": "db_connection_connecttodatabase"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/admin/dashboard/page.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_admin_dashboard_page_tsx",
-      "target": "admin_logoutbutton_logoutbutton"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/admin/dashboard/page.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_admin_dashboard_page_tsx",
-      "target": "src_components_admin_logoutbutton_tsx"
     },
     {
       "relation": "contains",
@@ -6043,92 +6667,6 @@
       "target": "src_components_layout_themetoggle_tsx"
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/story/StoryDetail.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_story_storydetail_tsx",
-      "target": "utils_format_formatbdt"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/story/StoryDetail.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_story_storydetail_tsx",
-      "target": "utils_format_formatbdtcompact"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/story/StoryDetail.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_story_storydetail_tsx",
-      "target": "utils_format_timeago"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/story/StoryDetail.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_story_storydetail_tsx",
-      "target": "story_costbreakdown_costbreakdown"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/story/StoryDetail.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_story_storydetail_tsx",
-      "target": "types_index_submission"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/story/StoryDetail.tsx",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_story_storydetail_tsx",
-      "target": "story_storydetail_storydetailprops"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/story/StoryDetail.tsx",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_story_storydetail_tsx",
-      "target": "story_storydetail_storydetail"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/story/StoryDetail.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_story_storydetail_tsx",
-      "target": "src_components_story_costbreakdown_tsx"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/lib/email.ts",
@@ -6157,137 +6695,6 @@
       "confidence_score": 1.0,
       "source": "src_lib_email_ts",
       "target": "lib_email_sendsubmissionnotification"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/api/submissions/route.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_api_submissions_route_ts",
-      "target": "src_lib_email_ts"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/api/submissions/route.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_api_submissions_route_ts",
-      "target": "lib_email_sendsubmissionnotification"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/app/api/submissions/route.ts",
-      "source_location": "L73",
-      "weight": 1.0,
-      "source": "submissions_route_post",
-      "target": "lib_email_sendsubmissionnotification"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/api/submissions/route.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_api_submissions_route_ts",
-      "target": "db_connection_connecttodatabase"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/api/submissions/route.ts",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_api_submissions_route_ts",
-      "target": "validations_submission_submissionformschema"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/api/submissions/route.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_api_submissions_route_ts",
-      "target": "lib_ratelimit_checkratelimit"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/api/submissions/route.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_api_submissions_route_ts",
-      "target": "lib_ratelimit_getclientip"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/api/submissions/route.ts",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_api_submissions_route_ts",
-      "target": "submissions_route_post"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/api/submissions/route.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_api_submissions_route_ts",
-      "target": "src_lib_db_models_submission_ts"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/api/submissions/route.ts",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_api_submissions_route_ts",
-      "target": "src_lib_ratelimit_ts"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/app/api/submissions/route.ts",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "submissions_route_post",
-      "target": "lib_ratelimit_getclientip"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/app/api/submissions/route.ts",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "submissions_route_post",
-      "target": "lib_ratelimit_checkratelimit"
     },
     {
       "relation": "contains",
@@ -6320,17 +6727,6 @@
       "confidence_score": 1.0,
       "source": "src_app_main_page_tsx",
       "target": "utils_format_formatbdtcompact"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/(main)/page.tsx",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_main_page_tsx",
-      "target": "types_index_submission"
     },
     {
       "relation": "contains",
@@ -6383,28 +6779,6 @@
       "confidence_score": 1.0,
       "source": "src_lib_data_stories_ts",
       "target": "db_connection_connecttodatabase"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/lib/data/stories.ts",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_lib_data_stories_ts",
-      "target": "models_submission_isubmission"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/lib/data/stories.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_lib_data_stories_ts",
-      "target": "types_index_submission"
     },
     {
       "relation": "contains",
@@ -6755,17 +7129,6 @@
       "target": "search_route_escaperegex"
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/search/SearchResults.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_search_searchresults_tsx",
-      "target": "types_index_submission"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/components/search/SearchResults.tsx",
@@ -6818,17 +7181,6 @@
       "target": "utils_format_formatbdt"
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/story/CostBreakdown.tsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_story_costbreakdown_tsx",
-      "target": "types_index_costbreakdown"
-    },
-    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/components/story/CostBreakdown.tsx",
@@ -6878,17 +7230,6 @@
       "confidence_score": 1.0,
       "source": "src_app_admin_queue_page_tsx",
       "target": "db_connection_connecttodatabase"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/app/admin/queue/page.tsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_app_admin_queue_page_tsx",
-      "target": "models_submission_isubmission"
     },
     {
       "relation": "imports_from",
@@ -6972,17 +7313,6 @@
       "confidence_score": 1.0,
       "source": "src_components_admin_logoutbutton_tsx",
       "target": "admin_logoutbutton_logoutbutton"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/components/admin/ModerationCard.tsx",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_components_admin_moderationcard_tsx",
-      "target": "models_submission_isubmission"
     },
     {
       "relation": "contains",
@@ -7118,56 +7448,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/lib/db/models/Submission.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_lib_db_models_submission_ts",
-      "target": "models_submission_isubmission"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/lib/db/models/Submission.ts",
-      "source_location": "L29",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_lib_db_models_submission_ts",
-      "target": "models_submission_costbreakdownschema"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/lib/db/models/Submission.ts",
-      "source_location": "L44",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_lib_db_models_submission_ts",
-      "target": "models_submission_citytoslugpart"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/lib/db/models/Submission.ts",
-      "source_location": "L52",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_lib_db_models_submission_ts",
-      "target": "models_submission_submissionschema"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/lib/db/models/Submission.ts",
-      "source_location": "L78",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_lib_db_models_submission_ts",
-      "target": "models_submission_shortid"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "src/lib/rateLimit.ts",
       "source_location": "L8",
       "weight": 1.0,
@@ -7224,36 +7504,6 @@
       "confidence_score": 1.0,
       "source": "src_hooks_uselocalstoragedraft_ts",
       "target": "hooks_uselocalstoragedraft_uselocalstoragedraft"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/lib/validations/submission.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_lib_validations_submission_ts",
-      "target": "validations_submission_costbreakdownschema"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/lib/validations/submission.ts",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_lib_validations_submission_ts",
-      "target": "validations_submission_submissionformschema"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/lib/validations/submission.ts",
-      "source_location": "L26",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_lib_validations_submission_ts",
-      "target": "validations_submission_submissionformvalues"
     },
     {
       "relation": "contains",
@@ -7548,66 +7798,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "src/types/index.ts",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_types_index_ts",
-      "target": "types_index_submissionstatus"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/types/index.ts",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_types_index_ts",
-      "target": "types_index_costbreakdown"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/types/index.ts",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_types_index_ts",
-      "target": "types_index_submission"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/types/index.ts",
-      "source_location": "L32",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_types_index_ts",
-      "target": "types_index_submissionformdata"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/types/index.ts",
-      "source_location": "L43",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_types_index_ts",
-      "target": "types_index_paginatedresult"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "src/types/index.ts",
-      "source_location": "L51",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_types_index_ts",
-      "target": "types_index_searchparams"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "layout.tsx",
       "source_location": "L5",
       "weight": 1.0,
@@ -7627,5 +7817,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "727697642d27c13646a84b5d25f3e645a18acc54"
+  "built_at_commit": "1db964ea938d8e2469a208aa2688e1b3155bb122"
 }

@@ -1,16 +1,16 @@
 # Graph Report - BiyerKhoroch  (2026-05-26)
 
 ## Corpus Check
-- 62 files · ~19,878 words
+- 64 files · ~20,255 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 340 nodes · 441 edges · 31 communities (28 shown, 3 thin omitted)
+- 347 nodes · 453 edges · 32 communities (29 shown, 3 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `72769764`
+- Built from commit: `1db964ea`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -42,22 +42,23 @@
 - [[_COMMUNITY_Community 28|Community 28]]
 - [[_COMMUNITY_Community 29|Community 29]]
 - [[_COMMUNITY_Community 30|Community 30]]
+- [[_COMMUNITY_Community 31|Community 31]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `BiyerKahini — Development Phases` - 12 edges
-2. `connectToDatabase()` - 11 edges
+2. `connectToDatabase()` - 12 edges
 3. `formatBDTCompact()` - 10 edges
 4. `useGTM()` - 9 edges
 5. `Deployment Guide — BiyerKahini` - 9 edges
 6. `StoryCard()` - 8 edges
-7. `getStoryBySlug()` - 7 edges
-8. `SubmissionForm()` - 6 edges
-9. `getAnalytics` - 6 edges
+7. `Submission` - 7 edges
+8. `getStoryBySlug()` - 7 edges
+9. `SubmissionForm()` - 6 edges
 10. `ISubmission` - 6 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `StoryCard()` --calls--> `useGTM()`  [EXTRACTED]
-  src/components/story/StoryCard.tsx → src/hooks/useGTM.ts
+- `StoryDetailProps` --references--> `Submission`  [EXTRACTED]
+  src/components/story/StoryDetail.tsx → src/types/index.ts
 - `SubmissionForm()` --calls--> `useGTM()`  [EXTRACTED]
   src/components/submission/SubmissionForm.tsx → src/hooks/useGTM.ts
 - `AnalyticsPage()` --calls--> `getAnalytics`  [EXTRACTED]
@@ -67,7 +68,7 @@
 - `Image()` --calls--> `getStoryBySlug()`  [EXTRACTED]
   src/app/(main)/story/[slug]/opengraph-image.tsx → src/lib/data/stories.ts
 
-## Communities (31 total, 3 thin omitted)
+## Communities (32 total, 3 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.24
@@ -91,19 +92,19 @@ Nodes (26): dependencies, mongoose, next, @next/third-parties, nodemailer, react
 
 ### Community 5 - "Community 5"
 Cohesion: 0.08
-Nodes (14): useLocalStorageDraft(), calcTotal(), CITIES, COST_FIELDS, CostKey, EMPTY, FormState, n() (+6 more)
+Nodes (13): useLocalStorageDraft(), calcTotal(), CITIES, COST_FIELDS, CostKey, CURRENT_YEAR, EMPTY, FormState (+5 more)
 
 ### Community 6 - "Community 6"
 Cohesion: 0.08
-Nodes (34): sitemap(), getApprovedStoriesForSitemap(), getApprovedStorySlugs(), getLatestStories(), getRelatedStories(), getStoryBySlug(), serialize(), SORT_MAP (+26 more)
+Nodes (31): GTMEventMap, useGTM(), HomePage(), metadata, PLACEHOLDER_STORIES, STATS, TRENDING, BUDGET_PRESETS (+23 more)
 
 ### Community 7 - "Community 7"
 Cohesion: 0.15
 Nodes (13): ApprovedCard(), formatBDT(), COST_LABELS, formatBDT(), ModerationCard(), ApprovedPage(), getApprovedSubmissions(), costBreakdownSchema (+5 more)
 
 ### Community 8 - "Community 8"
-Cohesion: 0.12
-Nodes (18): LogoutButton(), ACTION_COLORS, ACTION_LABELS, DashboardPage(), getStats(), StatCard(), connectToDatabase(), MONGODB_URI (+10 more)
+Cohesion: 0.15
+Nodes (12): connectToDatabase(), MONGODB_URI, MongooseCache, DELETE(), isAuthenticated(), PATCH(), AdminAction, adminLogSchema (+4 more)
 
 ### Community 9 - "Community 9"
 Cohesion: 0.13
@@ -118,8 +119,8 @@ Cohesion: 0.14
 Nodes (14): BarChart(), BarChartItem, BarChartProps, AnalyticsPage(), metadata, GET(), StatCard(), StatCardProps (+6 more)
 
 ### Community 12 - "Community 12"
-Cohesion: 0.10
-Nodes (20): escapeRegex(), getDistinctCities(), searchStories(), SearchStoryParams, GTMEventMap, useGTM(), BUDGET_PRESETS, DEFAULT_CITIES (+12 more)
+Cohesion: 0.12
+Nodes (23): sitemap(), escapeRegex(), getApprovedStoriesForSitemap(), getApprovedStorySlugs(), getDistinctCities(), getLatestStories(), getRelatedStories(), getStoryBySlug() (+15 more)
 
 ### Community 13 - "Community 13"
 Cohesion: 0.40
@@ -134,8 +135,8 @@ Cohesion: 0.40
 Nodes (4): hooks, PreToolUse, permissions, allow
 
 ### Community 17 - "Community 17"
-Cohesion: 0.26
-Nodes (9): sendSubmissionNotification(), SubmissionNotificationData, transporter, checkRateLimit(), Entry, getClientIp(), RateLimitResult, store (+1 more)
+Cohesion: 0.17
+Nodes (13): sendSubmissionNotification(), SubmissionNotificationData, transporter, checkRateLimit(), Entry, getClientIp(), RateLimitResult, store (+5 more)
 
 ### Community 18 - "Community 18"
 Cohesion: 0.25
@@ -165,25 +166,29 @@ Nodes (5): Checklist, Deliverables, Objectives, Phase 2 — Homepage UI (Hero, F
 Cohesion: 0.50
 Nodes (3): BiyerKahini — Development Phases, graphify, Workflow Rules
 
+### Community 31 - "Community 31"
+Cohesion: 0.33
+Nodes (7): ClearLogsButton(), LogoutButton(), ACTION_COLORS, ACTION_LABELS, DashboardPage(), getStats(), StatCard()
+
 ## Knowledge Gaps
-- **157 isolated node(s):** `name`, `version`, `private`, `dev`, `build` (+152 more)
+- **159 isolated node(s):** `CURRENT_YEAR`, `YEAR_OPTIONS`, `CITIES`, `COST_FIELDS`, `CostKey` (+154 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `connectToDatabase()` connect `Community 8` to `Community 17`, `Community 11`, `Community 6`, `Community 7`?**
-  _High betweenness centrality (0.110) - this node is a cross-community bridge._
-- **Why does `submissionFormSchema` connect `Community 5` to `Community 17`?**
-  _High betweenness centrality (0.035) - this node is a cross-community bridge._
+- **Why does `connectToDatabase()` connect `Community 8` to `Community 7`, `Community 11`, `Community 12`, `Community 17`, `Community 31`?**
+  _High betweenness centrality (0.116) - this node is a cross-community bridge._
+- **Why does `formatBDT()` connect `Community 6` to `Community 11`, `Community 5`?**
+  _High betweenness centrality (0.032) - this node is a cross-community bridge._
 - **Why does `Submission` connect `Community 6` to `Community 12`?**
-  _High betweenness centrality (0.033) - this node is a cross-community bridge._
-- **What connects `name`, `version`, `private` to the rest of the system?**
-  _157 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.028) - this node is a cross-community bridge._
+- **What connects `CURRENT_YEAR`, `YEAR_OPTIONS`, `CITIES` to the rest of the system?**
+  _159 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.09090909090909091 - nodes in this community are weakly interconnected._
 - **Should `Community 4` be split into smaller, more focused modules?**
   _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
 - **Should `Community 5` be split into smaller, more focused modules?**
-  _Cohesion score 0.08045977011494253 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.08465608465608465 - nodes in this community are weakly interconnected._

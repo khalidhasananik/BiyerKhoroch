@@ -105,8 +105,8 @@
     "semantic_hash": ""
   },
   "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\app\\admin\\dashboard\\page.tsx": {
-    "mtime": 1779799319.993528,
-    "ast_hash": "58978b98cada196c5a48ff88c6e94192",
+    "mtime": 1779801663.8778567,
+    "ast_hash": "88ae20c3bb6c9af2b60e5bda86869abd",
     "semantic_hash": ""
   },
   "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\app\\admin\\queue\\page.tsx": {
@@ -135,8 +135,8 @@
     "semantic_hash": ""
   },
   "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\app\\api\\submissions\\route.ts": {
-    "mtime": 1779771084.8345742,
-    "ast_hash": "88c0335985fe27a848eabea5e4e86878",
+    "mtime": 1779801545.717808,
+    "ast_hash": "912a5ff2b7134f3faece147e4f734b48",
     "semantic_hash": ""
   },
   "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\components\\admin\\ApprovedCard.tsx": {
@@ -215,13 +215,13 @@
     "semantic_hash": ""
   },
   "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\components\\story\\StoryDetail.tsx": {
-    "mtime": 1779771084.857063,
-    "ast_hash": "d84dd10c7e02fe9fa7094c859851f8bd",
+    "mtime": 1779801609.830227,
+    "ast_hash": "85f56a0968976b84888564d7481a44f8",
     "semantic_hash": ""
   },
   "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\components\\submission\\SubmissionForm.tsx": {
-    "mtime": 1779771084.8580604,
-    "ast_hash": "56518bc35628fcc9b66d49c7284269ca",
+    "mtime": 1779801591.9355135,
+    "ast_hash": "50ea66f0b13392b81d7e0a37291a5dd0",
     "semantic_hash": ""
   },
   "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\hooks\\useGTM.ts": {
@@ -265,8 +265,8 @@
     "semantic_hash": ""
   },
   "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\lib\\db\\models\\Submission.ts": {
-    "mtime": 1779771084.8630474,
-    "ast_hash": "f277fe6421bc9e1f0a49c6bef5679da5",
+    "mtime": 1779801524.9817877,
+    "ast_hash": "d5d5589fa0b20f460731638f1381ca99",
     "semantic_hash": ""
   },
   "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\lib\\utils\\format.ts": {
@@ -275,13 +275,13 @@
     "semantic_hash": ""
   },
   "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\lib\\validations\\submission.ts": {
-    "mtime": 1779771084.8670342,
-    "ast_hash": "f84fc8ffae027655b7baa2a5fed3a539",
+    "mtime": 1779801531.087814,
+    "ast_hash": "2809baa9508c2913f7ad4a45b0601340",
     "semantic_hash": ""
   },
   "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\types\\index.ts": {
-    "mtime": 1779771084.8687303,
-    "ast_hash": "e36ea019da9f1806378271976e463c90",
+    "mtime": 1779801540.3508246,
+    "ast_hash": "718ce84dac71ae296acd4d107796578c",
     "semantic_hash": ""
   },
   "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\AGENTS.md": {
@@ -332,6 +332,16 @@
   "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\public\\window.svg": {
     "mtime": 1779771084.815147,
     "ast_hash": "a2760511c65806022ad20adf74370ff3",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\app\\api\\admin\\logs\\route.ts": {
+    "mtime": 1779801637.88297,
+    "ast_hash": "b9b44b2aec9108b2df675254cc0e203d",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AW Office\\Desktop\\BiyerKhoroch\\src\\components\\admin\\ClearLogsButton.tsx": {
+    "mtime": 1779801651.353907,
+    "ast_hash": "e65b17b1f4a9629a501b0b024a083120",
     "semantic_hash": ""
   }
 }
