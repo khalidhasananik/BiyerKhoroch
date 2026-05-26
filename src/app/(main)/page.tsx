@@ -5,6 +5,8 @@ import { formatBDTCompact } from "@/lib/utils/format";
 import { searchStories } from "@/lib/data/stories";
 import { getAnalytics } from "@/lib/data/analytics";
 
+export const revalidate = 60;
+
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
 };

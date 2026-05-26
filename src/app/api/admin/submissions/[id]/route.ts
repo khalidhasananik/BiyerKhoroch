@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { cookies } from "next/headers";
-import { revalidatePath } from "next/cache";
+import { revalidatePath, revalidateTag } from "next/cache";
 import { connectToDatabase } from "@/lib/db/connection";
 import SubmissionModel from "@/lib/db/models/Submission";
 import AdminLogModel from "@/lib/db/models/AdminLog";
@@ -55,7 +55,11 @@ export async function PATCH(
     note: note ?? undefined,
   });
 
+  revalidatePath("/");
+  revalidatePath("/search");
+  revalidatePath(`/story/${submission.slug}`);
   revalidatePath("/analytics");
+  revalidateTag("analytics-data");
 
   return NextResponse.json({ ok: true, status: newStatus });
 }
@@ -83,9 +87,11 @@ export async function DELETE(
     submissionSlug: submission.slug,
   });
 
-  revalidatePath("/analytics");
   revalidatePath("/");
+  revalidatePath("/search");
   revalidatePath(`/story/${submission.slug}`);
+  revalidatePath("/analytics");
+  revalidateTag("analytics-data");
 
   return NextResponse.json({ ok: true });
 }

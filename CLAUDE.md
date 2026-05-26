@@ -10,15 +10,6 @@ Rules:
 - Read graphify-out/GRAPH_REPORT.md only for broad architecture review or when query/path/explain do not surface enough context.
 - After modifying code, run `graphify update .` to keep the graph current (AST-only, no API cost).
 
----
-
-# BiyerKahini — Development Phases
-
-**Project:** Anonymous wedding cost sharing platform for Bangladesh  
-**Stack:** Next.js 16 (App Router) · React 19 · TypeScript · Tailwind CSS v4 · MongoDB/Mongoose · Vercel
-
----
-
 ## Phase 1 — Project Setup, Folder Structure, Theme, MongoDB Connection
 **Status:** `Completed`
 

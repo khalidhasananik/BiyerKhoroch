@@ -4,6 +4,8 @@ import SubmissionModel from "@/lib/db/models/Submission";
 import AdminLogModel from "@/lib/db/models/AdminLog";
 import { LogoutButton } from "@/components/admin/LogoutButton";
 
+export const dynamic = "force-dynamic";
+
 async function getStats() {
   await connectToDatabase();
 
